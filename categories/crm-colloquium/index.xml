@@ -6,10 +6,19 @@
     <description>Recent content in Crm Colloquium on McGill Statistics Seminars</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 24 Nov 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 Feb 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/crm-colloquium/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>The Law of Large Populations: The return of the long-ignored N and how it can affect our 2020 vision</title>
+      <link>/post/2018winter/2018-02-16/</link>
+      <pubDate>Fri, 16 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2018winter/2018-02-16/</guid>
+      <description>Date: 2018-02-16 Time: 15:30-16:30 Location: McGill University, OTTO MAASS 217 Abstract: For over a century now, we statisticians have successfully convinced ourselves and almost everyone else, that in statistical inference the size of the population N can be ignored, especially when it is large. Instead, we focused on the size of the sample, n, the key driving force for both the Law of Large Numbers and the Central Limit Theorem.</description>
+    </item>
     
     <item>
       <title>150 years (and more) of data analysis in Canada</title>

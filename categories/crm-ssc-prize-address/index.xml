@@ -6,10 +6,19 @@
     <description>Recent content in Crm Ssc Prize Address on McGill Statistics Seminars</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 27 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 26 Jan 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/crm-ssc-prize-address/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Back to the future: why I think REGRESSION is the new black in genetic association studies</title>
+      <link>/post/2018winter/2018-01-26/</link>
+      <pubDate>Fri, 26 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2018winter/2018-01-26/</guid>
+      <description>Date: 2018-01-26 Time: 15:30-16:30 Location: ROOM 6254 Pavillon Andre-Aisenstadt 2920, UdeM Abstract: Linear regression remains an important framework in the era of big and complex data. In this talk I present some recent examples where we resort to the classical simple linear regression model and its celebrated extensions in novel settings. The Eureka moment came while reading Wu and Guan&amp;rsquo;s (2015) comments on our generalized Kruskal-Wallis (GKW) test (Elif Acar and Sun 2013, Biometrics).</description>
+    </item>
     
     <item>
       <title>Bayesian inference for conditional copula models</title>

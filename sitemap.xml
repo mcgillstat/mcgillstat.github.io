@@ -3,6 +3,36 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/post/2018winter/2018-02-16/</loc>
+    <lastmod>2018-02-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2018winter/2018-02-09/</loc>
+    <lastmod>2018-02-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2018winter/2018-02-02/</loc>
+    <lastmod>2018-02-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2018winter/2018-01-26/</loc>
+    <lastmod>2018-01-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2018winter/2018-01-19/</loc>
+    <lastmod>2018-01-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2018winter/2018-01-12/</loc>
+    <lastmod>2018-01-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/post/2017fall/2017-12-01/</loc>
     <lastmod>2017-12-01T00:00:00+00:00</lastmod>
   </url>
@@ -926,37 +956,43 @@
   </url>
   
   <url>
+    <loc>/tags/2018-winter/</loc>
+    <lastmod>2018-02-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/categories/crm-colloquium/</loc>
-    <lastmod>2017-11-24T00:00:00+00:00</lastmod>
+    <lastmod>2018-02-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/categories/crm-ssc-prize-address/</loc>
-    <lastmod>2017-01-27T00:00:00+00:00</lastmod>
+    <lastmod>2018-01-26T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/</loc>
-    <lastmod>2017-12-01T00:00:00+00:00</lastmod>
+    <lastmod>2018-02-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/categories/mcgill-statistics-seminar/</loc>
-    <lastmod>2017-12-01T00:00:00+00:00</lastmod>
+    <lastmod>2018-02-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/post/</loc>
-    <lastmod>2017-12-01T00:00:00+00:00</lastmod>
+    <lastmod>2018-02-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
