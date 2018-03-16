@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>Statistical Genomics for Understanding Complex Traits</title>
+      <link>/post/2018winter/2018-03-16/</link>
+      <pubDate>Fri, 16 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2018winter/2018-03-16/</guid>
+      <description>Date: 2018-03-16 Time: 15:30-16:30 Location: BURN 1205 Abstract: Over the last decade, advances in measurement technologies has enabled researchers to generate multiple types of high-dimensional &amp;ldquo;omics&amp;rdquo; datasets for large cohorts. These data provide an opportunity to derive a mechanistic understanding of human complex traits. However, inferring meaningful biological relationships from these data is challenging due to high-dimensionality , noise, and abundance of confounding factors. In this talk, I&amp;rsquo;ll describe statistical approaches for robust analysis of genomic data from large population studies, with a focus on 1) understanding the nature of confounding and approaches for addressing them and 2) understanding the genomic correlates of aging and dementia.</description>
+    </item>
+    
+    <item>
       <title>Sparse Penalized Quantile Regression: Method, Theory, and Algorithm</title>
       <link>/post/2018winter/2018-02-23/</link>
       <pubDate>Fri, 23 Feb 2018 00:00:00 +0000</pubDate>
