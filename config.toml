@@ -1,5 +1,5 @@
 theme = "hugo_theme_beg"
-baseURL = "http://example.org/"
+baseURL = "https://mcgillstat.github.io/"
 languageCode = "en-us"
 title = "McGill Statistics Seminars"
 
