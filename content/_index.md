@@ -17,5 +17,5 @@ menu: main
 | Feb 23 | McGill Statistics Seminar | Yuwen Gu | [Sparse Penalized Quantile Regression: Method, Theory, and Algorithm]({{< relref "post/2018winter/2018-02-23.md">}}) | 15:30-16:30 | BURN 1205 |
 | Mar 16 | McGill Statistics Seminar | Sara Mostafavi     | [Statistical Genomics for Understanding Complex Traits]({{< relref "post/2018winter/2018-03-16.md">}}) | 15:30-16:30  | BURN 1205 |
 | Mar 23 | McGill Statistics Seminar | Devon Lin          | [Some development on dynamic computer experiments]({{< relref "post/2018winter/2018-03-23.md">}}) | 15:30-16:30  | BURN 1205 |
-| Apr 6  | McGill Statistics Seminar | Linglong Kong      | [Empirical likelihood and robust regression in diffusion tensor imaging data analysis]({{< relref "post/2018winter/2018-03-30.md">}}) | 15:30-16:30  | BURN 1205 |
+| Apr 6  | McGill Statistics Seminar | Linglong Kong      | [Empirical likelihood and robust regression in diffusion tensor imaging data analysis]({{< relref "post/2018winter/2018-04-06.md">}}) | 15:30-16:30  | BURN 1205 |
 | Apr 13 | McGill Statistics Seminar | Ashkan Ertefaie    |  | 15:30-16:30 | BURN 1205 |
