@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>Kernel Nonparametric Overlap-based Syncytial Clustering</title>
+      <link>/post/2018winter/2018-04-20/</link>
+      <pubDate>Fri, 20 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2018winter/2018-04-20/</guid>
+      <description>Date: 2018-04-20 Time: 15:30-16:30 Location: BURN 1205 Abstract: Standard clustering algorithms can find regular-structured clusters such as ellipsoidally- or spherically-dispersed groups, but are more challenged with groups lacking formal structure or definition. Syncytial clustering is the name that we introduce for methods that merge groups obtained from standard clustering algorithms in order to reveal complex group structure in the data. Here, we develop a distribution-free fully-automated syncytial algorithm that can be used with the computationally efficient k-means or other algorithms.</description>
+    </item>
+    
+    <item>
       <title>Empirical likelihood and robust regression in diffusion tensor imaging data analysis</title>
       <link>/post/2018winter/2018-04-06/</link>
       <pubDate>Fri, 06 Apr 2018 00:00:00 +0000</pubDate>
