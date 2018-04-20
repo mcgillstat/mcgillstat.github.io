@@ -20,4 +20,4 @@ menu: main
 | Apr 6  | McGill Statistics Seminar | Linglong Kong      | [Empirical likelihood and robust regression in diffusion tensor imaging data analysis]({{< relref "post/2018winter/2018-04-06.md">}}) | 15:30-16:30  | BURN 1205 |
 | Apr 13 | McGill Statistics Seminar | Ashkan Ertefaie    | Cancelled | 15:30-16:30 | BURN 1205 |
 | Apr 20  | McGill Statistics Seminar | Ranjan Maitra      | [Kernel Nonparametric Overlap-based Syncytial Clustering]({{< relref "post/2018winter/2018-04-20.md">}}) | 15:30-16:30  | BURN 1205 |
-| Apr 27  | McGill Statistics Seminar | Martin Wolkewitz      | [TBA]({{< relref "post/2018winter/2018-04-27.md">}}) | 15:30-16:30  | BURN 1205 |
+| Apr 27  | McGill Statistics Seminar | Martin Wolkewitz      | [Methodological challenges in using point-prevalence versus cohort data in risk factor analyses of hospital-acquired infections]({{< relref "post/2018winter/2018-04-27.md">}}) | 15:30-16:30  | BURN 1205 |
