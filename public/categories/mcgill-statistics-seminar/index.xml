@@ -6,10 +6,28 @@
     <description>Recent content in Mcgill Statistics Seminar on McGill Statistics Seminars</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 27 Apr 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 14 Sep 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/mcgill-statistics-seminar/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Quantile LASSO in Nonparametric Models with Changepoints Under Optional Shape Constraints</title>
+      <link>/post/2018fall/2018-09-14/</link>
+      <pubDate>Fri, 14 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2018fall/2018-09-14/</guid>
+      <description>Date: 2018-09-14 Time: 15:30-16:30 Location: BURN 1104 Abstract: Nonparametric models are popular modeling tools because of their natural overall flexibility. In our approach, we apply nonparametric techniques for panel data structures with changepoints and optional shape constraints and the estimation is performed in a fully data driven manner by utilizing atomic pursuit methods – LASSO regularization techniques in particular. However, in order to obtain robust estimates and, also, to have a more complex insight into the underlying data structure, we target conditional quantiles rather then the conditional mean only.</description>
+    </item>
+    
+    <item>
+      <title>Association Measures for Clustered Competing Risks Data</title>
+      <link>/post/2018fall/2018-09-07/</link>
+      <pubDate>Fri, 07 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2018fall/2018-09-07/</guid>
+      <description>Date: 2018-09-07 Time: 15:30-16:30 Location: BURN 1104 Abstract: In this work, we propose a semiparametric model for multivariate clustered competing risks data when the cause-specific failure times and the occurrence of competing risk events among subjects within the same cluster are of interest. The cause-specific hazard functions are assumed to follow Cox proportional hazard models, and the associations between failure times given the same or different cause events and the associations between occurrences of competing risk events within the same cluster are investigated through copula models.</description>
+    </item>
     
     <item>
       <title>Methodological challenges in using point-prevalence versus cohort data in risk factor analyses of hospital-acquired infections</title>
