@@ -17,6 +17,7 @@ menu: main
 | Oct 19 | McGill Statistics Seminar | Long Nguyen|	TBA | 15:30-16:30 | BURN 1104 |
 | Oct 26 | McGill Statistics Seminar | Dehan Kong|	TBA | 15:30-16:30 | BURN 1104 |
 | Nov 2  | McGill Statistics Seminar | Andreas Kyprianou|	TBA | 15:30-16:30 | BURN 1104 |
+| Nov 9  | McGill Statistics Seminar | Abbas Mehrabian|	TBA | 15:30-16:30 | BURN 1104 |
 | Nov 16  | McGill Statistics Seminar | Arian Maleki|	TBA | 15:30-16:30 | BURN 1104 |
 | Nov 23  | McGill Statistics Seminar | David Wolfson |	TBA | 15:30-16:30 | BURN 1104 |
 | Dec 7  | McGill Statistics Seminar | Ji Zhu|	TBA | 15:30-16:30 | BURN 1104 |

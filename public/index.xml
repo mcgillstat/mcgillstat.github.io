@@ -13,15 +13,6 @@
     
     <item>
       <title>Quantile LASSO in Nonparametric Models with Changepoints Under Optional Shape Constraints</title>
-      <link>/post/2018fall/2018-09-14-copy/</link>
-      <pubDate>Fri, 14 Sep 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/post/2018fall/2018-09-14-copy/</guid>
-      <description>Date: 2018-09-14 Time: 15:30-16:30 Location: BURN 1104 Abstract: Nonparametric models are popular modeling tools because of their natural overall flexibility. In our approach, we apply nonparametric techniques for panel data structures with changepoints and optional shape constraints and the estimation is performed in a fully data driven manner by utilizing atomic pursuit methods – LASSO regularization techniques in particular. However, in order to obtain robust estimates and, also, to have a more complex insight into the underlying data structure, we target conditional quantiles rather then the conditional mean only.</description>
-    </item>
-    
-    <item>
-      <title>Quantile LASSO in Nonparametric Models with Changepoints Under Optional Shape Constraints</title>
       <link>/post/2018fall/2018-09-14/</link>
       <pubDate>Fri, 14 Sep 2018 00:00:00 +0000</pubDate>
       
