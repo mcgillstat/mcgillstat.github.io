@@ -6,10 +6,19 @@
     <description>Recent content in 2018 Fall on McGill Statistics Seminars</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 12 Oct 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 19 Oct 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/2018-fall/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Multilevel clustering and optimal transport</title>
+      <link>/post/2018fall/2018-10-19/</link>
+      <pubDate>Fri, 19 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2018fall/2018-10-19/</guid>
+      <description>Date: 2018-10-19 Time: 15:30-16:30 Location: BURN 1104 Abstract: Optimal transport plays an increasingly relevant and useful role in the theory and application of mixture model based clustering and inference. In this talk I will describe some recent progress in characterizing the convergence behavior of mixing distributions when one fits a mixture model to the data. This theory hinges on the relationship between the space of mixture densities, which is endowed with variational or Hellinger distance, and the space of mixing measures endowed with optimal transport distance metrics.</description>
+    </item>
     
     <item>
       <title>Robust estimation in the presence of influential units for skewed finite and infinite populations</title>
