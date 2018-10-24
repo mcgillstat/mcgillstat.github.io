@@ -6,10 +6,29 @@
     <description>Recent content in 2018 Fall on McGill Statistics Seminars</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 19 Oct 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 02 Nov 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/2018-fall/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Terrorists never congregate in even numbers (and other strange results in fragmentation-coalescence)</title>
+      <link>/post/2018fall/2018-11-02/</link>
+      <pubDate>Fri, 02 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2018fall/2018-11-02/</guid>
+      <description>Date: 2018-11-02 Time: 15:30-16:30 Location: BURN 1104 Abstract: The rigorous mathematical treatment of random fragmentation-coalescent models in the literature is difficult to find, and perhaps for good reason. We examine two different types of random fragmentation-coalescent models which produce somewhat unexpected results.
+The first concerns an agent-based model in which, with a rate that depends on the configuration of the system, agents coalesce into clusters that also fragment into their individual constituent membership.</description>
+    </item>
+    
+    <item>
+      <title>Object Oriented Data Analysis with Application to Neuroimaging Studies</title>
+      <link>/post/2018fall/2018-10-26/</link>
+      <pubDate>Fri, 26 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2018fall/2018-10-26/</guid>
+      <description>Date: 2018-10-26 Time: 15:30-16:30 Location: BURN 1104 Abstract: In this talk, I will first briefly introduce my research on object oriented data analysis with application to neuroimaging studies. I will then talk about a detailed example on imaging genetics. In this project, we develop a high-dimensional matrix linear regression model to correlate 2D imaging responses with high-dimensional genetic covariates. We propose a fast and efficient screening procedure based on the spectral norm to deal with the case that the dimension of scalar covariates is much larger than the sample size.</description>
+    </item>
     
     <item>
       <title>Multilevel clustering and optimal transport</title>
