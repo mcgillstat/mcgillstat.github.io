@@ -6,10 +6,29 @@
     <description>Recent content in Mcgill Statistics Seminar on McGill Statistics Seminars</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 09 Nov 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 23 Nov 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/mcgill-statistics-seminar/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>p-values vs Bayes factors: Is there a compromise?</title>
+      <link>/post/2018fall/2018-11-23/</link>
+      <pubDate>Fri, 23 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2018fall/2018-11-23/</guid>
+      <description>Date: 2018-11-23 Time: 15:30-16:30 Location: BURN 1104 Abstract: This is not a research talk. Rather, the goal is to address the topic of the talk title through a 2017 multi-authored paper published in Nature Human Behaviour. The Nature article proposes that the standard cut-off significance level of .05 should be replaced by a cut-off level of .005 when new discoveries are being claimed. The authors attribute the high proportion of</description>
+    </item>
+    
+    <item>
+      <title>Estimation of the Median Residual Lifetime Function for Length-Biased Failure Time Data</title>
+      <link>/post/2018fall/2018-11-16/</link>
+      <pubDate>Fri, 16 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2018fall/2018-11-16/</guid>
+      <description>Date: 2018-11-16 Time: 15:30-16:30 Location: BURN 1104 Abstract: The median residual lifetime function is a statistical quantity which describes the future point in time at which the probability of current survival has dropped by 50%. In deriving an estimator for the median residual lifetime function for length-biased data, the added features of left-truncation and right-censoring must be taken into account.
+In this talk, we give a brief description of length-biased failure time data and show that by using a particular non-parametric estimator for the survival function that it is possible to derive the asymptotically most-efficient non-parametric estimator for the median residual lifetime function.</description>
+    </item>
     
     <item>
       <title>Density estimation of mixtures of Gaussians and Ising models</title>
