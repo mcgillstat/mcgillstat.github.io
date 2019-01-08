@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>Magic Cross-Validation Theory for Large-Margin Classification</title>
+      <link>/post/2019winter/2019-01-11/</link>
+      <pubDate>Fri, 11 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019winter/2019-01-11/</guid>
+      <description>Date: 2019-01-11 Time: 15:30-16:30 Location: BURN 1104 Abstract: Cross-validation (CV) is perhaps the most widely used tool for tuning supervised machine learning algorithms in order to achieve better generalization error rate. In this paper, we focus on leave-one-out cross-validation (LOOCV) for the support vector machine (SVM) and related algorithms. We first address two wide-spreading misconceptions on LOOCV. We show that LOOCV, ten-fold, and five-fold CV are actually well-matched in estimating the generalization error, and the computation speed of LOOCV is not necessarily slower than that of ten-fold and five-fold CV.</description>
+    </item>
+    
+    <item>
       <title>p-values vs Bayes factors: Is there a compromise?</title>
       <link>/post/2018fall/2018-11-23/</link>
       <pubDate>Fri, 23 Nov 2018 00:00:00 +0000</pubDate>
