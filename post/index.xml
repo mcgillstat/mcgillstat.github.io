@@ -12,12 +12,12 @@
     
     
     <item>
-      <title>New Perspectives on Generative Adversarial Networks</title>
+      <title>Modern Non-Problems in Optimization: Applications to Statistics and Machine Learning</title>
       <link>/post/2019winter/2019-01-25/</link>
       <pubDate>Fri, 25 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>/post/2019winter/2019-01-25/</guid>
-      <description>Date: 2019-01-25 Time: 15:30-16:30 Location: BURN 1205 Abstract: Generative Adversarial Networks (GANs) are a popular generative modeling approach known for producing appealing samples, but their theoretical properties are not yet fully understood, and they are notably difficult to train. In the first part of this talk, I will provide some insights on why GANs are a more meaningful framework to model high dimensional data like images than the more traditional maximum likelihood approach, interpreting them as &amp;ldquo;parametric adversarial divergences&amp;rdquo; and rooting the analysis with statistical decision theory.</description>
+      <description>Date: 2019-01-25 Time: 16:00-17:00 Location: BURN 1205 Abstract: We have witnessed a lot of exciting development of data science in recent years. From the perspective of optimization, many modern data-science problems involve some basic ``non’’-properties that lack systematic treatment by the current approaches for the sake of the computation convenience. These non-properties include the coupling of the non-convexity, non-differentiability and non-determinism. In this talk, we present rigorous computational methods for solving two typical non-problems: the piecewise linear regression and the feed-forward deep neural network.</description>
     </item>
     
     <item>
