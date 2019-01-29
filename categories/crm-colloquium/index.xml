@@ -6,10 +6,19 @@
     <description>Recent content in Crm Colloquium on McGill Statistics Seminars</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 16 Feb 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 01 Feb 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/crm-colloquium/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Network models, sampling, and symmetry properties</title>
+      <link>/post/2019winter/2019-02-01/</link>
+      <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019winter/2019-02-01/</guid>
+      <description>Date: 2019-02-01 Time: 15:30-16:30 Location: BURN 1104 Abstract: A recent body of work, by myself and many others, aims to develop a statistical theory of network data for problems a single network is observed. Of the models studied in this area, graphon models are probably most widely known in statistics. I will explain the relationship between three aspects of this work: (1) Specific models, such as graphon models, graphex models, and edge-exchangeable graphs.</description>
+    </item>
     
     <item>
       <title>The Law of Large Populations: The return of the long-ignored N and how it can affect our 2020 vision</title>
