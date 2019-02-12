@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>Causal Inference with Unmeasured Confounding: an Instrumental Variable Approach</title>
+      <link>/post/2019winter/2019-02-15/</link>
+      <pubDate>Fri, 15 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019winter/2019-02-15/</guid>
+      <description>Date: 2019-02-15 Time: 15:30-16:30 Location: BURN 1205 Abstract: Causal inference is a challenging problem because causation cannot be established from observational data alone. Researchers typically rely on additional sources of information to infer causation from association. Such information may come from powerful designs such as randomization, or background knowledge such as information on all confounders. However, perfect designs or background knowledge required for establishing causality may not always be available in practice.</description>
+    </item>
+    
+    <item>
       <title>Patient-Specific Finite Element Analysis of Human Heart: Mathematical and Statistical Opportunities and Challenges</title>
       <link>/post/2019winter/2019-02-08/</link>
       <pubDate>Fri, 08 Feb 2019 00:00:00 +0000</pubDate>
