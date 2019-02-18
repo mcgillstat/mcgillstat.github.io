@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>Uniform, nonparametric, non-asymptotic confidence sequences</title>
+      <link>/post/2019winter/2019-02-22/</link>
+      <pubDate>Fri, 22 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019winter/2019-02-22/</guid>
+      <description>Date: 2019-02-22 Time: 15:30-16:30 Location: BURN 1205 Abstract: A confidence sequence is a sequence of confidence intervals that is uniformly valid over an unbounded time horizon. In this paper, we develop non-asymptotic confidence sequences under nonparametric conditions that achieve arbitrary precision. Our technique draws a connection between the classical Cramer-Chernoff method, the law of the iterated logarithm (LIL), and the sequential probability ratio test (SPRT)—our confidence sequences extend the first to produce time-uniform concentration bounds, provide tight non-asymptotic characterizations of the second, and generalize the third to nonparametric settings, including sub-Gaussian and Bernstein conditions, self-normalized processes, and matrix martingales.</description>
+    </item>
+    
+    <item>
       <title>Causal Inference with Unmeasured Confounding: an Instrumental Variable Approach</title>
       <link>/post/2019winter/2019-02-15/</link>
       <pubDate>Fri, 15 Feb 2019 00:00:00 +0000</pubDate>
