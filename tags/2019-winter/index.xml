@@ -6,10 +6,19 @@
     <description>Recent content in 2019 Winter on McGill Statistics Seminars</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 22 Feb 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 01 Mar 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/2019-winter/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Statistical Inference for partially observed branching processes, with application to hematopoietic lineage tracking</title>
+      <link>/post/2019winter/2019-03-01/</link>
+      <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019winter/2019-03-01/</guid>
+      <description>Date: 2019-03-01 Time: 15:30-16:30 Location: BURN 1104 Abstract: The likelihood function is central to many statistical procedures, but poses challenges in classical and modern data settings. Motivated by cell lineage tracking experiments to study hematopoiesis (the process of blood cell production), we present recent methodology enabling likelihood-based inference for partially observed data arising from continuous-time branching processes. These computational advances allow principled procedures such as maximum likelihood estimation, posterior inference, and expectation-maximization (EM) algorithms in previously intractable data settings.</description>
+    </item>
     
     <item>
       <title>Uniform, nonparametric, non-asymptotic confidence sequences</title>
