@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>Hierarchical Bayesian Modelling for Wireless Cellular Networks</title>
+      <link>/post/2019winter/2019-03-15/</link>
+      <pubDate>Fri, 15 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019winter/2019-03-15/</guid>
+      <description>Date: 2019-03-15 Time: 15:30-16:30 Location: BURN 1205 Abstract: With the recent advances in wireless technologies, base stations are becoming more sophisticated. The network operators are also able to collect more data to improve network performance and user experience. In this paper we concentrate on modeling performance of wireless cells using hierarchical Bayesian modeling framework. This framework provides a principled way to navigate the space between the option of creating one model to represent all cells in a network and the option of creating separate models at each cell.</description>
+    </item>
+    
+    <item>
       <title>Statistical Inference for partially observed branching processes, with application to hematopoietic lineage tracking</title>
       <link>/post/2019winter/2019-03-01/</link>
       <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
