@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>Introduction to Statistical Network Analysis</title>
+      <link>/post/2019winter/2019-03-29/</link>
+      <pubDate>Fri, 29 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019winter/2019-03-29/</guid>
+      <description>Date: 2019-03-29 Time: 13:00-16:30 Location: McIntyre &amp;ndash; Room 521 Abstract: Classical statistics often makes assumptions about conditional independence in order to fit models but in the modern world connectivity is key. Nowadays we need to account for many dependencies and sometimes the associations and dependencies themselves are the key items of interest e.g. how do we predict conflict between countries, how can we use friendships between school children to choose the best groups for study tips/help, how does the pattern of needle-sharing among partners correlate to HIV transmission and where interventions can best be made.</description>
+    </item>
+    
+    <item>
       <title>Challenges in Bayesian Computing</title>
       <link>/post/2019winter/2019-03-22/</link>
       <pubDate>Fri, 22 Mar 2019 00:00:00 +0000</pubDate>
