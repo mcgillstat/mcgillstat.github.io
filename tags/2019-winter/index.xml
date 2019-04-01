@@ -6,10 +6,19 @@
     <description>Recent content in 2019 Winter on McGill Statistics Seminars</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 29 Mar 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 05 Apr 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/2019-winter/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Bayesian Estimation of Individualized Treatment-Response Curves in Populations with Heterogeneous Treatment Effects</title>
+      <link>/post/2019winter/2019-04-05/</link>
+      <pubDate>Fri, 05 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019winter/2019-04-05/</guid>
+      <description>Date: 2019-04-05 Time: 13:00-16:30 Location: BURNSIDE 1104 Abstract: Estimating individual treatment effects is crucial for individualized or precision medicine. In reality, however, there is no way to obtain both the treated and untreated outcomes from the same person at the same time. An approximation can be obtained from randomized controlled trials (RCTs). Despite the limitations that randomizations are usually expensive, impractical or unethical, pre-specified variables may still not fully incorporate all the relevant characteristics capturing individual heterogeneity in treatment response.</description>
+    </item>
     
     <item>
       <title>Introduction to Statistical Network Analysis</title>
