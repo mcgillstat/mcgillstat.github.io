@@ -6,10 +6,19 @@
     <description>Recent content in 2019 Winter on McGill Statistics Seminars</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 05 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 12 Apr 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/2019-winter/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Estimating Time-Varying Causal Excursion Effect in Mobile Health with Binary Outcomes</title>
+      <link>/post/2019winter/2019-04-12/</link>
+      <pubDate>Fri, 12 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019winter/2019-04-12/</guid>
+      <description>Date: 2019-04-12 Time: 15:30-16:30 Location: BURNSIDE 1205 Abstract: Advances in wearables and digital technology now make it possible to deliver behavioral, mobile health, interventions to individuals in their every-day life. The micro-randomized trial (MRT) is increasingly used to provide data to inform the construction of these interventions. This work is motivated by multiple MRTs that have been conducted or are currently in the field in which the primary outcome is a longitudinal binary outcome.</description>
+    </item>
     
     <item>
       <title>Bayesian Estimation of Individualized Treatment-Response Curves in Populations with Heterogeneous Treatment Effects</title>
