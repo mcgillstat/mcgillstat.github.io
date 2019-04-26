@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>Graph Representation Learning and Applications</title>
+      <link>/post/2019winter/2019-04-26/</link>
+      <pubDate>Fri, 26 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019winter/2019-04-26/</guid>
+      <description>Date: 2019-04-26 Time: 15:30-16:30 Location: BURNSIDE 1205 Abstract: Graphs, a general type of data structures for capturing interconnected objects, are ubiquitous in a variety of disciplines and domains ranging from computational social science, recommender systems, medicine, bioinformatics to chemistry. Representative examples of real-world graphs include social networks, user-item networks, protein-protein interaction networks, and molecular structures, which are represented as graphs. In this talk, I will introduce our work on learning effective representations of graphs such as learning low-dimensional node representations of large graphs (e.</description>
+    </item>
+    
+    <item>
       <title>Estimating Time-Varying Causal Excursion Effect in Mobile Health with Binary Outcomes</title>
       <link>/post/2019winter/2019-04-12/</link>
       <pubDate>Fri, 12 Apr 2019 00:00:00 +0000</pubDate>
