@@ -231,6 +231,15 @@ The first concerns an agent-based model in which, with a rate that depends on th
     </item>
     
     <item>
+      <title>MAPLE; Semiparametric Estimation and Variable Selection for Length-biased Data with Heavy Censoring</title>
+      <link>/post/2019fall/2019-09-06/</link>
+      <pubDate>Thu, 06 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019fall/2019-09-06/</guid>
+      <description>Date: 2019-09-06 Time: 15:30-16:30 Location: BURN 1205 Abstract: In this talk, we discuss two problems of semiparametric estimation and variable selection for length-biased data with heavy censoring. The common feature of the proposed estimation procedures in the literature is that they only put probability mass on failure times. Under length-biased sampling, however, censoring is informative and failing to incorporate censored observations into estimation can lead to a substantial loss of efficiency.</description>
+    </item>
+    
+    <item>
       <title>Methodological challenges in using point-prevalence versus cohort data in risk factor analyses of hospital-acquired infections</title>
       <link>/post/2018winter/2018-04-27/</link>
       <pubDate>Fri, 27 Apr 2018 00:00:00 +0000</pubDate>
