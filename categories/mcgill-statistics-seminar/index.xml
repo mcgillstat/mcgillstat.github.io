@@ -148,6 +148,15 @@ In this talk, we give a brief description of length-biased failure time data and
     </item>
     
     <item>
+      <title> Logarithmic divergence: from finance to optimal transport and information geometry</title>
+      <link>/post/2019fall/2019-11-15/</link>
+      <pubDate>Thu, 15 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019fall/2019-11-15/</guid>
+      <description>Date: 2019-11-15 Time: 15:30-16:30 Location: BURN 1205 Abstract: Divergences, such as the Kullback-Leibler divergence, are distance-like quantities which arise in many applications in probability, statistics and data science. We introduce a family of logarithmic divergences which is a non-linear extension of the celebrated Bregman divergence. It is defined for any exponentially concave function (a function whose exponential is concave). We motivate this divergence by mathematical finance and large deviations of Dirichlet process.</description>
+    </item>
+    
+    <item>
       <title>Density estimation of mixtures of Gaussians and Ising models</title>
       <link>/post/2018fall/2018-11-09/</link>
       <pubDate>Fri, 09 Nov 2018 00:00:00 +0000</pubDate>
