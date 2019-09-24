@@ -21,6 +21,15 @@
     </item>
     
     <item>
+      <title>Regression Models for Spatial Images</title>
+      <link>/post/2019fall/2019-09-27/</link>
+      <pubDate>Thu, 27 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019fall/2019-09-27/</guid>
+      <description>Date: 2019-09-27 Time: 15:30-16:30 Location: McIntyre Medical Building, Room 521 Abstract: This work is motivated by a problem in describing forest nitrogen cycling, and a consequent goal of constructing regression models for spatial images. Specifically, I present a functional concurrent linear model (FLCM) with varying coefficients for two-dimensional spatial images. To address overparameterization issues, the parameter surfaces in this model are transformed into the wavelet domain and then sparse representations are found using two different methods: LASSO and Bayesian variable selection.</description>
+    </item>
+    
+    <item>
       <title>Deep Representation Learning using Discrete Domain Symmetries</title>
       <link>/post/2019fall/2019-09-20/</link>
       <pubDate>Thu, 20 Sep 2018 00:00:00 +0000</pubDate>
