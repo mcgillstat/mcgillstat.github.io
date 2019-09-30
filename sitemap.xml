@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/post/2019fall/2019-10-04/</loc>
+    <lastmod>2019-10-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/post/2019winter/2019-04-26/</loc>
     <lastmod>2019-04-26T00:00:00+00:00</lastmod>
   </url>
@@ -1164,7 +1169,7 @@
   
   <url>
     <loc>/tags/2019-fall/</loc>
-    <lastmod>2018-11-15T00:00:00+00:00</lastmod>
+    <lastmod>2019-10-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1181,7 +1186,7 @@
   
   <url>
     <loc>/categories/crm-colloquium/</loc>
-    <lastmod>2019-02-01T00:00:00+00:00</lastmod>
+    <lastmod>2019-10-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
