@@ -6,10 +6,19 @@
     <description>Recent content in Crm Ssc Prize Address on McGill Statistics Seminars</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 12 Oct 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 04 Oct 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/crm-ssc-prize-address/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Tales of tails, tiles and ties in dependence modeling</title>
+      <link>/post/2019fall/2019-10-04/</link>
+      <pubDate>Fri, 04 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019fall/2019-10-04/</guid>
+      <description>Date: 2019-10-04 Time: 16:00-17:00 Location: CRM, UdeM, Pav. André-Aisenstadt, 2920, ch. de la Tour, salle 1355 Abstract: Modeling dependence between random variables is omnipresent in statistics. When rare events with high impact are involved, such as severe storms, floods or heat waves, the issue is both of great importance for risk management and theoretically challenging. Combining extreme-value theory with copula modeling and rank-based inference yields a particularly flexible and promising approach to this problem.</description>
+    </item>
     
     <item>
       <title>Robust estimation in the presence of influential units for skewed finite and infinite populations</title>
