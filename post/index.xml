@@ -12,12 +12,67 @@
     
     
     <item>
+      <title> Logarithmic divergence: from finance to optimal transport and information geometry</title>
+      <link>/post/2019fall/2019-11-15/</link>
+      <pubDate>Fri, 15 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019fall/2019-11-15/</guid>
+      <description>Date: 2019-11-15 Time: 15:30-16:30 Location: BURN 1205 Abstract: Divergences, such as the Kullback-Leibler divergence, are distance-like quantities which arise in many applications in probability, statistics and data science. We introduce a family of logarithmic divergences which is a non-linear extension of the celebrated Bregman divergence. It is defined for any exponentially concave function (a function whose exponential is concave). We motivate this divergence by mathematical finance and large deviations of Dirichlet process.</description>
+    </item>
+    
+    <item>
+      <title>Repulsiveness for integration (not my social program)</title>
+      <link>/post/2019fall/2019-10-11/</link>
+      <pubDate>Fri, 11 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019fall/2019-10-11/</guid>
+      <description>Date: 2019-10-11 Time: 15:30-16:30 Location: BURN 1205 Abstract: Integral estimation in any dimension is an extensive topic, largely treated in the literature, with a broad range of applications. Monte-Carlo type methods arise naturally when one looks forward to quantifying/controlling the error. Many methods have already been developped: MCMC, Poisson disk sampling, QMC (and randomized versions), Bayesian quadrature, etc. In this talk, I&amp;rsquo;ll consider a different approach which consists in defining the quadrature nodes as the realization of a spatial point process.</description>
+    </item>
+    
+    <item>
       <title>Tales of tails, tiles and ties in dependence modeling</title>
       <link>/post/2019fall/2019-10-04/</link>
       <pubDate>Fri, 04 Oct 2019 00:00:00 +0000</pubDate>
       
       <guid>/post/2019fall/2019-10-04/</guid>
       <description>Date: 2019-10-04 Time: 16:00-17:00 Location: CRM, UdeM, Pav. André-Aisenstadt, 2920, ch. de la Tour, salle 1355 Abstract: Modeling dependence between random variables is omnipresent in statistics. When rare events with high impact are involved, such as severe storms, floods or heat waves, the issue is both of great importance for risk management and theoretically challenging. Combining extreme-value theory with copula modeling and rank-based inference yields a particularly flexible and promising approach to this problem.</description>
+    </item>
+    
+    <item>
+      <title>Regression Models for Spatial Images</title>
+      <link>/post/2019fall/2019-09-27/</link>
+      <pubDate>Fri, 27 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019fall/2019-09-27/</guid>
+      <description>Date: 2019-09-27 Time: 15:30-16:30 Location: McIntyre Medical Building, Room 521 Abstract: This work is motivated by a problem in describing forest nitrogen cycling, and a consequent goal of constructing regression models for spatial images. Specifically, I present a functional concurrent linear model (FLCM) with varying coefficients for two-dimensional spatial images. To address overparameterization issues, the parameter surfaces in this model are transformed into the wavelet domain and then sparse representations are found using two different methods: LASSO and Bayesian variable selection.</description>
+    </item>
+    
+    <item>
+      <title>Deep Representation Learning using Discrete Domain Symmetries</title>
+      <link>/post/2019fall/2019-09-20/</link>
+      <pubDate>Fri, 20 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019fall/2019-09-20/</guid>
+      <description>Date: 2019-09-20 Time: 15:30-16:30 Location: BURN 1205 Abstract: Symmetry has played a significant role in modern physics, in part by constraining the physical laws. I will discuss how it could play a fundamental role in AI by constraining the deep model design. In particular, I focus on discrete domain symmetries and through examples show how we can use this inductive bias as a principled means for constraining a feedforward layer and significantly improving its sample efficiency.</description>
+    </item>
+    
+    <item>
+      <title>Integrative computational approach in genomics and healthcare</title>
+      <link>/post/2019fall/2019-09-13/</link>
+      <pubDate>Fri, 13 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019fall/2019-09-13/</guid>
+      <description>Date: 2019-09-13 Time: 15:30-16:30 Location: BURN 1205 Abstract: In the current era of multi-omics and digital healthcare, we are facing unprecedented amount of data with tremendous opportunities to link molecular phenotypes with complex diseases. However, the lack of integrative statistical method hinders system-level interrogation of relevant disease-related pathways and the genetic implication in various healthcare outcome.
+In this talk, I will present our current progress in mining genomics and healthcare data.</description>
+    </item>
+    
+    <item>
+      <title>MAPLE; Semiparametric Estimation and Variable Selection for Length-biased Data with Heavy Censoring</title>
+      <link>/post/2019fall/2019-09-06/</link>
+      <pubDate>Fri, 06 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019fall/2019-09-06/</guid>
+      <description>Date: 2019-09-06 Time: 15:30-16:30 Location: BURN 1205 Abstract: In this talk, we discuss two problems of semiparametric estimation and variable selection for length-biased data with heavy censoring. The common feature of the proposed estimation procedures in the literature is that they only put probability mass on failure times. Under length-biased sampling, however, censoring is informative and failing to incorporate censored observations into estimation can lead to a substantial loss of efficiency.</description>
     </item>
     
     <item>
@@ -166,15 +221,6 @@ In this talk, we give a brief description of length-biased failure time data and
     </item>
     
     <item>
-      <title> Logarithmic divergence: from finance to optimal transport and information geometry</title>
-      <link>/post/2019fall/2019-11-15/</link>
-      <pubDate>Thu, 15 Nov 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/post/2019fall/2019-11-15/</guid>
-      <description>Date: 2019-11-15 Time: 15:30-16:30 Location: BURN 1205 Abstract: Divergences, such as the Kullback-Leibler divergence, are distance-like quantities which arise in many applications in probability, statistics and data science. We introduce a family of logarithmic divergences which is a non-linear extension of the celebrated Bregman divergence. It is defined for any exponentially concave function (a function whose exponential is concave). We motivate this divergence by mathematical finance and large deviations of Dirichlet process.</description>
-    </item>
-    
-    <item>
       <title>Density estimation of mixtures of Gaussians and Ising models</title>
       <link>/post/2018fall/2018-11-09/</link>
       <pubDate>Fri, 09 Nov 2018 00:00:00 +0000</pubDate>
@@ -240,30 +286,12 @@ The first concerns an agent-based model in which, with a rate that depends on th
     </item>
     
     <item>
-      <title>Regression Models for Spatial Images</title>
-      <link>/post/2019fall/2019-09-27/</link>
-      <pubDate>Thu, 27 Sep 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/post/2019fall/2019-09-27/</guid>
-      <description>Date: 2019-09-27 Time: 15:30-16:30 Location: McIntyre Medical Building, Room 521 Abstract: This work is motivated by a problem in describing forest nitrogen cycling, and a consequent goal of constructing regression models for spatial images. Specifically, I present a functional concurrent linear model (FLCM) with varying coefficients for two-dimensional spatial images. To address overparameterization issues, the parameter surfaces in this model are transformed into the wavelet domain and then sparse representations are found using two different methods: LASSO and Bayesian variable selection.</description>
-    </item>
-    
-    <item>
       <title>Possession Sketches: Mapping NBA Strategies</title>
       <link>/post/2018fall/2018-09-21/</link>
       <pubDate>Fri, 21 Sep 2018 00:00:00 +0000</pubDate>
       
       <guid>/post/2018fall/2018-09-21/</guid>
       <description>Date: 2018-09-21 Time: 09:30-10:15 Location: Bronfman Building 001 Abstract: We present Possession Sketches, a new machine learning method for organizing and exploring a database of basketball player-tracks. Our method organizes basketball possessions by offensive structure. We first develop a model for populating a dictionary of short, repeated, and spatially registered actions. Each action corresponds to an interpretable type of player movement. We examine statistical patterns in these actions, and show how they can be used to describe individual player behavior.</description>
-    </item>
-    
-    <item>
-      <title>Deep Representation Learning using Discrete Domain Symmetries</title>
-      <link>/post/2019fall/2019-09-20/</link>
-      <pubDate>Thu, 20 Sep 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/post/2019fall/2019-09-20/</guid>
-      <description>Date: 2019-09-20 Time: 15:30-16:30 Location: BURN 1205 Abstract: Symmetry has played a significant role in modern physics, in part by constraining the physical laws. I will discuss how it could play a fundamental role in AI by constraining the deep model design. In particular, I focus on discrete domain symmetries and through examples show how we can use this inductive bias as a principled means for constraining a feedforward layer and significantly improving its sample efficiency.</description>
     </item>
     
     <item>
@@ -276,31 +304,12 @@ The first concerns an agent-based model in which, with a rate that depends on th
     </item>
     
     <item>
-      <title>Integrative computational approach in genomics and healthcare</title>
-      <link>/post/2019fall/2019-09-13/</link>
-      <pubDate>Thu, 13 Sep 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/post/2019fall/2019-09-13/</guid>
-      <description>Date: 2019-09-13 Time: 15:30-16:30 Location: BURN 1205 Abstract: In the current era of multi-omics and digital healthcare, we are facing unprecedented amount of data with tremendous opportunities to link molecular phenotypes with complex diseases. However, the lack of integrative statistical method hinders system-level interrogation of relevant disease-related pathways and the genetic implication in various healthcare outcome.
-In this talk, I will present our current progress in mining genomics and healthcare data.</description>
-    </item>
-    
-    <item>
       <title>Association Measures for Clustered Competing Risks Data</title>
       <link>/post/2018fall/2018-09-07/</link>
       <pubDate>Fri, 07 Sep 2018 00:00:00 +0000</pubDate>
       
       <guid>/post/2018fall/2018-09-07/</guid>
       <description>Date: 2018-09-07 Time: 15:30-16:30 Location: BURN 1104 Abstract: In this work, we propose a semiparametric model for multivariate clustered competing risks data when the cause-specific failure times and the occurrence of competing risk events among subjects within the same cluster are of interest. The cause-specific hazard functions are assumed to follow Cox proportional hazard models, and the associations between failure times given the same or different cause events and the associations between occurrences of competing risk events within the same cluster are investigated through copula models.</description>
-    </item>
-    
-    <item>
-      <title>MAPLE; Semiparametric Estimation and Variable Selection for Length-biased Data with Heavy Censoring</title>
-      <link>/post/2019fall/2019-09-06/</link>
-      <pubDate>Thu, 06 Sep 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/post/2019fall/2019-09-06/</guid>
-      <description>Date: 2019-09-06 Time: 15:30-16:30 Location: BURN 1205 Abstract: In this talk, we discuss two problems of semiparametric estimation and variable selection for length-biased data with heavy censoring. The common feature of the proposed estimation procedures in the literature is that they only put probability mass on failure times. Under length-biased sampling, however, censoring is informative and failing to incorporate censored observations into estimation can lead to a substantial loss of efficiency.</description>
     </item>
     
     <item>

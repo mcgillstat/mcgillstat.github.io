@@ -3,8 +3,38 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/post/2019fall/2019-11-15/</loc>
+    <lastmod>2019-11-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2019fall/2019-10-11/</loc>
+    <lastmod>2019-10-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/post/2019fall/2019-10-04/</loc>
     <lastmod>2019-10-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2019fall/2019-09-27/</loc>
+    <lastmod>2019-09-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2019fall/2019-09-20/</loc>
+    <lastmod>2019-09-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2019fall/2019-09-13/</loc>
+    <lastmod>2019-09-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2019fall/2019-09-06/</loc>
+    <lastmod>2019-09-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -88,11 +118,6 @@
   </url>
   
   <url>
-    <loc>/post/2019fall/2019-11-15/</loc>
-    <lastmod>2018-11-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/post/2018fall/2018-11-09/</loc>
     <lastmod>2018-11-09T00:00:00+00:00</lastmod>
   </url>
@@ -128,18 +153,8 @@
   </url>
   
   <url>
-    <loc>/post/2019fall/2019-09-27/</loc>
-    <lastmod>2018-09-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/post/2018fall/2018-09-21/</loc>
     <lastmod>2018-09-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/2019fall/2019-09-20/</loc>
-    <lastmod>2018-09-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -148,18 +163,8 @@
   </url>
   
   <url>
-    <loc>/post/2019fall/2019-09-13/</loc>
-    <lastmod>2018-09-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/post/2018fall/2018-09-07/</loc>
     <lastmod>2018-09-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/2019fall/2019-09-06/</loc>
-    <lastmod>2018-09-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -1169,7 +1174,7 @@
   
   <url>
     <loc>/tags/2019-fall/</loc>
-    <lastmod>2019-10-04T00:00:00+00:00</lastmod>
+    <lastmod>2019-11-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1198,7 +1203,7 @@
   
   <url>
     <loc>/categories/mcgill-statistics-seminar/</loc>
-    <lastmod>2019-04-26T00:00:00+00:00</lastmod>
+    <lastmod>2019-11-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
