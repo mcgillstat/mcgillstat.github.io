@@ -21,6 +21,15 @@
     </item>
     
     <item>
+      <title>Univariate and multivariate extremes of extendible random vectors</title>
+      <link>/post/2019fall/2019-10-18/</link>
+      <pubDate>Fri, 18 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019fall/2019-10-18/</guid>
+      <description>Date: 2019-10-18 Time: 15:30-16:30 Location: BURN 1205 Abstract: In its most common form extreme value theory is concerned with the limiting distribution of location-scale transformed block-maxima $M_n = \max(X_1,\dots,X_n)$ of a sequence of identically distributed random variables $(X_i)$, $i\geq 1$. In case the members of the sequence $(X_i)$ are independent, the weak limiting behaviour of $M_n$ is adequately described by the classical Fisher-Tippett-Gnedenko theorem. In this presentation we are interested in the case of dependent random variables $(X_i)$ while retaining a common marginal distribution function $F$ for all $X_i$, $i\in\mathbb{N}$.</description>
+    </item>
+    
+    <item>
       <title>Repulsiveness for integration (not my social program)</title>
       <link>/post/2019fall/2019-10-11/</link>
       <pubDate>Fri, 11 Oct 2019 00:00:00 +0000</pubDate>
