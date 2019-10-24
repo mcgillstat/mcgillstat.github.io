@@ -6,10 +6,19 @@
     <description>Recent content in Crm Colloquium on McGill Statistics Seminars</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 01 Feb 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 01 Nov 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/crm-colloquium/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>General Bayesian Modeling</title>
+      <link>/post/2019fall/2019-11-01/</link>
+      <pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019fall/2019-11-01/</guid>
+      <description>Date: 2019-11-01 Time: 16:00-17:00 Location: BURN 1104 Abstract: The work is motivated by the inflexibility of Bayesian modeling; in that only parameters of probability models are required to be connected with data. The idea is to generalize this by allowing arbitrary unknowns to be connected with data via loss functions. An updating process is then detailed which can be viewed as arising in at least a couple of ways - one being purely axiomatically driven.</description>
+    </item>
     
     <item>
       <title>Network models, sampling, and symmetry properties</title>
