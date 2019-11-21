@@ -6,10 +6,19 @@
     <description>Recent content in Crm Colloquium on McGill Statistics Seminars</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 01 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 22 Nov 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/crm-colloquium/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Formulation and solution of stochastic inverse problems for science and engineering models</title>
+      <link>/post/2019fall/2019-11-22/</link>
+      <pubDate>Fri, 22 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019fall/2019-11-22/</guid>
+      <description>Date: 2019-11-22 Time: 16:00-17:00 Location: Pavillon Kennedy, PK-5115, UQAM Abstract: The stochastic inverse problem of determining probability structures on input parameters for a physics model corresponding to a given probability structure on the output of the model forms the core of scientific inference and engineering design. We describe a formulation and solution method for stochastic inverse problems that is based on functional analysis, differential geometry, and probability/measure theory. This approach yields a computationally tractable problem while avoiding alterations of the model like regularization and ad hoc assumptions about the probability structures.</description>
+    </item>
     
     <item>
       <title>General Bayesian Modeling</title>
