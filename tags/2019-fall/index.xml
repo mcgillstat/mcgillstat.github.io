@@ -6,10 +6,19 @@
     <description>Recent content in 2019 Fall on McGill Statistics Seminars</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 22 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 29 Nov 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/2019-fall/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Convergence rates for diffusions-based sampling and optimization methods</title>
+      <link>/post/2019fall/2019-11-29/</link>
+      <pubDate>Fri, 29 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019fall/2019-11-29/</guid>
+      <description>Date: 2019-11-29 Time: 15:30-16:30 Location: BURN 1205 Abstract: An Euler discretization of the Langevin diffusion is known to converge to the global minimizers of certain convex and non-convex optimization problems. We show that this property holds for any suitably smooth diffusion and that different diffusions are suitable for optimizing different classes of convex and non-convex functions. This allows us to design diffusions suitable for globally optimizing convex and non-convex functions not covered by the existing Langevin theory.</description>
+    </item>
     
     <item>
       <title>Formulation and solution of stochastic inverse problems for science and engineering models</title>
