@@ -6,10 +6,55 @@
     <description>Recent content in Mcgill Statistics Seminar on McGill Statistics Seminars</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 29 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Mar 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/mcgill-statistics-seminar/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>A gentle introduction to generalized structured component analysis and its recent developments</title>
+      <link>/post/2020winter/2020-03-13/</link>
+      <pubDate>Fri, 13 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2020winter/2020-03-13/</guid>
+      <description>Date: 2020-03-13 Time: 15:30-16:30 Location: BURNSIDE 1205 Abstract: Generalized structured component analysis (GSCA) was developed as a component-based approach to structural equation modeling, where constructs are represented by components or weighted composites of observed variables, rather than (common) factors. Unlike another long-lasting component-based approach – partial least squares path modeling, GSCA is a full-information method that optimizes a single criterion to estimate model parameters simultaneously, utilizing all information available in the entire system of equations.</description>
+    </item>
+    
+    <item>
+      <title>Non-central squared copulas: properties and applications</title>
+      <link>/post/2020winter/2020-02-21/</link>
+      <pubDate>Fri, 21 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2020winter/2020-02-21/</guid>
+      <description>Date: 2020-02-21 Time: 15:30-16:30 Location: BURNSIDE 1205 Abstract: The goal of this presentation is to introduce new families of multivariate copulas, extending the chi-square copulas, the Fisher copula, and squared copulas. The new families are constructed from existing copulas by first transforming their margins to standard Gaussian distributions, then transforming these variables into non-central chi-square variables with one degree of freedom, and finally by considering the copula associated with these new variables.</description>
+    </item>
+    
+    <item>
+      <title>A Fluid Model for One-Sided Bipartite Matching Queues with Match-Dependent Rewards</title>
+      <link>/post/2020winter/2020-02-14/</link>
+      <pubDate>Fri, 14 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2020winter/2020-02-14/</guid>
+      <description>Date: 2020-02-14 Time: 15:30-16:30 Location: BURNSIDE 1205 Abstract: We consider a queueing system with multitype customers and resources, where different customer-resource combinations can generate different rewards. Each resource is allocated upon arrival to the customer with the highest sum of the customer&amp;rsquo;s waiting index and matching index. We assume that the waiting index is an increasing function of a customer&amp;rsquo;s waiting time and the matching index depends on both the customer&amp;rsquo;s and the server&amp;rsquo;s types.</description>
+    </item>
+    
+    <item>
+      <title>Adapting black-box machine learning methods for causal inference</title>
+      <link>/post/2020winter/2020-01-31/</link>
+      <pubDate>Fri, 31 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2020winter/2020-01-31/</guid>
+      <description>Date: 2020-01-31 Time: 15:30-16:30 Location: BURNSIDE 1104 Abstract: I&amp;rsquo;ll discuss the use of observational data to estimate the causal effect of a treatment on an outcome. This task is complicated by the presence of &amp;ldquo;confounders&amp;rdquo; that influence both treatment and outcome, inducing observed associations that are not causal. Causal estimation is achieved by adjusting for this confounding by using observed covariate information. I&amp;rsquo;ll discuss the case where we observe covariates that carry sufficient information for the adjustment.</description>
+    </item>
+    
+    <item>
+      <title>Estimation and inference for changepoint models</title>
+      <link>/post/2020winter/2020-01-13/</link>
+      <pubDate>Mon, 13 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2020winter/2020-01-13/</guid>
+      <description>Date: 2020-01-13 Time: 15:30-16:30 Location: BURNSIDE 1205 Abstract: This talk is motivated by statistical challenges that arise in the analysis of calcium imaging data, a new technology in neuroscience that makes it possible to record from huge numbers of neurons at single-neuron resolution. In the first part of this talk, I will consider the problem of estimating a neuron&amp;rsquo;s spike times from calcium imaging data. A simple and natural model suggests a non-convex optimization problem for this task.</description>
+    </item>
     
     <item>
       <title>Convergence rates for diffusions-based sampling and optimization methods</title>

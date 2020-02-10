@@ -3,6 +3,31 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/post/2020winter/2020-03-13/</loc>
+    <lastmod>2020-03-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2020winter/2020-02-21/</loc>
+    <lastmod>2020-02-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2020winter/2020-02-14/</loc>
+    <lastmod>2020-02-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2020winter/2020-01-31/</loc>
+    <lastmod>2020-01-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2020winter/2020-01-13/</loc>
+    <lastmod>2020-01-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/post/2019fall/2019-11-29/</loc>
     <lastmod>2019-11-29T00:00:00+00:00</lastmod>
   </url>
@@ -1215,6 +1240,12 @@
   </url>
   
   <url>
+    <loc>/tags/2020-winter/</loc>
+    <lastmod>2020-03-13T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/categories/</loc>
     <priority>0</priority>
   </url>
@@ -1233,7 +1264,7 @@
   
   <url>
     <loc>/categories/mcgill-statistics-seminar/</loc>
-    <lastmod>2019-11-29T00:00:00+00:00</lastmod>
+    <lastmod>2020-03-13T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
