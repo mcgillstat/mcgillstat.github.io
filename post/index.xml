@@ -13,11 +13,20 @@
     
     <item>
       <title>A gentle introduction to generalized structured component analysis and its recent developments</title>
-      <link>/post/2020winter/2020-03-13/</link>
-      <pubDate>Fri, 13 Mar 2020 00:00:00 +0000</pubDate>
+      <link>/post/2020winter/2020-03-27/</link>
+      <pubDate>Fri, 27 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>/post/2020winter/2020-03-13/</guid>
-      <description>Date: 2020-03-13 Time: 15:30-16:30 Location: BURNSIDE 1205 Abstract: Generalized structured component analysis (GSCA) was developed as a component-based approach to structural equation modeling, where constructs are represented by components or weighted composites of observed variables, rather than (common) factors. Unlike another long-lasting component-based approach – partial least squares path modeling, GSCA is a full-information method that optimizes a single criterion to estimate model parameters simultaneously, utilizing all information available in the entire system of equations.</description>
+      <guid>/post/2020winter/2020-03-27/</guid>
+      <description>Date: 2020-03-27 Time: 15:30-16:30 Location: BURNSIDE 1205 Abstract: Generalized structured component analysis (GSCA) was developed as a component-based approach to structural equation modeling, where constructs are represented by components or weighted composites of observed variables, rather than (common) factors. Unlike another long-lasting component-based approach – partial least squares path modeling, GSCA is a full-information method that optimizes a single criterion to estimate model parameters simultaneously, utilizing all information available in the entire system of equations.</description>
+    </item>
+    
+    <item>
+      <title>Informative Prior Elicitation from Historical Individual Patient Data</title>
+      <link>/post/2020winter/2020-03-20/</link>
+      <pubDate>Fri, 20 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2020winter/2020-03-20/</guid>
+      <description>Date: 2020-03-20 Time: 15:30-16:30 Location: BURNSIDE 1205 Abstract: Historical data from previous studies may be utilized to strengthen statistical inference. Under the Bayesian framework incorporation of information obtained from any source other than the current data is facilitated through construction of an informative prior. The existing methodology for defining an informative prior based on historical data relies on measuring similarity to the current data at the study level that can result in discarding useful individual patient data (IPD).</description>
     </item>
     
     <item>
@@ -30,12 +39,12 @@
     </item>
     
     <item>
-      <title>A Fluid Model for One-Sided Bipartite Matching Queues with Match-Dependent Rewards</title>
+      <title>Sharing Sustainable Mobility in Smart Cities</title>
       <link>/post/2020winter/2020-02-14/</link>
       <pubDate>Fri, 14 Feb 2020 00:00:00 +0000</pubDate>
       
       <guid>/post/2020winter/2020-02-14/</guid>
-      <description>Date: 2020-02-14 Time: 15:30-16:30 Location: BURNSIDE 1205 Abstract: We consider a queueing system with multitype customers and resources, where different customer-resource combinations can generate different rewards. Each resource is allocated upon arrival to the customer with the highest sum of the customer&amp;rsquo;s waiting index and matching index. We assume that the waiting index is an increasing function of a customer&amp;rsquo;s waiting time and the matching index depends on both the customer&amp;rsquo;s and the server&amp;rsquo;s types.</description>
+      <description>Date: 2020-02-14 Time: 15:30-16:30 Location: BURNSIDE 1205 Abstract: Many cities worldwide are embracing electric vehicle (EV) sharing as a flexible and sustainable means of urban transit. However, it remains challenging for the operators to charge the fleet due to limited or costly access to charging facilities. In this work, we focus on answering the core question - how to charge the fleet to make EV sharing viable and profitable. Our work is motivated by the recent setback that struck San Diego, California, where car2go ceased its EV sharing operations.</description>
     </item>
     
     <item>

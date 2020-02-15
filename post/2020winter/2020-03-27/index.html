@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+<meta name="pinterest" content="nopin">
+<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+<meta name="generator" content="Hugo 0.36" />
+
+
+
+<link rel="canonical" href="/post/2020winter/2020-03-27/">
+
+
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/solarized_dark.min.css">
+    <title>A gentle introduction to generalized structured component analysis and its recent developments - McGill Statistics Seminars</title>
+    
+<meta name="description" content="Date: 2020-03-27 Time: 15:30-16:30 Location: BURNSIDE 1205 Abstract: Generalized structured component analysis (GSCA) was developed as a component-based approach to structural equation modeling, where constructs are represented by components or weighted composites of observed variables, rather than (common) factors. Unlike another long-lasting component-based approach – partial least squares path modeling, GSCA is a full-information method that optimizes a single criterion to estimate model parameters simultaneously, utilizing all information available in the entire system of equations.">
+
+<meta property="og:title" content="A gentle introduction to generalized structured component analysis and its recent developments - McGill Statistics Seminars">
+<meta property="og:type" content="article">
+<meta property="og:url" content="/post/2020winter/2020-03-27/">
+<meta property="og:image" content="/images/default.png">
+<meta property="og:site_name" content="McGill Statistics Seminars">
+<meta property="og:description" content="Date: 2020-03-27 Time: 15:30-16:30 Location: BURNSIDE 1205 Abstract: Generalized structured component analysis (GSCA) was developed as a component-based approach to structural equation modeling, where constructs are represented by components or weighted composites of observed variables, rather than (common) factors. Unlike another long-lasting component-based approach – partial least squares path modeling, GSCA is a full-information method that optimizes a single criterion to estimate model parameters simultaneously, utilizing all information available in the entire system of equations.">
+<meta property="og:locale" content="ja_JP">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="McGill Statistics Seminars">
+<meta name="twitter:url" content="/post/2020winter/2020-03-27/">
+<meta name="twitter:title" content="A gentle introduction to generalized structured component analysis and its recent developments - McGill Statistics Seminars">
+<meta name="twitter:description" content="Date: 2020-03-27 Time: 15:30-16:30 Location: BURNSIDE 1205 Abstract: Generalized structured component analysis (GSCA) was developed as a component-based approach to structural equation modeling, where constructs are represented by components or weighted composites of observed variables, rather than (common) factors. Unlike another long-lasting component-based approach – partial least squares path modeling, GSCA is a full-information method that optimizes a single criterion to estimate model parameters simultaneously, utilizing all information available in the entire system of equations.">
+<meta name="twitter:image" content="/images/default.png">
+
+
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "NewsArticle",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id":"/"
+    },
+    "headline": "A gentle introduction to generalized structured component analysis and its recent developments - McGill Statistics Seminars",
+    "image": {
+      "@type": "ImageObject",
+      "url": "/images/default.png",
+      "height": 800,
+      "width": 800
+    },
+    "datePublished": "2020-03-27T00:00:00JST",
+    "dateModified": "2020-03-27T00:00:00JST",
+    "author": {
+      "@type": "Person",
+      "name": "McGill Statistics Seminars"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "McGill Statistics Seminars",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "/images/logo.png",
+        "width": 600,
+        "height": 60
+      }
+    },
+    "description": "Date: 2020-03-27 Time: 15:30-16:30 Location: BURNSIDE 1205 Abstract: Generalized structured component analysis (GSCA) was developed as a component-based approach to structural equation modeling, where constructs are represented by components or weighted composites of observed variables, rather than (common) factors. Unlike another long-lasting component-based approach – partial least squares path modeling, GSCA is a full-information method that optimizes a single criterion to estimate model parameters simultaneously, utilizing all information available in the entire system of equations."
+  }
+</script>
+
+
+    <link href="/css/styles.css" rel="stylesheet">
+    
+
+  </head>
+
+  <body>
+    
+    
+    
+
+    <header class="l-header">
+      <nav class="navbar navbar-default">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">McGill Statistics Seminars</a>
+          </div>
+
+          
+          <div id="navbar" class="collapse navbar-collapse">
+            
+            <ul class="nav navbar-nav navbar-right">
+              
+              
+              <li><a href="/">Current Seminar Series</a></li>
+              
+              
+              
+              <li><a href="/post/">Past Seminar Series</a></li>
+              
+              
+            </ul>
+            
+          </div>
+          
+
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="container">
+        
+<div class="row">
+  <div class="col-md-8">
+
+    <nav class="p-crumb">
+      <ol class="breadcrumb">
+        <li><a href="/"><i class="fa fa-home" aria-hidden="true"></i></a></li>
+        
+        <li itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/post/" itemprop="url"><span itemprop="title">post</span></a></li>
+        
+        <li class="active">Heungsun Hwang</li>
+      </ol>
+    </nav>
+
+    <article class="single">
+  <header>
+    <ul class="p-facts">
+      <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2020-03-27T00:00:00JST">Mar 27, 2020</time></li>
+      <li><i class="fa fa-bookmark" aria-hidden="true"></i><a href="/post/">post</a></li>
+      
+    </ul>
+
+    <h2 class="title">A gentle introduction to generalized structured component analysis and its recent developments</h1>
+    <h3 class="post-meta">Heungsun Hwang </h3>
+    
+  </header>
+
+  
+
+  <div class="article-body">
+
+<h4 id="date-2020-03-27">Date: 2020-03-27</h4>
+
+<h4 id="time-15-30-16-30">Time: 15:30-16:30</h4>
+
+<h4 id="location-burnside-1205">Location: BURNSIDE 1205</h4>
+
+<h2 id="abstract">Abstract:</h2>
+
+<p>Generalized structured component analysis (GSCA) was developed as a component-based approach to structural equation modeling, where constructs are represented by components or weighted composites of observed variables, rather than (common) factors. Unlike another long-lasting component-based approach – partial least squares path modeling, GSCA is a full-information method that optimizes a single criterion to estimate model parameters simultaneously, utilizing all information available in the entire system of equations. Over the decade, this approach has been refined and extended in various ways to enhance its data-analytic capability. I will briefly discuss the theoretical underpinnings of GSCA and demonstrate the use of an R package for GSCA - gesca. Moreover, I will outline some recent developments in GSCA, which include GSCA_M for estimating models with factors and integrated GSCA (IGSCA) for estimating models with both factors and components.</p>
+
+<h2 id="speaker">Speaker</h2>
+
+<p>Heungsun Hwang is a Professor in the Department of Psychology at McGill. His research program is generally devoted to the development and application of quantitative methods to address diverse issues in psychology and various other fields. His recent interests include the development of data integration tools for high-dimensional data collected from multiple sources; the development of a statistical methodology for investigating associations among genetic, brain, and behavioural/cognitive phenotypes.</p>
+</div>
+
+  <footer class="article-footer">
+    
+    
+    
+    <section class="bordered">
+      <header>
+        <div class="panel-title">CATEGORIES</div>
+      </header>
+      <div>
+        <ul class="p-terms">
+          
+          <li><a href="/categories/mcgill-statistics-seminar/">McGill Statistics Seminar</a></li>
+          
+        </ul>
+      </div>
+    </section>
+    
+    
+    
+    <section class="bordered">
+      <header>
+        <div class="panel-title">TAGS</div>
+      </header>
+      <div>
+        <ul class="p-terms">
+          
+          <li><a href="/tags/2020-winter/">2020 Winter</a></li>
+          
+        </ul>
+      </div>
+    </section>
+    
+    
+  </footer>
+
+</article>
+
+
+    
+  </div>
+
+  <div class="col-md-4">
+    
+<aside class="l-sidebar">
+
+  <section class="panel panel-default">
+    <div class="panel-heading">
+      <div class="panel-title">Recent Talks</div>
+    </div>
+    <div class="list-group">
+      
+      <a href="/post/2020winter/2020-03-27/" class="list-group-item">Heungsun Hwang · Mar 27, 2020</a>
+      
+      <a href="/post/2020winter/2020-03-20/" class="list-group-item">Shirin Golchi · Mar 20, 2020</a>
+      
+      <a href="/post/2020winter/2020-02-21/" class="list-group-item">Bouchra Nasri · Feb 21, 2020</a>
+      
+      <a href="/post/2020winter/2020-02-14/" class="list-group-item">Wei Qi · Feb 14, 2020</a>
+      
+      <a href="/post/2020winter/2020-01-31/" class="list-group-item">Victor Veitch · Jan 31, 2020</a>
+      
+    </div>
+  </section>
+
+  
+  <section class="panel panel-default">
+    <div class="panel-heading">
+      <div class="panel-title">CATEGORY</div>
+    </div>
+    <div class="list-group">
+      
+      <a href="/categories/mcgill-statistics-seminar" class="list-group-item">mcgill-statistics-seminar</a>
+      
+      <a href="/categories/crm-ssc-prize-address" class="list-group-item">crm-ssc-prize-address</a>
+      
+      <a href="/categories/crm-colloquium" class="list-group-item">crm-colloquium</a>
+      
+    </div>
+  </section>
+  
+  <section class="panel panel-default">
+    <div class="panel-heading">
+      <div class="panel-title">TAG</div>
+    </div>
+    <div class="list-group">
+      
+      <a href="/tags/2020-winter" class="list-group-item">2020-winter</a>
+      
+      <a href="/tags/2019-winter" class="list-group-item">2019-winter</a>
+      
+      <a href="/tags/2019-fall" class="list-group-item">2019-fall</a>
+      
+      <a href="/tags/2018-winter" class="list-group-item">2018-winter</a>
+      
+      <a href="/tags/2018-fall" class="list-group-item">2018-fall</a>
+      
+      <a href="/tags/2017-winter" class="list-group-item">2017-winter</a>
+      
+      <a href="/tags/2017-fall" class="list-group-item">2017-fall</a>
+      
+      <a href="/tags/2016-winter" class="list-group-item">2016-winter</a>
+      
+      <a href="/tags/2016-fall" class="list-group-item">2016-fall</a>
+      
+      <a href="/tags/2015-winter" class="list-group-item">2015-winter</a>
+      
+      <a href="/tags/2015-fall" class="list-group-item">2015-fall</a>
+      
+      <a href="/tags/2014-winter" class="list-group-item">2014-winter</a>
+      
+      <a href="/tags/2014-fall" class="list-group-item">2014-fall</a>
+      
+      <a href="/tags/2013-winter" class="list-group-item">2013-winter</a>
+      
+      <a href="/tags/2013-fall" class="list-group-item">2013-fall</a>
+      
+      <a href="/tags/2012-winter" class="list-group-item">2012-winter</a>
+      
+      <a href="/tags/2012-fall" class="list-group-item">2012-fall</a>
+      
+      <a href="/tags/2011-fall" class="list-group-item">2011-fall</a>
+      
+    </div>
+  </section>
+  
+
+</aside>
+
+
+
+    <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
+    
+    <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+            displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+            processEscapes: true,
+            processEnvironments: true
+        },
+        // Center justify equations in code and markdown cells. Elsewhere
+        // we use CSS to left justify single line equations in code cells.
+        displayAlign: 'center',
+        "HTML-CSS": {
+            styles: {'.MathJax_Display': {"margin": 0}},
+            linebreaks: { automatic: true }
+        }
+    });
+    </script>
+    
+  </div>
+</div>
+
+      </div>
+    </main>
+
+    <footer class="l-footer">
+      <div class="container">
+        <p><span class="h-logo">&copy; McGill Statistics Seminars</span></p>
+        <aside>
+          <p><a href="http://www.mcgill.ca/mathstat/">Department of Mathematics and Statistics</a>.</p>
+          <p><a href="https://www.mcgill.ca/">McGill University</a></p>
+        </aside>
+      </div>
+    </footer>
+
+    <script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+  </body>
+</html>
+
