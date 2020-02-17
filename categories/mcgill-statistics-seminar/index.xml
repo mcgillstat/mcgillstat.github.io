@@ -30,6 +30,15 @@
     </item>
     
     <item>
+      <title>Geometry-based Data Exploration</title>
+      <link>/post/2020winter/2020-03-13/</link>
+      <pubDate>Fri, 13 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2020winter/2020-03-13/</guid>
+      <description>Date: 2020-03-13 Time: 15:30-16:30 Location: BURNSIDE 1205 Abstract: High-throughput data collection technologies are becoming increasingly common in many fields, especially in biomedical applications involving single cell data (e.g., scRNA-seq and CyTOF). These introduce a rising need for exploratory analysis to reveal and understand hidden structure in the collected (high-dimensional) Big Data. A crucial aspect in such analysis is the separation of intrinsic data geometry from data distribution, as (a) the latter is typically biased by collection artifacts and data availability, and (b) rare subpopulations and sparse transitions between meta-stable states are often of great interest in biomedical data analysis.</description>
+    </item>
+    
+    <item>
       <title>Non-central squared copulas: properties and applications</title>
       <link>/post/2020winter/2020-02-21/</link>
       <pubDate>Fri, 21 Feb 2020 00:00:00 +0000</pubDate>
