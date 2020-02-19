@@ -39,6 +39,15 @@
     </item>
     
     <item>
+      <title>Neyman-Pearson classification: parametrics and sample size requirement</title>
+      <link>/post/2020winter/2020-02-28/</link>
+      <pubDate>Fri, 28 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2020winter/2020-02-28/</guid>
+      <description>Date: 2020-02-28 Time: 15:30-16:30 Location: BURNSIDE 1104 Abstract: The Neyman-Pearson (NP) paradigm in binary classification seeks classifiers that achieve a minimal type II error while enforcing the prioritized type I error controlled under some user-specified level alpha. This paradigm serves naturally in applications such as severe disease diagnosis and spam detection, where people have clear priorities among the two error types. Recently, Tong, Feng and Li (2018) proposed a nonparametric umbrella algorithm that adapts all scoring-type classification methods (e.</description>
+    </item>
+    
+    <item>
       <title>Non-central squared copulas: properties and applications</title>
       <link>/post/2020winter/2020-02-21/</link>
       <pubDate>Fri, 21 Feb 2020 00:00:00 +0000</pubDate>
