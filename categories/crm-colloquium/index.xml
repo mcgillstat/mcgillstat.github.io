@@ -6,10 +6,19 @@
     <description>Recent content in Crm Colloquium on McGill Statistics Seminars</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 28 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 11 Sep 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/crm-colloquium/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Machine Learning for Causal Inference</title>
+      <link>/post/2020fall/2020-09-11/</link>
+      <pubDate>Fri, 11 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2020fall/2020-09-11/</guid>
+      <description>Date: 2020-09-11 Time: 16:00-17:00 Zoom Link Meeting ID: 965 2536 7383 Passcode: 421254 Abstract: Given advances in machine learning over the past decades, it is now possible to accurately solve difficult non-parametric prediction problems in a way that is routine and reproducible. In this talk, I’ll discuss how machine learning tools can be rigorously integrated into observational study analyses, and how they interact with classical statistical ideas around randomization, semiparametric modeling, double robustness, etc.</description>
+    </item>
     
     <item>
       <title>Neyman-Pearson classification: parametrics and sample size requirement</title>

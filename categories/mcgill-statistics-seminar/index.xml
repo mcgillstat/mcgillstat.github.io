@@ -6,10 +6,19 @@
     <description>Recent content in Mcgill Statistics Seminar on McGill Statistics Seminars</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 27 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 18 Sep 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/mcgill-statistics-seminar/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>BdryGP: a boundary-integrated Gaussian process model for computer code emulation</title>
+      <link>/post/2020fall/2020-09-18/</link>
+      <pubDate>Fri, 18 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2020fall/2020-09-18/</guid>
+      <description>Date: 2020-09-18 Time: 15:30-16:30 Zoom Link Meeting ID: 965 2536 7383 Passcode: 421254 Abstract: With advances in mathematical modeling and computational methods, complex phenomena (e.g., universe formations, rocket propulsion) can now be reliably simulated via computer code. This code solves a complicated system of equations representing the underlying science of the problem. Such simulations can be very time-intensive, requiring months of computation for a single run. Gaussian processes (GPs) are widely used as predictive models for “emulating” this expensive computer code.</description>
+    </item>
     
     <item>
       <title>A gentle introduction to generalized structured component analysis and its recent developments</title>
