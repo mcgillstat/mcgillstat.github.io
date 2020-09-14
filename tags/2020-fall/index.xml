@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2020 Fall on McGill Statistics Seminars</title>
+    <link>/tags/2020-fall/</link>
+    <description>Recent content in 2020 Fall on McGill Statistics Seminars</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 18 Sep 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/2020-fall/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>BdryGP: a boundary-integrated Gaussian process model for computer code emulation</title>
+      <link>/post/2020fall/2020-09-18/</link>
+      <pubDate>Fri, 18 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2020fall/2020-09-18/</guid>
+      <description>Date: 2020-09-18 Time: 15:30-16:30 Zoom Link Meeting ID: 965 2536 7383 Passcode: 421254 Abstract: With advances in mathematical modeling and computational methods, complex phenomena (e.g., universe formations, rocket propulsion) can now be reliably simulated via computer code. This code solves a complicated system of equations representing the underlying science of the problem. Such simulations can be very time-intensive, requiring months of computation for a single run. Gaussian processes (GPs) are widely used as predictive models for “emulating” this expensive computer code.</description>
+    </item>
+    
+    <item>
+      <title>Machine Learning for Causal Inference</title>
+      <link>/post/2020fall/2020-09-11/</link>
+      <pubDate>Fri, 11 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2020fall/2020-09-11/</guid>
+      <description>Date: 2020-09-11 Time: 16:00-17:00 Zoom Link Meeting ID: 965 2536 7383 Passcode: 421254 Abstract: Given advances in machine learning over the past decades, it is now possible to accurately solve difficult non-parametric prediction problems in a way that is routine and reproducible. In this talk, I’ll discuss how machine learning tools can be rigorously integrated into observational study analyses, and how they interact with classical statistical ideas around randomization, semiparametric modeling, double robustness, etc.</description>
+    </item>
+    
+  </channel>
+</rss>
