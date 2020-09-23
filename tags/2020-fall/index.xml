@@ -6,10 +6,19 @@
     <description>Recent content in 2020 Fall on McGill Statistics Seminars</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 18 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 25 Sep 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/2020-fall/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Large-scale Network Inference</title>
+      <link>/post/2020fall/2020-09-25/</link>
+      <pubDate>Fri, 25 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2020fall/2020-09-25/</guid>
+      <description>Date: 2020-09-25 Time: 14:00-15:00 Zoom Link Meeting ID: 939 4707 7997 Passcode: no password Abstract: Network data is prevalent in many contemporary big data applications in which a common interest is to unveil important latent links between different pairs of nodes. Yet a simple fundamental question of how to precisely quantify the statistical uncertainty associated with the identification of latent links still remains largely unexplored. In this paper, we propose the method of statistical inference on membership profiles in large networks (SIMPLE) in the setting of degree-corrected mixed membership model, where the null hypothesis assumes that the pair of nodes share the same profile of community memberships.</description>
+    </item>
     
     <item>
       <title>BdryGP: a boundary-integrated Gaussian process model for computer code emulation</title>
