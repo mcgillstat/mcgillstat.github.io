@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/post/2020fall/2020-10-09/</loc>
+    <lastmod>2020-10-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2020fall/2020-10-02/</loc>
+    <lastmod>2020-10-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/post/2020fall/2020-09-25/</loc>
     <lastmod>2020-09-25T00:00:00+00:00</lastmod>
   </url>
@@ -1271,7 +1281,7 @@
   
   <url>
     <loc>/tags/2020-fall/</loc>
-    <lastmod>2020-09-25T00:00:00+00:00</lastmod>
+    <lastmod>2020-10-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1288,7 +1298,7 @@
   
   <url>
     <loc>/categories/crm-colloquium/</loc>
-    <lastmod>2020-09-11T00:00:00+00:00</lastmod>
+    <lastmod>2020-10-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1300,7 +1310,7 @@
   
   <url>
     <loc>/categories/mcgill-statistics-seminar/</loc>
-    <lastmod>2020-09-25T00:00:00+00:00</lastmod>
+    <lastmod>2020-10-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

@@ -6,10 +6,19 @@
     <description>Recent content in Crm Colloquium on McGill Statistics Seminars</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 11 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 02 Oct 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/crm-colloquium/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Data Science, Classification, Clustering and Three-Way Data</title>
+      <link>/post/2020fall/2020-10-02/</link>
+      <pubDate>Fri, 02 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2020fall/2020-10-02/</guid>
+      <description>Date: 2020-10-02 Time: 15:30-16:30 Zoom Link Meeting ID: 939 8331 3215 Passcode: 096952 Abstract: Data science is discussed along with some historical perspective. Selected problems in classification are considered, either via specific datasets or general problem types. In each case, the problem is introduced before one or more potential solutions are discussed and applied. The problems discussed include data with outliers, longitudinal data, and three-way data. The proposed approaches are generally mixture model-based.</description>
+    </item>
     
     <item>
       <title>Machine Learning for Causal Inference</title>
