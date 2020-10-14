@@ -6,10 +6,19 @@
     <description>Recent content in 2020 Fall on McGill Statistics Seminars</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 09 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/2020-fall/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Adaptive MCMC For Everyone</title>
+      <link>/post/2020fall/2020-10-16/</link>
+      <pubDate>Fri, 16 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2020fall/2020-10-16/</guid>
+      <description>Date: 2020-10-16 Time: 15:30-16:30 Zoom Link Meeting ID: 924 5390 4989 Passcode: 690084 Abstract: Markov chain Monte Carlo (MCMC) algorithms, such as the Metropolis Algorithm and the Gibbs Sampler, are an extremely useful and popular method of approximately sampling from complicated probability distributions. Adaptive MCMC attempts to automatically modify the algorithm while it runs, to improve its performance on the fly. However, such adaptation often destroys the ergodicity properties necessary for the algorithm to be valid.</description>
+    </item>
     
     <item>
       <title>Machine Learning and Neural Networks: Foundations and Some Fundamental Questions</title>
