@@ -6,10 +6,19 @@
     <description>Recent content in 2020 Fall on McGill Statistics Seminars</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 30 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 06 Nov 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/2020-fall/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Generalized Energy-Based Models</title>
+      <link>/post/2020fall/2020-11-06/</link>
+      <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2020fall/2020-11-06/</guid>
+      <description>Date: 2020-11-06 Time: 15:30-16:30 Zoom Link Meeting ID: 924 5390 4989 Passcode: 690084 Abstract: I will introduce Generalized Energy Based Models (GEBM) for generative modelling. These models combine two trained components: a base distribution (generally an implicit model), which can learn the support of data with low intrinsic dimension in a high dimensional space; and an energy function, to refine the probability mass on the learned support. Both the energy function and base jointly constitute the final model, unlike GANs, which retain only the base distribution (the &amp;ldquo;generator&amp;rdquo;).</description>
+    </item>
     
     <item>
       <title>Test-based integrative analysis of randomized trial and real-world data for treatment heterogeneity estimation</title>
