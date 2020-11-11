@@ -6,10 +6,19 @@
     <description>Recent content in 2020 Fall on McGill Statistics Seminars</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 06 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/2020-fall/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Approximate Cross-Validation for Large Data and High Dimensions</title>
+      <link>/post/2020fall/2020-11-13/</link>
+      <pubDate>Fri, 13 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2020fall/2020-11-13/</guid>
+      <description>Date: 2020-11-13 Time: 15:30-16:30 Zoom Link Abstract: The error or variability of statistical and machine learning algorithms is often assessed by repeatedly re-fitting a model with different weighted versions of the observed data. The ubiquitous tools of cross-validation (CV) and the bootstrap are examples of this technique. These methods are powerful in large part due to their model agnosticism but can be slow to run on modern, large data sets due to the need to repeatedly re-fit the model.</description>
+    </item>
     
     <item>
       <title>Generalized Energy-Based Models</title>
