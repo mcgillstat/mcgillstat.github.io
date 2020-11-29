@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>Quasi-random sampling for multivariate distributions via generative neural networks</title>
+      <link>/post/2020fall/2020-12-04/</link>
+      <pubDate>Fri, 04 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2020fall/2020-12-04/</guid>
+      <description>Date: 2020-12-04 Time: 15:30-16:30 Zoom Link Meeting ID: 924 5390 4989 Passcode: 690084 Abstract: A novel approach based on generative neural networks is introduced for constructing quasi-random number generators for multivariate models with any underlying copula in order to estimate expectations with variance reduction. So far, quasi-random number generators for multivariate distributions required a careful design, exploiting specific properties (such as conditional distributions) of the implied copula or the underlying quasi-Monte Carlo point set, and were only tractable for a small number of models.</description>
+    </item>
+    
+    <item>
       <title>Probabilistic Approaches to Machine Learning on Tensor Data</title>
       <link>/post/2020fall/2020-11-27/</link>
       <pubDate>Fri, 27 Nov 2020 00:00:00 +0000</pubDate>
