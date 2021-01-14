@@ -3,6 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/post/2021winter/2021-02-19/</loc>
+    <lastmod>2021-02-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2021winter/2020-01-29/</loc>
+    <lastmod>2021-01-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/2021winter/2021-01-15/</loc>
+    <lastmod>2021-01-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/post/2020fall/2020-12-04/</loc>
     <lastmod>2020-12-04T00:00:00+00:00</lastmod>
   </url>
@@ -1332,13 +1347,19 @@
   </url>
   
   <url>
+    <loc>/tags/2021-winter/</loc>
+    <lastmod>2021-02-19T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/categories/crm-colloquium/</loc>
-    <lastmod>2020-11-13T00:00:00+00:00</lastmod>
+    <lastmod>2021-01-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1350,7 +1371,7 @@
   
   <url>
     <loc>/categories/mcgill-statistics-seminar/</loc>
-    <lastmod>2020-12-04T00:00:00+00:00</lastmod>
+    <lastmod>2021-02-19T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

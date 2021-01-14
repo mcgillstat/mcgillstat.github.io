@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2021 Winter on McGill Statistics Seminars</title>
+    <link>/tags/2021-winter/</link>
+    <description>Recent content in 2021 Winter on McGill Statistics Seminars</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 19 Feb 2021 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/2021-winter/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Joint integrative analysis of multiple data sources with correlated vector outcomes</title>
+      <link>/post/2021winter/2021-02-19/</link>
+      <pubDate>Fri, 19 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2021winter/2021-02-19/</guid>
+      <description>Date: 2021-02-19 Time: 15:30-16:30 (Montreal time) Zoom Link Meeting ID: 843 0865 5572 Passcode: 690084 Abstract: We consider the joint estimation of regression parameters from multiple potentially heterogeneous data sources with correlated vector outcomes. The primary goal of this joint integrative analysis is to estimate covariate effects on all vector outcomes through a marginal regression model in a statistically and computationally efficient way. We present a general class of distributed estimators that can be implemented in a parallelized computational scheme.</description>
+    </item>
+    
+    <item>
+      <title>Small Area Estimation in Low- and Middle-Income Countries</title>
+      <link>/post/2021winter/2020-01-29/</link>
+      <pubDate>Fri, 29 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2021winter/2020-01-29/</guid>
+      <description>Date: 2021-01-29 Time: 15:30-16:30 (Montreal time) Zoom Link Meeting ID: 939 8331 3215 Passcode: 096952 Abstract: The under-five mortality rate (U5MR) is a key barometer of the health of a nation. Unfortunately, many people living in low- and middle-income countries are not covered by civil registration systems. This makes estimation of the U5MR, particularly at the subnational level, difficult. In this talk, I will describe models that have been developed to produce the official United Nations (UN) subnational U5MR estimates in 22 countries.</description>
+    </item>
+    
+    <item>
+      <title>Large-scale Machine Learning Algorithms for Biomedical Data Science</title>
+      <link>/post/2021winter/2021-01-15/</link>
+      <pubDate>Fri, 15 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2021winter/2021-01-15/</guid>
+      <description>Date: 2021-01-15 Time: 15:30-16:30 (Montreal time) Zoom Link Meeting ID: 843 0865 5572 Passcode: 690084 Abstract: During the last decade, hundreds of machine learning methods have been developed for disease outcome prediction based on high-throughput genomics data. However, the quality of the input genomics features and the output clinical variables has been ignored in these algorithms. In this talk, I will introduce two studies that develop methods to learn more accurate molecular signatures and drug response values for cancer research.</description>
+    </item>
+    
+  </channel>
+</rss>
