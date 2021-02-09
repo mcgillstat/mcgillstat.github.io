@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2020 Winter on McGill Statistics Seminars</title>
+    <link>https://mcgillstat.github.io/tags/2020-winter/</link>
+    <description>Recent content in 2020 Winter on McGill Statistics Seminars</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 27 Mar 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://mcgillstat.github.io/tags/2020-winter/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A gentle introduction to generalized structured component analysis and its recent developments</title>
+      <link>https://mcgillstat.github.io/post/2020winter/2020-03-27/</link>
+      <pubDate>Fri, 27 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://mcgillstat.github.io/post/2020winter/2020-03-27/</guid>
+      <description>Date: 2020-03-27 Time: 15:30-16:30 Location: BURNSIDE 1205 Abstract: Generalized structured component analysis (GSCA) was developed as a component-based approach to structural equation modeling, where constructs are represented by components or weighted composites of observed variables, rather than (common) factors. Unlike another long-lasting component-based approach – partial least squares path modeling, GSCA is a full-information method that optimizes a single criterion to estimate model parameters simultaneously, utilizing all information available in the entire system of equations.</description>
+    </item>
+    
+    <item>
+      <title>Informative Prior Elicitation from Historical Individual Patient Data</title>
+      <link>https://mcgillstat.github.io/post/2020winter/2020-03-20/</link>
+      <pubDate>Fri, 20 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://mcgillstat.github.io/post/2020winter/2020-03-20/</guid>
+      <description>Date: 2020-03-20 Time: 15:30-16:30 Location: BURNSIDE 1205 Abstract: Historical data from previous studies may be utilized to strengthen statistical inference. Under the Bayesian framework incorporation of information obtained from any source other than the current data is facilitated through construction of an informative prior. The existing methodology for defining an informative prior based on historical data relies on measuring similarity to the current data at the study level that can result in discarding useful individual patient data (IPD).</description>
+    </item>
+    
+    <item>
+      <title>Geometry-based Data Exploration</title>
+      <link>https://mcgillstat.github.io/post/2020winter/2020-03-13/</link>
+      <pubDate>Fri, 13 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://mcgillstat.github.io/post/2020winter/2020-03-13/</guid>
+      <description>Date: 2020-03-13 Time: 15:30-16:30 Location: BURNSIDE 1205 Abstract: High-throughput data collection technologies are becoming increasingly common in many fields, especially in biomedical applications involving single cell data (e.g., scRNA-seq and CyTOF). These introduce a rising need for exploratory analysis to reveal and understand hidden structure in the collected (high-dimensional) Big Data. A crucial aspect in such analysis is the separation of intrinsic data geometry from data distribution, as (a) the latter is typically biased by collection artifacts and data availability, and (b) rare subpopulations and sparse transitions between meta-stable states are often of great interest in biomedical data analysis.</description>
+    </item>
+    
+    <item>
+      <title>Neyman-Pearson classification: parametrics and sample size requirement</title>
+      <link>https://mcgillstat.github.io/post/2020winter/2020-02-28/</link>
+      <pubDate>Fri, 28 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://mcgillstat.github.io/post/2020winter/2020-02-28/</guid>
+      <description>Date: 2020-02-28 Time: 15:30-16:30 Location: BURNSIDE 1104 Abstract: The Neyman-Pearson (NP) paradigm in binary classification seeks classifiers that achieve a minimal type II error while enforcing the prioritized type I error controlled under some user-specified level alpha. This paradigm serves naturally in applications such as severe disease diagnosis and spam detection, where people have clear priorities among the two error types. Recently, Tong, Feng and Li (2018) proposed a nonparametric umbrella algorithm that adapts all scoring-type classification methods (e.</description>
+    </item>
+    
+    <item>
+      <title>Non-central squared copulas: properties and applications</title>
+      <link>https://mcgillstat.github.io/post/2020winter/2020-02-21/</link>
+      <pubDate>Fri, 21 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://mcgillstat.github.io/post/2020winter/2020-02-21/</guid>
+      <description>Date: 2020-02-21 Time: 15:30-16:30 Location: BURNSIDE 1205 Abstract: The goal of this presentation is to introduce new families of multivariate copulas, extending the chi-square copulas, the Fisher copula, and squared copulas. The new families are constructed from existing copulas by first transforming their margins to standard Gaussian distributions, then transforming these variables into non-central chi-square variables with one degree of freedom, and finally by considering the copula associated with these new variables.</description>
+    </item>
+    
+    <item>
+      <title>Sharing Sustainable Mobility in Smart Cities</title>
+      <link>https://mcgillstat.github.io/post/2020winter/2020-02-14/</link>
+      <pubDate>Fri, 14 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://mcgillstat.github.io/post/2020winter/2020-02-14/</guid>
+      <description>Date: 2020-02-14 Time: 15:30-16:30 Location: BURNSIDE 1205 Abstract: Many cities worldwide are embracing electric vehicle (EV) sharing as a flexible and sustainable means of urban transit. However, it remains challenging for the operators to charge the fleet due to limited or costly access to charging facilities. In this work, we focus on answering the core question - how to charge the fleet to make EV sharing viable and profitable. Our work is motivated by the recent setback that struck San Diego, California, where car2go ceased its EV sharing operations.</description>
+    </item>
+    
+    <item>
+      <title>Adapting black-box machine learning methods for causal inference</title>
+      <link>https://mcgillstat.github.io/post/2020winter/2020-01-31/</link>
+      <pubDate>Fri, 31 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://mcgillstat.github.io/post/2020winter/2020-01-31/</guid>
+      <description>Date: 2020-01-31 Time: 15:30-16:30 Location: BURNSIDE 1104 Abstract: I&amp;rsquo;ll discuss the use of observational data to estimate the causal effect of a treatment on an outcome. This task is complicated by the presence of &amp;ldquo;confounders&amp;rdquo; that influence both treatment and outcome, inducing observed associations that are not causal. Causal estimation is achieved by adjusting for this confounding by using observed covariate information. I&amp;rsquo;ll discuss the case where we observe covariates that carry sufficient information for the adjustment.</description>
+    </item>
+    
+    <item>
+      <title>Estimation and inference for changepoint models</title>
+      <link>https://mcgillstat.github.io/post/2020winter/2020-01-13/</link>
+      <pubDate>Mon, 13 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://mcgillstat.github.io/post/2020winter/2020-01-13/</guid>
+      <description>Date: 2020-01-13 Time: 15:30-16:30 Location: BURNSIDE 1205 Abstract: This talk is motivated by statistical challenges that arise in the analysis of calcium imaging data, a new technology in neuroscience that makes it possible to record from huge numbers of neurons at single-neuron resolution. In the first part of this talk, I will consider the problem of estimating a neuron&amp;rsquo;s spike times from calcium imaging data. A simple and natural model suggests a non-convex optimization problem for this task.</description>
+    </item>
+    
+  </channel>
+</rss>

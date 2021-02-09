@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2019 Fall on McGill Statistics Seminars</title>
+    <link>https://mcgillstat.github.io/tags/2019-fall/</link>
+    <description>Recent content in 2019 Fall on McGill Statistics Seminars</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 29 Nov 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://mcgillstat.github.io/tags/2019-fall/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Convergence rates for diffusions-based sampling and optimization methods</title>
+      <link>https://mcgillstat.github.io/post/2019fall/2019-11-29/</link>
+      <pubDate>Fri, 29 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://mcgillstat.github.io/post/2019fall/2019-11-29/</guid>
+      <description>Date: 2019-11-29 Time: 15:30-16:30 Location: BURN 1205 Abstract: An Euler discretization of the Langevin diffusion is known to converge to the global minimizers of certain convex and non-convex optimization problems. We show that this property holds for any suitably smooth diffusion and that different diffusions are suitable for optimizing different classes of convex and non-convex functions. This allows us to design diffusions suitable for globally optimizing convex and non-convex functions not covered by the existing Langevin theory.</description>
+    </item>
+    
+    <item>
+      <title>Formulation and solution of stochastic inverse problems for science and engineering models</title>
+      <link>https://mcgillstat.github.io/post/2019fall/2019-11-22/</link>
+      <pubDate>Fri, 22 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://mcgillstat.github.io/post/2019fall/2019-11-22/</guid>
+      <description>Date: 2019-11-22 Time: 16:00-17:00 Location: Pavillon Kennedy, PK-5115, UQAM Abstract: The stochastic inverse problem of determining probability structures on input parameters for a physics model corresponding to a given probability structure on the output of the model forms the core of scientific inference and engineering design. We describe a formulation and solution method for stochastic inverse problems that is based on functional analysis, differential geometry, and probability/measure theory. This approach yields a computationally tractable problem while avoiding alterations of the model like regularization and ad hoc assumptions about the probability structures.</description>
+    </item>
+    
+    <item>
+      <title> Logarithmic divergence: from finance to optimal transport and information geometry</title>
+      <link>https://mcgillstat.github.io/post/2019fall/2019-11-15/</link>
+      <pubDate>Fri, 15 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://mcgillstat.github.io/post/2019fall/2019-11-15/</guid>
+      <description>Date: 2019-11-15 Time: 15:30-16:30 Location: BURN 1205 Abstract: Divergences, such as the Kullback-Leibler divergence, are distance-like quantities which arise in many applications in probability, statistics and data science. We introduce a family of logarithmic divergences which is a non-linear extension of the celebrated Bregman divergence. It is defined for any exponentially concave function (a function whose exponential is concave). We motivate this divergence by mathematical finance and large deviations of Dirichlet process.</description>
+    </item>
+    
+    <item>
+      <title>Joint Robust Multiple Inference on Large Scale Multivariate Regression</title>
+      <link>https://mcgillstat.github.io/post/2019fall/2019-11-08/</link>
+      <pubDate>Fri, 08 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://mcgillstat.github.io/post/2019fall/2019-11-08/</guid>
+      <description>Date: 2019-11-08 Time: 15:30-16:30 Location: BURN 1205 Abstract: Large scale multivariate regression with many heavy-tailed responses arises in a wide range of areas from genomics, financial asset pricing, banking regulation, to psychology and social studies. Simultaneously testing a large number of general linear hypotheses, such as multiple contrasts, based on the large scale multivariate regression reveals a variety of associations between responses and regression or experimental factors. Traditional multiple testing methods often ignore the effect of heavy-tailedness in the data and impose joint normality assumption that is arguably stringent in applications.</description>
+    </item>
+    
+    <item>
+      <title>General Bayesian Modeling</title>
+      <link>https://mcgillstat.github.io/post/2019fall/2019-11-01/</link>
+      <pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://mcgillstat.github.io/post/2019fall/2019-11-01/</guid>
+      <description>Date: 2019-11-01 Time: 16:00-17:00 Location: BURN 1104 Abstract: The work is motivated by the inflexibility of Bayesian modeling; in that only parameters of probability models are required to be connected with data. The idea is to generalize this by allowing arbitrary unknowns to be connected with data via loss functions. An updating process is then detailed which can be viewed as arising in at least a couple of ways - one being purely axiomatically driven.</description>
+    </item>
+    
+    <item>
+      <title>Learning Connectivity Networks from High-Dimensional Point Processes</title>
+      <link>https://mcgillstat.github.io/post/2019fall/2019-10-25/</link>
+      <pubDate>Fri, 25 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://mcgillstat.github.io/post/2019fall/2019-10-25/</guid>
+      <description>Date: 2019-10-25 Time: 15:30-16:30 Location: BURN 1205 Abstract: High-dimensional point processes have become ubiquitous in many scientific fields. For instance, neuroscientists use calcium florescent imaging to monitor the firing of thousands of neurons in live animals. In this talk, I will discuss new methodological, computational and theoretical developments for learning neuronal connectivity networks from high-dimensional point processes. Time permitting, I will also discuss a new approach for handling non-stationarity in high-dimensional time series.</description>
+    </item>
+    
+    <item>
+      <title>Univariate and multivariate extremes of extendible random vectors</title>
+      <link>https://mcgillstat.github.io/post/2019fall/2019-10-18/</link>
+      <pubDate>Fri, 18 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://mcgillstat.github.io/post/2019fall/2019-10-18/</guid>
+      <description>Date: 2019-10-18 Time: 15:30-16:30 Location: BURN 1205 Abstract: In its most common form extreme value theory is concerned with the limiting distribution of location-scale transformed block-maxima $M_n = \max(X_1,\dots,X_n)$ of a sequence of identically distributed random variables $(X_i)$, $i\geq 1$. In case the members of the sequence $(X_i)$ are independent, the weak limiting behaviour of $M_n$ is adequately described by the classical Fisher-Tippett-Gnedenko theorem. In this presentation we are interested in the case of dependent random variables $(X_i)$ while retaining a common marginal distribution function $F$ for all $X_i$, $i\in\mathbb{N}$.</description>
+    </item>
+    
+    <item>
+      <title>Repulsiveness for integration (not my social program)</title>
+      <link>https://mcgillstat.github.io/post/2019fall/2019-10-11/</link>
+      <pubDate>Fri, 11 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://mcgillstat.github.io/post/2019fall/2019-10-11/</guid>
+      <description>Date: 2019-10-11 Time: 15:30-16:30 Location: BURN 1205 Abstract: Integral estimation in any dimension is an extensive topic, largely treated in the literature, with a broad range of applications. Monte-Carlo type methods arise naturally when one looks forward to quantifying/controlling the error. Many methods have already been developped: MCMC, Poisson disk sampling, QMC (and randomized versions), Bayesian quadrature, etc. In this talk, I&amp;rsquo;ll consider a different approach which consists in defining the quadrature nodes as the realization of a spatial point process.</description>
+    </item>
+    
+    <item>
+      <title>Tales of tails, tiles and ties in dependence modeling</title>
+      <link>https://mcgillstat.github.io/post/2019fall/2019-10-04/</link>
+      <pubDate>Fri, 04 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://mcgillstat.github.io/post/2019fall/2019-10-04/</guid>
+      <description>Date: 2019-10-04 Time: 16:00-17:00 Location: CRM, UdeM, Pav. André-Aisenstadt, 2920, ch. de la Tour, salle 1355 Abstract: Modeling dependence between random variables is omnipresent in statistics. When rare events with high impact are involved, such as severe storms, floods or heat waves, the issue is both of great importance for risk management and theoretically challenging. Combining extreme-value theory with copula modeling and rank-based inference yields a particularly flexible and promising approach to this problem.</description>
+    </item>
+    
+    <item>
+      <title>Regression Models for Spatial Images</title>
+      <link>https://mcgillstat.github.io/post/2019fall/2019-09-27/</link>
+      <pubDate>Fri, 27 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://mcgillstat.github.io/post/2019fall/2019-09-27/</guid>
+      <description>Date: 2019-09-27 Time: 15:30-16:30 Location: McIntyre Medical Building, Room 521 Abstract: This work is motivated by a problem in describing forest nitrogen cycling, and a consequent goal of constructing regression models for spatial images. Specifically, I present a functional concurrent linear model (FLCM) with varying coefficients for two-dimensional spatial images. To address overparameterization issues, the parameter surfaces in this model are transformed into the wavelet domain and then sparse representations are found using two different methods: LASSO and Bayesian variable selection.</description>
+    </item>
+    
+    <item>
+      <title>Deep Representation Learning using Discrete Domain Symmetries</title>
+      <link>https://mcgillstat.github.io/post/2019fall/2019-09-20/</link>
+      <pubDate>Fri, 20 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://mcgillstat.github.io/post/2019fall/2019-09-20/</guid>
+      <description>Date: 2019-09-20 Time: 15:30-16:30 Location: BURN 1205 Abstract: Symmetry has played a significant role in modern physics, in part by constraining the physical laws. I will discuss how it could play a fundamental role in AI by constraining the deep model design. In particular, I focus on discrete domain symmetries and through examples show how we can use this inductive bias as a principled means for constraining a feedforward layer and significantly improving its sample efficiency.</description>
+    </item>
+    
+    <item>
+      <title>Integrative computational approach in genomics and healthcare</title>
+      <link>https://mcgillstat.github.io/post/2019fall/2019-09-13/</link>
+      <pubDate>Fri, 13 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://mcgillstat.github.io/post/2019fall/2019-09-13/</guid>
+      <description>Date: 2019-09-13 Time: 15:30-16:30 Location: BURN 1205 Abstract: In the current era of multi-omics and digital healthcare, we are facing unprecedented amount of data with tremendous opportunities to link molecular phenotypes with complex diseases. However, the lack of integrative statistical method hinders system-level interrogation of relevant disease-related pathways and the genetic implication in various healthcare outcome.
+In this talk, I will present our current progress in mining genomics and healthcare data.</description>
+    </item>
+    
+    <item>
+      <title>MAPLE; Semiparametric Estimation and Variable Selection for Length-biased Data with Heavy Censoring</title>
+      <link>https://mcgillstat.github.io/post/2019fall/2019-09-06/</link>
+      <pubDate>Fri, 06 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://mcgillstat.github.io/post/2019fall/2019-09-06/</guid>
+      <description>Date: 2019-09-06 Time: 15:30-16:30 Location: BURN 1205 Abstract: In this talk, we discuss two problems of semiparametric estimation and variable selection for length-biased data with heavy censoring. The common feature of the proposed estimation procedures in the literature is that they only put probability mass on failure times. Under length-biased sampling, however, censoring is informative and failing to incorporate censored observations into estimation can lead to a substantial loss of efficiency.</description>
+    </item>
+    
+  </channel>
+</rss>

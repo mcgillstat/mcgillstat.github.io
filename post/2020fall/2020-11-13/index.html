@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+<meta name="pinterest" content="nopin">
+<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+<meta name="generator" content="Hugo 0.80.0" />
+
+
+
+<link rel="canonical" href="https://mcgillstat.github.io/post/2020fall/2020-11-13/">
+
+
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/solarized_dark.min.css">
+    <title>Approximate Cross-Validation for Large Data and High Dimensions - McGill Statistics Seminars</title>
+    
+<meta name="description" content="Date: 2020-11-13 Time: 15:30-16:30 Zoom Link Abstract: The error or variability of statistical and machine learning algorithms is often assessed by repeatedly re-fitting a model with different weighted versions of the observed data. The ubiquitous tools of cross-validation (CV) and the bootstrap are examples of this technique. These methods are powerful in large part due to their model agnosticism but can be slow to run on modern, large data sets due to the need to repeatedly re-fit the model.">
+
+<meta property="og:title" content="Approximate Cross-Validation for Large Data and High Dimensions - McGill Statistics Seminars">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://mcgillstat.github.io/post/2020fall/2020-11-13/">
+<meta property="og:image" content="https://mcgillstat.github.io/images/default.png">
+<meta property="og:site_name" content="McGill Statistics Seminars">
+<meta property="og:description" content="Date: 2020-11-13 Time: 15:30-16:30 Zoom Link Abstract: The error or variability of statistical and machine learning algorithms is often assessed by repeatedly re-fitting a model with different weighted versions of the observed data. The ubiquitous tools of cross-validation (CV) and the bootstrap are examples of this technique. These methods are powerful in large part due to their model agnosticism but can be slow to run on modern, large data sets due to the need to repeatedly re-fit the model.">
+<meta property="og:locale" content="ja_JP">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="McGill Statistics Seminars">
+<meta name="twitter:url" content="https://mcgillstat.github.io/post/2020fall/2020-11-13/">
+<meta name="twitter:title" content="Approximate Cross-Validation for Large Data and High Dimensions - McGill Statistics Seminars">
+<meta name="twitter:description" content="Date: 2020-11-13 Time: 15:30-16:30 Zoom Link Abstract: The error or variability of statistical and machine learning algorithms is often assessed by repeatedly re-fitting a model with different weighted versions of the observed data. The ubiquitous tools of cross-validation (CV) and the bootstrap are examples of this technique. These methods are powerful in large part due to their model agnosticism but can be slow to run on modern, large data sets due to the need to repeatedly re-fit the model.">
+<meta name="twitter:image" content="https://mcgillstat.github.io/images/default.png">
+
+
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "NewsArticle",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id":"https:\/\/mcgillstat.github.io\/"
+    },
+    "headline": "Approximate Cross-Validation for Large Data and High Dimensions - McGill Statistics Seminars",
+    "image": {
+      "@type": "ImageObject",
+      "url": "https:\/\/mcgillstat.github.io\/images\/default.png",
+      "height": 800,
+      "width": 800
+    },
+    "datePublished": "2020-11-13T00:00:00JST",
+    "dateModified": "2020-11-13T00:00:00JST",
+    "author": {
+      "@type": "Person",
+      "name": "McGill Statistics Seminars"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "McGill Statistics Seminars",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https:\/\/mcgillstat.github.io\/images/logo.png",
+        "width": 600,
+        "height": 60
+      }
+    },
+    "description": "Date: 2020-11-13 Time: 15:30-16:30 Zoom Link Abstract: The error or variability of statistical and machine learning algorithms is often assessed by repeatedly re-fitting a model with different weighted versions of the observed data. The ubiquitous tools of cross-validation (CV) and the bootstrap are examples of this technique. These methods are powerful in large part due to their model agnosticism but can be slow to run on modern, large data sets due to the need to repeatedly re-fit the model."
+  }
+</script>
+
+
+    <link href="https://mcgillstat.github.io/css/styles.css" rel="stylesheet">
+    
+
+  </head>
+
+  <body>
+    
+    
+    
+
+    <header class="l-header">
+      <nav class="navbar navbar-default">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="https://mcgillstat.github.io/">McGill Statistics Seminars</a>
+          </div>
+
+          
+          <div id="navbar" class="collapse navbar-collapse">
+            
+            <ul class="nav navbar-nav navbar-right">
+              
+              
+              <li><a href="/">Current Seminar Series</a></li>
+              
+              
+              
+              <li><a href="/post/">Past Seminar Series</a></li>
+              
+              
+            </ul>
+            
+          </div>
+          
+
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="container">
+        
+<div class="row">
+  <div class="col-md-8">
+
+    <nav class="p-crumb">
+      <ol class="breadcrumb">
+        <li><a href="https://mcgillstat.github.io/"><i class="fa fa-home" aria-hidden="true"></i></a></li>
+        
+        <li itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="https://mcgillstat.github.io/post/" itemprop="url"><span itemprop="title">post</span></a></li>
+        
+        <li class="active">Tamara Broderick</li>
+      </ol>
+    </nav>
+
+    <article class="single">
+  <header>
+    <ul class="p-facts">
+      <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2020-11-13T00:00:00JST">Nov 13, 2020</time></li>
+      <li><i class="fa fa-bookmark" aria-hidden="true"></i><a href="https://mcgillstat.github.io/post/">post</a></li>
+      
+    </ul>
+
+    <h2 class="title">Approximate Cross-Validation for Large Data and High Dimensions</h1>
+    <h3 class="post-meta">Tamara Broderick </h3>
+    
+  </header>
+
+  
+
+  <div class="article-body"><h4 id="date-2020-11-13">Date: 2020-11-13</h4>
+<h4 id="time-1530-1630">Time: 15:30-16:30</h4>
+<h4 id="zoom-linkhttpcrmumontrealcacolloque-sciences-mathematiques-quebeccsmq"><a href="http://crm.umontreal.ca/colloque-sciences-mathematiques-quebec/#csmq">Zoom Link</a></h4>
+<h2 id="abstract">Abstract:</h2>
+<p>The error or variability of statistical and machine learning algorithms
+is often assessed by repeatedly re-fitting a model with different
+weighted versions of the observed data.  The ubiquitous tools of
+cross-validation (CV) and the bootstrap are examples of this technique.
+These methods are powerful in large part due to their model agnosticism
+but can be slow to run on modern, large data sets due to the need to
+repeatedly re-fit the model.  We use a linear approximation to the
+dependence of the fitting procedure on the weights, producing results
+that can be faster than repeated re-fitting by orders of magnitude.
+This linear approximation is sometimes known as the &ldquo;infinitesimal
+jackknife&rdquo; (IJ) in the statistics literature, where it has mostly been
+used as a theoretical tool to prove asymptotic results.  We provide
+explicit finite-sample error bounds for the infinitesimal jackknife in
+terms of a small number of simple, verifiable assumptions.  Without
+further modification, though, we note that the IJ deteriorates in
+accuracy in high dimensions and incurs a running time roughly cubic in
+dimension.  We additionally show, then, how dimensionality reduction can
+be used to successfully run the IJ in high dimensions when data is
+sparse or low rank.  Simulated and real-data experiments support our
+theory.</p>
+<h2 id="speaker">Speaker</h2>
+<p>Tamara Broderick is an Associate Professor in the Department of Electrical Engineering and Computer Science at MIT. She is a member of the MIT Computer Science and Artificial Intelligence Laboratory (CSAIL), the MIT Statistics and Data Science Center, and the Institute for Data, Systems, and Society (IDSS). She completed her Ph.D. in Statistics at the University of California, Berkeley in 2014. Previously, she received an AB in Mathematics from Princeton University (2007), a Master of Advanced Study for completion of Part III of the Mathematical Tripos from the University of Cambridge (2008), an MPhil by research in Physics from the University of Cambridge (2009), and an MS in Computer Science from the University of California, Berkeley (2013). Her recent research has focused on developing and analyzing models for scalable Bayesian machine learning. She has been awarded an Early Career Grant (ECG) from the Office of Naval Research (2020), an AISTATS Notable Paper Award (2019), an NSF CAREER Award (2018), a Sloan Research Fellowship (2018), an Army Research Office Young Investigator Program (YIP) award (2017), Google Faculty Research Awards, an Amazon Research Award, the ISBA Lifetime Members Junior Researcher Award, the Savage Award (for an outstanding doctoral dissertation in Bayesian theory and methods), the Evelyn Fix Memorial Medal and Citation (for the Ph.D. student on the Berkeley campus showing the greatest promise in statistical research), the Berkeley Fellowship, an NSF Graduate Research Fellowship, a Marshall Scholarship, and the Phi Beta Kappa Prize (for the graduating Princeton senior with the highest academic average).</p>
+</div>
+
+  <footer class="article-footer">
+    
+    
+    
+    <section class="bordered">
+      <header>
+        <div class="panel-title">CATEGORIES</div>
+      </header>
+      <div>
+        <ul class="p-terms">
+          
+          <li><a href="https://mcgillstat.github.io/categories/crm-colloquium/">CRM-Colloquium</a></li>
+          
+        </ul>
+      </div>
+    </section>
+    
+    
+    
+    <section class="bordered">
+      <header>
+        <div class="panel-title">TAGS</div>
+      </header>
+      <div>
+        <ul class="p-terms">
+          
+          <li><a href="https://mcgillstat.github.io/tags/2020-fall/">2020 Fall</a></li>
+          
+        </ul>
+      </div>
+    </section>
+    
+    
+  </footer>
+
+</article>
+
+
+    
+  </div>
+
+  <div class="col-md-4">
+    
+<aside class="l-sidebar">
+
+  <section class="panel panel-default">
+    <div class="panel-heading">
+      <div class="panel-title">Recent Talks</div>
+    </div>
+    <div class="list-group">
+      
+      <a href="https://mcgillstat.github.io/tags/2021-winter/" class="list-group-item"> · Feb 19, 2021</a>
+      
+      <a href="https://mcgillstat.github.io/categories/" class="list-group-item"> · Feb 19, 2021</a>
+      
+      <a href="https://mcgillstat.github.io/post/2021winter/2021-02-19/" class="list-group-item">Emily Hector · Feb 19, 2021</a>
+      
+      <a href="https://mcgillstat.github.io/categories/mcgill-statistics-seminar/" class="list-group-item"> · Feb 19, 2021</a>
+      
+      <a href="https://mcgillstat.github.io/tags/" class="list-group-item"> · Feb 19, 2021</a>
+      
+    </div>
+  </section>
+
+  
+  <section class="panel panel-default">
+    <div class="panel-heading">
+      <div class="panel-title">CATEGORY</div>
+    </div>
+    <div class="list-group">
+      
+      <a href="https://mcgillstat.github.io/categories/mcgill-statistics-seminar" class="list-group-item">mcgill-statistics-seminar</a>
+      
+      <a href="https://mcgillstat.github.io/categories/crm-ssc-prize-address" class="list-group-item">crm-ssc-prize-address</a>
+      
+      <a href="https://mcgillstat.github.io/categories/crm-colloquium" class="list-group-item">crm-colloquium</a>
+      
+    </div>
+  </section>
+  
+  <section class="panel panel-default">
+    <div class="panel-heading">
+      <div class="panel-title">TAG</div>
+    </div>
+    <div class="list-group">
+      
+      <a href="https://mcgillstat.github.io/tags/2021-winter" class="list-group-item">2021-winter</a>
+      
+      <a href="https://mcgillstat.github.io/tags/2020-winter" class="list-group-item">2020-winter</a>
+      
+      <a href="https://mcgillstat.github.io/tags/2020-fall" class="list-group-item">2020-fall</a>
+      
+      <a href="https://mcgillstat.github.io/tags/2019-winter" class="list-group-item">2019-winter</a>
+      
+      <a href="https://mcgillstat.github.io/tags/2019-fall" class="list-group-item">2019-fall</a>
+      
+      <a href="https://mcgillstat.github.io/tags/2018-winter" class="list-group-item">2018-winter</a>
+      
+      <a href="https://mcgillstat.github.io/tags/2018-fall" class="list-group-item">2018-fall</a>
+      
+      <a href="https://mcgillstat.github.io/tags/2017-winter" class="list-group-item">2017-winter</a>
+      
+      <a href="https://mcgillstat.github.io/tags/2017-fall" class="list-group-item">2017-fall</a>
+      
+      <a href="https://mcgillstat.github.io/tags/2016-winter" class="list-group-item">2016-winter</a>
+      
+      <a href="https://mcgillstat.github.io/tags/2016-fall" class="list-group-item">2016-fall</a>
+      
+      <a href="https://mcgillstat.github.io/tags/2015-winter" class="list-group-item">2015-winter</a>
+      
+      <a href="https://mcgillstat.github.io/tags/2015-fall" class="list-group-item">2015-fall</a>
+      
+      <a href="https://mcgillstat.github.io/tags/2014-winter" class="list-group-item">2014-winter</a>
+      
+      <a href="https://mcgillstat.github.io/tags/2014-fall" class="list-group-item">2014-fall</a>
+      
+      <a href="https://mcgillstat.github.io/tags/2013-winter" class="list-group-item">2013-winter</a>
+      
+      <a href="https://mcgillstat.github.io/tags/2013-fall" class="list-group-item">2013-fall</a>
+      
+      <a href="https://mcgillstat.github.io/tags/2012-winter" class="list-group-item">2012-winter</a>
+      
+      <a href="https://mcgillstat.github.io/tags/2012-fall" class="list-group-item">2012-fall</a>
+      
+      <a href="https://mcgillstat.github.io/tags/2011-fall" class="list-group-item">2011-fall</a>
+      
+    </div>
+  </section>
+  
+
+</aside>
+
+
+
+    <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
+    
+    <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+            displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+            processEscapes: true,
+            processEnvironments: true
+        },
+        // Center justify equations in code and markdown cells. Elsewhere
+        // we use CSS to left justify single line equations in code cells.
+        displayAlign: 'center',
+        "HTML-CSS": {
+            styles: {'.MathJax_Display': {"margin": 0}},
+            linebreaks: { automatic: true }
+        }
+    });
+    </script>
+    
+  </div>
+</div>
+
+      </div>
+    </main>
+
+    <footer class="l-footer">
+      <div class="container">
+        <p><span class="h-logo">&copy; McGill Statistics Seminars</span></p>
+        <aside>
+          <p><a href="http://www.mcgill.ca/mathstat/">Department of Mathematics and Statistics</a>.</p>
+          <p><a href="https://www.mcgill.ca/">McGill University</a></p>
+        </aside>
+      </div>
+    </footer>
+
+    <script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+  </body>
+</html>
+
