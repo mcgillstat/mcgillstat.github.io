@@ -6,25 +6,7 @@
     <description>Recent content in 2021 Winter on McGill Statistics Seminars</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 19 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://mcgillstat.github.io/tags/2021-winter/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Joint integrative analysis of multiple data sources with correlated vector outcomes</title>
-      <link>https://mcgillstat.github.io/post/2021winter/2021-02-19/</link>
-      <pubDate>Fri, 19 Feb 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://mcgillstat.github.io/post/2021winter/2021-02-19/</guid>
-      <description>Date: 2021-02-19 Time: 15:30-16:30 (Montreal time) Zoom Link Meeting ID: 843 0865 5572 Passcode: 690084 Abstract: We consider the joint estimation of regression parameters from multiple potentially heterogeneous data sources with correlated vector outcomes. The primary goal of this joint integrative analysis is to estimate covariate effects on all vector outcomes through a marginal regression model in a statistically and computationally efficient way. We present a general class of distributed estimators that can be implemented in a parallelized computational scheme.</description>
-    </item>
-    
-    <item>
-      <title>Spatio-temporal methods for estimating subsurface ocean thermal response to tropical cyclones</title>
-      <link>https://mcgillstat.github.io/post/2021winter/2021-02-12/</link>
-      <pubDate>Fri, 12 Feb 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://mcgillstat.github.io/post/2021winter/2021-02-12/</guid>
-      <description>Date: 2021-02-12 Time: 15:30-16:30 (Montreal time) Zoom Link Meeting ID: 939 8331 3215 Passcode: 096952 Abstract: Tropical cyclones (TCs), driven by heat exchange between the air and sea, pose a substantial risk to many communities around the world. Accurate characterization of the subsurface ocean thermal response to TC passage is crucial for accurate TC intensity forecasts and for understanding the role TCs play in the global climate system, yet that characterization is complicated by the high-noise ocean environment, correlations inherent in spatio-temporal data, relative scarcity of in situ observations and the entanglement of the TC-induced signal with seasonal signals.</description>
-    </item>
-    
+    <lastBuildDate>Fri, 05 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://mcgillstat.github.io/tags/2021-winter/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>An Adaptive Algorithm to Multi-armed Bandit Problem with High-dimensional Covariates</title>
       <link>https://mcgillstat.github.io/post/2021winter/2021-02-05/</link>
