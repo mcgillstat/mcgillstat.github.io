@@ -8,6 +8,15 @@
     <language>en-us</language>
     <lastBuildDate>Fri, 28 Sep 2012 00:00:00 +0000</lastBuildDate><atom:link href="https://mcgillstat.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>CoinPress: Practical Private Point Estimation and Confidence Intervals</title>
+      <link>https://mcgillstat.github.io/post/2021winter/2021-02-26/</link>
+      <pubDate>Fri, 26 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mcgillstat.github.io/post/2021winter/2021-02-26/</guid>
+      <description>Date: 2021-02-26 Time: 15:30-16:30 (Montreal time) Zoom Link Meeting ID: 843 0865 5572 Passcode: 690084 Abstract: We consider point estimation and generation of confidence intervals under the constraint of differential privacy. We provide a simple and practical framework for these tasks in relatively general settings. Our investigation addresses a novel challenge that arises in the differentially private setting, which involves the cost of weak a priori bounds on the parameters of interest.</description>
+    </item>
+    
+    <item>
       <title>Joint integrative analysis of multiple data sources with correlated vector outcomes</title>
       <link>https://mcgillstat.github.io/post/2021winter/2021-02-19/</link>
       <pubDate>Fri, 19 Feb 2021 00:00:00 +0000</pubDate>
