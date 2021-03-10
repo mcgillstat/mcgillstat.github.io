@@ -6,7 +6,16 @@
     <description>Recent content in CRM-Colloquium on McGill Statistics Seminars</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 12 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://mcgillstat.github.io/categories/crm-colloquium/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 12 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://mcgillstat.github.io/categories/crm-colloquium/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Nonparametric Tests for Informative Selection in Complex Surveys</title>
+      <link>https://mcgillstat.github.io/post/2021winter/2021-03-12/</link>
+      <pubDate>Fri, 12 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mcgillstat.github.io/post/2021winter/2021-03-12/</guid>
+      <description>Date: 2021-03-12 Time: 15:30-16:30 (Montreal time) Zoom Link Meeting ID: 939 8331 3215 Passcode: 096952 Abstract: Informative selection, in which the distribution of response variables given that they are sampled is different from their distribution in the population, is pervasive in complex surveys. Failing to take such informativeness into account can produce severe inferential errors, including biased and inconsistent estimation of population parameters. While several parametric procedures exist to test for informative selection, these methods are limited in scope and their parametric assumptions are difficult to assess.</description>
+    </item>
+    
     <item>
       <title>Spatio-temporal methods for estimating subsurface ocean thermal response to tropical cyclones</title>
       <link>https://mcgillstat.github.io/post/2021winter/2021-02-12/</link>
