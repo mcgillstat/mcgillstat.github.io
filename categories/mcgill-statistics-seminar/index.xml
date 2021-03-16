@@ -6,7 +6,16 @@
     <description>Recent content in McGill Statistics Seminar on McGill Statistics Seminars</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 26 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://mcgillstat.github.io/categories/mcgill-statistics-seminar/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 19 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://mcgillstat.github.io/categories/mcgill-statistics-seminar/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Measuring timeliness of annual reports filing by jump additive models</title>
+      <link>https://mcgillstat.github.io/post/2021winter/2021-03-19/</link>
+      <pubDate>Fri, 19 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mcgillstat.github.io/post/2021winter/2021-03-19/</guid>
+      <description>Date: 2021-03-19 Time: 15:30-16:30 (Montreal time) Zoom Link Meeting ID: 843 0865 5572 Passcode: 690084 Abstract: Foreign public issuers (FPIs) are required by the Securities and Exchanges Commission (SEC) to file Form 20-F as comprehensive annual reports. In an effort to increase the usefulness of 20-Fs, the SEC recently enacted a regulation to accelerate the deadline of 20-F filing from six months to four months after the fiscal year-end. The rationale is that the shortened reporting lag would improve the informational relevance of 20-Fs.</description>
+    </item>
+    
     <item>
       <title>CoinPress: Practical Private Point Estimation and Confidence Intervals</title>
       <link>https://mcgillstat.github.io/post/2021winter/2021-02-26/</link>
