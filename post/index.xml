@@ -8,6 +8,15 @@
     <language>en-us</language>
     <lastBuildDate>Fri, 28 Sep 2012 00:00:00 +0000</lastBuildDate><atom:link href="https://mcgillstat.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Learning Causal Structures via Continuous Optimization</title>
+      <link>https://mcgillstat.github.io/post/2021winter/2021-03-26/</link>
+      <pubDate>Fri, 26 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mcgillstat.github.io/post/2021winter/2021-03-26/</guid>
+      <description>Date: 2021-03-26 Time: 15:30-16:30 (Montreal time) Zoom Link Meeting ID: 843 0865 5572 Passcode: 690084 Abstract: There has been a recent surge of interest in the machine learning community in developing causal models that handle the effect of interventions in a system. In this talk, I will consider the problem of learning (estimating) a causal graphical model from data. The search over possible directed acyclic graphs modeling the causal structure is inherently combinatorial, but I&amp;rsquo;ll describe our recent work which use gradient-based continuous optimization for learning both the parameters of the distribution and the causal graph jointly, and can be combined naturally with flexible parametric families that use neural networks.</description>
+    </item>
+    
+    <item>
       <title>Measuring timeliness of annual reports filing by jump additive models</title>
       <link>https://mcgillstat.github.io/post/2021winter/2021-03-19/</link>
       <pubDate>Fri, 19 Mar 2021 00:00:00 +0000</pubDate>
