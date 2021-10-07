@@ -17,6 +17,15 @@
     </item>
     
     <item>
+      <title>Imbalanced learning using actuarial modified loss function in tree-based models</title>
+      <link>https://mcgillstat.github.io/post/2021fall/2021-10-08/</link>
+      <pubDate>Fri, 08 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mcgillstat.github.io/post/2021fall/2021-10-08/</guid>
+      <description>Date: 2021-10-08 Time: 15:30-16:30 (Montreal time) https://mcgill.zoom.us/j/83436686293?pwd=b0RmWmlXRXE3OWR6NlNIcWF5d0dJQT09 Meeting ID: 834 3668 6293 Passcode: 12345 Abstract: Tree-based models have gained momentum in insurance claim loss modeling; however, the point mass at zero and the heavy tail of insurance loss distribution pose the challenge to apply conventional methods directly to claim loss modeling. With a simple illustrative dataset, we first demonstrate how the traditional tree-based algorithm&amp;rsquo;s splitting function fails to cope with a large proportion of data with zero responses.</description>
+    </item>
+    
+    <item>
       <title>The HulC: Hull based Confidence Regions</title>
       <link>https://mcgillstat.github.io/post/2021fall/2021-10-01/</link>
       <pubDate>Fri, 01 Oct 2021 00:00:00 +0000</pubDate>
