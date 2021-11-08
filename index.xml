@@ -8,6 +8,24 @@
     <language>en-us</language>
     <lastBuildDate>Fri, 28 Sep 2012 00:00:00 +0000</lastBuildDate><atom:link href="https://mcgillstat.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Prediction of Bundled Insurance Risks with Dependence-aware Prediction using Pair Copula Construction</title>
+      <link>https://mcgillstat.github.io/post/2021fall/2021-11-19/</link>
+      <pubDate>Fri, 19 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mcgillstat.github.io/post/2021fall/2021-11-19/</guid>
+      <description>Date: 2021-11-19 Time: 15:30-16:30 (Montreal time) https://mcgill.zoom.us/j/83436686293?pwd=b0RmWmlXRXE3OWR6NlNIcWF5d0dJQT09 Meeting ID: 834 3668 6293 Passcode: 12345 Abstract: We propose a dependence-aware predictive modeling framework for multivariate risks stemmed from an insurance contract with bundling features &amp;ndash; an important type of policy increasingly offered by major insurance companies. The bundling feature naturally leads to longitudinal measurements of multiple insurance risks. We build a novel predictive model that actively exploits the dependence among the evolution of multivariate repeated risk measurements.</description>
+    </item>
+    
+    <item>
+      <title>Variational Bayes for high-dimensional linear regression with sparse priors</title>
+      <link>https://mcgillstat.github.io/post/2021fall/2021-11-12/</link>
+      <pubDate>Fri, 12 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mcgillstat.github.io/post/2021fall/2021-11-12/</guid>
+      <description>Date: 2021-11-12 Time: 15:30-16:30 (Montreal time) https://mcgill.zoom.us/j/83436686293?pwd=b0RmWmlXRXE3OWR6NlNIcWF5d0dJQT09 Meeting ID: 834 3668 6293 Passcode: 12345 Abstract: A core problem in Bayesian statistics is approximating difficult to compute posterior distributions. In variational Bayes (VB), a method from machine learning, one approximates the posterior through optimization, which is typically faster than Markov chain Monte Carlo. We study a mean-field (i.e. factorizable) VB approximation to Bayesian model selection priors, including the popular spike-and-slab prior, in sparse high-dimensional linear regression.</description>
+    </item>
+    
+    <item>
       <title>Opinionated practices for teaching reproducibility: motivation, guided instruction and practice</title>
       <link>https://mcgillstat.github.io/post/2021fall/2021-10-29/</link>
       <pubDate>Fri, 29 Oct 2021 00:00:00 +0000</pubDate>
