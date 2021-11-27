@@ -6,7 +6,16 @@
     <description>Recent content in 2021 fall on McGill Statistics Seminars</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 19 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://mcgillstat.github.io/tags/2021-fall/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 26 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://mcgillstat.github.io/tags/2021-fall/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Adventures with Partial Identifications in Studies of Marked Individuals</title>
+      <link>https://mcgillstat.github.io/post/2021fall/2021-11-26/</link>
+      <pubDate>Fri, 26 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mcgillstat.github.io/post/2021fall/2021-11-26/</guid>
+      <description>Date: 2021-11-26 Time: 15:30-16:30 (Montreal time) Zoom Link Meeting ID: 939 8331 3215 Passcode: 096952 Abstract: Monitoring marked individuals is a common strategy in studies of wild animals (referred to as mark-recapture or capture-recapture experiments) and hard to track human populations (referred to as multi-list methods or multiple-systems estimation). A standard assumption of these techniques is that individuals can be identified uniquely and without error, but this can be violated in many ways.</description>
+    </item>
+    
     <item>
       <title>Prediction of Bundled Insurance Risks with Dependence-aware Prediction using Pair Copula Construction</title>
       <link>https://mcgillstat.github.io/post/2021fall/2021-11-19/</link>
