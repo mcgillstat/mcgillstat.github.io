@@ -6,7 +6,17 @@
     <description>Recent content in McGill Statistics Seminar on McGill Statistics Seminars</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 19 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://mcgillstat.github.io/categories/mcgill-statistics-seminar/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 21 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://mcgillstat.github.io/categories/mcgill-statistics-seminar/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Change-point analysis for complex data structures</title>
+      <link>https://mcgillstat.github.io/post/2022winter/2022-01-21/</link>
+      <pubDate>Fri, 21 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://mcgillstat.github.io/post/2022winter/2022-01-21/</guid>
+      <description>Date: 2022-01-21 Time: 15:30-16:30 (Montreal time) https://mcgill.zoom.us/j/83436686293?pwd=b0RmWmlXRXE3OWR6NlNIcWF5d0dJQT09 Meeting ID: 834 3668 6293 Passcode: 12345 Abstract: The change-point analysis is more than sixty years old. Over this long period, it has been an important subject of interest in many scientific disciplines such as finance and econometrics, bioinformatics and genomics, climatology, engineering, and technology.
+In this talk, I will provide a general overview of the topic alongside some historical notes. I will then review the most recent and transformative advancements on the subject.</description>
+    </item>
+    
     <item>
       <title>Prediction of Bundled Insurance Risks with Dependence-aware Prediction using Pair Copula Construction</title>
       <link>https://mcgillstat.github.io/post/2021fall/2021-11-19/</link>
@@ -80,11 +90,38 @@
     </item>
     
     <item>
+      <title>Dependence Modeling of Mixed Insurance Claim Data</title>
+      <link>https://mcgillstat.github.io/post/2022winter/2022-04-01/</link>
+      <pubDate>Fri, 09 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mcgillstat.github.io/post/2022winter/2022-04-01/</guid>
+      <description>Date: 2021-04-09 Time: 15:30-16:30 (Montreal time) Zoom Link Meeting ID: 843 0865 5572 Passcode: 690084 Abstract: Multivariate claim data are common in insurance applications, e.g. claims of each policyholder for different types of insurance coverages. Understanding the dependencies among such multivariate risks is essential for the solvency and profitability of insurers. Effectively modeling insurance claim data is challenging due to their special complexities. At the policyholder level, claims data usually follow a two-part mixed distribution: a probability mass at zero corresponding to no claim and an otherwise positive claim from a skewed and long-tailed distribution.</description>
+    </item>
+    
+    <item>
+      <title>Dependence Modeling of Mixed Insurance Claim Data</title>
+      <link>https://mcgillstat.github.io/post/2022winter/2022-04-09/</link>
+      <pubDate>Fri, 09 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mcgillstat.github.io/post/2022winter/2022-04-09/</guid>
+      <description>Date: 2021-04-09 Time: 15:30-16:30 (Montreal time) Zoom Link Meeting ID: 843 0865 5572 Passcode: 690084 Abstract: Multivariate claim data are common in insurance applications, e.g. claims of each policyholder for different types of insurance coverages. Understanding the dependencies among such multivariate risks is essential for the solvency and profitability of insurers. Effectively modeling insurance claim data is challenging due to their special complexities. At the policyholder level, claims data usually follow a two-part mixed distribution: a probability mass at zero corresponding to no claim and an otherwise positive claim from a skewed and long-tailed distribution.</description>
+    </item>
+    
+    <item>
       <title>Learning Causal Structures via Continuous Optimization</title>
       <link>https://mcgillstat.github.io/post/2021winter/2021-03-26/</link>
       <pubDate>Fri, 26 Mar 2021 00:00:00 +0000</pubDate>
       
       <guid>https://mcgillstat.github.io/post/2021winter/2021-03-26/</guid>
+      <description>Date: 2021-03-26 Time: 15:30-16:30 (Montreal time) Zoom Link Meeting ID: 843 0865 5572 Passcode: 690084 Abstract: There has been a recent surge of interest in the machine learning community in developing causal models that handle the effect of interventions in a system. In this talk, I will consider the problem of learning (estimating) a causal graphical model from data. The search over possible directed acyclic graphs modeling the causal structure is inherently combinatorial, but I&amp;rsquo;ll describe our recent work which use gradient-based continuous optimization for learning both the parameters of the distribution and the causal graph jointly, and can be combined naturally with flexible parametric families that use neural networks.</description>
+    </item>
+    
+    <item>
+      <title>Learning Causal Structures via Continuous Optimization</title>
+      <link>https://mcgillstat.github.io/post/2022winter/2022-03-25/</link>
+      <pubDate>Fri, 26 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mcgillstat.github.io/post/2022winter/2022-03-25/</guid>
       <description>Date: 2021-03-26 Time: 15:30-16:30 (Montreal time) Zoom Link Meeting ID: 843 0865 5572 Passcode: 690084 Abstract: There has been a recent surge of interest in the machine learning community in developing causal models that handle the effect of interventions in a system. In this talk, I will consider the problem of learning (estimating) a causal graphical model from data. The search over possible directed acyclic graphs modeling the causal structure is inherently combinatorial, but I&amp;rsquo;ll describe our recent work which use gradient-based continuous optimization for learning both the parameters of the distribution and the causal graph jointly, and can be combined naturally with flexible parametric families that use neural networks.</description>
     </item>
     
@@ -98,11 +135,29 @@
     </item>
     
     <item>
+      <title>Measuring timeliness of annual reports filing by jump additive models</title>
+      <link>https://mcgillstat.github.io/post/2022winter/2022-03-18/</link>
+      <pubDate>Fri, 19 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mcgillstat.github.io/post/2022winter/2022-03-18/</guid>
+      <description>Date: 2021-03-19 Time: 15:30-16:30 (Montreal time) Zoom Link Meeting ID: 843 0865 5572 Passcode: 690084 Abstract: Foreign public issuers (FPIs) are required by the Securities and Exchanges Commission (SEC) to file Form 20-F as comprehensive annual reports. In an effort to increase the usefulness of 20-Fs, the SEC recently enacted a regulation to accelerate the deadline of 20-F filing from six months to four months after the fiscal year-end. The rationale is that the shortened reporting lag would improve the informational relevance of 20-Fs.</description>
+    </item>
+    
+    <item>
       <title>CoinPress: Practical Private Point Estimation and Confidence Intervals</title>
       <link>https://mcgillstat.github.io/post/2021winter/2021-02-26/</link>
       <pubDate>Fri, 26 Feb 2021 00:00:00 +0000</pubDate>
       
       <guid>https://mcgillstat.github.io/post/2021winter/2021-02-26/</guid>
+      <description>Date: 2021-02-26 Time: 15:30-16:30 (Montreal time) Zoom Link Meeting ID: 843 0865 5572 Passcode: 690084 Abstract: We consider point estimation and generation of confidence intervals under the constraint of differential privacy. We provide a simple and practical framework for these tasks in relatively general settings. Our investigation addresses a novel challenge that arises in the differentially private setting, which involves the cost of weak a priori bounds on the parameters of interest.</description>
+    </item>
+    
+    <item>
+      <title>CoinPress: Practical Private Point Estimation and Confidence Intervals</title>
+      <link>https://mcgillstat.github.io/post/2022winter/2022-02-25/</link>
+      <pubDate>Fri, 26 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mcgillstat.github.io/post/2022winter/2022-02-25/</guid>
       <description>Date: 2021-02-26 Time: 15:30-16:30 (Montreal time) Zoom Link Meeting ID: 843 0865 5572 Passcode: 690084 Abstract: We consider point estimation and generation of confidence intervals under the constraint of differential privacy. We provide a simple and practical framework for these tasks in relatively general settings. Our investigation addresses a novel challenge that arises in the differentially private setting, which involves the cost of weak a priori bounds on the parameters of interest.</description>
     </item>
     
@@ -116,11 +171,29 @@
     </item>
     
     <item>
+      <title>Joint integrative analysis of multiple data sources with correlated vector outcomes</title>
+      <link>https://mcgillstat.github.io/post/2022winter/2022-02-18/</link>
+      <pubDate>Fri, 19 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mcgillstat.github.io/post/2022winter/2022-02-18/</guid>
+      <description>Date: 2021-02-19 Time: 15:30-16:30 (Montreal time) Zoom Link Meeting ID: 843 0865 5572 Passcode: 690084 Abstract: We consider the joint estimation of regression parameters from multiple potentially heterogeneous data sources with correlated vector outcomes. The primary goal of this joint integrative analysis is to estimate covariate effects on all vector outcomes through a marginal regression model in a statistically and computationally efficient way. We present a general class of distributed estimators that can be implemented in a parallelized computational scheme.</description>
+    </item>
+    
+    <item>
       <title>An Adaptive Algorithm to Multi-armed Bandit Problem with High-dimensional Covariates</title>
       <link>https://mcgillstat.github.io/post/2021winter/2021-02-05/</link>
       <pubDate>Fri, 05 Feb 2021 00:00:00 +0000</pubDate>
       
       <guid>https://mcgillstat.github.io/post/2021winter/2021-02-05/</guid>
+      <description>Date: 2021-02-05 Time: 15:30-16:30 (Montreal time) Zoom Link Meeting ID: 843 0865 5572 Passcode: 690084 Abstract: This work studies an important sequential decision making problem known as the multi-armed bandit problem with covariates. Under a linear bandit framework with high-dimensional covariates, we propose a general arm allocation algorithm that integrates both arm elimination and randomized assignment strategies. By employing a class of high-dimensional regression methods for coefficient estimation, the proposed algorithm is shown to have near optimal finite-time regret performance under a new study scope that requires neither a margin condition nor a reward gap condition for competitive arms.</description>
+    </item>
+    
+    <item>
+      <title>An Adaptive Algorithm to Multi-armed Bandit Problem with High-dimensional Covariates</title>
+      <link>https://mcgillstat.github.io/post/2022winter/2022-02-04/</link>
+      <pubDate>Fri, 05 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mcgillstat.github.io/post/2022winter/2022-02-04/</guid>
       <description>Date: 2021-02-05 Time: 15:30-16:30 (Montreal time) Zoom Link Meeting ID: 843 0865 5572 Passcode: 690084 Abstract: This work studies an important sequential decision making problem known as the multi-armed bandit problem with covariates. Under a linear bandit framework with high-dimensional covariates, we propose a general arm allocation algorithm that integrates both arm elimination and randomized assignment strategies. By employing a class of high-dimensional regression methods for coefficient estimation, the proposed algorithm is shown to have near optimal finite-time regret performance under a new study scope that requires neither a margin condition nor a reward gap condition for competitive arms.</description>
     </item>
     
