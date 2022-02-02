@@ -6,7 +6,16 @@
     <description>Recent content in 2022 Winter on McGill Statistics Seminars</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 28 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://mcgillstat.github.io/tags/2022-winter/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 04 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://mcgillstat.github.io/tags/2022-winter/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Off-Policy Confidence Interval Estimation with Confounded Markov Decision Process</title>
+      <link>https://mcgillstat.github.io/post/2022winter/2022-02-04/</link>
+      <pubDate>Fri, 04 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://mcgillstat.github.io/post/2022winter/2022-02-04/</guid>
+      <description>Date: 2022-02-04 Time: 15:30-16:30 (Montreal time) Zoom Link Meeting ID: 843 0865 5572 Passcode: 690084 Abstract: In this talk, we consider constructing a confidence interval for a target policy’s value offline based on pre-collected observational data in infinite horizon settings. Most of the existing works assume no unmeasured variables exist that confound the observed actions. This assumption, however, is likely to be violated in real applications such as healthcare and technological industries.</description>
+    </item>
+    
     <item>
       <title>Risk assessment, heavy tails, and asymmetric least squares techniques</title>
       <link>https://mcgillstat.github.io/post/2022winter/2022-01-28/</link>
