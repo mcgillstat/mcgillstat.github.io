@@ -8,6 +8,15 @@
     <language>en-us</language>
     <lastBuildDate>Fri, 28 Sep 2012 00:00:00 +0000</lastBuildDate><atom:link href="https://mcgillstat.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Risk assessment, heavy tails, and asymmetric least squares techniques</title>
+      <link>https://mcgillstat.github.io/post/2022winter/2022-01-28/</link>
+      <pubDate>Fri, 28 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://mcgillstat.github.io/post/2022winter/2022-01-28/</guid>
+      <description>Date: 2022-01-28 Time: 15:30-16:30 (Montreal time) https://umontreal.zoom.us/j/93983313215?pwd=clB6cUNsSjAvRmFMME1PblhkTUtsQT09 Meeting ID: 939 8331 3215 Passcode: 096952 Abstract: Statistical risk assessment, in particular in finance and insurance, requires estimating simple indicators to summarize the risk incurred in a given situation. Of most interest is to infer extreme levels of risk so as to be able to manage high-impact rare events such as extreme climate episodes or stock market crashes. A standard procedure in this context, whether in the academic, industrial or regulatory circles, is to estimate a well-chosen single quantile (or Value-at-Risk).</description>
+    </item>
+    
+    <item>
       <title>Change-point analysis for complex data structures</title>
       <link>https://mcgillstat.github.io/post/2022winter/2022-01-21/</link>
       <pubDate>Fri, 21 Jan 2022 00:00:00 +0000</pubDate>
@@ -266,15 +275,6 @@ In this talk, I will provide a general overview of the topic alongside some hist
       <pubDate>Fri, 29 Jan 2021 00:00:00 +0000</pubDate>
       
       <guid>https://mcgillstat.github.io/post/2021winter/2021-01-29/</guid>
-      <description>Date: 2021-01-29 Time: 15:30-16:30 (Montreal time) Zoom Link Meeting ID: 939 8331 3215 Passcode: 096952 Abstract: The under-five mortality rate (U5MR) is a key barometer of the health of a nation. Unfortunately, many people living in low- and middle-income countries are not covered by civil registration systems. This makes estimation of the U5MR, particularly at the subnational level, difficult. In this talk, I will describe models that have been developed to produce the official United Nations (UN) subnational U5MR estimates in 22 countries.</description>
-    </item>
-    
-    <item>
-      <title>Small Area Estimation in Low- and Middle-Income Countries</title>
-      <link>https://mcgillstat.github.io/post/2022winter/2022-01-28/</link>
-      <pubDate>Fri, 29 Jan 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://mcgillstat.github.io/post/2022winter/2022-01-28/</guid>
       <description>Date: 2021-01-29 Time: 15:30-16:30 (Montreal time) Zoom Link Meeting ID: 939 8331 3215 Passcode: 096952 Abstract: The under-five mortality rate (U5MR) is a key barometer of the health of a nation. Unfortunately, many people living in low- and middle-income countries are not covered by civil registration systems. This makes estimation of the U5MR, particularly at the subnational level, difficult. In this talk, I will describe models that have been developed to produce the official United Nations (UN) subnational U5MR estimates in 22 countries.</description>
     </item>
     
