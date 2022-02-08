@@ -6,7 +6,16 @@
     <description>Recent content in McGill Statistics Seminar on McGill Statistics Seminars</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 04 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://mcgillstat.github.io/categories/mcgill-statistics-seminar/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 11 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://mcgillstat.github.io/categories/mcgill-statistics-seminar/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Integration of multi-omics data for the discovery of novel regulators that modulate biological processes</title>
+      <link>https://mcgillstat.github.io/post/2022winter/2022-02-11/</link>
+      <pubDate>Fri, 11 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://mcgillstat.github.io/post/2022winter/2022-02-11/</guid>
+      <description>Date: 2022-02-11 Time: 15:30-16:30 (Montreal time) https://mcgill.zoom.us/j/83436686293?pwd=b0RmWmlXRXE3OWR6NlNIcWF5d0dJQT09 Meeting ID: 834 3668 6293 Passcode: 12345 Abstract: The cellular states in various biological processes such as cell differentiation, disease progression, and treatment response are often enormously complex and thus hard to be profiled with unimodal profiling (e.g., transcriptome). Although those unimodal measurements had brought success for studies in a large variety of studies, the incomplete (and often misleading) unimodal cellular profiling could lead to biased and inaccurate conclusions.</description>
+    </item>
+    
     <item>
       <title>Off-Policy Confidence Interval Estimation with Confounded Markov Decision Process</title>
       <link>https://mcgillstat.github.io/post/2022winter/2022-02-04/</link>
