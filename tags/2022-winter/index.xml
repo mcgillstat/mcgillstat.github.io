@@ -6,7 +6,16 @@
     <description>Recent content in 2022 Winter on McGill Statistics Seminars</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 11 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://mcgillstat.github.io/tags/2022-winter/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 18 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://mcgillstat.github.io/tags/2022-winter/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Structure learning for extremal graphical models</title>
+      <link>https://mcgillstat.github.io/post/2022winter/2022-02-18/</link>
+      <pubDate>Fri, 18 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://mcgillstat.github.io/post/2022winter/2022-02-18/</guid>
+      <description>Date: 2022-02-18 Time: 15:30-16:30 (Montreal time) https://umontreal.zoom.us/j/85105423917?pwd=enM3MGpFNkZKU2daMjRITmo0N0JUUT09 Meeting ID: 851 0542 3917 Passcode: 403790 Abstract: Extremal graphical models are sparse statistical models for multivariate extreme events. The underlying graph encodes conditional independencies and enables a visual interpretation of the complex extremal dependence structure. For the important case of tree models, we provide a data-driven methodology for learning the graphical structure. We show that sample versions of the extremal correlation and a new summary statistic, which we call the extremal variogram, can be used as weights for a minimum spanning tree to consistently recover the true underlying tree.</description>
+    </item>
+    
     <item>
       <title>Integration of multi-omics data for the discovery of novel regulators that modulate biological processes</title>
       <link>https://mcgillstat.github.io/post/2022winter/2022-02-11/</link>
