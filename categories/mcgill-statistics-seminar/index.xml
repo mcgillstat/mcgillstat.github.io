@@ -6,7 +6,16 @@
     <description>Recent content in McGill Statistics Seminar on McGill Statistics Seminars</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 11 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://mcgillstat.github.io/categories/mcgill-statistics-seminar/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 11 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://mcgillstat.github.io/categories/mcgill-statistics-seminar/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>New Approaches for Inference on Optimal Treatment Regimes</title>
+      <link>https://mcgillstat.github.io/post/2022winter/2022-03-11/</link>
+      <pubDate>Fri, 11 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://mcgillstat.github.io/post/2022winter/2022-03-11/</guid>
+      <description>Date: 2022-03-11 Time: 15:30-16:30 (Montreal time) https://mcgill.zoom.us/j/83436686293?pwd=b0RmWmlXRXE3OWR6NlNIcWF5d0dJQT09 Meeting ID: 834 3668 6293 Passcode: 12345 Abstract: Finding the optimal treatment regime (or a series of sequential treatment regimes) based on individual characteristics has important applications in precision medicine. We propose two new approaches to quantify uncertainty in optimal treatment regime estimation. First, we consider inference in the model-free setting, which does not require specifying an outcome regression model. Existing model-free estimators for optimal treatment regimes are usually not suitable for the purpose of inference, because they either have nonstandard asymptotic distributions or do not necessarily guarantee consistent estimation of the parameter indexing the Bayes rule due to the use of surrogate loss.</description>
+    </item>
+    
     <item>
       <title>Integration of multi-omics data for the discovery of novel regulators that modulate biological processes</title>
       <link>https://mcgillstat.github.io/post/2022winter/2022-02-11/</link>
