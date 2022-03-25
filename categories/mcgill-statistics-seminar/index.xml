@@ -6,7 +6,16 @@
     <description>Recent content in McGill Statistics Seminar on McGill Statistics Seminars</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 11 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://mcgillstat.github.io/categories/mcgill-statistics-seminar/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 25 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://mcgillstat.github.io/categories/mcgill-statistics-seminar/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Distribution-​free inference for regression: discrete, continuous, and in between</title>
+      <link>https://mcgillstat.github.io/post/2022winter/2022-03-25/</link>
+      <pubDate>Fri, 25 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://mcgillstat.github.io/post/2022winter/2022-03-25/</guid>
+      <description>Date: 2022-03-25 Time: 15:35-16:35 (Montreal time) https://mcgill.zoom.us/j/83436686293?pwd=b0RmWmlXRXE3OWR6NlNIcWF5d0dJQT09 Meeting ID: 834 3668 6293 Passcode: 12345 Abstract: In data analysis problems where we are not able to rely on distributional assumptions, what types of inference guarantees can still be obtained? Many popular methods, such as holdout methods, cross-validation methods, and conformal prediction, are able to provide distribution-free guarantees for predictive inference, but the problem of providing inference for the underlying regression function (for example, inference on the conditional mean E[Y|X]) is more challenging.</description>
+    </item>
+    
     <item>
       <title>New Approaches for Inference on Optimal Treatment Regimes</title>
       <link>https://mcgillstat.github.io/post/2022winter/2022-03-11/</link>
