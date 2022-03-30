@@ -8,6 +8,15 @@
     <language>en-us</language>
     <lastBuildDate>Fri, 28 Sep 2012 00:00:00 +0000</lastBuildDate><atom:link href="https://mcgillstat.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Learn then Test: Calibrating Predictive Algorithms to Achieve Risk Control</title>
+      <link>https://mcgillstat.github.io/post/2022winter/2022-04-01/</link>
+      <pubDate>Fri, 01 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://mcgillstat.github.io/post/2022winter/2022-04-01/</guid>
+      <description>Date: 2022-04-01 Time: 15:35-16:35 (Montreal time) https://mcgill.zoom.us/j/83436686293?pwd=b0RmWmlXRXE3OWR6NlNIcWF5d0dJQT09 Meeting ID: 834 3668 6293 Passcode: 12345 Abstract: We introduce Learn then Test, a framework for calibrating machine learning models so that their predictions satisfy explicit, finite-sample statistical guarantees regardless of the underlying model and (unknown) data-generating distribution. The framework addresses, among other examples, false discovery rate control in multi-label classification, intersection-over-union control in instance segmentation, and the simultaneous control of the type-1 error of outlier detection and confidence set coverage in classification or regression.</description>
+    </item>
+    
+    <item>
       <title>Distribution-​free inference for regression: discrete, continuous, and in between</title>
       <link>https://mcgillstat.github.io/post/2022winter/2022-03-25/</link>
       <pubDate>Fri, 25 Mar 2022 00:00:00 +0000</pubDate>
