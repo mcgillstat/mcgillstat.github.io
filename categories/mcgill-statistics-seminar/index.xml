@@ -6,7 +6,16 @@
     <description>Recent content in McGill Statistics Seminar on McGill Statistics Seminars</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 01 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://mcgillstat.github.io/categories/mcgill-statistics-seminar/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 08 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://mcgillstat.github.io/categories/mcgill-statistics-seminar/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Enriched post-selection models for high dimensional data</title>
+      <link>https://mcgillstat.github.io/post/2022winter/2022-04-08/</link>
+      <pubDate>Fri, 08 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://mcgillstat.github.io/post/2022winter/2022-04-08/</guid>
+      <description>Date: 2022-04-08 Time: 15:35-16:35 (Montreal time) https://mcgill.zoom.us/j/83436686293?pwd=b0RmWmlXRXE3OWR6NlNIcWF5d0dJQT09 Meeting ID: 834 3668 6293 Passcode: 12345 Abstract: High dimensional data are rapidly growing in many domains, for example, in microarray gene expression studies, fMRI data analysis, large-scale healthcare analytics, text/image analysis, natural language processing and astronomy, to name but a few. In the last two decades regularisation approaches have become the methods of choice for analysing high dimensional data. However, obtaining accurate estimates and predictions as well as valid statistical inference remains a major challenge in high dimensional situations.</description>
+    </item>
+    
     <item>
       <title>Learn then Test: Calibrating Predictive Algorithms to Achieve Risk Control</title>
       <link>https://mcgillstat.github.io/post/2022winter/2022-04-01/</link>
