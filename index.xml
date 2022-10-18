@@ -26,6 +26,15 @@
     </item>
     
     <item>
+      <title>Full likelihood inference for abundance from capture-recapture data: semiparametric efficiency and EM-algorithm</title>
+      <link>https://mcgillstat.github.io/post/2022fall/2022-09-30/</link>
+      <pubDate>Fri, 30 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://mcgillstat.github.io/post/2022fall/2022-09-30/</guid>
+      <description>Date: 2022-09-30 Time: 15:30-16:30 (Montreal time) HTTPS://US06WEB.ZOOM.US/J/84226701306?PWD=UEZ5NVPZAULLDW5QNU8VZZIVBEJXQT09 MEETING ID: 842 2670 1306 PASSCODE: 692788 Abstract: Capture-recapture experiments are widely used to collect data needed to estimate the abundance of a closed population. To account for heterogeneity in the capture probabilities, Huggins (1989) and Alho (1990) proposed a semiparametric model in which the capture probabilities are modelled parametrically and the distribution of individual characteristics is left unspecified. A conditional likelihood method was then proposed to obtain point estimates and Wald-type confidence intervals for the abundance.</description>
+    </item>
+    
+    <item>
       <title>Statistical Inference for Functional Linear Quantile Regression</title>
       <link>https://mcgillstat.github.io/post/2022fall/2022-09-16/</link>
       <pubDate>Fri, 16 Sep 2022 00:00:00 +0000</pubDate>

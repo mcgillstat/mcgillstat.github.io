@@ -260,15 +260,6 @@
     </item>
     
     <item>
-      <title>Functional data analysis and related topics</title>
-      <link>https://mcgillstat.github.io/post/2015winter/2015-01-15/</link>
-      <pubDate>Thu, 15 Jan 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://mcgillstat.github.io/post/2015winter/2015-01-15/</guid>
-      <description>Date: 2015-01-15 Time: 16:00-17:00 Location: CRM 1360 (U. de Montréal) Abstract: Functional data analysis (FDA) has received substantial attention, with applications arising from various disciplines, such as engineering, public health, finance etc. In general, the FDA approaches focus on nonparametric underlying models that assume the data are observed from realizations of stochastic processes satisfying some regularity conditions, e.g., smoothness constraints. The estimation and inference procedures usually do not depend on merely a finite number of parameters, which contrasts with parametric models, and exploit techniques, such as smoothing methods and dimension reduction, that allow data to speak for themselves.</description>
-    </item>
-    
-    <item>
       <title>High-dimensional phenomena in mathematical statistics and convex analysis</title>
       <link>https://mcgillstat.github.io/post/2014fall/2014-11-20/</link>
       <pubDate>Thu, 20 Nov 2014 00:00:00 +0000</pubDate>
