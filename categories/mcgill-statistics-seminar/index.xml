@@ -6,7 +6,43 @@
     <description>Recent content in McGill Statistics Seminar on McGill Statistics Seminars</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 08 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://mcgillstat.github.io/categories/mcgill-statistics-seminar/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 21 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://mcgillstat.github.io/categories/mcgill-statistics-seminar/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A Conformal-Based Two-Sample Conditional Distribution Test</title>
+      <link>https://mcgillstat.github.io/post/2022fall/2022-10-21/</link>
+      <pubDate>Fri, 21 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://mcgillstat.github.io/post/2022fall/2022-10-21/</guid>
+      <description>Date: 2022-10-21 Time: 15:30-16:30 (Montreal time) https://mcgill.zoom.us/j/83436686293?pwd=b0RmWmlXRXE3OWR6NlNIcWF5d0dJQT09 Meeting ID: 834 3668 6293 Passcode: 12345 Abstract: We consider the problem of testing the equality of the conditional distribution of a response variable given a set of covariates between two populations. Such a testing problem is related to transfer learning and causal inference. We develop a nonparametric procedure by combining recent advances in conformal prediction with some new ingredients such as a novel choice of conformity score and data-driven choices of weight and score functions.</description>
+    </item>
+    
+    <item>
+      <title>Some steps towards causal representation learning</title>
+      <link>https://mcgillstat.github.io/post/2022fall/2022-10-07/</link>
+      <pubDate>Fri, 07 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://mcgillstat.github.io/post/2022fall/2022-10-07/</guid>
+      <description>Date: 2022-10-07 Time: 15:30-16:30 (Montreal time) https://mcgill.zoom.us/j/83436686293?pwd=b0RmWmlXRXE3OWR6NlNIcWF5d0dJQT09 Meeting ID: 834 3668 6293 Passcode: 12345 Abstract: High-dimensional unstructured data such images or sensor data can often be collected cheaply in experiments, but is challenging to use in a causal inference pipeline without extensive engineering and domain knowledge to extract underlying latent factors. The long term goal of causal representation learning is to find appropriate assumptions and methods to disentangle latent variables and learn the causal mechanisms that explain a system&amp;rsquo;s behaviour.</description>
+    </item>
+    
+    <item>
+      <title>Statistical Inference for Functional Linear Quantile Regression</title>
+      <link>https://mcgillstat.github.io/post/2022fall/2022-09-16/</link>
+      <pubDate>Fri, 16 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://mcgillstat.github.io/post/2022fall/2022-09-16/</guid>
+      <description>Date: 2022-09-16 Time: 15:20-16:20 (Montreal time) https://mcgill.zoom.us/j/83436686293?pwd=b0RmWmlXRXE3OWR6NlNIcWF5d0dJQT09 Meeting ID: 834 3668 6293 Passcode: 12345 Abstract: We propose inferential tools for functional linear quantile regression where the conditional quantile of a scalar response is assumed to be a linear functional of a functional covariate. In contrast to conventional approaches, we employ kernel convolution to smooth the original loss function. The coefficient function is estimated under a reproducing kernel Hilbert space framework. A gradient descent algorithm is designed to minimize the smoothed loss function with a roughness penalty.</description>
+    </item>
+    
+    <item>
+      <title>Markov-Switching State Space Models For Uncovering Musical Interpretation</title>
+      <link>https://mcgillstat.github.io/post/2022fall/2022-09-09/</link>
+      <pubDate>Fri, 09 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://mcgillstat.github.io/post/2022fall/2022-09-09/</guid>
+      <description>Date: 2022-09-09 Time: 15:30-16:30 (Montreal time) https://mcgill.zoom.us/j/83436686293?pwd=b0RmWmlXRXE3OWR6NlNIcWF5d0dJQT09 Meeting ID: 834 3668 6293 Passcode: 12345 Abstract: For concertgoers, musical interpretation is the most important factor in determining whether or not we enjoy a classical performance. Every performance includes mistakes—intonation issues, a lost note, an unpleasant sound—but these are all easily forgotten (or unnoticed) when a performer engages her audience, imbuing a piece with novel emotional content beyond the vague instructions inscribed on the printed page.</description>
+    </item>
+    
     <item>
       <title>Enriched post-selection models for high dimensional data</title>
       <link>https://mcgillstat.github.io/post/2022winter/2022-04-08/</link>
