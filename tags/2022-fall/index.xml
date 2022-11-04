@@ -6,7 +6,16 @@
     <description>Recent content in 2022 fall on McGill Statistics Seminars</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 21 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://mcgillstat.github.io/tags/2022-fall/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 04 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://mcgillstat.github.io/tags/2022-fall/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Max-linear Graphical Models for Extreme Risk Modelling</title>
+      <link>https://mcgillstat.github.io/post/2022fall/2022-11-04/</link>
+      <pubDate>Fri, 04 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://mcgillstat.github.io/post/2022fall/2022-11-04/</guid>
+      <description>Date: 2022-11-04 Time: 15:30-16:30 (Montreal time) https://mcgill.zoom.us/j/83436686293?pwd=b0RmWmlXRXE3OWR6NlNIcWF5d0dJQT09 Meeting ID: 834 3668 6293 Passcode: 12345 Abstract: Graphical models can represent multivariate distributions in an intuitive way and, hence, facilitate statistical analysis of high-dimensional data. Such models are usually modular so that high-dimensional distributions can be described and handled by careful combination of lower dimensional factors. Furthermore, graphs are natural data structures for algorithmic treatment. Moreover, graphical models can allow for causal interpretation, often provided through a recursive system on a directed acyclic graph (DAG) and the max-linear Bayesian network we introduced in [1] is a specific example.</description>
+    </item>
+    
     <item>
       <title>A Conformal-Based Two-Sample Conditional Distribution Test</title>
       <link>https://mcgillstat.github.io/post/2022fall/2022-10-21/</link>
