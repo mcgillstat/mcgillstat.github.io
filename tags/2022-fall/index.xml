@@ -6,7 +6,25 @@
     <description>Recent content in 2022 fall on McGill Statistics Seminars</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 04 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://mcgillstat.github.io/tags/2022-fall/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 18 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://mcgillstat.github.io/tags/2022-fall/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Optimal One-pass Nonparametric Estimation Under Memory Constraint</title>
+      <link>https://mcgillstat.github.io/post/2022fall/2022-11-18/</link>
+      <pubDate>Fri, 18 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://mcgillstat.github.io/post/2022fall/2022-11-18/</guid>
+      <description>Date: 2022-11-18 Time: 15:30-16:30 (Montreal time) https://mcgill.zoom.us/j/83436686293?pwd=b0RmWmlXRXE3OWR6NlNIcWF5d0dJQT09 Meeting ID: 834 3668 6293 Passcode: 12345 Abstract: For nonparametric regression in the streaming setting, where data constantly flow in and require real-time analysis, a main challenge is that data are cleared from the computer system once processed due to limited computer memory and storage. We tackle the challenge by proposing a novel one-pass estimator based on penalized orthogonal basis expansions and developing a general framework to study the interplay between statistical efficiency and memory consumption of estimators.</description>
+    </item>
+    
+    <item>
+      <title>Automated Inference on Sharp Bounds</title>
+      <link>https://mcgillstat.github.io/post/2022fall/2022-11-11/</link>
+      <pubDate>Fri, 11 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://mcgillstat.github.io/post/2022fall/2022-11-11/</guid>
+      <description>Date: 2022-11-11 Time: 15:30-16:30 (Montreal time) https://mcgill.zoom.us/j/83436686293?pwd=b0RmWmlXRXE3OWR6NlNIcWF5d0dJQT09 Meeting ID: 834 3668 6293 Passcode: 12345 Abstract: Many causal parameters involving the joint distribution of potential outcomes in treated and control states cannot be point-identified, but only be bounded from above and below. The bounds can be further tightened by conditioning on pre-treatment covariates, and the sharp version of the bounds corresponds to using a full covariate vector. This paper gives a method for estimation and inference on sharp bounds determined by a linear system of under-identified equalities (e.</description>
+    </item>
+    
     <item>
       <title>Max-linear Graphical Models for Extreme Risk Modelling</title>
       <link>https://mcgillstat.github.io/post/2022fall/2022-11-04/</link>
