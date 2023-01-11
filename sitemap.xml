@@ -3,27 +3,37 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://mcgillstat.github.io/tags/2023-winter/</loc>
+    <lastmod>2023-01-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mcgillstat.github.io/categories/</loc>
+    <lastmod>2023-01-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mcgillstat.github.io/categories/mcgill-statistics-seminar/</loc>
+    <lastmod>2023-01-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mcgillstat.github.io/tags/</loc>
+    <lastmod>2023-01-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mcgillstat.github.io/post/2023winter/2023-01-13/</loc>
+    <lastmod>2023-01-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://mcgillstat.github.io/tags/2022-fall/</loc>
     <lastmod>2022-11-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mcgillstat.github.io/categories/</loc>
-    <lastmod>2022-11-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mcgillstat.github.io/categories/mcgill-statistics-seminar/</loc>
-    <lastmod>2022-11-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://mcgillstat.github.io/post/2022fall/2022-11-18/</loc>
-    <lastmod>2022-11-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mcgillstat.github.io/tags/</loc>
     <lastmod>2022-11-18T00:00:00+00:00</lastmod>
   </url>
   

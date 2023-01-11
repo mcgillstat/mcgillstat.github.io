@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2023 Winter on McGill Statistics Seminars</title>
+    <link>https://mcgillstat.github.io/tags/2023-winter/</link>
+    <description>Recent content in 2023 Winter on McGill Statistics Seminars</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 13 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://mcgillstat.github.io/tags/2023-winter/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>To split or not to split that is the question: From cross validation to debiased machine learning</title>
+      <link>https://mcgillstat.github.io/post/2023winter/2023-01-13/</link>
+      <pubDate>Fri, 13 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mcgillstat.github.io/post/2023winter/2023-01-13/</guid>
+      <description>Date: 2023-01-13 Time: 15:30-16:30 (Montreal time) https://mcgill.zoom.us/j/83436686293?pwd=b0RmWmlXRXE3OWR6NlNIcWF5d0dJQT09 Meeting ID: 834 3668 6293 Passcode: 12345 Abstract: Data splitting is an ubiquitous method in statistics with examples ranging from cross validation to cross-fitting. However, despite its prevalence, theoretical guidance regarding its use is still lacking. In this talk we will explore two examples and establish an asymptotic theory for it. In the first part of this talk, we study the cross-validation method, a ubiquitous method for risk estimation, and establish its asymptotic properties for a large class of models and with an arbitrary number of folds.</description>
+    </item>
+    
+  </channel>
+</rss>
