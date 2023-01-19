@@ -8,29 +8,29 @@
 
 
 
-<link rel="canonical" href="https://mcgillstat.github.io/post/2022fall/2022-10-07/">
+<link rel="canonical" href="https://mcgillstat.github.io/post/2023winter/2023-01-20/">
 
 
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/solarized_dark.min.css">
-    <title>Some steps towards causal representation learning - McGill Statistics Seminars</title>
+    <title>What is TWAS and how do we use it in integrating gene expression data - McGill Statistics Seminars</title>
     
-<meta name="description" content="Date: 2022-10-07 Time: 15:30-16:30 (Montreal time) https://mcgill.zoom.us/j/83436686293?pwd=b0RmWmlXRXE3OWR6NlNIcWF5d0dJQT09 Meeting ID: 834 3668 6293 Passcode: 12345 Abstract: High-dimensional unstructured data such images or sensor data can often be collected cheaply in experiments, but is challenging to use in a causal inference pipeline without extensive engineering and domain knowledge to extract underlying latent factors. The long term goal of causal representation learning is to find appropriate assumptions and methods to disentangle latent variables and learn the causal mechanisms that explain a system&amp;rsquo;s behaviour.">
+<meta name="description" content="Date: 2023-01-20 Time: 15:30-16:30 (Montreal time) https://mcgill.zoom.us/j/83436686293?pwd=b0RmWmlXRXE3OWR6NlNIcWF5d0dJQT09 Meeting ID: 834 3668 6293 Passcode: 12345 Abstract: The transcriptome-wide association studies (TWAS) is a pioneering approach utilizing gene expression data to identify genetic basis of complex diseases. Its core component is called &amp;ldquo;genetically regulated expression (GReX)&amp;rdquo;. GReX links gene expression information with phenotype by serving as both the outcome of genotype-based expression models and the predictor for downstream association testing. Although it is popular and has been used in many high-profile projects, its mathematical nature and interpretation haven’t been rigorously verified.">
 
-<meta property="og:title" content="Some steps towards causal representation learning - McGill Statistics Seminars">
+<meta property="og:title" content="What is TWAS and how do we use it in integrating gene expression data - McGill Statistics Seminars">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://mcgillstat.github.io/post/2022fall/2022-10-07/">
+<meta property="og:url" content="https://mcgillstat.github.io/post/2023winter/2023-01-20/">
 <meta property="og:image" content="https://mcgillstat.github.io/images/default.png">
 <meta property="og:site_name" content="McGill Statistics Seminars">
-<meta property="og:description" content="Date: 2022-10-07 Time: 15:30-16:30 (Montreal time) https://mcgill.zoom.us/j/83436686293?pwd=b0RmWmlXRXE3OWR6NlNIcWF5d0dJQT09 Meeting ID: 834 3668 6293 Passcode: 12345 Abstract: High-dimensional unstructured data such images or sensor data can often be collected cheaply in experiments, but is challenging to use in a causal inference pipeline without extensive engineering and domain knowledge to extract underlying latent factors. The long term goal of causal representation learning is to find appropriate assumptions and methods to disentangle latent variables and learn the causal mechanisms that explain a system&amp;rsquo;s behaviour.">
+<meta property="og:description" content="Date: 2023-01-20 Time: 15:30-16:30 (Montreal time) https://mcgill.zoom.us/j/83436686293?pwd=b0RmWmlXRXE3OWR6NlNIcWF5d0dJQT09 Meeting ID: 834 3668 6293 Passcode: 12345 Abstract: The transcriptome-wide association studies (TWAS) is a pioneering approach utilizing gene expression data to identify genetic basis of complex diseases. Its core component is called &amp;ldquo;genetically regulated expression (GReX)&amp;rdquo;. GReX links gene expression information with phenotype by serving as both the outcome of genotype-based expression models and the predictor for downstream association testing. Although it is popular and has been used in many high-profile projects, its mathematical nature and interpretation haven’t been rigorously verified.">
 <meta property="og:locale" content="ja_JP">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="McGill Statistics Seminars">
-<meta name="twitter:url" content="https://mcgillstat.github.io/post/2022fall/2022-10-07/">
-<meta name="twitter:title" content="Some steps towards causal representation learning - McGill Statistics Seminars">
-<meta name="twitter:description" content="Date: 2022-10-07 Time: 15:30-16:30 (Montreal time) https://mcgill.zoom.us/j/83436686293?pwd=b0RmWmlXRXE3OWR6NlNIcWF5d0dJQT09 Meeting ID: 834 3668 6293 Passcode: 12345 Abstract: High-dimensional unstructured data such images or sensor data can often be collected cheaply in experiments, but is challenging to use in a causal inference pipeline without extensive engineering and domain knowledge to extract underlying latent factors. The long term goal of causal representation learning is to find appropriate assumptions and methods to disentangle latent variables and learn the causal mechanisms that explain a system&amp;rsquo;s behaviour.">
+<meta name="twitter:url" content="https://mcgillstat.github.io/post/2023winter/2023-01-20/">
+<meta name="twitter:title" content="What is TWAS and how do we use it in integrating gene expression data - McGill Statistics Seminars">
+<meta name="twitter:description" content="Date: 2023-01-20 Time: 15:30-16:30 (Montreal time) https://mcgill.zoom.us/j/83436686293?pwd=b0RmWmlXRXE3OWR6NlNIcWF5d0dJQT09 Meeting ID: 834 3668 6293 Passcode: 12345 Abstract: The transcriptome-wide association studies (TWAS) is a pioneering approach utilizing gene expression data to identify genetic basis of complex diseases. Its core component is called &amp;ldquo;genetically regulated expression (GReX)&amp;rdquo;. GReX links gene expression information with phenotype by serving as both the outcome of genotype-based expression models and the predictor for downstream association testing. Although it is popular and has been used in many high-profile projects, its mathematical nature and interpretation haven’t been rigorously verified.">
 <meta name="twitter:image" content="https://mcgillstat.github.io/images/default.png">
 
 
@@ -42,15 +42,15 @@
       "@type": "WebPage",
       "@id":"https:\/\/mcgillstat.github.io\/"
     },
-    "headline": "Some steps towards causal representation learning - McGill Statistics Seminars",
+    "headline": "What is TWAS and how do we use it in integrating gene expression data - McGill Statistics Seminars",
     "image": {
       "@type": "ImageObject",
       "url": "https:\/\/mcgillstat.github.io\/images\/default.png",
       "height": 800,
       "width": 800
     },
-    "datePublished": "2022-10-07T00:00:00JST",
-    "dateModified": "2022-10-07T00:00:00JST",
+    "datePublished": "2023-01-20T00:00:00JST",
+    "dateModified": "2023-01-20T00:00:00JST",
     "author": {
       "@type": "Person",
       "name": "McGill Statistics Seminars"
@@ -65,7 +65,7 @@
         "height": 60
       }
     },
-    "description": "Date: 2022-10-07 Time: 15:30-16:30 (Montreal time) https:\/\/mcgill.zoom.us\/j\/83436686293?pwd=b0RmWmlXRXE3OWR6NlNIcWF5d0dJQT09 Meeting ID: 834 3668 6293 Passcode: 12345 Abstract: High-dimensional unstructured data such images or sensor data can often be collected cheaply in experiments, but is challenging to use in a causal inference pipeline without extensive engineering and domain knowledge to extract underlying latent factors. The long term goal of causal representation learning is to find appropriate assumptions and methods to disentangle latent variables and learn the causal mechanisms that explain a system\u0026rsquo;s behaviour."
+    "description": "Date: 2023-01-20 Time: 15:30-16:30 (Montreal time) https:\/\/mcgill.zoom.us\/j\/83436686293?pwd=b0RmWmlXRXE3OWR6NlNIcWF5d0dJQT09 Meeting ID: 834 3668 6293 Passcode: 12345 Abstract: The transcriptome-wide association studies (TWAS) is a pioneering approach utilizing gene expression data to identify genetic basis of complex diseases. Its core component is called \u0026ldquo;genetically regulated expression (GReX)\u0026rdquo;. GReX links gene expression information with phenotype by serving as both the outcome of genotype-based expression models and the predictor for downstream association testing. Although it is popular and has been used in many high-profile projects, its mathematical nature and interpretation haven’t been rigorously verified."
   }
 </script>
 
@@ -127,37 +127,34 @@
         
         <li itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="https://mcgillstat.github.io/post/" itemprop="url"><span itemprop="title">post</span></a></li>
         
-        <li class="active">Jason Hartford</li>
+        <li class="active">Quan Long</li>
       </ol>
     </nav>
 
     <article class="single">
   <header>
     <ul class="p-facts">
-      <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2022-10-07T00:00:00JST">Oct 7, 2022</time></li>
+      <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2023-01-20T00:00:00JST">Jan 20, 2023</time></li>
       <li><i class="fa fa-bookmark" aria-hidden="true"></i><a href="https://mcgillstat.github.io/post/">post</a></li>
       
     </ul>
 
-    <h2 class="title">Some steps towards causal representation learning</h1>
-    <h3 class="post-meta">Jason Hartford </h3>
+    <h2 class="title">What is TWAS and how do we use it in integrating gene expression data</h1>
+    <h3 class="post-meta">Quan Long </h3>
     
   </header>
 
   
 
-  <div class="article-body"><h4 id="date-2022-10-07">Date: 2022-10-07</h4>
+  <div class="article-body"><h4 id="date-2023-01-20">Date: 2023-01-20</h4>
 <h4 id="time-1530-1630-montreal-time">Time: 15:30-16:30 (Montreal time)</h4>
 <h4 id="httpsmcgillzoomusj83436686293pwdb0rmwmlxrxe3owr6nlnicwf5d0djqt09httpsmcgillzoomusj83436686293pwdb0rmwmlxrxe3owr6nlnicwf5d0djqt09"><a href="https://mcgill.zoom.us/j/83436686293?pwd=b0RmWmlXRXE3OWR6NlNIcWF5d0dJQT09">https://mcgill.zoom.us/j/83436686293?pwd=b0RmWmlXRXE3OWR6NlNIcWF5d0dJQT09</a></h4>
 <h4 id="meeting-id-834-3668-6293">Meeting ID: 834 3668 6293</h4>
 <h4 id="passcode-12345">Passcode: 12345</h4>
 <h2 id="abstract">Abstract:</h2>
-<p>High-dimensional unstructured data such images or sensor data can often be collected cheaply in experiments, but is challenging to use in a causal inference pipeline without extensive engineering and domain knowledge to extract underlying latent factors. The long term goal of causal representation learning is to find appropriate assumptions and methods to disentangle latent variables and learn the causal mechanisms that explain a system&rsquo;s behaviour. In this talk, I&rsquo;ll present results from a series of recent papers that describe how we can leverage assumptions about a system&rsquo;s causal mechanisms to provably disentangle latent factors. I will also talk about the limitations of a commonly used injectivity assumption, and discuss a hierarchy of settings that relax this assumption.</p>
+<p>The transcriptome-wide association studies (TWAS) is a pioneering approach utilizing gene expression data to identify genetic basis of complex diseases. Its core component is called &ldquo;genetically regulated expression (GReX)&rdquo;. GReX links gene expression information with phenotype by serving as both the outcome of genotype-based expression models and the predictor for downstream association testing. Although it is popular and has been used in many high-profile projects, its mathematical nature and interpretation haven’t been rigorously verified. As such, we have first conducted power analysis using NCP-based closed forms (Cao et al, PLoS Genet 2021), based on which we realized that the common interpretation of TWAS that looks biologically sensible is actually mathematically questionable. Following this insight, by real data analysis and simulations, we demonstrated that current linear models of GReX inadvertently combine two separable steps of machine learning - feature selection and aggregation - which can be independently replaced to improve overall power (Cao et al, Genetics 2021). Based on this new interpretation, we have developed novel protocols disentangling feature selections and aggregations, leading to improved power and novel biological discoveries (Cao et al, BiB 2021; Genetics 2021). To promote this new understanding, we moved forward to develop two statistical tools utilizing gene expressions in identifying genetic basis of gene-gene interactions (Kossinna et al, in preparation) and low-effect genetic variants (Li et al, in review), respectively. Looking forward, our mathematical characterization of TWAS opens a door for a new way to integrate gene expressions in genetic studies towards the realization of precision medicine.</p>
 <h2 id="speaker">Speaker</h2>
-<p>Jason Hartford is currently a postdoc at Mila with Yoshua Bengio. Previously - PhD at UBC with Kevin Leyton-Brown.
-His research interest is focused on using deep learning for causal inference, and on designing deep network architectures for permutation invariant data.</p>
-<p>McGill Statistics Seminar schedule:
-<a href="https://mcgillstat.github.io/">https://mcgillstat.github.io/</a></p>
+<p>Quan Long is an Associate Professor at University of Calgary, hosted by the Dept. of Biochemistry and Molecular Biology. He has a joint appointment in the Dept. of Medical Genetics and an adjunct appointment in the Dept. of Math and Stats. He is a member of Alberta Children&rsquo;s Hospital Research Institute and Hotchkiss Brain Institute. Currently he is leading a research group to develop computational and statistical tools, focusing on genomic problems with high-dimensional features and low sample sizes. He is also interested in theoretical problems in machine learning.</p>
 </div>
 
   <footer class="article-footer">
@@ -186,7 +183,7 @@ His research interest is focused on using deep learning for causal inference, an
       <div>
         <ul class="p-terms">
           
-          <li><a href="https://mcgillstat.github.io/tags/2022-fall/">2022 fall</a></li>
+          <li><a href="https://mcgillstat.github.io/tags/2023-winter/">2023 Winter</a></li>
           
         </ul>
       </div>
