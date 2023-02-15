@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+<meta name="pinterest" content="nopin">
+<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+<meta name="generator" content="Hugo 0.80.0" />
+
+
+
+<link rel="canonical" href="https://mcgillstat.github.io/post/2023winter/2023-02-10/">
+
+
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/solarized_dark.min.css">
+    <title>Efficient Label Shift Adaptation through the Lens of Semiparametric Models - McGill Statistics Seminars</title>
+    
+<meta name="description" content="Date: 2023-02-10 Time: 15:00-16:00 (Montreal time) Hybrid: In person / Zoom Location: Burnside Hall 1205 https://mcgill.zoom.us/j/83436686293?pwd=b0RmWmlXRXE3OWR6NlNIcWF5d0dJQT09 Meeting ID: 834 3668 6293 Passcode: 12345 Abstract: We study the domain adaptation problem with label shift in this work. Under the label shift context, the marginal distribution of the label varies across the training and testing datasets, while the conditional distribution of features given the label is the same. Traditional label shift adaptation methods either suffer from large estimation errors or require cumbersome post-prediction calibrations.">
+
+<meta property="og:title" content="Efficient Label Shift Adaptation through the Lens of Semiparametric Models - McGill Statistics Seminars">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://mcgillstat.github.io/post/2023winter/2023-02-10/">
+<meta property="og:image" content="https://mcgillstat.github.io/images/default.png">
+<meta property="og:site_name" content="McGill Statistics Seminars">
+<meta property="og:description" content="Date: 2023-02-10 Time: 15:00-16:00 (Montreal time) Hybrid: In person / Zoom Location: Burnside Hall 1205 https://mcgill.zoom.us/j/83436686293?pwd=b0RmWmlXRXE3OWR6NlNIcWF5d0dJQT09 Meeting ID: 834 3668 6293 Passcode: 12345 Abstract: We study the domain adaptation problem with label shift in this work. Under the label shift context, the marginal distribution of the label varies across the training and testing datasets, while the conditional distribution of features given the label is the same. Traditional label shift adaptation methods either suffer from large estimation errors or require cumbersome post-prediction calibrations.">
+<meta property="og:locale" content="ja_JP">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="McGill Statistics Seminars">
+<meta name="twitter:url" content="https://mcgillstat.github.io/post/2023winter/2023-02-10/">
+<meta name="twitter:title" content="Efficient Label Shift Adaptation through the Lens of Semiparametric Models - McGill Statistics Seminars">
+<meta name="twitter:description" content="Date: 2023-02-10 Time: 15:00-16:00 (Montreal time) Hybrid: In person / Zoom Location: Burnside Hall 1205 https://mcgill.zoom.us/j/83436686293?pwd=b0RmWmlXRXE3OWR6NlNIcWF5d0dJQT09 Meeting ID: 834 3668 6293 Passcode: 12345 Abstract: We study the domain adaptation problem with label shift in this work. Under the label shift context, the marginal distribution of the label varies across the training and testing datasets, while the conditional distribution of features given the label is the same. Traditional label shift adaptation methods either suffer from large estimation errors or require cumbersome post-prediction calibrations.">
+<meta name="twitter:image" content="https://mcgillstat.github.io/images/default.png">
+
+
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "NewsArticle",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id":"https:\/\/mcgillstat.github.io\/"
+    },
+    "headline": "Efficient Label Shift Adaptation through the Lens of Semiparametric Models - McGill Statistics Seminars",
+    "image": {
+      "@type": "ImageObject",
+      "url": "https:\/\/mcgillstat.github.io\/images\/default.png",
+      "height": 800,
+      "width": 800
+    },
+    "datePublished": "2023-02-10T00:00:00JST",
+    "dateModified": "2023-02-10T00:00:00JST",
+    "author": {
+      "@type": "Person",
+      "name": "McGill Statistics Seminars"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "McGill Statistics Seminars",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https:\/\/mcgillstat.github.io\/images/logo.png",
+        "width": 600,
+        "height": 60
+      }
+    },
+    "description": "Date: 2023-02-10 Time: 15:00-16:00 (Montreal time) Hybrid: In person \/ Zoom Location: Burnside Hall 1205 https:\/\/mcgill.zoom.us\/j\/83436686293?pwd=b0RmWmlXRXE3OWR6NlNIcWF5d0dJQT09 Meeting ID: 834 3668 6293 Passcode: 12345 Abstract: We study the domain adaptation problem with label shift in this work. Under the label shift context, the marginal distribution of the label varies across the training and testing datasets, while the conditional distribution of features given the label is the same. Traditional label shift adaptation methods either suffer from large estimation errors or require cumbersome post-prediction calibrations."
+  }
+</script>
+
+
+    <link href="https://mcgillstat.github.io/css/styles.css" rel="stylesheet">
+    
+
+  </head>
+
+  <body>
+    
+    
+    
+
+    <header class="l-header">
+      <nav class="navbar navbar-default">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="https://mcgillstat.github.io/">McGill Statistics Seminars</a>
+          </div>
+
+          
+          <div id="navbar" class="collapse navbar-collapse">
+            
+            <ul class="nav navbar-nav navbar-right">
+              
+              
+              <li><a href="/">Current Seminar Series</a></li>
+              
+              
+              
+              <li><a href="/post/">Past Seminar Series</a></li>
+              
+              
+            </ul>
+            
+          </div>
+          
+
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="container">
+        
+<div class="row">
+  <div class="col-md-8">
+
+    <nav class="p-crumb">
+      <ol class="breadcrumb">
+        <li><a href="https://mcgillstat.github.io/"><i class="fa fa-home" aria-hidden="true"></i></a></li>
+        
+        <li itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="https://mcgillstat.github.io/post/" itemprop="url"><span itemprop="title">post</span></a></li>
+        
+        <li class="active">Qinglong Tian</li>
+      </ol>
+    </nav>
+
+    <article class="single">
+  <header>
+    <ul class="p-facts">
+      <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2023-02-10T00:00:00JST">Feb 10, 2023</time></li>
+      <li><i class="fa fa-bookmark" aria-hidden="true"></i><a href="https://mcgillstat.github.io/post/">post</a></li>
+      
+    </ul>
+
+    <h2 class="title">Efficient Label Shift Adaptation through the Lens of Semiparametric Models</h1>
+    <h3 class="post-meta">Qinglong Tian </h3>
+    
+  </header>
+
+  
+
+  <div class="article-body"><h4 id="date-2023-02-10">Date: 2023-02-10</h4>
+<h4 id="time-1500-1600-montreal-time">Time: 15:00-16:00 (Montreal time)</h4>
+<h4 id="hybrid-in-person--zoom">Hybrid: In person / Zoom</h4>
+<h4 id="location-burnside-hall-1205">Location: Burnside Hall 1205</h4>
+<h4 id="httpsmcgillzoomusj83436686293pwdb0rmwmlxrxe3owr6nlnicwf5d0djqt09httpsmcgillzoomusj83436686293pwdb0rmwmlxrxe3owr6nlnicwf5d0djqt09"><a href="https://mcgill.zoom.us/j/83436686293?pwd=b0RmWmlXRXE3OWR6NlNIcWF5d0dJQT09">https://mcgill.zoom.us/j/83436686293?pwd=b0RmWmlXRXE3OWR6NlNIcWF5d0dJQT09</a></h4>
+<h4 id="meeting-id-834-3668-6293">Meeting ID: 834 3668 6293</h4>
+<h4 id="passcode-12345">Passcode: 12345</h4>
+<h2 id="abstract">Abstract:</h2>
+<p>We study the domain adaptation problem with label shift in this work. Under the label shift context, the marginal distribution of the label varies across the training and testing datasets, while the conditional distribution of features given the label is the same. Traditional label shift adaptation methods either suffer from large estimation errors or require cumbersome post-prediction calibrations. To address these issues, we first propose a moment-matching framework for adapting the label shift based on the geometry of the influence function. Under such a framework, we propose a novel method named efficient label shift adaptation (ELSA), in which the adaptation weights can be estimated by solving linear systems. Theoretically, the ELSA estimator is root-n consistent (n is the sample size of the source data) and asymptotically normal. Empirically, we show that ELSA can achieve state-of-the-art estimation performances without post-prediction calibrations, thus, gaining computational efficiency.</p>
+<h2 id="speaker">Speaker</h2>
+<p>Dr. Qinglong Tian is an Assistant Professor in the Department of Statistics and Actuarial Science at the University of Waterloo. He obtain his PhD degree at Iowa State University with Professor William Meeker. His research focuses on engineering statistics, reliability and statistical computing.</p>
+</div>
+
+  <footer class="article-footer">
+    
+    
+    
+    <section class="bordered">
+      <header>
+        <div class="panel-title">CATEGORIES</div>
+      </header>
+      <div>
+        <ul class="p-terms">
+          
+          <li><a href="https://mcgillstat.github.io/categories/mcgill-statistics-seminar/">McGill Statistics Seminar</a></li>
+          
+        </ul>
+      </div>
+    </section>
+    
+    
+    
+    <section class="bordered">
+      <header>
+        <div class="panel-title">TAGS</div>
+      </header>
+      <div>
+        <ul class="p-terms">
+          
+          <li><a href="https://mcgillstat.github.io/tags/2023-winter/">2023 Winter</a></li>
+          
+        </ul>
+      </div>
+    </section>
+    
+    
+  </footer>
+
+</article>
+
+
+    
+  </div>
+
+  <div class="col-md-4">
+    
+<aside class="l-sidebar">
+
+  <section class="panel panel-default">
+    <div class="panel-heading">
+      <div class="panel-title">Recent Talks</div>
+    </div>
+    <div class="list-group">
+      
+      <a href="https://mcgillstat.github.io/tags/2023-winter/" class="list-group-item"> · Feb 17, 2023</a>
+      
+      <a href="https://mcgillstat.github.io/categories/" class="list-group-item"> · Feb 17, 2023</a>
+      
+      <a href="https://mcgillstat.github.io/post/2023winter/2023-02-17/" class="list-group-item">Lam Ho · Feb 17, 2023</a>
+      
+      <a href="https://mcgillstat.github.io/categories/mcgill-statistics-seminar/" class="list-group-item"> · Feb 17, 2023</a>
+      
+      <a href="https://mcgillstat.github.io/tags/" class="list-group-item"> · Feb 17, 2023</a>
+      
+    </div>
+  </section>
+
+  
+  <section class="panel panel-default">
+    <div class="panel-heading">
+      <div class="panel-title">CATEGORY</div>
+    </div>
+    <div class="list-group">
+      
+      <a href="https://mcgillstat.github.io/categories/mcgill-statistics-seminar" class="list-group-item">mcgill-statistics-seminar</a>
+      
+      <a href="https://mcgillstat.github.io/categories/crm-ssc-prize-address" class="list-group-item">crm-ssc-prize-address</a>
+      
+      <a href="https://mcgillstat.github.io/categories/crm-colloquium" class="list-group-item">crm-colloquium</a>
+      
+    </div>
+  </section>
+  
+  <section class="panel panel-default">
+    <div class="panel-heading">
+      <div class="panel-title">TAG</div>
+    </div>
+    <div class="list-group">
+      
+      <a href="https://mcgillstat.github.io/tags/2023-winter" class="list-group-item">2023-winter</a>
+      
+      <a href="https://mcgillstat.github.io/tags/2022-winter" class="list-group-item">2022-winter</a>
+      
+      <a href="https://mcgillstat.github.io/tags/2022-fall" class="list-group-item">2022-fall</a>
+      
+      <a href="https://mcgillstat.github.io/tags/2021-winter" class="list-group-item">2021-winter</a>
+      
+      <a href="https://mcgillstat.github.io/tags/2021-fall" class="list-group-item">2021-fall</a>
+      
+      <a href="https://mcgillstat.github.io/tags/2020-winter" class="list-group-item">2020-winter</a>
+      
+      <a href="https://mcgillstat.github.io/tags/2020-fall" class="list-group-item">2020-fall</a>
+      
+      <a href="https://mcgillstat.github.io/tags/2019-winter" class="list-group-item">2019-winter</a>
+      
+      <a href="https://mcgillstat.github.io/tags/2019-fall" class="list-group-item">2019-fall</a>
+      
+      <a href="https://mcgillstat.github.io/tags/2018-winter" class="list-group-item">2018-winter</a>
+      
+      <a href="https://mcgillstat.github.io/tags/2018-fall" class="list-group-item">2018-fall</a>
+      
+      <a href="https://mcgillstat.github.io/tags/2017-winter" class="list-group-item">2017-winter</a>
+      
+      <a href="https://mcgillstat.github.io/tags/2017-fall" class="list-group-item">2017-fall</a>
+      
+      <a href="https://mcgillstat.github.io/tags/2016-winter" class="list-group-item">2016-winter</a>
+      
+      <a href="https://mcgillstat.github.io/tags/2016-fall" class="list-group-item">2016-fall</a>
+      
+      <a href="https://mcgillstat.github.io/tags/2015-winter" class="list-group-item">2015-winter</a>
+      
+      <a href="https://mcgillstat.github.io/tags/2015-fall" class="list-group-item">2015-fall</a>
+      
+      <a href="https://mcgillstat.github.io/tags/2014-winter" class="list-group-item">2014-winter</a>
+      
+      <a href="https://mcgillstat.github.io/tags/2014-fall" class="list-group-item">2014-fall</a>
+      
+      <a href="https://mcgillstat.github.io/tags/2013-winter" class="list-group-item">2013-winter</a>
+      
+      <a href="https://mcgillstat.github.io/tags/2013-fall" class="list-group-item">2013-fall</a>
+      
+      <a href="https://mcgillstat.github.io/tags/2012-winter" class="list-group-item">2012-winter</a>
+      
+      <a href="https://mcgillstat.github.io/tags/2012-fall" class="list-group-item">2012-fall</a>
+      
+      <a href="https://mcgillstat.github.io/tags/2011-fall" class="list-group-item">2011-fall</a>
+      
+    </div>
+  </section>
+  
+
+</aside>
+
+
+
+    <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
+    
+    <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+            displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+            processEscapes: true,
+            processEnvironments: true
+        },
+        // Center justify equations in code and markdown cells. Elsewhere
+        // we use CSS to left justify single line equations in code cells.
+        displayAlign: 'center',
+        "HTML-CSS": {
+            styles: {'.MathJax_Display': {"margin": 0}},
+            linebreaks: { automatic: true }
+        }
+    });
+    </script>
+    
+  </div>
+</div>
+
+      </div>
+    </main>
+
+    <footer class="l-footer">
+      <div class="container">
+        <p><span class="h-logo">&copy; McGill Statistics Seminars</span></p>
+        <aside>
+          <p><a href="http://www.mcgill.ca/mathstat/">Department of Mathematics and Statistics</a>.</p>
+          <p><a href="https://www.mcgill.ca/">McGill University</a></p>
+        </aside>
+      </div>
+    </footer>
+
+    <script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+  </body>
+</html>
+
