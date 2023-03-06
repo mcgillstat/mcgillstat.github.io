@@ -8,29 +8,29 @@
 
 
 
-<link rel="canonical" href="https://mcgillstat.github.io/post/2023winter/2023-01-13/">
+<link rel="canonical" href="https://mcgillstat.github.io/post/2023winter/2023-03-10/">
 
 
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/solarized_dark.min.css">
-    <title>To split or not to split that is the question: From cross validation to debiased machine learning - McGill Statistics Seminars</title>
+    <title>Heteroskedastic Sparse PCA in High Dimensions - McGill Statistics Seminars</title>
     
-<meta name="description" content="Date: 2023-01-13 Time: 15:30-16:30 (Montreal time) https://mcgill.zoom.us/j/83436686293?pwd=b0RmWmlXRXE3OWR6NlNIcWF5d0dJQT09 Meeting ID: 834 3668 6293 Passcode: 12345 Abstract: Data splitting is an ubiquitous method in statistics with examples ranging from cross validation to cross-fitting. However, despite its prevalence, theoretical guidance regarding its use is still lacking. In this talk we will explore two examples and establish an asymptotic theory for it. In the first part of this talk, we study the cross-validation method, a ubiquitous method for risk estimation, and establish its asymptotic properties for a large class of models and with an arbitrary number of folds.">
+<meta name="description" content="Date: 2023-03-10 Time: 15:00-16:00 (Montreal time) Hybrid: In person / Zoom Location: Burnside Hall 1104 https://mcgill.zoom.us/j/83436686293?pwd=b0RmWmlXRXE3OWR6NlNIcWF5d0dJQT09 Meeting ID: 834 3668 6293 Passcode: 12345 Abstract: Principal component analysis (PCA) is one of the most commonly used techniques for dimension reduction and feature extraction. Though it has been well-studied for high-dimensional sparse PCA, little is known when the noise is heteroskedastic, which turns out to be ubiquitous in many scenarios, like biological sequencing data and information network data.">
 
-<meta property="og:title" content="To split or not to split that is the question: From cross validation to debiased machine learning - McGill Statistics Seminars">
+<meta property="og:title" content="Heteroskedastic Sparse PCA in High Dimensions - McGill Statistics Seminars">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://mcgillstat.github.io/post/2023winter/2023-01-13/">
+<meta property="og:url" content="https://mcgillstat.github.io/post/2023winter/2023-03-10/">
 <meta property="og:image" content="https://mcgillstat.github.io/images/default.png">
 <meta property="og:site_name" content="McGill Statistics Seminars">
-<meta property="og:description" content="Date: 2023-01-13 Time: 15:30-16:30 (Montreal time) https://mcgill.zoom.us/j/83436686293?pwd=b0RmWmlXRXE3OWR6NlNIcWF5d0dJQT09 Meeting ID: 834 3668 6293 Passcode: 12345 Abstract: Data splitting is an ubiquitous method in statistics with examples ranging from cross validation to cross-fitting. However, despite its prevalence, theoretical guidance regarding its use is still lacking. In this talk we will explore two examples and establish an asymptotic theory for it. In the first part of this talk, we study the cross-validation method, a ubiquitous method for risk estimation, and establish its asymptotic properties for a large class of models and with an arbitrary number of folds.">
+<meta property="og:description" content="Date: 2023-03-10 Time: 15:00-16:00 (Montreal time) Hybrid: In person / Zoom Location: Burnside Hall 1104 https://mcgill.zoom.us/j/83436686293?pwd=b0RmWmlXRXE3OWR6NlNIcWF5d0dJQT09 Meeting ID: 834 3668 6293 Passcode: 12345 Abstract: Principal component analysis (PCA) is one of the most commonly used techniques for dimension reduction and feature extraction. Though it has been well-studied for high-dimensional sparse PCA, little is known when the noise is heteroskedastic, which turns out to be ubiquitous in many scenarios, like biological sequencing data and information network data.">
 <meta property="og:locale" content="ja_JP">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="McGill Statistics Seminars">
-<meta name="twitter:url" content="https://mcgillstat.github.io/post/2023winter/2023-01-13/">
-<meta name="twitter:title" content="To split or not to split that is the question: From cross validation to debiased machine learning - McGill Statistics Seminars">
-<meta name="twitter:description" content="Date: 2023-01-13 Time: 15:30-16:30 (Montreal time) https://mcgill.zoom.us/j/83436686293?pwd=b0RmWmlXRXE3OWR6NlNIcWF5d0dJQT09 Meeting ID: 834 3668 6293 Passcode: 12345 Abstract: Data splitting is an ubiquitous method in statistics with examples ranging from cross validation to cross-fitting. However, despite its prevalence, theoretical guidance regarding its use is still lacking. In this talk we will explore two examples and establish an asymptotic theory for it. In the first part of this talk, we study the cross-validation method, a ubiquitous method for risk estimation, and establish its asymptotic properties for a large class of models and with an arbitrary number of folds.">
+<meta name="twitter:url" content="https://mcgillstat.github.io/post/2023winter/2023-03-10/">
+<meta name="twitter:title" content="Heteroskedastic Sparse PCA in High Dimensions - McGill Statistics Seminars">
+<meta name="twitter:description" content="Date: 2023-03-10 Time: 15:00-16:00 (Montreal time) Hybrid: In person / Zoom Location: Burnside Hall 1104 https://mcgill.zoom.us/j/83436686293?pwd=b0RmWmlXRXE3OWR6NlNIcWF5d0dJQT09 Meeting ID: 834 3668 6293 Passcode: 12345 Abstract: Principal component analysis (PCA) is one of the most commonly used techniques for dimension reduction and feature extraction. Though it has been well-studied for high-dimensional sparse PCA, little is known when the noise is heteroskedastic, which turns out to be ubiquitous in many scenarios, like biological sequencing data and information network data.">
 <meta name="twitter:image" content="https://mcgillstat.github.io/images/default.png">
 
 
@@ -42,15 +42,15 @@
       "@type": "WebPage",
       "@id":"https:\/\/mcgillstat.github.io\/"
     },
-    "headline": "To split or not to split that is the question: From cross validation to debiased machine learning - McGill Statistics Seminars",
+    "headline": "Heteroskedastic Sparse PCA in High Dimensions - McGill Statistics Seminars",
     "image": {
       "@type": "ImageObject",
       "url": "https:\/\/mcgillstat.github.io\/images\/default.png",
       "height": 800,
       "width": 800
     },
-    "datePublished": "2023-01-13T00:00:00JST",
-    "dateModified": "2023-01-13T00:00:00JST",
+    "datePublished": "2023-03-10T00:00:00JST",
+    "dateModified": "2023-03-10T00:00:00JST",
     "author": {
       "@type": "Person",
       "name": "McGill Statistics Seminars"
@@ -65,7 +65,7 @@
         "height": 60
       }
     },
-    "description": "Date: 2023-01-13 Time: 15:30-16:30 (Montreal time) https:\/\/mcgill.zoom.us\/j\/83436686293?pwd=b0RmWmlXRXE3OWR6NlNIcWF5d0dJQT09 Meeting ID: 834 3668 6293 Passcode: 12345 Abstract: Data splitting is an ubiquitous method in statistics with examples ranging from cross validation to cross-fitting. However, despite its prevalence, theoretical guidance regarding its use is still lacking. In this talk we will explore two examples and establish an asymptotic theory for it. In the first part of this talk, we study the cross-validation method, a ubiquitous method for risk estimation, and establish its asymptotic properties for a large class of models and with an arbitrary number of folds."
+    "description": "Date: 2023-03-10 Time: 15:00-16:00 (Montreal time) Hybrid: In person \/ Zoom Location: Burnside Hall 1104 https:\/\/mcgill.zoom.us\/j\/83436686293?pwd=b0RmWmlXRXE3OWR6NlNIcWF5d0dJQT09 Meeting ID: 834 3668 6293 Passcode: 12345 Abstract: Principal component analysis (PCA) is one of the most commonly used techniques for dimension reduction and feature extraction. Though it has been well-studied for high-dimensional sparse PCA, little is known when the noise is heteroskedastic, which turns out to be ubiquitous in many scenarios, like biological sequencing data and information network data."
   }
 </script>
 
@@ -127,34 +127,36 @@
         
         <li itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="https://mcgillstat.github.io/post/" itemprop="url"><span itemprop="title">post</span></a></li>
         
-        <li class="active">Morgane Austern</li>
+        <li class="active">Zhao Ren</li>
       </ol>
     </nav>
 
     <article class="single">
   <header>
     <ul class="p-facts">
-      <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2023-01-13T00:00:00JST">Jan 13, 2023</time></li>
+      <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2023-03-10T00:00:00JST">Mar 10, 2023</time></li>
       <li><i class="fa fa-bookmark" aria-hidden="true"></i><a href="https://mcgillstat.github.io/post/">post</a></li>
       
     </ul>
 
-    <h2 class="title">To split or not to split that is the question: From cross validation to debiased machine learning</h1>
-    <h3 class="post-meta">Morgane Austern </h3>
+    <h2 class="title">Heteroskedastic Sparse PCA in High Dimensions</h1>
+    <h3 class="post-meta">Zhao Ren </h3>
     
   </header>
 
   
 
-  <div class="article-body"><h4 id="date-2023-01-13">Date: 2023-01-13</h4>
-<h4 id="time-1530-1630-montreal-time">Time: 15:30-16:30 (Montreal time)</h4>
+  <div class="article-body"><h4 id="date-2023-03-10">Date: 2023-03-10</h4>
+<h4 id="time-1500-1600-montreal-time">Time: 15:00-16:00 (Montreal time)</h4>
+<h4 id="hybrid-in-person--zoom">Hybrid: In person / Zoom</h4>
+<h4 id="location-burnside-hall-1104">Location: Burnside Hall 1104</h4>
 <h4 id="httpsmcgillzoomusj83436686293pwdb0rmwmlxrxe3owr6nlnicwf5d0djqt09httpsmcgillzoomusj83436686293pwdb0rmwmlxrxe3owr6nlnicwf5d0djqt09"><a href="https://mcgill.zoom.us/j/83436686293?pwd=b0RmWmlXRXE3OWR6NlNIcWF5d0dJQT09">https://mcgill.zoom.us/j/83436686293?pwd=b0RmWmlXRXE3OWR6NlNIcWF5d0dJQT09</a></h4>
 <h4 id="meeting-id-834-3668-6293">Meeting ID: 834 3668 6293</h4>
 <h4 id="passcode-12345">Passcode: 12345</h4>
 <h2 id="abstract">Abstract:</h2>
-<p>Data splitting is an ubiquitous method in statistics with examples ranging from cross validation to cross-fitting. However, despite its prevalence, theoretical guidance regarding its use is still lacking. In this talk we will explore two examples and establish an asymptotic theory for it. In the first part of this talk, we study the cross-validation method, a ubiquitous method for risk estimation, and establish its asymptotic properties for a large class of models and with an arbitrary number of folds. Under stability conditions, we establish a central limit theorem and Berry-Esseen bounds for the cross-validated risk, which enable us to compute asymptotically accurate confidence intervals. Using our results, we study the statistical speed-up offered by cross validation compared to a train-test split procedure. We reveal some surprising behavior of the cross-validated risk and establish the statistically optimal choice for the number of folds. In the second part of this talk, we study the role of cross fitting in the generalized method of moments with moments that also depend on some auxiliary functions. Recent lines of work show how one can use generic machine learning estimators for these auxiliary problems, while maintaining asymptotic normality and root-n consistency of the target parameter of interest. The literature typically requires that these auxiliary problems are fitted on a separate sample or in a cross-fitting manner. We show that when these auxiliary estimation algorithms satisfy natural leave-one-out stability properties, then sample splitting is not required. This allows for sample re-use, which can be beneficial in moderately sized sample regimes.</p>
+<p>Principal component analysis (PCA) is one of the most commonly used techniques for dimension reduction and feature extraction. Though it has been well-studied for high-dimensional sparse PCA, little is known when the noise is heteroskedastic, which turns out to be ubiquitous in many scenarios, like biological sequencing data and information network data. We propose an iterative algorithm for sparse PCA in the presence of heteroskedastic noise, which alternatively updates the estimates of the sparse eigenvectors using the power method with adaptive thresholding in one step, and imputes the diagonal values of the sample covariance matrix to reduce the estimation bias due to heteroskedasticity in the other step. Our procedure is computationally fast and provably optimal under the generalized spiked covariance model, assuming the leading eigenvectors are sparse. A comprehensive simulation study demonstrates its robustness and effectiveness in various settings.</p>
 <h2 id="speaker">Speaker</h2>
-<p>Morgane Austern is an Assistant Professor of Statistics at Harvard University. She obtained her PhD in statistics from Columbia University, working with Peter Orbanz and Arian Maleki on limit theorems for dependent and structured data.  After that, she was a postdoctoral researcher at Microsoft Research New England. Broadly, she interested in developing probability tools for modern machine learning and in establishing the properties of learning algorithms in structured and dependent data contexts.  Her current work is motivated by generalization and concentration bounds, stable matching problems and random matrix theory.</p>
+<p>Dr. Zhao Ren is an Associate Professor of Statistics in Dietrich School of Arts and Sciences at the University of Pittsburgh. His research focuses on high dimensional statistical inference, graphical models and statistical machine learning, nonparametric function estimation, and applications in Statistical Genomics.</p>
 </div>
 
   <footer class="article-footer">
