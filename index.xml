@@ -9,11 +9,20 @@
     <lastBuildDate>Fri, 28 Sep 2012 00:00:00 +0000</lastBuildDate><atom:link href="https://mcgillstat.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Heteroskedastic Sparse PCA in High Dimensions</title>
-      <link>https://mcgillstat.github.io/post/2023winter/2023-03-10/</link>
+      <link>https://mcgillstat.github.io/post/2023winter/2023-03-10-2/</link>
       <pubDate>Fri, 10 Mar 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://mcgillstat.github.io/post/2023winter/2023-03-10/</guid>
-      <description>Date: 2023-03-10 Time: 15:00-16:00 (Montreal time) Hybrid: In person / Zoom Location: Burnside Hall 1104 https://mcgill.zoom.us/j/83436686293?pwd=b0RmWmlXRXE3OWR6NlNIcWF5d0dJQT09 Meeting ID: 834 3668 6293 Passcode: 12345 Abstract: Principal component analysis (PCA) is one of the most commonly used techniques for dimension reduction and feature extraction. Though it has been well-studied for high-dimensional sparse PCA, little is known when the noise is heteroskedastic, which turns out to be ubiquitous in many scenarios, like biological sequencing data and information network data.</description>
+      <guid>https://mcgillstat.github.io/post/2023winter/2023-03-10-2/</guid>
+      <description>Date: 2023-03-10 Time: 15:30-16:30 (Montreal time) Hybrid: In person / Zoom Location: Burnside Hall 1104 https://mcgill.zoom.us/j/83436686293?pwd=b0RmWmlXRXE3OWR6NlNIcWF5d0dJQT09 Meeting ID: 834 3668 6293 Passcode: 12345 Abstract: Principal component analysis (PCA) is one of the most commonly used techniques for dimension reduction and feature extraction. Though it has been well-studied for high-dimensional sparse PCA, little is known when the noise is heteroskedastic, which turns out to be ubiquitous in many scenarios, like biological sequencing data and information network data.</description>
+    </item>
+    
+    <item>
+      <title>High Dimensional Logistic Regression Under Network Dependence</title>
+      <link>https://mcgillstat.github.io/post/2023winter/2023-03-10-1/</link>
+      <pubDate>Fri, 10 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mcgillstat.github.io/post/2023winter/2023-03-10-1/</guid>
+      <description>Date: 2023-03-10 Time: 14:15-15:15 (Montreal time) Hybrid: In person / Zoom Location: Burnside Hall 1104 https://mcgill.zoom.us/j/83436686293?pwd=b0RmWmlXRXE3OWR6NlNIcWF5d0dJQT09 Meeting ID: 834 3668 6293 Passcode: 12345 Abstract: The classical formulation of logistic regression relies on the independent sampling assumption, which is often violated when the outcomes interact through an underlying network structure, such as over a temporal/spatial domain or on a social network. This necessitates the development of models that can simultaneously handle both the network peer-effect (arising from neighborhood interactions) and the effect of (possibly) high-dimensional covariates.</description>
     </item>
     
     <item>
@@ -419,7 +428,7 @@ In this talk, I will provide a general overview of the topic alongside some hist
       <pubDate>Fri, 20 Nov 2020 00:00:00 +0000</pubDate>
       
       <guid>https://mcgillstat.github.io/post/2020fall/2020-11-20/</guid>
-      <description>Date: 2020-11-20 Time: 15:30-16:30 Zoom Link Meeting ID: 924 5390 4989 Passcode: 690084 Abstract: Despite the success of combined antiretroviral therapy (ART) in achieving sustained control of viral replication, the concerns about side-effects, drug-drug interactions, drug resistance and cost call for a need to identify strategies for achieving HIV eradication or an ART-free remission. Following ART withdrawal, patients&#39; viral load levels usually increase rapidly to a peak followed by a dip, and then stabilize at a viral load set point.</description>
+      <description>Date: 2020-11-20 Time: 15:30-16:30 Zoom Link Meeting ID: 924 5390 4989 Passcode: 690084 Abstract: Despite the success of combined antiretroviral therapy (ART) in achieving sustained control of viral replication, the concerns about side-effects, drug-drug interactions, drug resistance and cost call for a need to identify strategies for achieving HIV eradication or an ART-free remission. Following ART withdrawal, patients&amp;rsquo; viral load levels usually increase rapidly to a peak followed by a dip, and then stabilize at a viral load set point.</description>
     </item>
     
     <item>
@@ -1659,7 +1668,7 @@ Speaker James A. Hanley is a Professor in the Department of Epidemiology, Biosta
       <pubDate>Fri, 20 Feb 2015 00:00:00 +0000</pubDate>
       
       <guid>https://mcgillstat.github.io/post/2015winter/2015-02-20/</guid>
-      <description>Date: 2015-02-20 Time: 15:30-16:30 Location: BURN 1205 Abstract: Rapidly progressing particle tracking techniques have revealed that foreign particles in biological fluids exhibit rich and at times unexpected behavior, with important consequences for disease diagnosis and drug delivery. Yet, there remains a frustrating lack of coherence in the description of these particles&#39; motion. Largely this is due to a reliance on functional statistics (e.g., mean-squared displacement) to perform model selection and assess goodness-of-fit.</description>
+      <description>Date: 2015-02-20 Time: 15:30-16:30 Location: BURN 1205 Abstract: Rapidly progressing particle tracking techniques have revealed that foreign particles in biological fluids exhibit rich and at times unexpected behavior, with important consequences for disease diagnosis and drug delivery. Yet, there remains a frustrating lack of coherence in the description of these particles&amp;rsquo; motion. Largely this is due to a reliance on functional statistics (e.g., mean-squared displacement) to perform model selection and assess goodness-of-fit.</description>
     </item>
     
     <item>
