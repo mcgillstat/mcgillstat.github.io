@@ -8,12 +8,21 @@
     <language>en-us</language>
     <lastBuildDate>Fri, 28 Sep 2012 00:00:00 +0000</lastBuildDate><atom:link href="https://mcgillstat.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Confidence sets for Causal Discovery</title>
+      <link>https://mcgillstat.github.io/post/2023winter/2023-03-24/</link>
+      <pubDate>Fri, 24 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mcgillstat.github.io/post/2023winter/2023-03-24/</guid>
+      <description>Date: 2023-03-24 Time: 15:30-16:30 (Montreal time) On Zoom only https://mcgill.zoom.us/j/83436686293?pwd=b0RmWmlXRXE3OWR6NlNIcWF5d0dJQT09 Meeting ID: 834 3668 6293 Passcode: 12345 Abstract: Causal discovery procedures are popular methods for discovering causal structure across the physical, biological, and social sciences. However, most procedures for causal discovery only output a single estimated causal model or single equivalence class of models. We propose a procedure for quantifying uncertainty in causal discovery. Specifically, we consider linear structural equation models with non-Gaussian errors and propose a procedure which returns a confidence sets of causal orderings which are not ruled out by the data.</description>
+    </item>
+    
+    <item>
       <title>Excursions in Statistical History: Highlights</title>
       <link>https://mcgillstat.github.io/post/2023winter/2023-03-17/</link>
       <pubDate>Fri, 17 Mar 2023 00:00:00 +0000</pubDate>
       
       <guid>https://mcgillstat.github.io/post/2023winter/2023-03-17/</guid>
-      <description>Date: 2023-03-17 Time: 15:30-16:30 (Montreal time) Hybrid: In person / Zoom Location: Burnside Hall 1104 https://mcgill.zoom.us/j/83436686293?pwd=b0RmWmlXRXE3OWR6NlNIcWF5d0dJQT09 Meeting ID: 834 3668 6293 Passcode: 12345 Abstract: Over the last 20 years, the speaker has delved into the origins of &amp;lsquo;regression&amp;rsquo;; the development of the &amp;rsquo;t&amp;rsquo; and &amp;lsquo;Poisson&amp;rsquo; distributions; forerunners of the &amp;lsquo;hazard&amp;rsquo; function; and the statistical design and conduct of US Selective Service lotteries from 1917 onwards. This talk will recount the stories, data and simulations behind some of these, and provide some modern-day re-enactments.</description>
+      <description>Date: 2023-03-17 Time: 15:30-16:30 (Montreal time) Hybrid: In person / Zoom Location: Burnside Hall 1104 https://mcgill.zoom.us/j/83436686293?pwd=b0RmWmlXRXE3OWR6NlNIcWF5d0dJQT09 Meeting ID: 834 3668 6293 Passcode: 12345 Abstract: Over the last 20 years, the speaker has delved into the origins of &amp;lsquo;regression&amp;rsquo;; the development of the &amp;rsquo;t&#39; and &amp;lsquo;Poisson&amp;rsquo; distributions; forerunners of the &amp;lsquo;hazard&amp;rsquo; function; and the statistical design and conduct of US Selective Service lotteries from 1917 onwards. This talk will recount the stories, data and simulations behind some of these, and provide some modern-day re-enactments.</description>
     </item>
     
     <item>
@@ -437,7 +446,7 @@ In this talk, I will provide a general overview of the topic alongside some hist
       <pubDate>Fri, 20 Nov 2020 00:00:00 +0000</pubDate>
       
       <guid>https://mcgillstat.github.io/post/2020fall/2020-11-20/</guid>
-      <description>Date: 2020-11-20 Time: 15:30-16:30 Zoom Link Meeting ID: 924 5390 4989 Passcode: 690084 Abstract: Despite the success of combined antiretroviral therapy (ART) in achieving sustained control of viral replication, the concerns about side-effects, drug-drug interactions, drug resistance and cost call for a need to identify strategies for achieving HIV eradication or an ART-free remission. Following ART withdrawal, patients&amp;rsquo; viral load levels usually increase rapidly to a peak followed by a dip, and then stabilize at a viral load set point.</description>
+      <description>Date: 2020-11-20 Time: 15:30-16:30 Zoom Link Meeting ID: 924 5390 4989 Passcode: 690084 Abstract: Despite the success of combined antiretroviral therapy (ART) in achieving sustained control of viral replication, the concerns about side-effects, drug-drug interactions, drug resistance and cost call for a need to identify strategies for achieving HIV eradication or an ART-free remission. Following ART withdrawal, patients&#39; viral load levels usually increase rapidly to a peak followed by a dip, and then stabilize at a viral load set point.</description>
     </item>
     
     <item>
@@ -1677,7 +1686,7 @@ Speaker James A. Hanley is a Professor in the Department of Epidemiology, Biosta
       <pubDate>Fri, 20 Feb 2015 00:00:00 +0000</pubDate>
       
       <guid>https://mcgillstat.github.io/post/2015winter/2015-02-20/</guid>
-      <description>Date: 2015-02-20 Time: 15:30-16:30 Location: BURN 1205 Abstract: Rapidly progressing particle tracking techniques have revealed that foreign particles in biological fluids exhibit rich and at times unexpected behavior, with important consequences for disease diagnosis and drug delivery. Yet, there remains a frustrating lack of coherence in the description of these particles&amp;rsquo; motion. Largely this is due to a reliance on functional statistics (e.g., mean-squared displacement) to perform model selection and assess goodness-of-fit.</description>
+      <description>Date: 2015-02-20 Time: 15:30-16:30 Location: BURN 1205 Abstract: Rapidly progressing particle tracking techniques have revealed that foreign particles in biological fluids exhibit rich and at times unexpected behavior, with important consequences for disease diagnosis and drug delivery. Yet, there remains a frustrating lack of coherence in the description of these particles&#39; motion. Largely this is due to a reliance on functional statistics (e.g., mean-squared displacement) to perform model selection and assess goodness-of-fit.</description>
     </item>
     
     <item>
