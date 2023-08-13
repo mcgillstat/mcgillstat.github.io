@@ -8,6 +8,24 @@
     <language>en-us</language>
     <lastBuildDate>Fri, 28 Sep 2012 00:00:00 +0000</lastBuildDate><atom:link href="https://mcgillstat.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Empirical Bayes Control of the False Discovery Exceedance</title>
+      <link>https://mcgillstat.github.io/post/2023winter/2023-08-17/</link>
+      <pubDate>Thu, 17 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mcgillstat.github.io/post/2023winter/2023-08-17/</guid>
+      <description>Date: 2023-08-17 Time: 15:30-16:30 (Montreal time) Hybrid: In person / Zoom Location: Burnside Hall 1104 https://mcgill.zoom.us/j/83436686293?pwd=b0RmWmlXRXE3OWR6NlNIcWF5d0dJQT09 Meeting ID: 834 3668 6293 Passcode: 12345 Abstract: In sparse large-scale testing problems where the false discovery proportion (FDP) is highly variable, the false discovery exceedance (FDX) provides a valuable alternative to the widely used false discovery rate (FDR). We develop an empirical Bayes approach to controlling the FDX. We show that for independent hypotheses from a two-group model and dependent hypotheses from a Gaussian model fulfilling the exchangeability condition, an oracle decision rule based on ranking and thresholding the local false discovery rate (lfdr) is optimal in the sense that the power is maximized subject to FDX constraint.</description>
+    </item>
+    
+    <item>
+      <title>Residual-based estimation of parametric copulas under regression</title>
+      <link>https://mcgillstat.github.io/post/2023winter/2023-08-14/</link>
+      <pubDate>Mon, 14 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mcgillstat.github.io/post/2023winter/2023-08-14/</guid>
+      <description>Date: 2023-08-14 Time: 15:30-16:30 (Montreal time) Hybrid: In person / Zoom Location: Burnside Hall 1104 https://mcgill.zoom.us/j/83436686293?pwd=b0RmWmlXRXE3OWR6NlNIcWF5d0dJQT09 Meeting ID: 834 3668 6293 Passcode: 12345 Abstract: We study a multivariate response regression model where each coordinate is described by a location-scale regression, and where the dependence structure of the &amp;ldquo;noise&amp;rdquo; terms in the regression is described by a parametric copula. Our goal is to estimate the associated Euclidean copula parameter given a sample of the response and the covariate.</description>
+    </item>
+    
+    <item>
       <title>Confidence sets for Causal Discovery</title>
       <link>https://mcgillstat.github.io/post/2023winter/2023-03-24/</link>
       <pubDate>Fri, 24 Mar 2023 00:00:00 +0000</pubDate>
