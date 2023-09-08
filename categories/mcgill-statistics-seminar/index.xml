@@ -6,7 +6,16 @@
     <description>Recent content in McGill Statistics Seminar on McGill Statistics Seminars</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 17 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://mcgillstat.github.io/categories/mcgill-statistics-seminar/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 15 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://mcgillstat.github.io/categories/mcgill-statistics-seminar/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Three Myths About Causal Mediation</title>
+      <link>https://mcgillstat.github.io/post/2023fall/2023-09-15/</link>
+      <pubDate>Fri, 15 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mcgillstat.github.io/post/2023fall/2023-09-15/</guid>
+      <description>Date: 2023-09-15 Time: 15:30-16:30 (Montreal time) https://mcgill.zoom.us/j/83436686293?pwd=b0RmWmlXRXE3OWR6NlNIcWF5d0dJQT09 Meeting ID: 834 3668 6293 Passcode: 12345 Abstract: Causal mediation techniques are a means for identifying the degree to which a cause influences its effect along particular causal paths. For example, in a model where a cause influences its effect both indirectly via a mediator and directly via factors not included in the model, mediation techniques enable one to measure both direct and indirect effects.</description>
+    </item>
+    
     <item>
       <title>Empirical Bayes Control of the False Discovery Exceedance</title>
       <link>https://mcgillstat.github.io/post/2023winter/2023-08-17/</link>
