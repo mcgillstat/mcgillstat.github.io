@@ -8,6 +8,15 @@
     <language>en-us</language>
     <lastBuildDate>Fri, 28 Sep 2012 00:00:00 +0000</lastBuildDate><atom:link href="https://mcgillstat.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Detection of Multiple Influential Observations on Variable Selection for High-dimensional Data: New Perspective with an Application to Neurologic Signature of Physical Pain.</title>
+      <link>https://mcgillstat.github.io/post/2023fall/2023-09-22/</link>
+      <pubDate>Fri, 22 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mcgillstat.github.io/post/2023fall/2023-09-22/</guid>
+      <description>Date: 2023-09-22 Time: 15:30-16:30 (Montreal time) Location: In person, Burnside 1104 https://mcgill.zoom.us/j/89374813252 Meeting ID: 893 7481 3252 Passcode: None Abstract: Influential diagnosis is an integral part of data analysis, of which most existing methodological frameworks presume a deterministic submodel and are designed for low-dimensional data (i.e., the number of predictors $p$ smaller than the sample size $n$). However, the stochastic selection of a submodel from high-dimensional data where $p$ exceeds $n$ has become ubiquitous.</description>
+    </item>
+    
+    <item>
       <title>Three Myths About Causal Mediation</title>
       <link>https://mcgillstat.github.io/post/2023fall/2023-09-15/</link>
       <pubDate>Fri, 15 Sep 2023 00:00:00 +0000</pubDate>
