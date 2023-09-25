@@ -8,6 +8,15 @@
     <language>en-us</language>
     <lastBuildDate>Fri, 28 Sep 2012 00:00:00 +0000</lastBuildDate><atom:link href="https://mcgillstat.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Doubly robust inference under possibly misspecified marginal structural Cox model</title>
+      <link>https://mcgillstat.github.io/post/2023fall/2023-09-29/</link>
+      <pubDate>Fri, 29 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mcgillstat.github.io/post/2023fall/2023-09-29/</guid>
+      <description>Date: 2023-09-29 Time: 15:30-16:30 (Montreal time) Location: Online, retransmitted in Burnside 1104 https://mcgill.zoom.us/j/82440807026 Meeting ID: 824 4080 7026 Passcode: None Abstract: Doubly robust estimation under the marginal structural Cox model has been a challenge until recently due to the non-collapsibility of the Cox regression model. This is because the estimand of causal hazard ratio assumes that the marginal structural Cox model holds, while the doubly robust estimating function requires the specification of an additional model for the conditional distribution of the time-to-event given treatment and covariates, both models unlikely to hold simultaneously.</description>
+    </item>
+    
+    <item>
       <title>Detection of Multiple Influential Observations on Variable Selection for High-dimensional Data: New Perspective with an Application to Neurologic Signature of Physical Pain.</title>
       <link>https://mcgillstat.github.io/post/2023fall/2023-09-22/</link>
       <pubDate>Fri, 22 Sep 2023 00:00:00 +0000</pubDate>
