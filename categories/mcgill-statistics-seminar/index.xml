@@ -6,7 +6,16 @@
     <description>Recent content in McGill Statistics Seminar on McGill Statistics Seminars</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 13 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://mcgillstat.github.io/categories/mcgill-statistics-seminar/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 20 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://mcgillstat.github.io/categories/mcgill-statistics-seminar/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Neural network architectures for functional data analysis</title>
+      <link>https://mcgillstat.github.io/post/2023fall/2023-10-20/</link>
+      <pubDate>Fri, 20 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mcgillstat.github.io/post/2023fall/2023-10-20/</guid>
+      <description>Date: 2023-10-20 Time: 15:30-16:30 (Montreal time) Location: In person, Burnside 1104 https://mcgill.zoom.us/j/89761165882 Meeting ID: 897 6116 5882 Passcode: None Abstract: Functional data is defined as any random variables that assume values in an infinite precision domain, such as time or space. In applications, this data is usually discretely observed at some regularly or irregularly-spaced points over the domain. In this talk, we discuss ways to adapt modern neural network architectures for the analysis of functional data.</description>
+    </item>
+    
     <item>
       <title>Distances on and between complex networks</title>
       <link>https://mcgillstat.github.io/post/2023fall/2023-10-13/</link>
