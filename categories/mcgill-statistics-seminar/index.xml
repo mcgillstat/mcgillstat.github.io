@@ -6,7 +6,16 @@
     <description>Recent content in McGill Statistics Seminar on McGill Statistics Seminars</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 20 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://mcgillstat.github.io/categories/mcgill-statistics-seminar/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 27 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://mcgillstat.github.io/categories/mcgill-statistics-seminar/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Doubly Robust Estimation under Covariate-induced Dependent Left Truncation</title>
+      <link>https://mcgillstat.github.io/post/2023fall/2023-10-27/</link>
+      <pubDate>Fri, 27 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mcgillstat.github.io/post/2023fall/2023-10-27/</guid>
+      <description>Date: 2023-10-27 Time: 15:30-16:30 (Montreal time) Location: Online, retransmitted in Burnside 1104 https://mcgill.zoom.us/j/84195498572 Meeting ID: 841 9549 8572 Passcode: None Abstract: In prevalent cohort studies with follow-up, the time-to-event outcome is subject to left truncation leading to selection bias. For estimation of the distribution of time-to-event, conventional methods adjusting for left truncation tend to rely on the (quasi-)independence assumption that the truncation time and the event time are “independent&amp;quot; on the observed region.</description>
+    </item>
+    
     <item>
       <title>Neural network architectures for functional data analysis</title>
       <link>https://mcgillstat.github.io/post/2023fall/2023-10-20/</link>
