@@ -6,7 +6,16 @@
     <description>Recent content in McGill Statistics Seminar on McGill Statistics Seminars</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 03 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://mcgillstat.github.io/categories/mcgill-statistics-seminar/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 10 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://mcgillstat.github.io/categories/mcgill-statistics-seminar/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Copula-based estimation of health inequality measures</title>
+      <link>https://mcgillstat.github.io/post/2023fall/2023-11-10/</link>
+      <pubDate>Fri, 10 Nov 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mcgillstat.github.io/post/2023fall/2023-11-10/</guid>
+      <description>Date: 2023-11-10 Time: 15:30-16:30 (Montreal time) Location: In person, Burnside 1104 https://mcgill.zoom.us/j/89337793218 Meeting ID: 893 3779 3218 Passcode: None Abstract: This paper aims to use copulas to derive estimators of the health concentration curve and Gini coefficient for health distribution. We highlight the importance of expressing health inequality measures in terms of a copula, which we in turn use to build copula-based semi and nonparametric estimators of the above measures. Thereafter, we study the asymptotic properties of these estimators.</description>
+    </item>
+    
     <item>
       <title>Reduced-Rank Envelope Vector Autoregressive Models</title>
       <link>https://mcgillstat.github.io/post/2023fall/2023-11-03/</link>
