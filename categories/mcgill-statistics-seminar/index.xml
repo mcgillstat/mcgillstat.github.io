@@ -6,7 +6,16 @@
     <description>Recent content in McGill Statistics Seminar on McGill Statistics Seminars</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 10 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://mcgillstat.github.io/categories/mcgill-statistics-seminar/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 17 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://mcgillstat.github.io/categories/mcgill-statistics-seminar/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Robust and Tuning-Free Sparse Linear Regression via Square-Root Slope</title>
+      <link>https://mcgillstat.github.io/post/2023fall/2023-11-17/</link>
+      <pubDate>Fri, 17 Nov 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://mcgillstat.github.io/post/2023fall/2023-11-17/</guid>
+      <description>Date: 2023-11-17 Time: 15:30-16:30 (Montreal time) Location: Online, retransmitted in Burnside 1104 https://mcgill.zoom.us/j/81865630475 Meeting ID: 818 6563 0475 Passcode: None Abstract: We consider the high-dimensional linear regression model and assume that a fraction of the responses are contaminated by an adversary with complete knowledge of the data and the underlying distribution. We are interested in the situation when the dense additive noise can be heavy-tailed but the predictors have sub-Gaussian distribution.</description>
+    </item>
+    
     <item>
       <title>Copula-based estimation of health inequality measures</title>
       <link>https://mcgillstat.github.io/post/2023fall/2023-11-10/</link>
