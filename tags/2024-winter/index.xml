@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2024 Winter on McGill Statistics Seminars</title>
+    <link>https://mcgillstat.github.io/tags/2024-winter/</link>
+    <description>Recent content in 2024 Winter on McGill Statistics Seminars</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 12 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://mcgillstat.github.io/tags/2024-winter/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>New Advances in High-Dimensional DNA Methylation Analysis in Cancer Epigenetic Using Trans-dimensional Hidden Markov Models</title>
+      <link>https://mcgillstat.github.io/post/2024winter/2024-01-12/</link>
+      <pubDate>Fri, 12 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://mcgillstat.github.io/post/2024winter/2024-01-12/</guid>
+      <description>Date: 2024-01-12 Time: 15:30-16:30 (Montreal time) Location: In person, Burnside 1104 https://mcgill.zoom.us/j/83008174313 Meeting ID: 830 0817 4313 Passcode: None Abstract: Epigenetic alterations are key drivers in the development and progression of cancer. Identifying differentially methylated cytosines (DMCs) in cancer samples is a crucial step toward understanding these changes. In this talk, we propose a trans-dimensional Markov chain Monte Carlo (TMCMC) approach that uses hidden Markov models (HMMs) with binomial emission, and bisulfite sequencing (BS-Seq) data, called DMCTHM, to identify DMCs in cancer epigenetic studies.</description>
+    </item>
+    
+  </channel>
+</rss>
