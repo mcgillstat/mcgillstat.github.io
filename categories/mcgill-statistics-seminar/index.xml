@@ -6,7 +6,16 @@
     <description>Recent content in McGill Statistics Seminar on McGill Statistics Seminars</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 12 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://mcgillstat.github.io/categories/mcgill-statistics-seminar/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 19 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://mcgillstat.github.io/categories/mcgill-statistics-seminar/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Imaging and Clinical Biomarker Estimation in Alzheimer’s Disease</title>
+      <link>https://mcgillstat.github.io/post/2024winter/2024-01-19/</link>
+      <pubDate>Fri, 19 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://mcgillstat.github.io/post/2024winter/2024-01-19/</guid>
+      <description>Date: 2024-01-19 Time: 15:30-16:30 (Montreal time) Location: Online, retransmitted in Burnside 1104 https://mcgill.zoom.us/j/85422946487 Meeting ID: 854 2294 6487 Passcode: None Abstract: Estimation of biomarkers related to disease classification and modeling of its progression is essential for treatment development for Alzheimer’s Disease (AD). The task is more daunting for characterizing relatively rare AD subtypes such as the early-onset AD. In this talk, I will describe the Longitudinal Alzheimer’s Disease Study (LEADS) intending to collect and publicly distribute clinical, imaging, genetic, and other types of data from people with EOAD, as well as cognitively normal (CN) controls and people with early-onset non-amyloid positive (EOnonAD) dementias.</description>
+    </item>
+    
     <item>
       <title>New Advances in High-Dimensional DNA Methylation Analysis in Cancer Epigenetic Using Trans-dimensional Hidden Markov Models</title>
       <link>https://mcgillstat.github.io/post/2024winter/2024-01-12/</link>
