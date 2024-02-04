@@ -6,7 +6,16 @@
     <description>Recent content in 2024 Winter on McGill Statistics Seminars</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 02 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://mcgillstat.github.io/tags/2024-winter/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 09 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://mcgillstat.github.io/tags/2024-winter/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mesoscale two-sample testing for networks</title>
+      <link>https://mcgillstat.github.io/post/2024winter/2024-02-09/</link>
+      <pubDate>Fri, 09 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://mcgillstat.github.io/post/2024winter/2024-02-09/</guid>
+      <description>Date: 2024-02-09 Time: 15:30-16:30 (Montreal time) Location: In person, Burnside 1104 https://mcgill.zoom.us/j/87465663442 Meeting ID: 874 6566 3442 Passcode: None Abstract: Networks arise naturally in many scientific fields as a representation of pairwise connections. Statistical network analysis has most often considered a single large network, but it is common in a number of applications, for example, neuroimaging, to observe multiple networks on a shared node set. When these networks are grouped by case-control status or another categorical covariate, the classical statistical question of two-sample comparison arises.</description>
+    </item>
+    
     <item>
       <title>Fast calibration of FARIMA models with dependent errors</title>
       <link>https://mcgillstat.github.io/post/2024winter/2024-02-02/</link>
