@@ -8,6 +8,15 @@
     <language>en-us</language>
     <lastBuildDate>Fri, 28 Sep 2012 00:00:00 +0000</lastBuildDate><atom:link href="https://mcgillstat.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Matrix completion in genetic methylation studies: LMCC, a Linear Model of Coregionalization with informative Covariates</title>
+      <link>https://mcgillstat.github.io/post/2024winter/2024-02-16/</link>
+      <pubDate>Fri, 16 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://mcgillstat.github.io/post/2024winter/2024-02-16/</guid>
+      <description>Date: 2024-02-16 Time: 15:30-16:30 (Montreal time) Location: In person, Burnside 1104 https://mcgill.zoom.us/j/82678428848 Meeting ID: 826 7842 8848 Passcode: None Abstract: DNA methylation is an important epigenetic mark that modulates gene expression through the inhibition of transcriptional proteins binding to DNA. As in many other omics experiments, missing values is an issue and appropriate imputation techniques are important to avoid an unnecessary sample size reduction as well as to optimally leverage the information collected.</description>
+    </item>
+    
+    <item>
       <title>Mesoscale two-sample testing for networks</title>
       <link>https://mcgillstat.github.io/post/2024winter/2024-02-09/</link>
       <pubDate>Fri, 09 Feb 2024 00:00:00 +0000</pubDate>
