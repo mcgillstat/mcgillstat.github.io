@@ -8,6 +8,15 @@
     <language>en-us</language>
     <lastBuildDate>Fri, 28 Sep 2012 00:00:00 +0000</lastBuildDate><atom:link href="https://mcgillstat.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Recent advances in causal inference under irregular and informative observation times for the outcome</title>
+      <link>https://mcgillstat.github.io/post/2024winter/2024-03-01/</link>
+      <pubDate>Fri, 01 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://mcgillstat.github.io/post/2024winter/2024-03-01/</guid>
+      <description>Date: 2024-03-01 Time: 15:30-16:30 (Montreal time) Location: In person, Burnside 1104 https://mcgill.zoom.us/j/89811237909 Meeting ID: 898 1123 7909 Passcode: None Abstract: Electronic health records (EHR) data contain rich information about patients’ health condition, comorbidities, clinical outcomes, and drug prescriptions. They are often used to draw causal inferences and compare different treatments’ effectiveness. However, these data are not experimental. They present with special features that should be addressed or that may affect the inference.</description>
+    </item>
+    
+    <item>
       <title>Matrix completion in genetic methylation studies: LMCC, a Linear Model of Coregionalization with informative Covariates</title>
       <link>https://mcgillstat.github.io/post/2024winter/2024-02-16/</link>
       <pubDate>Fri, 16 Feb 2024 00:00:00 +0000</pubDate>
