@@ -8,6 +8,15 @@
     <language>en-us</language>
     <lastBuildDate>Fri, 28 Sep 2012 00:00:00 +0000</lastBuildDate><atom:link href="https://mcgillstat.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Minimum Covariance Determinant: Spectral Embedding and Subset Size Determination</title>
+      <link>https://mcgillstat.github.io/post/2024winter/2024-03-22/</link>
+      <pubDate>Fri, 22 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://mcgillstat.github.io/post/2024winter/2024-03-22/</guid>
+      <description>Date: 2024-03-22 Time: 15:30-16:30 (Montreal time) Location: Online, retransmitted in Burnside 1104 https://mcgill.zoom.us/j/81895414756 Meeting ID: 818 9541 4756 Passcode: None Abstract: This paper introduces several enhancements to the minimum covariance determinant method of outlier detection and robust estimation of means and covariances. We leverage the principal component transform to achieve dimension reduction and ultimately better analyses. Our best subset selection algorithm strategically combines statistical depth and concentration steps. To ascertain the appropriate subset size and number of principal components, we introduce a bootstrap procedure that estimates the instability of the best subset algorithm.</description>
+    </item>
+    
+    <item>
       <title>Recent advances in causal inference under irregular and informative observation times for the outcome</title>
       <link>https://mcgillstat.github.io/post/2024winter/2024-03-01/</link>
       <pubDate>Fri, 01 Mar 2024 00:00:00 +0000</pubDate>
