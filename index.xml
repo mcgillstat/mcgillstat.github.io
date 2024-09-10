@@ -8,6 +8,15 @@
     <language>en-us</language>
     <lastBuildDate>Fri, 28 Sep 2012 00:00:00 +0000</lastBuildDate><atom:link href="https://mcgillstat.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Variance reduction by occluding a Markov chain</title>
+      <link>https://mcgillstat.github.io/post/2024fall/2024-09-20/</link>
+      <pubDate>Fri, 20 Sep 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://mcgillstat.github.io/post/2024fall/2024-09-20/</guid>
+      <description>Date: 2024-09-20 Time: 15:30-16:30 (Montreal time) Location: In person, Burnside 1104 https://mcgill.zoom.us/j/88265323185 Meeting ID: 882 6532 3185 Passcode: None Abstract: Stochastic algorithms which simulate random variables/processes on a computer to estimate intractable quantities are ubiquitous in Statistics and elsewhere. One such method is Markov chain Monte Carlo which, under mild conditions, offer asymptotical (in time) guarantees. In this talk, we define infinitely many stopping times at which an ergodic Markov chain is occluded by a (conditionally) independent process.</description>
+    </item>
+    
+    <item>
       <title>Free energy fluctuations of spherical spin glasses near the critical temperature threshold</title>
       <link>https://mcgillstat.github.io/post/2024winter/2024-04-12/</link>
       <pubDate>Fri, 12 Apr 2024 00:00:00 +0000</pubDate>
