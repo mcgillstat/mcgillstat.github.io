@@ -6,7 +6,16 @@
     <description>Recent content in 2024 Fall on McGill Statistics Seminars</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 20 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://mcgillstat.github.io/tags/2024-fall/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 27 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://mcgillstat.github.io/tags/2024-fall/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>VCBART: Bayesian trees for varying coefficients</title>
+      <link>https://mcgillstat.github.io/post/2024fall/2024-09-27/</link>
+      <pubDate>Fri, 27 Sep 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://mcgillstat.github.io/post/2024fall/2024-09-27/</guid>
+      <description>Date: 2024-09-27 Time: 15:30-16:30 (Montreal time) Location: Online, retransmitted in Burnside 1104 https://mcgill.zoom.us/j/88350756970 Meeting ID: 883 5075 6970 Passcode: None Abstract: The linear varying coefficient models posits a linear relationship between an outcome and covariates in which the covariate effects are modeled as functions of additional effect modifiers. Despite a long history of study and use in statistics and econometrics, state-of-the-art varying coefficient modeling methods cannot accommodate multivariate effect modifiers without imposing restrictive functional form assumptions or involving computationally intensive hyperparameter tuning.</description>
+    </item>
+    
     <item>
       <title>Variance reduction by occluding a Markov chain</title>
       <link>https://mcgillstat.github.io/post/2024fall/2024-09-20/</link>
