@@ -8,6 +8,15 @@
     <language>en-us</language>
     <lastBuildDate>Fri, 28 Sep 2012 00:00:00 +0000</lastBuildDate><atom:link href="https://mcgillstat.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>On Mixture of Experts in Large-Scale Statistical Machine Learning Applications</title>
+      <link>https://mcgillstat.github.io/post/2024fall/2024-11-01/</link>
+      <pubDate>Fri, 01 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://mcgillstat.github.io/post/2024fall/2024-11-01/</guid>
+      <description>Date: 2024-11-01 Time: 15:30-16:30 (Montreal time) Location: In person, Burnside 1104 https://mcgill.zoom.us/j/81284191962 Meeting ID: 812 8419 1962 Passcode: None Abstract: Mixtures of experts (MoEs), a class of statistical machine learning models that combine multiple models, known as experts, to form more complex and accurate models, have been combined into deep learning architectures to improve the ability of these architectures and AI models to capture the heterogeneity of the data and to scale up these architectures without increasing the computational cost.</description>
+    </item>
+    
+    <item>
       <title>New Statistical Methods and Quality Control for Industry 4.0</title>
       <link>https://mcgillstat.github.io/post/2024fall/2024-10-25/</link>
       <pubDate>Fri, 25 Oct 2024 00:00:00 +0000</pubDate>
