@@ -2,157 +2,123 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2011 Fall on McGill Statistics Seminars</title>
-    <link>https://mcgillstat.github.io/tags/2011-fall/</link>
+    <link>http://localhost:4321/tags/2011-fall/</link>
     <description>Recent content in 2011 Fall on McGill Statistics Seminars</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 09 Dec 2011 00:00:00 +0000</lastBuildDate><atom:link href="https://mcgillstat.github.io/tags/2011-fall/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 09 Dec 2011 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:4321/tags/2011-fall/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Detecting evolution in experimental ecology: Diagnostics for missing state variables</title>
-      <link>https://mcgillstat.github.io/post/2011fall/2011-12-09/</link>
+      <link>http://localhost:4321/post/2011fall/2011-12-09/</link>
       <pubDate>Fri, 09 Dec 2011 00:00:00 +0000</pubDate>
-      
-      <guid>https://mcgillstat.github.io/post/2011fall/2011-12-09/</guid>
-      <description>Date: 2011-12-09 Time: 15:30-16:30 Location: UQAM Salle 5115 Abstract: This talk considers goodness of fit diagnostics for time-series data from processes approximately modeled by systems of nonlinear ordinary differential equations. In particular, we seek to determine three nested causes of lack of fit: (i) unmodeled stochastic forcing, (ii) mis-specified functional forms and (iii) mis-specified state variables. Testing lack of fit in differential equations is challenging since the model is expressed in terms of rates of change of the measured variables.</description>
+      <guid>http://localhost:4321/post/2011fall/2011-12-09/</guid>
+      <description>&lt;h4 id=&#34;date-2011-12-09&#34;&gt;Date: 2011-12-09&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630&#34;&gt;Time: 15:30-16:30&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-uqam-salle-5115&#34;&gt;Location: UQAM Salle 5115&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;This talk considers goodness of fit diagnostics for time-series data from processes approximately modeled by systems of nonlinear ordinary differential equations. In particular, we seek to determine three nested causes of lack of fit: (i) unmodeled stochastic forcing, (ii) mis-specified functional forms and (iii) mis-specified state variables. Testing lack of fit in differential equations is challenging since the model is expressed in terms of rates of change of the measured variables. Here, lack of fit is represented on the model scale via time-varying parameters. We develop tests for each of the three cases above through bootstrap and permutation methods.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Path-dependent estimation of a distribution under generalized censoring</title>
-      <link>https://mcgillstat.github.io/post/2011fall/2011-12-02/</link>
+      <link>http://localhost:4321/post/2011fall/2011-12-02/</link>
       <pubDate>Fri, 02 Dec 2011 00:00:00 +0000</pubDate>
-      
-      <guid>https://mcgillstat.github.io/post/2011fall/2011-12-02/</guid>
-      <description>Date: 2011-12-02 Time: 15:30-16:30 Location: BURN 1205 Abstract: This talk focuses on the problem of the estimation of a distribution on an arbitrary complete separable metric space when the data points are subject to censoring by a general class of random sets. A path-dependent estimator for the distribution is proposed; among other properties, the estimator is sequential in the sense that it only uses data preceding any fixed point at which it is evaluated.</description>
+      <guid>http://localhost:4321/post/2011fall/2011-12-02/</guid>
+      <description>&lt;h4 id=&#34;date-2011-12-02&#34;&gt;Date: 2011-12-02&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630&#34;&gt;Time: 15:30-16:30&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-burn-1205&#34;&gt;Location: BURN 1205&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;This talk focuses on the problem of the estimation of a distribution on an arbitrary complete separable metric space when the data points are subject to censoring by a general class of random sets. A path-dependent estimator for the distribution is proposed; among other properties, the estimator is sequential in the sense that it only uses data preceding any fixed point at which it is evaluated. If the censoring mechanism is totally ordered, the paths may be chosen in such a way that the estimate of the distribution defines a measure. In this case, we can prove a functional central limit theorem for the estimator when the underlying space is Euclidean. This is joint work with Gail Ivanoff (University of Ottawa)&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Estimation of the risk of a collision when using a cell phone while driving</title>
-      <link>https://mcgillstat.github.io/post/2011fall/2011-11-25/</link>
+      <link>http://localhost:4321/post/2011fall/2011-11-25/</link>
       <pubDate>Fri, 25 Nov 2011 00:00:00 +0000</pubDate>
-      
-      <guid>https://mcgillstat.github.io/post/2011fall/2011-11-25/</guid>
-      <description>Date: 2011-11-25 Time: 15:30-16:30 Location: BURN 1205 Abstract: The use of cell phone while driving raises the question of whether it is associated with an increased collision risk and if so, what is its magnitude. For policy decision making, it is important to rely on an accurate estimate of the real crash risk of cell phone use while driving. Three important epidemiological studies were published on the subject, two using the case-crossover approach and one using a more conventional longitudinal cohort design.</description>
+      <guid>http://localhost:4321/post/2011fall/2011-11-25/</guid>
+      <description>&lt;h4 id=&#34;date-2011-11-25&#34;&gt;Date: 2011-11-25&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630&#34;&gt;Time: 15:30-16:30&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-burn-1205&#34;&gt;Location: BURN 1205&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;The use of cell phone while driving raises the question of whether it is associated with an increased collision risk and if so, what is its magnitude. For policy decision making, it is important to rely on an accurate estimate of the real crash risk of cell phone use while driving. Three important epidemiological studies were published on the subject, two using the case-crossover approach  and one using a more conventional longitudinal cohort design. The methodology and results of these studies will be presented and discussed.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Construction of bivariate distributions via principal components</title>
-      <link>https://mcgillstat.github.io/post/2011fall/2011-11-18/</link>
+      <link>http://localhost:4321/post/2011fall/2011-11-18/</link>
       <pubDate>Fri, 18 Nov 2011 00:00:00 +0000</pubDate>
-      
-      <guid>https://mcgillstat.github.io/post/2011fall/2011-11-18/</guid>
-      <description>Date: 2011-11-18 Time: 15:30-16:30 Location: BURN 1205 Abstract: The diagonal expansion of a bivariate distribution (Lancaster, 1958) has been used as a tool to construct bivariate distributions; this method has been generalized using principal dimensions of random variables (Cuadras 2002). Sufficient and necessary conditions are given for uniform, exponential, logistic and Pareto marginals in the one and two-dimensional case. The corresponding copulas are obtained.
-Speaker Amparo Casanova is an Assistant Professor at the Dalla Lana School of Public Health, Division of Biostatistics, University of Toronto.</description>
+      <guid>http://localhost:4321/post/2011fall/2011-11-18/</guid>
+      <description>&lt;h4 id=&#34;date-2011-11-18&#34;&gt;Date: 2011-11-18&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630&#34;&gt;Time: 15:30-16:30&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-burn-1205&#34;&gt;Location: BURN 1205&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;The diagonal expansion of a bivariate distribution (Lancaster, 1958) has been used as a tool to construct bivariate distributions; this method has been generalized using principal dimensions of random variables (Cuadras 2002). Sufficient and necessary conditions are given for uniform, exponential, logistic and Pareto marginals in the one and two-dimensional case. The corresponding copulas are obtained.&lt;/p&gt;&#xA;&lt;h2 id=&#34;speaker&#34;&gt;Speaker&lt;/h2&gt;&#xA;&lt;p&gt;&lt;em&gt;Amparo Casanova&lt;/em&gt; is an Assistant Professor at the Dalla Lana School of Public Health, Division of Biostatistics, University of Toronto.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Guérin: An ergodic variant of the telegraph process for a toy model of bacterial chemotaxis | Staicu: Skewed functional processes and their applications</title>
-      <link>https://mcgillstat.github.io/post/2011fall/2011-11-11/</link>
+      <link>http://localhost:4321/post/2011fall/2011-11-11/</link>
       <pubDate>Fri, 11 Nov 2011 00:00:00 +0000</pubDate>
-      
-      <guid>https://mcgillstat.github.io/post/2011fall/2011-11-11/</guid>
-      <description>Date: 2011-11-11 Time: 14:00-16:30 Location: UdeM Abstract: Guérin: I will study the long time behavior of a variant of the classic telegraph process, with non-constant jump rates that induce a drift towards the origin. This process can be seen as a toy model for velocity-jump processes recently proposed as mathematical models of bacterial chemotaxis. I will give its invariant law and construct an explicit coupling for velocity and position, providing exponential ergodicity with moreover a quantitative control of the total variation distance to equilibrium at each time instant.</description>
+      <guid>http://localhost:4321/post/2011fall/2011-11-11/</guid>
+      <description>&lt;h4 id=&#34;date-2011-11-11&#34;&gt;Date: 2011-11-11&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1400-1630&#34;&gt;Time: 14:00-16:30&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-udem&#34;&gt;Location: UdeM&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;&lt;em&gt;Guérin&lt;/em&gt;: I will study the long time behavior of a variant of the classic telegraph process, with non-constant jump rates that induce a drift towards the origin. This process can be seen as a toy model for velocity-jump processes recently proposed as mathematical models of bacterial chemotaxis. I will give its invariant law and construct an explicit coupling for velocity and position, providing exponential ergodicity with moreover a quantitative control of the total variation distance to equilibrium at each time instant. It is a joint work with Joaquin Fontbona (Universidad de Santiago, Chile) and Florent Malrieu (Université Rennes 1, France).&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>A Bayesian method of parametric inference for diffusion processes</title>
-      <link>https://mcgillstat.github.io/post/2011fall/2011-11-04/</link>
+      <link>http://localhost:4321/post/2011fall/2011-11-04/</link>
       <pubDate>Fri, 04 Nov 2011 00:00:00 +0000</pubDate>
-      
-      <guid>https://mcgillstat.github.io/post/2011fall/2011-11-04/</guid>
-      <description>Date: 2011-11-04 Time: 15:30-16:30 Location: BURN 1205 Abstract: Diffusion processes have been used to model a multitude of continuous-time phenomena in Engineering and the Natural Sciences, and as in this case, the volatility of financial assets. However, parametric inference has long been complicated by an intractable likelihood function. For many models the most effective solution involves a large amount of missing data for which the typical Gibbs sampler can be arbitrarily slow.</description>
+      <guid>http://localhost:4321/post/2011fall/2011-11-04/</guid>
+      <description>&lt;h4 id=&#34;date-2011-11-04&#34;&gt;Date: 2011-11-04&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630&#34;&gt;Time: 15:30-16:30&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-burn-1205&#34;&gt;Location: BURN 1205&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;Diffusion processes have been used to model a multitude of continuous-time phenomena in Engineering and the Natural Sciences, and as in this case, the volatility of financial assets.  However, parametric inference has long been complicated by an intractable likelihood function.  For many models the most effective solution involves a large amount of missing data for which the typical Gibbs sampler can be arbitrarily slow.  On the other hand, joint parameter and missing data proposals can lead to a radical improvement, but their acceptance rate tends to scale exponentially with the number of observations.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Maximum likelihood estimation in network models</title>
-      <link>https://mcgillstat.github.io/post/2011fall/2011-11-03/</link>
+      <link>http://localhost:4321/post/2011fall/2011-11-03/</link>
       <pubDate>Thu, 03 Nov 2011 00:00:00 +0000</pubDate>
-      
-      <guid>https://mcgillstat.github.io/post/2011fall/2011-11-03/</guid>
-      <description>Date: 2011-11-03 Time: 16:00-17:00 Location: BURN 1205 Abstract: This talk is concerned with maximum likelihood estimation (MLE) in exponential statistical models for networks (random graphs) and, in particular, with the beta model, a simple model for undirected graphs in which the degree sequence is the minimal sufficient statistic. The speaker will present necessary and sufficient conditions for the existence of the MLE of the beta model parameters that are based on a geometric object known as the polytope of degree sequences.</description>
+      <guid>http://localhost:4321/post/2011fall/2011-11-03/</guid>
+      <description>&lt;h4 id=&#34;date-2011-11-03&#34;&gt;Date: 2011-11-03&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1600-1700&#34;&gt;Time: 16:00-17:00&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-burn-1205&#34;&gt;Location: BURN 1205&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;This talk is concerned with maximum likelihood estimation (MLE) in exponential statistical models for networks (random graphs) and, in particular, with the beta model, a simple model for undirected graphs in which the degree sequence is the minimal sufficient statistic. The speaker will present necessary and sufficient conditions for the existence of the MLE of the beta model parameters that are based on a geometric object known as the polytope of degree sequences. Using this result, it is possible to characterize in a combinatorial fashion sample points leading to a non-existent MLE and non-estimability of the probability parameters under a non-existent MLE. The speaker will further indicate some conditions guaranteeing that the MLE exists with probability tending to 1 as the number of nodes increases. Much of this analysis applies also to other well-known models for networks, such as the Rasch model, the Bradley-Terry model and the more general p1 model of Holland and Leinhardt. These results are in fact instantiations of rather general geometric properties of exponential families with polyhedral support that will be illustrated with a simple exponential random graph model.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Simulated method of moments estimation for copula-based multivariate models</title>
-      <link>https://mcgillstat.github.io/post/2011fall/2011-10-28/</link>
+      <link>http://localhost:4321/post/2011fall/2011-10-28/</link>
       <pubDate>Fri, 28 Oct 2011 00:00:00 +0000</pubDate>
-      
-      <guid>https://mcgillstat.github.io/post/2011fall/2011-10-28/</guid>
-      <description>Date: 2011-10-28 Time: 15:00-16:00 Location: BURN 1205 Abstract: This paper considers the estimation of the parameters of a copula via a simulated method of moments type approach. This approach is attractive when the likelihood of the copula model is not known in closed form, or when the researcher has a set of dependence measures or other functionals of the copula, such as pricing errors, that are of particular interest. The proposed approach naturally also nests method of moments and generalized method of moments estimators.</description>
+      <guid>http://localhost:4321/post/2011fall/2011-10-28/</guid>
+      <description>&lt;h4 id=&#34;date-2011-10-28&#34;&gt;Date: 2011-10-28&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1500-1600&#34;&gt;Time: 15:00-16:00&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-burn-1205&#34;&gt;Location: BURN 1205&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;This paper considers the estimation of the parameters of a copula via a simulated method of moments type approach. This approach is attractive when the likelihood of the copula model is not known in closed form, or when the researcher has a set of dependence measures or other functionals of the copula, such as pricing errors, that are of particular interest. The proposed approach naturally also nests method of moments and generalized method of moments estimators. Combining existing results on simulation based estimation with recent results from empirical copula process theory, we show the consistency and asymptotic normality of the proposed estimator, and obtain a simple test of over-identifying restrictions as a goodness-of-fit test. The results apply to both iid and time series data. We analyze the finite-sample behavior of these estimators in an extensive simulation study. We apply the model to a group of seven financial stock returns and find evidence of statistically significant tail dependence, and that the dependence between these assets is stronger in crashes than booms.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Bayesian modelling of GWAS data using linear mixed models</title>
-      <link>https://mcgillstat.github.io/post/2011fall/2011-10-21/</link>
+      <link>http://localhost:4321/post/2011fall/2011-10-21/</link>
       <pubDate>Fri, 21 Oct 2011 00:00:00 +0000</pubDate>
-      
-      <guid>https://mcgillstat.github.io/post/2011fall/2011-10-21/</guid>
-      <description>Date: 2011-10-21 Time: 15:30-16:30 Location: BURN 1205 Abstract: Genome-wide association studies (GWAS) are used to identify physical positions (loci) on the genome where genetic variation is causally associated with a phenotype of interest at the population level. Typical studies are based on the measurement of several hundred thousand single nucleotide polymorphism (SNP) variants spread across the genome, in a few thousand individuals. The resulting datasets are large and require computationally efficient methods of statistical analysis.</description>
+      <guid>http://localhost:4321/post/2011fall/2011-10-21/</guid>
+      <description>&lt;h4 id=&#34;date-2011-10-21&#34;&gt;Date: 2011-10-21&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630&#34;&gt;Time: 15:30-16:30&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-burn-1205&#34;&gt;Location: BURN 1205&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;Genome-wide association studies (GWAS) are used to identify physical positions (loci) on the genome where genetic variation is causally associated with a phenotype of interest at the population level. Typical studies are based on the measurement of several hundred thousand single nucleotide polymorphism (SNP) variants spread across the genome, in a few thousand individuals. The resulting datasets are large and require computationally efficient methods of statistical analysis.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Dupuis: Modeling non-stationary extremes: The case of heat waves | Davis: Estimating extremal dependence in time series via the extremogram</title>
-      <link>https://mcgillstat.github.io/post/2011fall/2011-10-14/</link>
+      <link>http://localhost:4321/post/2011fall/2011-10-14/</link>
       <pubDate>Fri, 14 Oct 2011 00:00:00 +0000</pubDate>
-      
-      <guid>https://mcgillstat.github.io/post/2011fall/2011-10-14/</guid>
-      <description>Date: 2011-10-14 Time: 14:00-16:30 Location: TROTTIER 1080 Abstract: Dupuis: Environmental processes are often non-stationary since climate patterns cause systematic seasonal effects and long-term climate changes cause trends. The usual limit models are not applicable for non-stationary processes, but models from standard extreme value theory can be used along with statistical modeling to provide useful inference. Traditional approaches include letting model parameters be a function of covariates or using time-varying thresholds. These approaches are inadequate for the study of heat waves however and we show how a recent pre-processing approach by Eastoe and Tawn (2009) can be used in conjunction with an innovative change-point analysis to model daily maximum temperature.</description>
+      <guid>http://localhost:4321/post/2011fall/2011-10-14/</guid>
+      <description>&lt;h4 id=&#34;date-2011-10-14&#34;&gt;Date: 2011-10-14&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1400-1630&#34;&gt;Time: 14:00-16:30&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-trottier-1080&#34;&gt;Location: TROTTIER 1080&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;&lt;em&gt;Dupuis&lt;/em&gt;: Environmental processes are often non-stationary since climate patterns cause systematic seasonal effects and long-term climate changes cause trends.  The usual limit models are not applicable for non-stationary processes, but models from standard extreme value theory can be used along with statistical modeling to provide useful inference. Traditional approaches include letting model parameters be a function of covariates or using time-varying thresholds. These approaches are inadequate for the study of heat waves however and we show how a recent pre-processing approach by Eastoe and Tawn (2009) can be used in conjunction with an innovative change-point analysis to model daily maximum temperature.  The model is then fitted to data from four U.S. cities and used to estimate the recurrence probabilities of runs over seasonally high temperatures.  We show that the probability of long and intense heat waves has increased considerably over 50 years.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Nonexchangeability and radial asymmetry identification via bivariate quantiles, with financial applications</title>
-      <link>https://mcgillstat.github.io/post/2011fall/2011-10-07/</link>
+      <link>http://localhost:4321/post/2011fall/2011-10-07/</link>
       <pubDate>Fri, 07 Oct 2011 00:00:00 +0000</pubDate>
-      
-      <guid>https://mcgillstat.github.io/post/2011fall/2011-10-07/</guid>
-      <description>Date: 2011-10-07 Time: 15:30-16:30 Location: BURN 1205 Abstract: In this talk, the following topics will be discussed: A class of bivariate probability integral transforms and Kendall distribution; bivariate quantile curves, central and lateral regions; non-exchangeability and radial asymmetry identification; new measures of nonexchangeability and radial asymmetry; financial applications and a few open problems (joint work with Flavio Ferreira).
-Speaker Nikolai Kolev is a Professor of Statistics at the University of Sao Paulo, Brazil.</description>
+      <guid>http://localhost:4321/post/2011fall/2011-10-07/</guid>
+      <description>&lt;h4 id=&#34;date-2011-10-07&#34;&gt;Date: 2011-10-07&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630&#34;&gt;Time: 15:30-16:30&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-burn-1205&#34;&gt;Location: BURN 1205&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;In this talk, the following topics will be discussed: A class of bivariate probability integral transforms and Kendall distribution; bivariate quantile curves, central and lateral regions; non-exchangeability and radial asymmetry identification; new measures of nonexchangeability and radial asymmetry; financial applications and a few open problems (joint work with Flavio Ferreira).&lt;/p&gt;&#xA;&lt;h2 id=&#34;speaker&#34;&gt;Speaker&lt;/h2&gt;&#xA;&lt;p&gt;&lt;em&gt;Nikolai Kolev&lt;/em&gt; is a Professor of Statistics at the University of Sao Paulo, Brazil.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Data sketching for cardinality and entropy estimation?</title>
-      <link>https://mcgillstat.github.io/post/2011fall/2011-09-30/</link>
+      <link>http://localhost:4321/post/2011fall/2011-09-30/</link>
       <pubDate>Fri, 30 Sep 2011 00:00:00 +0000</pubDate>
-      
-      <guid>https://mcgillstat.github.io/post/2011fall/2011-09-30/</guid>
-      <description>Date: 2011-09-30 Time: 15:30-16:30 Location: BURN 1205 Abstract: Streaming data is ubiquitous in a wide range of areas from engineering and information technology, finance, and commerce, to atmospheric physics, and earth sciences. The online approximation of properties of data streams is of great interest, but this approximation process is hindered by the sheer size of the data and the speed at which it is generated. Data stream algorithms typically allow only one pass over the data, and maintain sub-linear representations of the data from which target properties can be inferred with high efficiency.</description>
+      <guid>http://localhost:4321/post/2011fall/2011-09-30/</guid>
+      <description>&lt;h4 id=&#34;date-2011-09-30&#34;&gt;Date: 2011-09-30&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630&#34;&gt;Time: 15:30-16:30&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-burn-1205&#34;&gt;Location: BURN 1205&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;Streaming data is ubiquitous in a wide range of areas from engineering and information technology, finance, and commerce, to atmospheric physics, and earth sciences. The online approximation of properties of data streams is of great interest, but this approximation process is hindered by the sheer size of the data and the speed at which it is generated. Data stream algorithms typically allow only one pass over the data, and maintain sub-linear representations of the data from which target properties can be inferred with high efficiency.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>What is singular learning theory?</title>
-      <link>https://mcgillstat.github.io/post/2011fall/2011-09-23/</link>
+      <link>http://localhost:4321/post/2011fall/2011-09-23/</link>
       <pubDate>Fri, 23 Sep 2011 00:00:00 +0000</pubDate>
-      
-      <guid>https://mcgillstat.github.io/post/2011fall/2011-09-23/</guid>
-      <description>Date: 2011-09-23 Time: 15:30-16:30 Location: BURN 1205 Abstract: In this talk, we give a basic introduction to Sumio Watanabe&amp;rsquo;s Singular Learning Theory, as outlined in his book &amp;ldquo;Algebraic Geometry and Statistical Learning Theory&amp;rdquo;. Watanabe&amp;rsquo;s key insight to studying singular models was to use a deep result in algebraic geometry known as Hironaka&amp;rsquo;s Resolution of Singularities. This result allows him to reparametrize the model in a normal form so that central limit theorems can be applied.</description>
+      <guid>http://localhost:4321/post/2011fall/2011-09-23/</guid>
+      <description>&lt;h4 id=&#34;date-2011-09-23&#34;&gt;Date: 2011-09-23&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630&#34;&gt;Time: 15:30-16:30&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-burn-1205&#34;&gt;Location: BURN 1205&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;In this talk, we give a basic introduction to Sumio Watanabe&amp;rsquo;s&#xA;Singular Learning Theory, as outlined in his book &amp;ldquo;Algebraic Geometry&#xA;and Statistical Learning Theory&amp;rdquo;. Watanabe&amp;rsquo;s key insight to studying&#xA;singular models was to use a deep result in algebraic geometry known&#xA;as Hironaka&amp;rsquo;s Resolution of Singularities. This result allows him to&#xA;reparametrize the model in a normal form so that central limit&#xA;theorems can be applied. In the second half of the talk, we discuss&#xA;new algebraic methods where we define fiber ideals for discrete/Gaussian models. We show that the key to understanding the singular model lies in monomializing its fiber ideal.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Inference and model selection for pair-copula constructions</title>
-      <link>https://mcgillstat.github.io/post/2011fall/2011-09-16/</link>
+      <link>http://localhost:4321/post/2011fall/2011-09-16/</link>
       <pubDate>Fri, 16 Sep 2011 00:00:00 +0000</pubDate>
-      
-      <guid>https://mcgillstat.github.io/post/2011fall/2011-09-16/</guid>
-      <description>Date: 2011-09-16 Time: 15:30-16:30 Location: BURN 1205 Abstract: Pair-copula constructions (PCCs) provide an elegant way to construct highly flexible multivariate distributions. However, for convenience of inference, pair-copulas are often assumed to depend on the conditioning variables only indirectly. In this talk, I will show how nonparametric smoothing techniques can be used to avoid this assumption. Model selection for PCCs will also be addressed within the proposed method.
-Speaker Elif F. Acar is a Postdoctoral Fellow in the Department of Mathematics and Statistics at McGill University.</description>
+      <guid>http://localhost:4321/post/2011fall/2011-09-16/</guid>
+      <description>&lt;h4 id=&#34;date-2011-09-16&#34;&gt;Date: 2011-09-16&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630&#34;&gt;Time: 15:30-16:30&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-burn-1205&#34;&gt;Location: BURN 1205&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;Pair-copula constructions (PCCs) provide an elegant way to construct highly flexible multivariate distributions. However, for convenience of inference, pair-copulas are often assumed to depend on the conditioning variables only indirectly. In this talk, I will show how nonparametric smoothing techniques can be used to avoid this assumption. Model selection for PCCs will also be addressed within the proposed method.&lt;/p&gt;&#xA;&lt;h2 id=&#34;speaker&#34;&gt;Speaker&lt;/h2&gt;&#xA;&lt;p&gt;&lt;em&gt;Elif F. Acar&lt;/em&gt; is a Postdoctoral Fellow in the Department of Mathematics and Statistics at McGill University. She holds a Ph.D. in Statistics from the University of Toronto.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Susko: Properties of Bayesian posteriors and bootstrap support in phylogenetic inference | Labbe: An integrated hierarchical Bayesian model for multivariate eQTL genetic mapping</title>
-      <link>https://mcgillstat.github.io/post/2011fall/2011-09-09/</link>
+      <link>http://localhost:4321/post/2011fall/2011-09-09/</link>
       <pubDate>Fri, 09 Sep 2011 00:00:00 +0000</pubDate>
-      
-      <guid>https://mcgillstat.github.io/post/2011fall/2011-09-09/</guid>
-      <description>Date: 2011-09-09 Time: 14:00-16:30 Location: UdeM, Pav. André-Aisenstadt, SALLE 1360 Abstract: Susko: The data generated by large scale sequencing projects is complex, high-dimensional, multivariate discrete data. In studies of evolutionary biology, the parameter space of evolutionary trees is an unusual additional complication from a statistical perspective. In this talk I will briefly introduce the general approaches to utilizing sequence data in phylogenetic inference. A particular issue of interest in phylogenetic inference is assessments of uncertainty about the true tree or structures that might be present in it.</description>
+      <guid>http://localhost:4321/post/2011fall/2011-09-09/</guid>
+      <description>&lt;h4 id=&#34;date-2011-09-09&#34;&gt;Date: 2011-09-09&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1400-1630&#34;&gt;Time: 14:00-16:30&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-udem-pav-andré-aisenstadt-salle-1360&#34;&gt;Location: UdeM, Pav. André-Aisenstadt, SALLE 1360&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;&lt;em&gt;Susko&lt;/em&gt;: The data generated by large scale sequencing projects is complex, high-dimensional, multivariate discrete data. In studies of evolutionary biology, the parameter space of evolutionary trees is an unusual additional complication from a statistical perspective. In this talk I will briefly introduce the general approaches to utilizing sequence data in phylogenetic inference. A particular issue of interest in phylogenetic inference is assessments of uncertainty about the true tree or structures that might be present in it. The primary way in which uncertainty is assessed in practice is through bootstrap support (BP) for splits, large values indicating strong support for the split. A difficulty with this measure, however, has been deciding how large is large enough. We discuss the interpretation of BP and ways of adjusting it so that it has an interpretation similar to a p-value. A related issue, having to do with the behaviour of methods when data are generated from a star tree, gives rise to an interesting example in which, due to the unusual statistical nature,Bayesian and maximum likelihood methods give strikingly different results, even asymptotically.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Precision estimation for stereological volumes</title>
-      <link>https://mcgillstat.github.io/post/2011fall/2011-08-31/</link>
+      <link>http://localhost:4321/post/2011fall/2011-08-31/</link>
       <pubDate>Wed, 31 Aug 2011 00:00:00 +0000</pubDate>
-      
-      <guid>https://mcgillstat.github.io/post/2011fall/2011-08-31/</guid>
-      <description>Date: 2011-08-31 Time: 15:30-16:30 Location: BURN 1205 Abstract: Volume estimators based on Cavalieri’s principle are widely used in the bio- sciences. For example in neuroscience, where volumetric measurements of brain structures are of interest, systematic samples of serial sections are obtained by magnetic resonance imaging or by a physical cutting procedure. The volume v is then estimated by ˆv, which is the sum over the areas of the structure of interest in the section planes multiplied by the width of the sections, t &amp;gt; 0.</description>
+      <guid>http://localhost:4321/post/2011fall/2011-08-31/</guid>
+      <description>&lt;h4 id=&#34;date-2011-08-31&#34;&gt;Date: 2011-08-31&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630&#34;&gt;Time: 15:30-16:30&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-burn-1205&#34;&gt;Location: BURN 1205&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;Volume estimators based on Cavalieri’s principle are widely used in the bio-&#xA;sciences. For example in neuroscience, where volumetric measurements of brain&#xA;structures are of interest, systematic samples of serial sections are obtained by&#xA;magnetic resonance imaging or by a physical cutting procedure. The volume v is&#xA;then estimated by ˆv, which is the sum over the areas of the structure of interest in&#xA;the section planes multiplied by the width of the sections, t &amp;gt; 0.&#xA;Assessing the precision of such volume estimates is a question of great practical&#xA;importance, but statistically a challenging task due to the strong spatial dependence&#xA;of the data and typically small sample sizes. In this talk, an overview of classical&#xA;and new approaches to this problem will be presented. A special focus will be given&#xA;to some recent advances on distribution estimators and confidence intervals for ˆv;&#xA;see Hall and Ziegel (2011).&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

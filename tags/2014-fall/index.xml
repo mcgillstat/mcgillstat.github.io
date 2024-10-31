@@ -2,146 +2,116 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2014 Fall on McGill Statistics Seminars</title>
-    <link>https://mcgillstat.github.io/tags/2014-fall/</link>
+    <link>http://localhost:4321/tags/2014-fall/</link>
     <description>Recent content in 2014 Fall on McGill Statistics Seminars</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 12 Dec 2014 00:00:00 +0000</lastBuildDate><atom:link href="https://mcgillstat.github.io/tags/2014-fall/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 12 Dec 2014 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:4321/tags/2014-fall/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Testing for structured Normal means</title>
-      <link>https://mcgillstat.github.io/post/2014fall/2014-12-12/</link>
+      <link>http://localhost:4321/post/2014fall/2014-12-12/</link>
       <pubDate>Fri, 12 Dec 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://mcgillstat.github.io/post/2014fall/2014-12-12/</guid>
-      <description>Date: 2014-12-12 Time: 15:30-16:30 Location: BURN 1205 Abstract: We will discuss the detection of pattern in images and graphs from a high-dimensional Gaussian measurement. This problem is relevant to many applications including detecting anomalies in sensor and computer networks, large-scale surveillance, co-expressions in gene networks, disease outbreaks, etc. Beyond its wide applicability, structured Normal means detection serves as a case study in the difficulty of balancing computational complexity with statistical power.</description>
+      <guid>http://localhost:4321/post/2014fall/2014-12-12/</guid>
+      <description>&lt;h4 id=&#34;date-2014-12-12&#34;&gt;Date: 2014-12-12&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630&#34;&gt;Time: 15:30-16:30&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-burn-1205&#34;&gt;Location: BURN 1205&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;We will discuss the detection of pattern in images and graphs from a high-dimensional Gaussian measurement. This problem is relevant to many applications including detecting anomalies in sensor and computer networks, large-scale surveillance, co-expressions in gene networks, disease outbreaks, etc. Beyond its wide applicability, structured Normal means detection serves as a case study in the difficulty of balancing computational complexity with statistical power. We will begin by discussing the detection of active rectangles in images and sensor grids. We will develop an adaptive scan test and determine its asymptotic distribution. We propose an approximate algorithm that runs in nearly linear time but achieves the same asymptotic distribution as the naive, quadratic run-time algorithm. We will move on to the more general problem of detecting a well-connected active subgraph within a graph in the Normal means context. Because the generalized likelihood ratio test is computationally infeasible, we propose approximate algorithms and study their statistical efficiency. One such algorithm that we develop is the graph Fourier scan statistic, whose statistical performance is characterized by the spectrum of the graph Laplacian. Another relaxation that we have developed is the Lovasz extended scan statistic (LESS), which is based on submodular optimization and the performance is described using electrical network theory. We also introduce the spanning tree wavelet basis over graphs, a localized basis that reflects the topology of the graph. For each of these tests we compare their statistical guarantees to an information theoretic lower bound.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Copula model selection: A statistical approach</title>
-      <link>https://mcgillstat.github.io/post/2014fall/2014-12-05/</link>
+      <link>http://localhost:4321/post/2014fall/2014-12-05/</link>
       <pubDate>Fri, 05 Dec 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://mcgillstat.github.io/post/2014fall/2014-12-05/</guid>
-      <description>Date: 2014-12-05 Time: 15:30-16:30 Location: BURN 1205 Abstract: Copula model selection is an important problem because similar but differing copula models can offer different conclusions surrounding the dependence structure of random variables. Chen &amp;amp; Fan (2005) proposed a model selection method involving a statistical hypothesis test. The hypothesis test attempts to take into account the randomness of the AIC and other likelihood-based model selection methods for finite samples. Performance of the test compared to the more common approach of AIC is illustrated in a series of simulations.</description>
+      <guid>http://localhost:4321/post/2014fall/2014-12-05/</guid>
+      <description>&lt;h4 id=&#34;date-2014-12-05&#34;&gt;Date: 2014-12-05&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630&#34;&gt;Time: 15:30-16:30&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-burn-1205&#34;&gt;Location: BURN 1205&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;Copula model selection is an important problem because similar but differing copula models can offer different conclusions surrounding the dependence structure of random variables. Chen &amp;amp; Fan (2005) proposed a model selection method involving a statistical hypothesis test. The hypothesis test attempts to take into account the randomness of the AIC and other likelihood-based model selection methods for finite samples. Performance of the test compared to the more common approach of AIC is illustrated in a series of simulations.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Model-based methods of classification with applications</title>
-      <link>https://mcgillstat.github.io/post/2014fall/2014-11-28/</link>
+      <link>http://localhost:4321/post/2014fall/2014-11-28/</link>
       <pubDate>Fri, 28 Nov 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://mcgillstat.github.io/post/2014fall/2014-11-28/</guid>
-      <description>Date: 2014-11-28 Time: 15:30-16:30 Location: BURN 1205 Abstract: Model-based clustering via finite mixture models is a popular clustering method for finding hidden structures in data. The model is often assumed to be a finite mixture of multivariate normal distributions; however, flexible extensions have been developed over recent years. This talk demonstrates some methods employed in unsupervised, semi-supervised, and supervised classification that include skew-normal and skew-t mixture models. Both real and simulated data sets are used to demonstrate the efficacy of these techniques.</description>
+      <guid>http://localhost:4321/post/2014fall/2014-11-28/</guid>
+      <description>&lt;h4 id=&#34;date-2014-11-28&#34;&gt;Date: 2014-11-28&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630&#34;&gt;Time: 15:30-16:30&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-burn-1205&#34;&gt;Location: BURN 1205&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;Model-based clustering via finite mixture models is a popular clustering method for finding hidden structures in data. The model is often assumed to be a finite mixture of multivariate normal distributions; however, flexible extensions have been developed over recent years. This talk demonstrates some methods employed in unsupervised, semi-supervised, and supervised classification that include skew-normal and skew-t mixture models. Both real and simulated data sets are used to demonstrate the efficacy of these techniques.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Estimating by solving nonconvex programs: Statistical and computational guarantees</title>
-      <link>https://mcgillstat.github.io/post/2014fall/2014-11-21/</link>
+      <link>http://localhost:4321/post/2014fall/2014-11-21/</link>
       <pubDate>Fri, 21 Nov 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://mcgillstat.github.io/post/2014fall/2014-11-21/</guid>
-      <description>Date: 2014-11-21 Time: 15:30-16:30 Location: BURN 1205 Abstract: Many statistical estimators are based on solving nonconvex programs. Although the practical performance of such methods is often excellent, the associated theory is frequently incomplete, due to the potential gaps between global and local optima. In this talk, we present theoretical results that apply to all local optima of various regularized M-estimators, where both loss and penalty functions are allowed to be nonconvex.</description>
+      <guid>http://localhost:4321/post/2014fall/2014-11-21/</guid>
+      <description>&lt;h4 id=&#34;date-2014-11-21&#34;&gt;Date: 2014-11-21&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630&#34;&gt;Time: 15:30-16:30&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-burn-1205&#34;&gt;Location: BURN 1205&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;Many statistical estimators are based on solving nonconvex programs. Although the practical performance of such methods is often excellent, the associated theory is frequently incomplete, due to the potential gaps between global and local optima. In this talk, we present theoretical results that apply to all local optima of various regularized M-estimators, where both loss and penalty functions are allowed to be nonconvex. Our theory covers a broad class of nonconvex objective functions, including corrected versions of the Lasso for error-in-variables linear models; regression in generalized linear models using nonconvex regularizers such as SCAD and MCP; and graph and inverse covariance matrix estimation. Under suitable regularity conditions, our theory guarantees that any local optimum of the composite objective function lies within statistical precision of the true parameter vector. This result closes the gap between theory and practice for these methods.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>High-dimensional phenomena in mathematical statistics and convex analysis</title>
-      <link>https://mcgillstat.github.io/post/2014fall/2014-11-20/</link>
+      <link>http://localhost:4321/post/2014fall/2014-11-20/</link>
       <pubDate>Thu, 20 Nov 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://mcgillstat.github.io/post/2014fall/2014-11-20/</guid>
-      <description>Date: 2014-11-20 Time: 16:00-17:00 Location: CRM 1360 (U. de Montréal) Abstract: Statistical models in which the ambient dimension is of the same order or larger than the sample size arise frequently in different areas of science and engineering. Although high-dimensional models of this type date back to the work of Kolmogorov, they have been the subject of intensive study over the past decade, and have interesting connections to many branches of mathematics (including concentration of measure, random matrix theory, convex geometry, and information theory).</description>
+      <guid>http://localhost:4321/post/2014fall/2014-11-20/</guid>
+      <description>&lt;h4 id=&#34;date-2014-11-20&#34;&gt;Date: 2014-11-20&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1600-1700&#34;&gt;Time: 16:00-17:00&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-crm-1360-u-de-montréal&#34;&gt;Location: CRM 1360 (U. de Montréal)&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;Statistical models in which the ambient dimension is of the same order or larger than the sample size arise frequently in different areas of science and engineering. Although high-dimensional models of this type date back to the work of Kolmogorov, they have been the subject of intensive study over the past decade, and have interesting connections to many branches of mathematics (including concentration of measure, random matrix theory, convex geometry, and information theory). In this talk, we provide a broad overview of the general area, including vignettes on phase transitions in high-dimensional graph recovery, and randomized approximations of convex programs.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Bridging the gap: A likelihood function approach for the analysis of ranking data</title>
-      <link>https://mcgillstat.github.io/post/2014fall/2014-11-14/</link>
+      <link>http://localhost:4321/post/2014fall/2014-11-14/</link>
       <pubDate>Fri, 14 Nov 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://mcgillstat.github.io/post/2014fall/2014-11-14/</guid>
-      <description>Date: 2014-11-14 Time: 15:30-16:30 Location: BURN 1205 Abstract: In the parametric setting, the notion of a likelihood function forms the basis for the development of tests of hypotheses and estimation of parameters. Tests in connection with the analysis of variance stem entirely from considerations of the likelihood function. On the other hand, non- parametric procedures have generally been derived without any formal mechanism and are often the result of clever intuition.</description>
+      <guid>http://localhost:4321/post/2014fall/2014-11-14/</guid>
+      <description>&lt;h4 id=&#34;date-2014-11-14&#34;&gt;Date: 2014-11-14&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630&#34;&gt;Time: 15:30-16:30&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-burn-1205&#34;&gt;Location: BURN 1205&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;In the parametric setting, the notion of a likelihood function forms the basis for the development of tests of hypotheses and estimation of parameters. Tests in connection with the analysis of variance stem entirely from considerations of the likelihood function. On the other hand, non- parametric procedures have generally been derived without any formal mechanism and are often the result of clever intuition. In this talk, we propose a more formal approach for deriving tests involving the use of ranks. Specifically, we define a likelihood function motivated by characteristics of the ranks of the data and demonstrate that this leads to well-known tests of hypotheses. We also point to various areas of further exploration.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Bayesian regression with B-splines under combinations of shape constraints and smoothness properties</title>
-      <link>https://mcgillstat.github.io/post/2014fall/2014-11-07/</link>
+      <link>http://localhost:4321/post/2014fall/2014-11-07/</link>
       <pubDate>Fri, 07 Nov 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://mcgillstat.github.io/post/2014fall/2014-11-07/</guid>
-      <description>Date: 2014-11-07 Time: 15:30-16:30 Location: BURN 1205 Abstract: We approach the problem of shape constrained regression from a Bayesian perspective. A B-spline basis is used to model the regression function. The smoothness of the regression function is controlled by the order of the B-splines and the shape is controlled by the shape of an associated control polygon. Controlling the shape of the control polygon reduces to some inequality constraints on the spline coefficients.</description>
+      <guid>http://localhost:4321/post/2014fall/2014-11-07/</guid>
+      <description>&lt;h4 id=&#34;date-2014-11-07&#34;&gt;Date: 2014-11-07&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630&#34;&gt;Time: 15:30-16:30&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-burn-1205&#34;&gt;Location: BURN 1205&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;We approach the problem of shape constrained regression from a Bayesian perspective. A B-spline basis is used to model the regression function. The smoothness of the regression function is controlled by the order of the B-splines and the shape is controlled by the shape of an associated control polygon. Controlling the shape of the control polygon reduces to some inequality constraints on the spline coefficients. Our approach enables us to take into account combinations of shape constraints and to localize each shape constraint on a given interval. The performances of our method is investigated through a simulation study. Applications to real data sets from the food industry and Global Warming are provided.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>A copula-based model for risk aggregation</title>
-      <link>https://mcgillstat.github.io/post/2014fall/2014-10-31/</link>
+      <link>http://localhost:4321/post/2014fall/2014-10-31/</link>
       <pubDate>Fri, 31 Oct 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://mcgillstat.github.io/post/2014fall/2014-10-31/</guid>
-      <description>Date: 2014-10-31 Time: 15:30-16:30 Location: BURN 1205 Abstract: A flexible approach is proposed for risk aggregation. The model consists of a tree structure, bivariate copulas, and marginal distributions. The construction relies on a conditional independence assumption whose implications are studied. Selection the tree structure, estimation and model validation are illustrated using data from a Canadian property and casualty insurance company.
-Speaker Marie-Pier Côté is a PhD student in the Department of Mathematics and Statistics at McGill University.</description>
+      <guid>http://localhost:4321/post/2014fall/2014-10-31/</guid>
+      <description>&lt;h4 id=&#34;date-2014-10-31&#34;&gt;Date: 2014-10-31&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630&#34;&gt;Time: 15:30-16:30&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-burn-1205&#34;&gt;Location: BURN 1205&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;A flexible approach is proposed for risk aggregation. The model consists of a tree structure, bivariate copulas, and marginal distributions. The construction relies on a conditional independence assumption whose implications are studied. Selection the tree structure, estimation and model validation are illustrated using data from a Canadian property and casualty insurance company.&lt;/p&gt;&#xA;&lt;h2 id=&#34;speaker&#34;&gt;Speaker&lt;/h2&gt;&#xA;&lt;p&gt;Marie-Pier Côté is a PhD student in the Department of Mathematics and Statistics at McGill University.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>PREMIER: Probabilistic error-correction using Markov inference in error reads</title>
-      <link>https://mcgillstat.github.io/post/2014fall/2014-10-24/</link>
+      <link>http://localhost:4321/post/2014fall/2014-10-24/</link>
       <pubDate>Fri, 24 Oct 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://mcgillstat.github.io/post/2014fall/2014-10-24/</guid>
-      <description>Date: 2014-10-24 Time: 15:30-16:30 Location: BURN 1205 Abstract: Next generation sequencing (NGS) is a technology revolutionizing genetics and biology. Compared with the old Sanger sequencing method, the throughput is astounding and has fostered a slew of innovative sequencing applications. Unfortunately, the error rates are also higher, complicating many downstream analyses. For example, de novo assembly of genomes is less accurate and slower when reads include many errors. We develop a probabilistic model for NGS reads that can detect and correct errors without a reference genome and while flexibly modeling and estimating the error properties of the sequencing machine.</description>
+      <guid>http://localhost:4321/post/2014fall/2014-10-24/</guid>
+      <description>&lt;h4 id=&#34;date-2014-10-24&#34;&gt;Date: 2014-10-24&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630&#34;&gt;Time: 15:30-16:30&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-burn-1205&#34;&gt;Location: BURN 1205&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;Next generation sequencing (NGS) is a technology revolutionizing genetics and biology. Compared with the old Sanger sequencing method, the throughput is astounding and has fostered a slew of innovative sequencing applications.  Unfortunately, the error rates are also higher, complicating many downstream analyses.  For example, de novo assembly of genomes is less accurate and slower when reads include many errors.  We develop a probabilistic model for NGS reads that can detect and correct errors without a reference genome and while flexibly modeling and estimating the error properties of the sequencing machine.  It uses a penalized likelihood to enforce our prior belief that the kmer spectrum (collection of k-length strings observed in the reads) generated from a genome is sparse when k is sufficiently large.  The model formalizes core ideas that are used in many ad hoc algorithmic approaches to error correction.  We show our method can detect and remove more errors from sequencing reads than existing methods. Though our method carries a higher computational burden than the best algorithmic approaches, the probabilistic approach is extensible, flexible, and well-positioned to support downstream statistical analysis of the increasing volume of sequence data.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Patient privacy, big data, and specimen pooling: Using an old tool for new challenges</title>
-      <link>https://mcgillstat.github.io/post/2014fall/2014-10-17/</link>
+      <link>http://localhost:4321/post/2014fall/2014-10-17/</link>
       <pubDate>Fri, 17 Oct 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://mcgillstat.github.io/post/2014fall/2014-10-17/</guid>
-      <description>Date: 2014-10-17 Time: 15:30-16:30 Location: BURN 1205 Abstract: In the recent past, electronic health records and distributed data networks emerged as a viable resource for medical and scientific research. As the use of confidential patient information from such sources become more common, maintaining privacy of patients is of utmost importance. For a binary disease outcome of interest, we show that the techniques of specimen pooling could be applied for analysis of large and/or distributed data while respecting patient privacy.</description>
+      <guid>http://localhost:4321/post/2014fall/2014-10-17/</guid>
+      <description>&lt;h4 id=&#34;date-2014-10-17&#34;&gt;Date: 2014-10-17&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630&#34;&gt;Time: 15:30-16:30&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-burn-1205&#34;&gt;Location: BURN 1205&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;In the recent past, electronic health records and distributed data networks emerged as a viable resource for medical and scientific research. As the use of confidential patient information from such sources become more common, maintaining privacy of patients is of utmost importance. For a binary disease outcome of interest, we show that the techniques of specimen pooling could be applied for analysis of large and/or distributed data while respecting patient privacy. I will review the pooled analysis for a binary outcome and then show how it can be used for distributed data. Aggregate level data are passed from the nodes of the network to the analysis center and can be used very easily with logistic regression for estimation of disease odds ratio associated with a set of categorical or continuous covariates. Pooling approach allows for consistent estimation of the parameters of logistic regression that can include confounders. Additionally, since the individual covariate values can be accessed within a network, effect modifiers can be accommodated and consistently estimated. Since pooling effectively reduces the size of the dataset by creating pools or sets of individual, the resulting dataset can be analyzed much more quickly as compared to an original dataset that is too big as compared to computing environment.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>A margin-free clustering algorithm appropriate for dependent maxima in the domain of attraction of an extreme-value copula</title>
-      <link>https://mcgillstat.github.io/post/2014fall/2014-10-10/</link>
+      <link>http://localhost:4321/post/2014fall/2014-10-10/</link>
       <pubDate>Fri, 10 Oct 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://mcgillstat.github.io/post/2014fall/2014-10-10/</guid>
-      <description>Date: 2014-10-10 Time: 15:30-16:30 Location: BURN 1205 Abstract: Extracting relevant information in complex spatial-temporal data sets is of paramount importance in statistical climatology. This is especially true when identifying spatial dependencies between quantitative extremes like heavy rainfall. The paper of Bernard et al. (2013) develops a fast and simple clustering algorithm for finding spatial patterns appropriate for extremes. They develop their algorithm by adapting multivariate extreme-value theory to the context of spatial clustering.</description>
+      <guid>http://localhost:4321/post/2014fall/2014-10-10/</guid>
+      <description>&lt;h4 id=&#34;date-2014-10-10&#34;&gt;Date: 2014-10-10&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630&#34;&gt;Time: 15:30-16:30&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-burn-1205&#34;&gt;Location: BURN 1205&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;Extracting relevant information in complex spatial-temporal data sets is of paramount importance in statistical climatology. This is especially true when identifying spatial dependencies between quantitative extremes like heavy rainfall. The paper of Bernard et al. (2013) develops a fast and simple clustering algorithm for finding spatial patterns appropriate for extremes. They develop their algorithm by adapting multivariate extreme-value theory to the context of spatial clustering. This is done by relating the variogram, a well-known distance used in geostatistics, to the extremal coefficient of a pair of joint maxima. This gives rise to a straightforward nonparametric estimator of this distance using the empirical distribution function. Their clustering approach is used to analyze weekly maxima of hourly precipitation recorded in France and a spatial pattern consistent with existing weather models arises. This applied talk is devoted to the validation and extension of this clustering approach. A simulation study using the multivariate logistic distribution as well as max-stable random fields shows that this approach provides accurate clustering when the maxima belong to an extreme-value distribution. Furthermore this clustering distance can be viewed as an average absolute rank difference, implying that it is appropriate for margin-free clustering of dependent variables. In particular it is appropriate for dependent maxima in the domain of attraction of an extreme-value copula.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Statistical exploratory data analysis in the modern era</title>
-      <link>https://mcgillstat.github.io/post/2014fall/2014-10-03/</link>
+      <link>http://localhost:4321/post/2014fall/2014-10-03/</link>
       <pubDate>Fri, 03 Oct 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://mcgillstat.github.io/post/2014fall/2014-10-03/</guid>
-      <description>Date: 2014-10-03 Time: 15:30-16:30 Location: BURN 1205 Abstract: Major challenges arising from today&amp;rsquo;s &amp;ldquo;data deluge&amp;rdquo; include how to handle the commonly occurring situation of different types of variables (say, continuous and categorical) being simultaneously measured, as well as how to assess the accompanying flood of questions. Based on information theory, a bias-corrected mutual information (BCMI) measure of association that is valid and estimable between all basic types of variables has been proposed.</description>
+      <guid>http://localhost:4321/post/2014fall/2014-10-03/</guid>
+      <description>&lt;h4 id=&#34;date-2014-10-03&#34;&gt;Date: 2014-10-03&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630&#34;&gt;Time: 15:30-16:30&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-burn-1205&#34;&gt;Location: BURN 1205&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;Major challenges arising from today&amp;rsquo;s &amp;ldquo;data deluge&amp;rdquo; include how to handle the commonly occurring situation of different types of variables (say, continuous and categorical) being simultaneously measured, as well as how to assess the accompanying flood of questions. Based on information theory, a bias-corrected mutual information (BCMI) measure of association that is valid and estimable between all basic types of variables has been proposed. It has the advantage of being able to identify non-linear as well as linear relationships. Based on the BCMI measure, a novel exploratory approach to finding associations in data sets having a large number of variables of different types has been developed. These associations can be used as a basis for downstream analyses such as finding clusters and networks. The application of this exploratory approach is very general. Comparisons also will be made with other measures. Illustrative examples include exploring relationships (i) in clinical and genomic (say, gene expression and genotypic) data, and (ii) between social, economic, health and political indicators from the World Health Organisation.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Analysis of palliative care studies with joint models for quality-of-life measures and survival</title>
-      <link>https://mcgillstat.github.io/post/2014fall/2014-09-26/</link>
+      <link>http://localhost:4321/post/2014fall/2014-09-26/</link>
       <pubDate>Fri, 26 Sep 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://mcgillstat.github.io/post/2014fall/2014-09-26/</guid>
-      <description>Date: 2014-09-26 Time: 15:30-16:30 Location: BURN 1205 Abstract: In palliative care studies, the primary outcomes are often health related quality of life measures (HRLQ). Randomized trials and prospective cohorts typically recruit patients with advanced stage of disease and follow them until death or end of the study. An important feature of such studies is that, by design, some patients, but not all, are likely to die during the course of the study.</description>
+      <guid>http://localhost:4321/post/2014fall/2014-09-26/</guid>
+      <description>&lt;h4 id=&#34;date-2014-09-26&#34;&gt;Date: 2014-09-26&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630&#34;&gt;Time: 15:30-16:30&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-burn-1205&#34;&gt;Location: BURN 1205&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;In palliative care studies, the primary outcomes are often health related quality of life measures (HRLQ). Randomized trials and prospective cohorts typically recruit patients with advanced stage of disease and follow them until death or end of the study. An important feature of such studies is that, by design, some patients, but not all, are likely to die during the course of the study. This affects the interpretation of the conventional analysis of palliative care trials and suggests the need for specialized methods of analysis. We have developed a “terminal decline model” for palliative care trials that, by jointly modeling the time until death and the HRQL measures, leads to flexible interpretation and efficient analysis of the trial data (Li, Tosteson, Bakitas, STMED 2012).&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Covariates missing by design</title>
-      <link>https://mcgillstat.github.io/post/2014fall/2014-09-19/</link>
+      <link>http://localhost:4321/post/2014fall/2014-09-19/</link>
       <pubDate>Fri, 19 Sep 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://mcgillstat.github.io/post/2014fall/2014-09-19/</guid>
-      <description>Date: 2014-09-19 Time: 15:30-16:30 Location: BURN 1205 Abstract: Incomplete data can arise in many different situations for many different reasons. Sometimes the data may be incomplete for reasons beyond the control of the experimenter. However, it is also possible that this missingness is part of the study design. By using a two-phase sampling approach where only a small sub-sample gives complete information, it is possible to greatly reduce the cost of a study and still obtain precise estimates.</description>
+      <guid>http://localhost:4321/post/2014fall/2014-09-19/</guid>
+      <description>&lt;h4 id=&#34;date-2014-09-19&#34;&gt;Date: 2014-09-19&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630&#34;&gt;Time: 15:30-16:30&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-burn-1205&#34;&gt;Location: BURN 1205&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;Incomplete data can arise in many different situations for many different reasons. Sometimes the data may be incomplete for reasons beyond the control of the experimenter. However, it is also possible that this missingness is part of the study design. By using a two-phase sampling approach where only a small sub-sample gives complete information, it is possible to greatly reduce the cost of a study and still obtain precise estimates. This talk will introduce the concepts of incomplete data and two-phase sampling designs and will discuss adaptive two-phase designs which exploit information from an internal pilot study to approximate the optimal sampling scheme for an analysis based on mean score estimating equations.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Hydrological applications with the functional data analysis framework</title>
-      <link>https://mcgillstat.github.io/post/2014fall/2014-09-12/</link>
+      <link>http://localhost:4321/post/2014fall/2014-09-12/</link>
       <pubDate>Fri, 12 Sep 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://mcgillstat.github.io/post/2014fall/2014-09-12/</guid>
-      <description>Date: 2014-09-12 Time: 15:30-16:30 Location: BURN 1205 Abstract: River flows records are an essential data source for a variety of hydrological applications including the prevention of flood risks and as well as the planning and management of water resources. A hydrograph is a graphical representation of the temporal variation of flow over a period of time (continuously measured, usually over a year). A flood hydrograph is commonly characterized by a number of features, mainly its peak, volume and duration.</description>
+      <guid>http://localhost:4321/post/2014fall/2014-09-12/</guid>
+      <description>&lt;h4 id=&#34;date-2014-09-12&#34;&gt;Date: 2014-09-12&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630&#34;&gt;Time: 15:30-16:30&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-burn-1205&#34;&gt;Location: BURN 1205&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;River flows records are an essential data source for a variety of hydrological applications including the prevention of flood risks and as well as the planning and management of water resources. A hydrograph is a graphical representation of the temporal variation of flow over a period of time (continuously measured, usually over a year). A flood hydrograph is commonly characterized by a number of features, mainly its peak, volume and duration. Classical and recent multivariate approaches considered in hydrological applications treated these features jointly in order to take into account their dependence structure or their relationship. However, all these approaches are based on the analysis of a limited number of characteristics and do not make use of the full information provided by the hydrograph. Even though these approaches provided good results, they present some drawbacks and limitations. The objective of the present talk is to introduce a new framework for hydrological applications where data, such as hydrographs, are employed as continuous curves: functional data. In this context, the whole hydrograph is considered as one infinite-dimensional observation. This context contributes to addressing the problem of lack of data commonly encountered in hydrology. A number of functional data analysis tools and methods are presented and adapted.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

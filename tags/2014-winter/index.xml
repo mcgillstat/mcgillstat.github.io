@@ -2,118 +2,95 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2014 Winter on McGill Statistics Seminars</title>
-    <link>https://mcgillstat.github.io/tags/2014-winter/</link>
+    <link>http://localhost:4321/tags/2014-winter/</link>
     <description>Recent content in 2014 Winter on McGill Statistics Seminars</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 11 Apr 2014 00:00:00 +0000</lastBuildDate><atom:link href="https://mcgillstat.github.io/tags/2014-winter/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 11 Apr 2014 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:4321/tags/2014-winter/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Adaptive piecewise polynomial estimation via trend filtering</title>
-      <link>https://mcgillstat.github.io/post/2014winter/2014-04-11/</link>
+      <link>http://localhost:4321/post/2014winter/2014-04-11/</link>
       <pubDate>Fri, 11 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://mcgillstat.github.io/post/2014winter/2014-04-11/</guid>
-      <description>Date: 2014-04-11 Time: 15:30-16:30 Location: Salle KPMG, 1er étage HEC Montréal Abstract: We will discuss trend filtering, a recently proposed tool of Kim et al. (2009) for nonparametric regression. The trend filtering estimate is defined as the minimizer of a penalized least squares criterion, in which the penalty term sums the absolute kth order discrete derivatives over the input points. Perhaps not surprisingly, trend filtering estimates appear to have the structure of kth degree spline functions, with adaptively chosen knot points (we say “appear” here as trend filtering estimates are not really functions over continuous domains, and are only defined over the discrete set of inputs).</description>
+      <guid>http://localhost:4321/post/2014winter/2014-04-11/</guid>
+      <description>&lt;h4 id=&#34;date-2014-04-11&#34;&gt;Date: 2014-04-11&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630&#34;&gt;Time: 15:30-16:30&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-salle-kpmg-1er-étage-hec-montréal&#34;&gt;Location: Salle KPMG, 1er étage HEC Montréal&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;We will discuss trend filtering, a recently proposed tool of Kim et al. (2009) for nonparametric regression. The trend filtering estimate is defined as the minimizer of a penalized least squares criterion, in which the penalty term sums the absolute kth order discrete derivatives over the input points. Perhaps not surprisingly, trend filtering estimates appear to have the structure of kth degree spline functions, with adaptively chosen knot points (we say “appear” here as trend filtering estimates are not really functions over continuous domains, and are only defined over the discrete set of inputs). This brings to mind comparisons to other nonparametric regression tools that also produce adaptive splines; in particular, we will compare trend filtering to smoothing splines, which penalize the sum of squared derivatives across input points, and to locally adaptive regression splines (Mammen &amp;amp; van de Geer 1997), which penalize the total variation of the kth derivative.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Some aspects of data analysis under confidentiality protection</title>
-      <link>https://mcgillstat.github.io/post/2014winter/2014-04-04/</link>
+      <link>http://localhost:4321/post/2014winter/2014-04-04/</link>
       <pubDate>Fri, 04 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://mcgillstat.github.io/post/2014winter/2014-04-04/</guid>
-      <description>Date: 2014-04-04 Time: 15:30-16:30 Location: BURN 1205 Abstract: Statisticians working in most federal agencies are often faced with two conflicting objectives: (1) collect and publish useful datasets for designing public policies and building scientific theories, and (2) protect confidentiality of data respondents which is essential to uphold public trust, leading to better response rates and data accuracy. In this talk I will provide a survey of two statistical methods currently used at the U.</description>
+      <guid>http://localhost:4321/post/2014winter/2014-04-04/</guid>
+      <description>&lt;h4 id=&#34;date-2014-04-04&#34;&gt;Date: 2014-04-04&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630&#34;&gt;Time: 15:30-16:30&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-burn-1205&#34;&gt;Location: BURN 1205&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;Statisticians working in most federal agencies are often faced with two conflicting objectives: (1) collect and publish useful datasets for designing public policies and building scientific theories, and (2) protect confidentiality of data respondents which is essential to uphold public trust, leading to better response rates and data accuracy. In this talk I will provide a survey of two statistical methods currently used at the U.S. Census Bureau: synthetic data and noise perturbed data.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>How much does the dependence structure matter?</title>
-      <link>https://mcgillstat.github.io/post/2014winter/2014-03-28/</link>
+      <link>http://localhost:4321/post/2014winter/2014-03-28/</link>
       <pubDate>Fri, 28 Mar 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://mcgillstat.github.io/post/2014winter/2014-03-28/</guid>
-      <description>Date: 2014-03-28 Time: 15:30-16:30 Location: BURN 1205 Abstract: In this talk, we will look at some classical problems from an anti-traditional perspective. We will consider two problems regarding a sequence of random variables with a given common marginal distribution. First, we will introduce the notion of extreme negative dependence (END), a new benchmark for negative dependence, which is comparable to comonotonicity and independence. Second, we will study the compatibility of the marginal distribution and the limiting distribution when the dependence structure in the sequence is allowed to vary among all possibilities.</description>
+      <guid>http://localhost:4321/post/2014winter/2014-03-28/</guid>
+      <description>&lt;h4 id=&#34;date-2014-03-28&#34;&gt;Date: 2014-03-28&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630&#34;&gt;Time: 15:30-16:30&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-burn-1205&#34;&gt;Location: BURN 1205&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;In this talk, we will look at some classical problems from an anti-traditional perspective. We will consider two problems regarding a sequence of random variables with a given common marginal distribution. First, we will introduce the notion of extreme negative dependence (END), a new benchmark for negative dependence, which is comparable to comonotonicity and independence. Second, we will study the compatibility of the marginal distribution and the limiting distribution when the dependence structure in the sequence is allowed to vary among all possibilities. The results are somewhat simple, yet surprising. We will provide some interpretation and applications of the theoretical results in financial risk management, with the hope to deliver the following message: with the common marginal distribution known and dependence structure unknown, we know essentially nothing about the asymptotic shape of the sum of random variables.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Insurance company operations and dependence modeling</title>
-      <link>https://mcgillstat.github.io/post/2014winter/2014-03-21/</link>
+      <link>http://localhost:4321/post/2014winter/2014-03-21/</link>
       <pubDate>Fri, 21 Mar 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://mcgillstat.github.io/post/2014winter/2014-03-21/</guid>
-      <description>Date: 2014-03-21 Time: 15:30-16:30 Location: BURN 107 Abstract: Actuaries and other analysts have long had the responsibility in insurance company operations for various financial functions including (i) ratemaking, the process of setting premiums, (ii) loss reserving, the process of predicting obligations that arise from policies, and (iii) claims management, including fraud detection. With the advent of modern computing capabilities and detailed and novel data sources, new opportunities to make an impact on insurance company operations are extensive.</description>
+      <guid>http://localhost:4321/post/2014winter/2014-03-21/</guid>
+      <description>&lt;h4 id=&#34;date-2014-03-21&#34;&gt;Date: 2014-03-21&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630&#34;&gt;Time: 15:30-16:30&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-burn-107&#34;&gt;Location: BURN 107&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;Actuaries and other analysts have long had the responsibility in insurance company operations for various financial functions including  (i) ratemaking, the process of setting premiums, (ii) loss reserving, the process of predicting obligations that arise from policies, and (iii) claims management, including fraud detection. With the advent of modern computing capabilities and detailed and novel data sources, new  opportunities to make an impact on insurance company operations are extensive.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Mixed effects trees and forests for clustered data</title>
-      <link>https://mcgillstat.github.io/post/2014winter/2014-03-14/</link>
+      <link>http://localhost:4321/post/2014winter/2014-03-14/</link>
       <pubDate>Fri, 14 Mar 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://mcgillstat.github.io/post/2014winter/2014-03-14/</guid>
-      <description>Date: 2014-03-14 Time: 15:30-16:30 Location: BURN 1205 Abstract: In this talk, I will present extensions of tree-based and random forest methods for the case of clustered data. The proposed methods can handle unbalanced clusters, allows observations within clusters to be splitted, and can incorporate random effects and observation-level covariates. The basic tree-building algorithm for a continuous outcome is implemented using standard algorithms within the framework of the EM algorithm. The extension to other types of outcomes (e.</description>
+      <guid>http://localhost:4321/post/2014winter/2014-03-14/</guid>
+      <description>&lt;h4 id=&#34;date-2014-03-14&#34;&gt;Date: 2014-03-14&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630&#34;&gt;Time: 15:30-16:30&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-burn-1205&#34;&gt;Location: BURN 1205&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;In this talk, I will present extensions of tree-based and random forest methods for the case of clustered data. The proposed methods can handle unbalanced clusters, allows observations within clusters to be splitted, and can incorporate random effects and observation-level covariates. The basic tree-building algorithm for a continuous outcome is implemented using standard algorithms within the framework of the EM algorithm. The extension to other types of outcomes (e.g., binary, count) uses the penalized quasi-likelihood (PQL) method for the estimation and the EM algorithm for the computation. Simulation results show that the proposed methods provides substantial improvements over standard trees and forests when the random effects are non negligible. The use of the method will be illustrated with real data sets.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>ABC as the new empirical Bayes approach?</title>
-      <link>https://mcgillstat.github.io/post/2014winter/2014-02-28/</link>
+      <link>http://localhost:4321/post/2014winter/2014-02-28/</link>
       <pubDate>Fri, 28 Feb 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://mcgillstat.github.io/post/2014winter/2014-02-28/</guid>
-      <description>Date: 2014-02-28 Time: 13:30-14:30 Location: UdM, Pav. Roger-Gaudry, Salle S-116 Abstract: Approximate Bayesian computation (ABC) has now become an essential tool for the analysis of complex stochastic models when the likelihood function is unavailable. The approximation is seen as a nuisance from a computational statistic point of view but we argue here it is also a blessing from an inferential perspective. We illustrate this paradoxical stand in the case of dynamic models and population genetics models.</description>
+      <guid>http://localhost:4321/post/2014winter/2014-02-28/</guid>
+      <description>&lt;h4 id=&#34;date-2014-02-28&#34;&gt;Date: 2014-02-28&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1330-1430&#34;&gt;Time: 13:30-14:30&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-udm-pav-roger-gaudry-salle-s-116&#34;&gt;Location: UdM, Pav. Roger-Gaudry, Salle S-116&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;Approximate Bayesian computation (ABC) has now become an essential tool for the analysis of complex stochastic models when the likelihood function is unavailable. The approximation is seen as a nuisance from a computational statistic point of view but we argue here it is also a blessing from an inferential perspective. We illustrate this paradoxical stand in the case of dynamic models and population genetics models. There are also major inference difficulties, as detailed in the case of Bayesian model choice.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>On the multivariate analysis of neural spike trains: Skellam process with resetting and its applications</title>
-      <link>https://mcgillstat.github.io/post/2014winter/2014-02-21/</link>
+      <link>http://localhost:4321/post/2014winter/2014-02-21/</link>
       <pubDate>Fri, 21 Feb 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://mcgillstat.github.io/post/2014winter/2014-02-21/</guid>
-      <description>Date: 2014-02-21 Time: 15:30-16:30 Location: BURN 1205 Abstract: Nerve cells (a.k.a. neurons) communicate via electrochemical waves (action potentials), which are usually called spikes as they are very localized in time. A sequence of consecutive spikes from one neuron is called a spike train. The exact mechanism of information coding in spike trains is still an open problem; however, one popular approach is to model spikes as realizations of an inhomogeneous Poisson process.</description>
+      <guid>http://localhost:4321/post/2014winter/2014-02-21/</guid>
+      <description>&lt;h4 id=&#34;date-2014-02-21&#34;&gt;Date: 2014-02-21&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630&#34;&gt;Time: 15:30-16:30&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-burn-1205&#34;&gt;Location: BURN 1205&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;Nerve cells (a.k.a. neurons) communicate via electrochemical waves (action potentials), which are usually called spikes as they are very localized in time. A sequence of consecutive spikes from one neuron is called a spike train. The exact mechanism of information coding in spike trains is still an open problem; however, one popular approach is to model spikes as realizations of an inhomogeneous Poisson process. In this talk, the limitations of the Poisson model are highlighted , and the Skellam Process with Resetting (SPR) is introduced as an alternative model for the analysis of neural spike trains. SPR is biologically justified, and the parameter estimation algorithm developed for it is computationally efficient. To allow for the modelling of neural ensembles, this process is generalized to the multivariate case, where Multivariate Skellam Process with Resetting (MSPR), as well as the multivariate Skellam distribution are introduced. Simulation and real data studies confirm the promising results of the Skellam model in the statistical analysis of neural spike trains.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Divergence based inference for general estimating equations</title>
-      <link>https://mcgillstat.github.io/post/2014winter/2014-02-14/</link>
+      <link>http://localhost:4321/post/2014winter/2014-02-14/</link>
       <pubDate>Fri, 14 Feb 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://mcgillstat.github.io/post/2014winter/2014-02-14/</guid>
-      <description>Date: 2014-02-14 Time: 15:30-16:30 Location: BURN 1205 Abstract: Hellinger distance and its variants have long been used in the theory of robust statistics to develop inferential tools that are more robust than the maximum likelihood but as ecient as the MLE when the posited model holds. A key aspect of this alternative approach requires specication of a parametric family, which is usually not feasible in the context of problems involving complex data structures wherein estimating equations are typically used for inference.</description>
+      <guid>http://localhost:4321/post/2014winter/2014-02-14/</guid>
+      <description>&lt;h4 id=&#34;date-2014-02-14&#34;&gt;Date: 2014-02-14&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630&#34;&gt;Time: 15:30-16:30&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-burn-1205&#34;&gt;Location: BURN 1205&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;Hellinger distance and its variants have long been used in the theory of robust statistics to develop inferential tools that are more robust than the maximum likelihood but as ecient as the MLE when the posited model holds. A key aspect of this alternative approach requires specication of a parametric family, which is usually not feasible in the context of problems involving complex data structures wherein estimating equations are typically used for inference. In this presentation, we describe how to extend the scope of divergence theory for inferential problems involving estimating equations and describe useful algorithms for their computation. Additionally, we theoretically study the robustness properties of the methods and establish the semi-parametric eciency of the new divergence based estimators under suitable technical conditions. Finally, we use the proposed methods to develop robust sure screening methods for ultra high dimensional problems. Theory of large deviations, convexity theory, and concentration inequalities play an essential role in the theoretical analysis and numerical development. Applications from equine parasitology, stochastic optimization, and antimicrobial resistance will be used to describe various aspects of the proposed methods.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Statistical techniques for the normalization and segmentation of structural MRI</title>
-      <link>https://mcgillstat.github.io/post/2014winter/2014-02-07/</link>
+      <link>http://localhost:4321/post/2014winter/2014-02-07/</link>
       <pubDate>Fri, 07 Feb 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://mcgillstat.github.io/post/2014winter/2014-02-07/</guid>
-      <description>Date: 2014-02-07 Time: 15:30-16:30 Location: BURN 1205 Abstract: While computed tomography and other imaging techniques are measured in absolute units with physical meaning, magnetic resonance images are expressed in arbitrary units that are difficult to interpret and differ between study visits and subjects. Much work in the image processing literature has centered on histogram matching and other histogram mapping techniques, but little focus has been on normalizing images to have biologically interpretable units.</description>
+      <guid>http://localhost:4321/post/2014winter/2014-02-07/</guid>
+      <description>&lt;h4 id=&#34;date-2014-02-07&#34;&gt;Date: 2014-02-07&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630&#34;&gt;Time: 15:30-16:30&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-burn-1205&#34;&gt;Location: BURN 1205&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;While computed tomography and other imaging techniques are measured in absolute units with physical meaning, magnetic resonance images are expressed in arbitrary units that are difficult to interpret and differ between study visits and subjects. Much work in the image processing literature has centered on histogram matching and other histogram mapping techniques, but little focus has been on normalizing images to have biologically interpretable units. We explore this key goal for statistical analysis and the impact of normalization on cross-sectional and longitudinal segmentation of pathology.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>An exchangeable Kendall&#39;s tau for clustered data</title>
-      <link>https://mcgillstat.github.io/post/2014winter/2014-01-31/</link>
+      <link>http://localhost:4321/post/2014winter/2014-01-31/</link>
       <pubDate>Fri, 31 Jan 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://mcgillstat.github.io/post/2014winter/2014-01-31/</guid>
-      <description>Date: 2014-01-31 Time: 15:30-16:30 Location: BURN 1205 Abstract: I&amp;rsquo;ll introduce the exchangeable Kendall&amp;rsquo;s tau as a nonparametric intra class association measure in a clustered data frame and provide an estimator for this measure. The asymptotic properties of this estimator are investigated under a multivariate exchangeable cdf. Two applications of the proposed statistic are considered. The first is an estimator of the intraclass correlation coefficient for data drawn from an elliptical distribution.</description>
+      <guid>http://localhost:4321/post/2014winter/2014-01-31/</guid>
+      <description>&lt;h4 id=&#34;date-2014-01-31&#34;&gt;Date: 2014-01-31&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630&#34;&gt;Time: 15:30-16:30&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-burn-1205&#34;&gt;Location: BURN 1205&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;I&amp;rsquo;ll introduce the exchangeable Kendall&amp;rsquo;s tau as a nonparametric intra class association measure in a clustered data frame and provide an estimator for this measure. The asymptotic properties of this estimator are investigated under a multivariate exchangeable cdf. Two applications of the proposed statistic are considered. The first is an estimator of the intraclass correlation coefficient for data drawn from an elliptical distribution. The second is a semi-parametric intraclass independence test based on the exchangeable Kendall&amp;rsquo;s tau.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Calibration of computer experiments with large data structures</title>
-      <link>https://mcgillstat.github.io/post/2014winter/2014-01-24/</link>
+      <link>http://localhost:4321/post/2014winter/2014-01-24/</link>
       <pubDate>Fri, 24 Jan 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://mcgillstat.github.io/post/2014winter/2014-01-24/</guid>
-      <description>Date: 2014-01-24 Time: 15:30-16:30 Location: Salle 1355, pavillon André-Aisenstadt (CRM) Abstract: Statistical model calibration of computer models is commonly done in a wide variety of scientific endeavours. In the end, this exercise amounts to solving an inverse problem and a form of regression. Gaussian process model are very convenient in this setting as non-parametric regression estimators and provide sensible inference properties. However, when the data structures are large, fitting the model becomes difficult.</description>
+      <guid>http://localhost:4321/post/2014winter/2014-01-24/</guid>
+      <description>&lt;h4 id=&#34;date-2014-01-24&#34;&gt;Date: 2014-01-24&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630&#34;&gt;Time: 15:30-16:30&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-salle-1355-pavillon-andré-aisenstadt-crm&#34;&gt;Location: Salle 1355, pavillon André-Aisenstadt (CRM)&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;Statistical model calibration of computer models is commonly done in a wide variety of scientific endeavours. In the end, this exercise amounts to solving an inverse problem and a form of regression.  Gaussian process model are very convenient in this setting as non-parametric regression estimators and provide sensible inference properties.  However, when the data structures are large, fitting the model becomes difficult.  In this work, new methodology for calibrating large computer experiments is presented. We proposed to perform the calibration exercise by modularizing a hierarchical statistical model with approximate emulation via local Gaussian processes.  The approach is motivated by an application to radiative shock hydrodynamics.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>An introduction to stochastic partial differential equations and intermittency</title>
-      <link>https://mcgillstat.github.io/post/2014winter/2014-01-10/</link>
+      <link>http://localhost:4321/post/2014winter/2014-01-10/</link>
       <pubDate>Fri, 10 Jan 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://mcgillstat.github.io/post/2014winter/2014-01-10/</guid>
-      <description>Date: 2014-01-10 Time: 15:30-16:30 Location: BURN 1205 Abstract: In a seminal article in 1944, Itô introduced the stochastic integral with respect to the Brownian motion, which turned out to be one of the most fruitful ideas in mathematics in the 20th century. This lead to the development of stochastic analysis, a field which includes the study of stochastic partial differential equations (SPDEs). One of the approaches for the study of SPDEs was initiated by Walsh (1986) and relies on the concept of random-field solution for equations perturbed by a space-time white noise (or Brownian sheet).</description>
+      <guid>http://localhost:4321/post/2014winter/2014-01-10/</guid>
+      <description>&lt;h4 id=&#34;date-2014-01-10&#34;&gt;Date: 2014-01-10&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630&#34;&gt;Time: 15:30-16:30&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-burn-1205&#34;&gt;Location: BURN 1205&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;In a seminal article in 1944, Itô introduced the stochastic integral with respect to the Brownian motion, which turned out to be one of the most fruitful ideas in mathematics in the 20th century. This lead to the development of stochastic analysis, a field which includes the study of stochastic partial differential equations (SPDEs). One of the approaches for the study of SPDEs was initiated by Walsh (1986) and relies on the concept of random-field solution for equations perturbed by a space-time white noise (or Brownian sheet). This concept allows us to investigate the dynamical changes in the probabilistic behavior of the solution, simultaneously in time and space. These developments will be reviewed in the first part of the talk. The second part of the talk will be dedicated to some recent advances in this area, related to the existence of a random-field solution for some classical SPDEs (like the stochastic heat equation) perturbed by a &lt;code&gt;colored&#39;&#39; noise, which behaves in time like the fractional Brownian motion. When this solution exists, it exhibits a strong form of &lt;/code&gt;intermittency,&amp;rsquo;&amp;rsquo; a property which was originally introduced in the physics literature for describing random fields whose values develop very large peaks. This talk is based on some recent joint work with Daniel Conus (Lehigh University).&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

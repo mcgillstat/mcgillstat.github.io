@@ -2,110 +2,88 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2016 Winter on McGill Statistics Seminars</title>
-    <link>https://mcgillstat.github.io/tags/2016-winter/</link>
+    <link>http://localhost:4321/tags/2016-winter/</link>
     <description>Recent content in 2016 Winter on McGill Statistics Seminars</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 08 Apr 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://mcgillstat.github.io/tags/2016-winter/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 08 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:4321/tags/2016-winter/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Multivariate tests of associations based on univariate tests</title>
-      <link>https://mcgillstat.github.io/post/2016winter/2016-04-08/</link>
+      <link>http://localhost:4321/post/2016winter/2016-04-08/</link>
       <pubDate>Fri, 08 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://mcgillstat.github.io/post/2016winter/2016-04-08/</guid>
-      <description>Date: 2016-04-08 Time: 15:30-16:30 Location: BURN 1205 Abstract: For testing two random vectors for independence, we consider testing whether the distance of one vector from an arbitrary center point is independent from the distance of the other vector from an arbitrary center point by a univariate test. We provide conditions under which it is enough to have a consistent univariate test of independence on the distances to guarantee that the power to detect dependence between the random vectors increases to one, as the sample size increases.</description>
+      <guid>http://localhost:4321/post/2016winter/2016-04-08/</guid>
+      <description>&lt;h4 id=&#34;date-2016-04-08&#34;&gt;Date: 2016-04-08&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630&#34;&gt;Time: 15:30-16:30&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-burn-1205&#34;&gt;Location: BURN 1205&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;For testing two random vectors for independence, we consider testing whether the distance of one vector from an arbitrary center point is independent from the distance of the other vector from an arbitrary center point by a univariate test. We provide conditions under which it is enough to have a consistent univariate test of independence on the distances to guarantee that the power to detect dependence between the random vectors increases to one, as the sample size increases. These conditions turn out to be minimal. If the univariate test is distribution-free, the multivariate test will also be distribution-free. If we consider multiple center points and aggregate the center-specific univariate tests, the power may be further improved. We suggest a specific aggregation method for which the resulting multivariate test will be distribution-free if the univariate test is distribution-free. We show that several multivariate tests recently proposed in the literature can be viewed as instances of this general approach.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Asymptotic behavior of binned kernel density estimators for locally non-stationary random fields</title>
-      <link>https://mcgillstat.github.io/post/2016winter/2016-04-01/</link>
+      <link>http://localhost:4321/post/2016winter/2016-04-01/</link>
       <pubDate>Fri, 01 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://mcgillstat.github.io/post/2016winter/2016-04-01/</guid>
-      <description>Date: 2016-04-01 Time: 15:30-16:30 Location: BURN 1205 Abstract: In this talk, I will describe the finite- and large-sample behavior of binned kernel density estimators for dependent and locally non-stationary random fields converging to stationary random fields. In addition to looking at the bias and asymptotic normality of the estimators, I will present results from a simulation study which shows that the kernel density estimator and the binned kernel density estimator have the same behavior and both estimate accurately the true density when the number of fields increases.</description>
+      <guid>http://localhost:4321/post/2016winter/2016-04-01/</guid>
+      <description>&lt;h4 id=&#34;date-2016-04-01&#34;&gt;Date: 2016-04-01&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630&#34;&gt;Time: 15:30-16:30&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-burn-1205&#34;&gt;Location: BURN 1205&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;In this talk, I will describe the finite- and large-sample behavior of binned kernel density estimators for dependent and locally non-stationary random fields converging to stationary random fields. In addition to looking at the bias and asymptotic normality of the estimators, I will present results from a simulation study which shows that the kernel density estimator and the binned kernel density estimator have the same behavior and both estimate accurately the true density when the number of fields increases. This work finds applications in various fields, including the study of epidemics and mining research. My specific illustration will be concerned with the 2002 incidence rates of tuberculosis in the departments of France.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Robust minimax shrinkage estimation of location vectors under concave loss</title>
-      <link>https://mcgillstat.github.io/post/2016winter/2016-03-18/</link>
+      <link>http://localhost:4321/post/2016winter/2016-03-18/</link>
       <pubDate>Fri, 18 Mar 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://mcgillstat.github.io/post/2016winter/2016-03-18/</guid>
-      <description>Date: 2016-03-18 Time: 15:30-16:30 Location: BURN 1205 Abstract: We consider the problem of estimating the mean vector, q, of a multivariate spherically symmetric distribution under a loss function which is a concave function of squared error. In particular we find conditions on the shrinkage factor under which Stein-type shrinkage estimators dominate the usual minimax best equivariant estimator. In problems where the scale is known, minimax shrinkage factors which generally depend on both the loss and the sampling distribution are found.</description>
+      <guid>http://localhost:4321/post/2016winter/2016-03-18/</guid>
+      <description>&lt;h4 id=&#34;date-2016-03-18&#34;&gt;Date: 2016-03-18&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630&#34;&gt;Time: 15:30-16:30&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-burn-1205&#34;&gt;Location: BURN 1205&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;We consider the problem of estimating the mean vector, q, of a multivariate spherically symmetric&#xA;distribution under a loss function which is a concave function of squared error. In particular we find&#xA;conditions on the shrinkage factor under which Stein-type shrinkage estimators dominate the usual&#xA;minimax best equivariant estimator. In problems where the scale is known, minimax shrinkage factors&#xA;which generally depend on both the loss and the sampling distribution are found. When the scale is&#xA;estimated through the squared norm of a residual vector, for a large subclass of concave losses, we find&#xA;minimax shrinkage factors which are independent of both the loss and the underlying distribution.&#xA;Recent applications in predictive density estimation are examples where such losses arise naturally.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Nonparametric graphical models: Foundation and trends</title>
-      <link>https://mcgillstat.github.io/post/2016winter/2016-03-11/</link>
+      <link>http://localhost:4321/post/2016winter/2016-03-11/</link>
       <pubDate>Fri, 11 Mar 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://mcgillstat.github.io/post/2016winter/2016-03-11/</guid>
-      <description>Date: 2016-03-11 Time: 15:30-16:30 Location: BURN 1205 Abstract: We consider the problem of learning the structure of a non-Gaussian graphical model. We introduce two strategies for constructing tractable nonparametric graphical model families. One approach is through semiparametric extension of the Gaussian or exponential family graphical models that allows arbitrary graphs. Another approach is to restrict the family of allowed graphs to be acyclic, enabling the use of fully nonparametric density estimation in high dimensions.</description>
+      <guid>http://localhost:4321/post/2016winter/2016-03-11/</guid>
+      <description>&lt;h4 id=&#34;date-2016-03-11&#34;&gt;Date: 2016-03-11&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630&#34;&gt;Time: 15:30-16:30&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-burn-1205&#34;&gt;Location: BURN 1205&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;We consider the problem of learning the structure of a non-Gaussian graphical model. We introduce two strategies for constructing tractable nonparametric graphical model families. One approach is through semiparametric extension of the Gaussian or exponential family graphical models that allows arbitrary graphs. Another approach is to restrict the family of allowed graphs to be acyclic, enabling the use of fully nonparametric density estimation in high dimensions. These two approaches can both be viewed as adding structural regularization to a general pairwise nonparametric Markov random field and reflect an interesting tradeoff of model flexibility with structural complexity. In terms of graph estimation, these methods achieve the optimal parametric rates of convergence. In terms of computation, these methods are as scalable as the best implemented parametric methods. Such a &amp;ldquo;free-lunch phenomenon&amp;rdquo; makes them extremely attractive for large-scale applications. We will also introduce several new research directions along this line of work, including latent-variable extension, model-based nonconvex optimization, graph uncertainty assessment, and nonparametric graph property testing.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Ridges and valleys in the high excursion sets of Gaussian random fields</title>
-      <link>https://mcgillstat.github.io/post/2016winter/2016-03-10/</link>
+      <link>http://localhost:4321/post/2016winter/2016-03-10/</link>
       <pubDate>Thu, 10 Mar 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://mcgillstat.github.io/post/2016winter/2016-03-10/</guid>
-      <description>Date: 2016-03-10 Time: 15:30-16:30 Location: MAASS 217, McGill Abstract: It is well known that normal random variables do not like taking large values. Therefore, a continuous Gaussian random field on a compact set does not like exceeding a large level. If it does exceed a large level at some point, it tends to go back below the level a short distance away from that point. One, therefore, does not expect the excursion set above a high for such a field to possess any interesting structure.</description>
+      <guid>http://localhost:4321/post/2016winter/2016-03-10/</guid>
+      <description>&lt;h4 id=&#34;date-2016-03-10&#34;&gt;Date: 2016-03-10&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630&#34;&gt;Time: 15:30-16:30&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-maass-217-mcgill&#34;&gt;Location: MAASS 217, McGill&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;It is well known that normal random variables do not like taking large values.  Therefore, a continuous Gaussian random field on a compact set does not like exceeding a large level.  If it does exceed a large level at some point, it tends to go back below the level a short distance away from that point.  One, therefore, does not expect the excursion set above a high for such a field to possess any interesting structure.  Nonetheless, if we want to know how likely are two points in such an excursion set to be connected by a path (&amp;ldquo;a ridge&amp;rdquo;) in the excursion set, how do we figure that out? If we know that a ridge in the excursion set exists (e.g.  the field is above a high level on the surface of a sphere), how likely is there to be also a valley (e.g.  the field going to below a fraction of the level somewhere inside that sphere)?&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Aggregation methods for portfolios of dependent risks with Archimedean copulas</title>
-      <link>https://mcgillstat.github.io/post/2016winter/2016-02-26/</link>
+      <link>http://localhost:4321/post/2016winter/2016-02-26/</link>
       <pubDate>Fri, 26 Feb 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://mcgillstat.github.io/post/2016winter/2016-02-26/</guid>
-      <description>Date: 2016-02-26 Time: 15:30-16:30 Location: BURN 1205 Abstract: In this talk, we will consider a portfolio of dependent risks represented by a vector of dependent random variables whose joint cumulative distribution function (CDF) is defined with an Archimedean copula. Archimedean copulas are very popular and their extensions, nested Archimedean copulas, are well suited for vectors of random vectors in high dimension. I will describe a simple approach which makes it possible to compute the CDF of the sum or a variety of other functions of those random variables.</description>
+      <guid>http://localhost:4321/post/2016winter/2016-02-26/</guid>
+      <description>&lt;h4 id=&#34;date-2016-02-26&#34;&gt;Date: 2016-02-26&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630&#34;&gt;Time: 15:30-16:30&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-burn-1205&#34;&gt;Location: BURN 1205&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;In this talk, we will consider a portfolio of dependent risks represented by a vector of dependent random variables whose joint cumulative distribution function (CDF) is defined with an Archimedean copula. Archimedean copulas are very popular and their extensions, nested Archimedean copulas, are well suited for vectors of random vectors in high dimension. I will describe a simple approach which makes it possible to compute the CDF of the sum or a variety of other functions of those random variables. In particular, I will derive the CDF and the TVaR of the sum of those risks using the Frank copula, the Shifted Negative Binomial copula, and the Ali-Mikhail-Haq (AMH) copula. The computation of the contribution of each risk under the TVaR-based allocation rule will also be illustrated. Finally, the links between the Clayton copula, the Shifted Negative Binomial copula, and the AMH copula will be discussed.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>An introduction to statistical lattice models and observables</title>
-      <link>https://mcgillstat.github.io/post/2016winter/2016-02-19/</link>
+      <link>http://localhost:4321/post/2016winter/2016-02-19/</link>
       <pubDate>Fri, 19 Feb 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://mcgillstat.github.io/post/2016winter/2016-02-19/</guid>
-      <description>Date: 2016-02-19 Time: 15:30-16:30 Location: BURN 1205 Abstract: The study of convergence of random walks to well defined curves is founded in the fields of complex analysis, probability theory, physics and combinatorics. The foundations of this subject were motivated by physicists interested in the properties of one-dimensional models that represented some form of physical phenomenon. By taking physical models and generalizing them into abstract mathematical terms, macroscopic properties about the model could be determined from the microscopic level.</description>
+      <guid>http://localhost:4321/post/2016winter/2016-02-19/</guid>
+      <description>&lt;h4 id=&#34;date-2016-02-19&#34;&gt;Date: 2016-02-19&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630&#34;&gt;Time: 15:30-16:30&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-burn-1205&#34;&gt;Location: BURN 1205&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;The study of convergence of random walks to well defined curves is founded in the fields of complex analysis, probability theory, physics and combinatorics. The foundations of this subject were motivated by physicists interested in the properties of one-dimensional models that represented some form of physical phenomenon. By taking physical models and generalizing them into abstract mathematical terms, macroscopic properties about the model could be determined from the microscopic level. By using model specific objects known as observables, the convergence of the random walks on particular lattice structures can be proven to converge to continuous curves such as Brownian Motion or Stochastic Loewner Evolution as the size of the lattice step approaches 0. This seminar will introduce the field of statistical lattice models, the types of observables that can be used to prove convergence as well as a proof for the q-state Potts model showing that local non-commutative matrix observables do not exist. No prior physics knowledge is required for this seminar.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Outlier detection for functional data using principal components</title>
-      <link>https://mcgillstat.github.io/post/2016winter/2016-02-11/</link>
+      <link>http://localhost:4321/post/2016winter/2016-02-11/</link>
       <pubDate>Thu, 11 Feb 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://mcgillstat.github.io/post/2016winter/2016-02-11/</guid>
-      <description>Date: 2016-02-11 Time: 16:00-17:00 Location: CRM 6254 (U. de Montréal) Abstract: Principal components analysis is a widely used technique that provides an optimal lower-dimensional approximation to multivariate observations. In the functional case, a new characterization of elliptical distributions on separable Hilbert spaces allows us to obtain an equivalent stochastic optimality property for the principal component subspaces of random elements on separable Hilbert spaces. This property holds even when second moments do not exist.</description>
+      <guid>http://localhost:4321/post/2016winter/2016-02-11/</guid>
+      <description>&lt;h4 id=&#34;date-2016-02-11&#34;&gt;Date: 2016-02-11&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1600-1700&#34;&gt;Time: 16:00-17:00&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-crm-6254-u-de-montréal&#34;&gt;Location: CRM 6254 (U. de Montréal)&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;Principal components analysis is a widely used technique that provides an optimal lower-dimensional approximation to multivariate observations. In the functional case, a new characterization of elliptical distributions on separable Hilbert spaces allows us to obtain an equivalent stochastic optimality property for the principal component subspaces of random elements on separable Hilbert spaces. This property holds even when second moments do not exist. These lower-dimensional approximations can be very useful in identifying potential outliers among high-dimensional or functional observations. In this talk we propose a new class of robust estimators for principal components, which is consistent for elliptical random vectors, and Fisher-consistent for elliptically distributed random elements on arbitrary Hilbert spaces. We illustrate our method on two real functional data sets, where the robust estimator is able to discover atypical observations in the data that would have been missed otherwise. This talk is the result of recent collaborations with Graciela Boente (Buenos Aires, Argentina) and David Tyler (Rutgers, USA).&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>The Bayesian causal effect estimation algorithm</title>
-      <link>https://mcgillstat.github.io/post/2016winter/2016-02-05/</link>
+      <link>http://localhost:4321/post/2016winter/2016-02-05/</link>
       <pubDate>Fri, 05 Feb 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://mcgillstat.github.io/post/2016winter/2016-02-05/</guid>
-      <description>Date: 2016-02-05 Time: 15:30-16:30 Location: BURN 1214 Abstract: Estimating causal exposure effects in observational studies ideally requires the analyst to have a vast knowledge of the domain of application. Investigators often bypass difficulties related to the identification and selection of confounders through the use of fully adjusted outcome regression models. However, since such models likely contain more covariates than required, the variance of the regression coefficient for exposure may be unnecessarily large.</description>
+      <guid>http://localhost:4321/post/2016winter/2016-02-05/</guid>
+      <description>&lt;h4 id=&#34;date-2016-02-05&#34;&gt;Date: 2016-02-05&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630&#34;&gt;Time: 15:30-16:30&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-burn-1214&#34;&gt;Location: BURN 1214&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;Estimating causal exposure effects in observational studies ideally requires the analyst to have a vast knowledge of the domain of application. Investigators often bypass difficulties related to the identification and selection of confounders through the use of fully adjusted outcome regression models. However, since such models likely contain more covariates than required, the variance of the regression coefficient for exposure may be unnecessarily large. Instead of using a fully adjusted model, model selection can be attempted. Most classical statistical model selection approaches, such as Bayesian model averaging, do not readily address causal effect estimation. We present a new model averaged approach to causal inference, Bayesian causal effect estimation (BCEE), which is motivated by the graphical framework for causal inference. BCEE aims to unbiasedly estimate the causal effect of a continuous exposure on a continuous outcome while being more efficient than a fully adjusted approach.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Estimating high-dimensional networks with hubs with an application to microbiome data</title>
-      <link>https://mcgillstat.github.io/post/2016winter/2016-01-29/</link>
+      <link>http://localhost:4321/post/2016winter/2016-01-29/</link>
       <pubDate>Fri, 29 Jan 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://mcgillstat.github.io/post/2016winter/2016-01-29/</guid>
-      <description>Date: 2016-01-29 Time: 15:30-16:30 Location: BURN 1205 Abstract: In this talk, we investigate the problem of estimating high-dimensional networks in which there are a few highly connected “hub&amp;quot; nodes. Methods based on L1-regularization have been widely used for performing sparse selection in the graphical modelling context. However, the L1 penalty penalizes each edge equally and independently of each other without taking into account any structural information. We introduce a new method for estimating undirected graphical models with hubs, called the hubs weighted graphical lasso (HWGL).</description>
+      <guid>http://localhost:4321/post/2016winter/2016-01-29/</guid>
+      <description>&lt;h4 id=&#34;date-2016-01-29&#34;&gt;Date: 2016-01-29&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630&#34;&gt;Time: 15:30-16:30&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-burn-1205&#34;&gt;Location: BURN 1205&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;In this talk, we investigate the problem of estimating high-dimensional networks in which there are a few highly connected “hub&amp;quot; nodes. Methods based on L1-regularization have been widely used for performing sparse selection in the graphical modelling context. However, the L1 penalty penalizes each edge equally and independently of each other without taking into account any structural information. We introduce a new method for estimating undirected graphical models with hubs, called the hubs weighted graphical lasso (HWGL). This is a two-step procedure with a hub screening step, followed by network reconstruction in the second step using a weighted lasso approach that incorporates the inferred network topology. Empirically, we show that the HWGL outperforms competing methods and illustrate the methodology with an application to microbiome data.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Robust estimation in the presence of influential units in surveys</title>
-      <link>https://mcgillstat.github.io/post/2016winter/2016-01-22/</link>
+      <link>http://localhost:4321/post/2016winter/2016-01-22/</link>
       <pubDate>Fri, 22 Jan 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://mcgillstat.github.io/post/2016winter/2016-01-22/</guid>
-      <description>Date: 2016-01-22 Time: 15:30-16:30 Location: BURN 1205 Abstract: Influential units are those which make classical estimators (e.g., the Horvitz-Thompson estimator or calibration estimators) very unstable. The problem of influential units is particularly important in business surveys, which collect economic variables, whose distribution are highly skewed (heavy right tail). In this talk, we will attempt to answer the following questions:
-(1) What is an influential value in surveys? (2) How measure the influence of unit?</description>
+      <guid>http://localhost:4321/post/2016winter/2016-01-22/</guid>
+      <description>&lt;h4 id=&#34;date-2016-01-22&#34;&gt;Date: 2016-01-22&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630&#34;&gt;Time: 15:30-16:30&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-burn-1205&#34;&gt;Location: BURN 1205&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;Influential units are those which make classical estimators (e.g., the Horvitz-Thompson estimator or calibration estimators) very unstable. The problem of influential units is particularly important in business surveys, which collect economic variables, whose distribution are highly skewed (heavy right tail). In this talk, we will attempt to answer the following questions:&lt;/p&gt;&#xA;&lt;p&gt;(1)   What is an influential value in surveys?&#xA;(2)   How measure the influence of unit?&#xA;(3)   How reduce the impact of influential units at the estimation stage?&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

@@ -2,119 +2,95 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2017 Fall on McGill Statistics Seminars</title>
-    <link>https://mcgillstat.github.io/tags/2017-fall/</link>
+    <link>http://localhost:4321/tags/2017-fall/</link>
     <description>Recent content in 2017 Fall on McGill Statistics Seminars</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 01 Dec 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://mcgillstat.github.io/tags/2017-fall/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 01 Dec 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:4321/tags/2017-fall/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Fisher’s method revisited: set-based genetic association and interaction studies</title>
-      <link>https://mcgillstat.github.io/post/2017fall/2017-12-01/</link>
+      <link>http://localhost:4321/post/2017fall/2017-12-01/</link>
       <pubDate>Fri, 01 Dec 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://mcgillstat.github.io/post/2017fall/2017-12-01/</guid>
-      <description>Date: 2017-12-01 Time: 15:30-16:30 Location: BURN 1205 Abstract: Fisher’s method, also known as Fisher’s combined probability test, is commonly used in meta-analyses to combine p-values from the same test applied to K independent samples to evaluate a common null hypothesis. Here we propose to use it to combine p-values from different tests applied to the same sample in two settings: when jointly analyzing multiple genetic variants in set-based genetic association studies, or when jointly capturing main and interaction effects in the presence of missing one of the interacting variables.</description>
+      <guid>http://localhost:4321/post/2017fall/2017-12-01/</guid>
+      <description>&lt;h4 id=&#34;date-2017-12-01&#34;&gt;Date: 2017-12-01&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630&#34;&gt;Time: 15:30-16:30&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-burn-1205&#34;&gt;Location: BURN 1205&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;Fisher’s method, also known as Fisher’s combined probability test, is commonly used in meta-analyses to combine p-values from the same test applied to K independent samples to evaluate a common null hypothesis. Here we propose to use it to combine p-values from different tests applied to the same sample in two settings: when jointly analyzing multiple genetic variants in set-based genetic association studies, or when jointly capturing main and interaction effects in the presence of missing one of the interacting variables. In the first setting, we show that many existing methods (e.g. the so called burden test and SKAT) can be classified into a class of linear statistics and another class of quadratic statistics, where each class is powerful only in part of the high-dimensional parameter space. In the second setting, we show that the class of scale-tests for heteroscedasticity can be utilized to indirectly identify unspecified interaction effects, complementing the class of location-tests designed for detecting main effects only. In both settings, we show that the two classes of tests are asymptotically independent of each other under the global null hypothesis. Thus, we can evaluate the significance of the resulting Fisher’s test statistic using the chi-squared distribution with four degrees of freedom; this is a desirable feature for analyzing big data. In addition to analytical results, we provide empirical evidence to show that the new class of joint test is not only robust but can also have better power than the individual tests. This is based on join work with formal graduate students Andriy Derkach (Derkach et al. 2013, Genetic Epidemiology; Derkach et al. 2014, Statistical Science) and David Soave (Soave et al. 2015, The American Journal of Human Genetics; Soave and Sun 2017, Biometrics).&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>150 years (and more) of data analysis in Canada</title>
-      <link>https://mcgillstat.github.io/post/2017fall/2017-11-24/</link>
+      <link>http://localhost:4321/post/2017fall/2017-11-24/</link>
       <pubDate>Fri, 24 Nov 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://mcgillstat.github.io/post/2017fall/2017-11-24/</guid>
-      <description>Date: 2017-11-24 Time: 15:30-16:30 Location: LEA 232 Abstract: As Canada celebrates its 150th anniversary, it may be good to reflect on the past and future of data analysis and statistics in this country. In this talk, I will review the Victorian Statistics Movement and its effect in Canada, data analysis by a Montréal physician in the 1850s, a controversy over data analysis in the 1850s and 60s centred in Montréal, John A.</description>
+      <guid>http://localhost:4321/post/2017fall/2017-11-24/</guid>
+      <description>&lt;h4 id=&#34;date-2017-11-24&#34;&gt;Date: 2017-11-24&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630&#34;&gt;Time: 15:30-16:30&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-lea-232&#34;&gt;Location: LEA 232&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;As Canada celebrates its 150th anniversary, it may be good to reflect on the past and future of data analysis and statistics in this country. In this talk, I will review the Victorian Statistics Movement and its effect in Canada, data analysis by a Montréal physician in the 1850s, a controversy over data analysis in the 1850s and 60s centred in Montréal, John A. MacDonald’s use of statistics, the Canadian insurance industry and the use of statistics, the beginning of mathematical statistics in Canada, the Fisherian revolution, the influence of Fisher, Neyman and Pearson, the computer revolution, and the emergence of data science.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>A log-linear time algorithm for constrained changepoint detection</title>
-      <link>https://mcgillstat.github.io/post/2017fall/2017-11-17/</link>
+      <link>http://localhost:4321/post/2017fall/2017-11-17/</link>
       <pubDate>Fri, 17 Nov 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://mcgillstat.github.io/post/2017fall/2017-11-17/</guid>
-      <description>Date: 2017-11-17 Time: 15:30-16:30 Location: BURN 1205 Abstract: Changepoint detection is a central problem in time series and genomic data. For some applications, it is natural to impose constraints on the directions of changes. One example is ChIP-seq data, for which adding an up-down constraint improves peak detection accuracy, but makes the optimization problem more complicated. In this talk I will explain how a recently proposed functional pruning algorithm can be generalized to solve such constrained changepoint detection problems.</description>
+      <guid>http://localhost:4321/post/2017fall/2017-11-17/</guid>
+      <description>&lt;h4 id=&#34;date-2017-11-17&#34;&gt;Date: 2017-11-17&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630&#34;&gt;Time: 15:30-16:30&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-burn-1205&#34;&gt;Location: BURN 1205&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;Changepoint detection is a central problem in time series and genomic data. For some applications, it is natural to impose constraints on the directions of changes. One example is ChIP-seq data, for which adding an up-down constraint improves peak detection accuracy, but makes the optimization problem more complicated. In this talk I will explain how a recently proposed functional pruning algorithm can be generalized to solve such constrained changepoint detection problems. Our proposed log-linear time algorithm achieves state-of-the-art peak detection accuracy in a benchmark of several genomic data sets, and is orders of magnitude faster than our previous quadratic time algorithm. Our implementation is available as the PeakSegPDPA function in the PeakSegOptimal R package, &lt;a href=&#34;https://cran.r-project.org/package=PeakSegOptimal&#34;&gt;https://cran.r-project.org/package=PeakSegOptimal&lt;/a&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>PAC-Bayesian Generalizations Bounds for Deep Neural Networks</title>
-      <link>https://mcgillstat.github.io/post/2017fall/2017-11-10/</link>
+      <link>http://localhost:4321/post/2017fall/2017-11-10/</link>
       <pubDate>Fri, 10 Nov 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://mcgillstat.github.io/post/2017fall/2017-11-10/</guid>
-      <description>Date: 2017-11-10 Time: 15:30-16:30 Location: BURN 1205 Abstract: One of the defining properties of deep learning is that models are chosen to have many more parameters than available training data. In light of this capacity for overfitting, it is remarkable that simple algorithms like SGD reliably return solutions with low test error. One roadblock to explaining these phenomena in terms of implicit regularization, structural properties of the solution, and/or easiness of the data is that many learning bounds are quantitatively vacuous when applied to networks learned by SGD in this &amp;ldquo;deep learning&amp;rdquo; regime.</description>
+      <guid>http://localhost:4321/post/2017fall/2017-11-10/</guid>
+      <description>&lt;h4 id=&#34;date-2017-11-10&#34;&gt;Date: 2017-11-10&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630&#34;&gt;Time: 15:30-16:30&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-burn-1205&#34;&gt;Location: BURN 1205&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;One of the defining properties of deep learning is that models are chosen to have many more parameters than available training data. In light of this capacity for overfitting, it is remarkable that simple algorithms like SGD reliably return solutions with low test error. One roadblock to explaining these phenomena in terms of implicit regularization, structural properties of the solution, and/or easiness of the data is that many learning bounds are quantitatively vacuous when applied to networks learned by SGD in this &amp;ldquo;deep learning&amp;rdquo; regime. Logically, in order to explain generalization, we need nonvacuous bounds. We return to an idea by Langford and Caruana (2001), who used PAC-Bayes bounds to compute nonvacuous numerical bounds on generalization error for stochastic two-layer two-hidden-unit neural networks via a sensitivity analysis. By optimizing the PAC-Bayes bound directly, we are able to extend their approach and obtain nonvacuous generalization bounds for deep stochastic neural network classifiers with millions of parameters trained on only tens of thousands of examples. We connect our findings to recent and old work on flat minima and MDL-based explanations of generalization. Time permitting, I will discuss recent work on computing even tighter generalization bounds associated with a learning algorithm introduced by Chaudhari et al. (2017), called Entropy-SGD. We show that Entropy-SGD indirectly optimizes a PAC-Bayes bound, but does so by optimizing the &amp;ldquo;prior&amp;rdquo; term, violating the hypothesis that the prior be independent of the data. We show how to fix this defect using differential privacy. The result is a new PAC-Bayes bound for data-dependent priors, which we show, up to some approximations, delivers even tighter generalization bounds. Joint work with Gintare Karolina Dziugaite, based on &lt;a href=&#34;https://arxiv.org/abs/1703.11008&#34;&gt;https://arxiv.org/abs/1703.11008&lt;/a&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>How to do statistics</title>
-      <link>https://mcgillstat.github.io/post/2017fall/2017-11-03/</link>
+      <link>http://localhost:4321/post/2017fall/2017-11-03/</link>
       <pubDate>Fri, 03 Nov 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://mcgillstat.github.io/post/2017fall/2017-11-03/</guid>
-      <description>Date: 2017-11-03 Time: 15:30-16:30 Location: BURN 1205 Abstract: In this talk, I will outline how to do (Bayesian) statistics. I will focus particularly on the things that need to be done before you see data, including prior specification and checking that your inference algorithm actually works.
-Speaker Daniel Simpson is an Assistant Professor in the Department of Statistical Sciences, University of Toronto</description>
+      <guid>http://localhost:4321/post/2017fall/2017-11-03/</guid>
+      <description>&lt;h4 id=&#34;date-2017-11-03&#34;&gt;Date: 2017-11-03&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630&#34;&gt;Time: 15:30-16:30&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-burn-1205&#34;&gt;Location: BURN 1205&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;In this talk, I will outline how to do (Bayesian) statistics. I will focus particularly on the things that need to be done before you see data, including prior specification and checking that your inference algorithm actually works.&lt;/p&gt;&#xA;&lt;h2 id=&#34;speaker&#34;&gt;Speaker&lt;/h2&gt;&#xA;&lt;p&gt;Daniel Simpson is an Assistant Professor in the Department of Statistical Sciences, University of Toronto&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Penalized robust regression estimation with applications to proteomics</title>
-      <link>https://mcgillstat.github.io/post/2017fall/2017-10-27/</link>
+      <link>http://localhost:4321/post/2017fall/2017-10-27/</link>
       <pubDate>Fri, 27 Oct 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://mcgillstat.github.io/post/2017fall/2017-10-27/</guid>
-      <description>Date: 2017-10-27 Time: 15:30-16:30 Location: BURN 1205 Abstract: In many current applications, scientists can easily measure a very large number of variables (for example, hundreds of protein levels), some of which are expected be useful to explain or predict a specific response variable of interest. These potential explanatory variables are most likely to contain redundant or irrelevant information, and in many cases, their quality and reliability may be suspect. We developed two penalized robust regression estimators that can be used to identify a useful subset of explanatory variables to predict the response, while protecting the resulting estimator against possible aberrant observations in the data set.</description>
+      <guid>http://localhost:4321/post/2017fall/2017-10-27/</guid>
+      <description>&lt;h4 id=&#34;date-2017-10-27&#34;&gt;Date: 2017-10-27&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630&#34;&gt;Time: 15:30-16:30&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-burn-1205&#34;&gt;Location: BURN 1205&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;In many current applications, scientists can easily measure a very large number of variables (for example, hundreds of protein levels), some of which are expected be useful to explain or predict a specific response variable of interest. These potential explanatory variables are most likely to contain redundant or irrelevant information, and in many cases, their quality and reliability may be suspect. We developed two penalized robust regression estimators that can be used to identify a useful subset of explanatory variables to predict the response, while protecting the resulting estimator against possible aberrant observations in the data set. Using an elastic net penalty, the proposed estimator can be used to select variables, even in cases with more variables than observations or when many of the candidate explanatory variables are correlated. In this talk, I will present the new estimator and an algorithm to compute it. I will also illustrate its performance in a simulation study and a real data set. This is joint work with Professor Matias Salibian-Barrera, my PhD student David Kepplinger, and my PDF Ezequiel Smuggler.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Statistical optimization and nonasymptotic robustness</title>
-      <link>https://mcgillstat.github.io/post/2017fall/2017-10-20/</link>
+      <link>http://localhost:4321/post/2017fall/2017-10-20/</link>
       <pubDate>Fri, 20 Oct 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://mcgillstat.github.io/post/2017fall/2017-10-20/</guid>
-      <description>Date: 2017-10-20 Time: 15:30-16:30 Location: BURN 1205 Abstract: Statistical optimization has generated quite some interest recently. It refers to the case where hidden and local convexity can be discovered in most cases for nonconvex problems, making polynomial algorithms possible. It relies on a careful analysis of the geometry near global optima. In this talk, I will explore this issue by focusing on sparse regression problems in high dimensions. A computational framework named iterative local adaptive majorize-minimization (I-LAMM) will be proposed to simultaneously control algorithmic complexity and statistical error.</description>
+      <guid>http://localhost:4321/post/2017fall/2017-10-20/</guid>
+      <description>&lt;h4 id=&#34;date-2017-10-20&#34;&gt;Date: 2017-10-20&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630&#34;&gt;Time: 15:30-16:30&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-burn-1205&#34;&gt;Location: BURN 1205&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;Statistical optimization has generated quite some interest recently. It refers to the case where hidden and local convexity can be discovered in most cases for nonconvex problems, making polynomial algorithms possible. It relies on a careful analysis of the geometry near global optima. In this talk, I will explore this issue by focusing on sparse regression problems in high dimensions. A computational framework named iterative local adaptive majorize-minimization (I-LAMM) will be proposed to simultaneously control algorithmic complexity and statistical error. I-LAMM effectively turns the nonconvex penalized regression problem into a series of convex programs by utilizing the locally strong convexity of the problem when restricting the solution set in an L_1 cone. Computationally, we establish a phase transition phenomenon: it enjoys a linear rate of convergence after a sub-linear burn-in. Statistically, it provides solutions with optimal statistical errors. Extensions to robust regression will be discussed.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Quantifying spatial flood risks: A comparative study of max-stable models</title>
-      <link>https://mcgillstat.github.io/post/2017fall/2017-10-13/</link>
+      <link>http://localhost:4321/post/2017fall/2017-10-13/</link>
       <pubDate>Fri, 13 Oct 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://mcgillstat.github.io/post/2017fall/2017-10-13/</guid>
-      <description>Date: 2017-10-13 Time: 15:30-16:30 Location: BURN 1205 Abstract: In various applications, evaluating spatial risks (such as floods, heatwaves or storms) is a key problem. The aim of this talk is to make use of extreme value theory and max-stable processes to provide quantitative answers to this issue. A review of the literature will be provided, as well as a wide comparative study based on a simulation design mimicking daily rainfall in France.</description>
+      <guid>http://localhost:4321/post/2017fall/2017-10-13/</guid>
+      <description>&lt;h4 id=&#34;date-2017-10-13&#34;&gt;Date: 2017-10-13&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630&#34;&gt;Time: 15:30-16:30&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-burn-1205&#34;&gt;Location: BURN 1205&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;In various applications, evaluating spatial risks (such as floods, heatwaves or storms) is a key problem. The aim of this talk is to make use of extreme value theory and max-stable processes to provide quantitative answers to this issue. A review of the literature will be provided, as well as a wide comparative study based on a simulation design mimicking daily rainfall in France. This is a joint work with Cécile Mercadier (Université Claude-Bernard Lyon 1 (UCBL)) and Quentin Sebille (UCBL).&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>McNeil: Spectral backtests of forecast distributions with application to risk management | Jasiulis-Goldyn: Asymptotic properties and renewal theory for Kendall random walks</title>
-      <link>https://mcgillstat.github.io/post/2017fall/2017-09-29/</link>
+      <link>http://localhost:4321/post/2017fall/2017-09-29/</link>
       <pubDate>Fri, 29 Sep 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://mcgillstat.github.io/post/2017fall/2017-09-29/</guid>
-      <description>Date: 2017-09-29 Time: 14:30-16:30 Location: BURN 1205 Abstract: McNeil: In this talk we study a class of backtests for forecast distributions in which the test statistic is a spectral transformation that weights exceedance events by a function of the modelled probability level. The choice of the kernel function makes explicit the user’s priorities for model performance. The class of spectral backtests includes tests of unconditional coverage and tests of conditional coverage.</description>
+      <guid>http://localhost:4321/post/2017fall/2017-09-29/</guid>
+      <description>&lt;h4 id=&#34;date-2017-09-29&#34;&gt;Date: 2017-09-29&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1430-1630&#34;&gt;Time: 14:30-16:30&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-burn-1205&#34;&gt;Location: BURN 1205&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;&lt;em&gt;McNeil&lt;/em&gt;: In this talk we study a class of backtests for forecast distributions in which the test statistic is a spectral transformation that weights exceedance events by a function of the modelled probability level. The choice of the kernel function makes explicit the user’s priorities for model performance. The class of spectral backtests includes tests of unconditional coverage and tests of conditional coverage. We show how the class embeds a wide variety of backtests in the existing literature, and propose novel variants as well. We assess the size and power of the backtests in realistic sample sizes, and in particular demonstrate the tradeoff between power and specificity in validating quantile forecasts.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>BET on independence</title>
-      <link>https://mcgillstat.github.io/post/2017fall/2017-09-22/</link>
+      <link>http://localhost:4321/post/2017fall/2017-09-22/</link>
       <pubDate>Fri, 22 Sep 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://mcgillstat.github.io/post/2017fall/2017-09-22/</guid>
-      <description>Date: 2017-09-22 Time: 14:00-15:00 Location: BRONF179 Abstract: We study the problem of nonparametric dependence detection. Many existing methods suffer severe power loss due to non-uniform consistency, which we illustrate with a paradox. To avoid such power loss, we approach the nonparametric test of independence through the new framework of binary expansion statistics (BEStat) and binary expansion testing (BET), which examine dependence through a filtration induced by marginal binary expansions. Through a novel decomposition of the likelihood of contingency tables whose sizes are powers of 2, we show that the interactions of binary variables in the filtration are complete sufficient statistics for dependence.</description>
+      <guid>http://localhost:4321/post/2017fall/2017-09-22/</guid>
+      <description>&lt;h4 id=&#34;date-2017-09-22&#34;&gt;Date: 2017-09-22&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1400-1500&#34;&gt;Time: 14:00-15:00&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-bronf179&#34;&gt;Location: BRONF179&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;We study the problem of nonparametric dependence detection. Many existing methods suffer severe power loss due to non-uniform consistency, which we illustrate with a paradox. To avoid such power loss, we approach the nonparametric test of independence through the new framework of binary expansion statistics (BEStat) and binary expansion testing (BET), which examine dependence through a filtration induced by marginal binary expansions. Through a novel decomposition of the likelihood of contingency tables whose sizes are powers of 2, we show that the interactions of binary variables in the filtration are complete sufficient statistics for dependence. These interactions are also pairwise independent under the null. By utilizing these interactions, the BET avoids the problem of non-uniform consistency and improves upon a wide class of commonly used methods (a) by achieving the optimal rate in sample complexity and (b) by providing clear interpretations of global and local relationships upon rejection of independence. The binary expansion approach also connects the test statistics with the current computing system to allow efficient bitwise implementation. We illustrate the BET by a study of the distribution of stars in the night sky and by an exploratory data analysis of the TCGA breast cancer data.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Our quest for robust time series forecasting at scale</title>
-      <link>https://mcgillstat.github.io/post/2017fall/2017-09-15/</link>
+      <link>http://localhost:4321/post/2017fall/2017-09-15/</link>
       <pubDate>Fri, 15 Sep 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://mcgillstat.github.io/post/2017fall/2017-09-15/</guid>
-      <description>Date: 2017-09-15 Time: 15:30-16:30 Location: BURN 1205 Abstract: The demand for time series forecasting at Google has grown rapidly along with the company since its founding. Initially, the various business and engineering needs led to a multitude of forecasting approaches, most reliant on direct analyst support. The volume and variety of the approaches, and in some cases their inconsistency, called out for an attempt to unify, automate, and extend forecasting methods, and to distribute the results via tools that could be deployed reliably across the company.</description>
+      <guid>http://localhost:4321/post/2017fall/2017-09-15/</guid>
+      <description>&lt;h4 id=&#34;date-2017-09-15&#34;&gt;Date: 2017-09-15&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630&#34;&gt;Time: 15:30-16:30&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-burn-1205&#34;&gt;Location: BURN 1205&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;The demand for time series forecasting at Google has grown rapidly along with the company since its founding. Initially, the various business and engineering needs led to a multitude of forecasting approaches, most reliant on direct analyst support. The volume and variety of the approaches, and in some cases their inconsistency, called out for an attempt to unify, automate, and extend forecasting methods, and to distribute the results via tools that could be deployed reliably across the company. That is, for an attempt to develop methods and tools that would facilitate accurate large-scale time series forecasting at Google. We were part of a team of data scientists in Search Infrastructure at Google that took on the task of developing robust and automatic large-scale time series forecasting for our organization. In this talk, we recount how we approached the task, describing initial stakeholder needs, the business and engineering contexts in which the challenge arose, and theoretical and pragmatic choices we made to implement our solution. We describe our general forecasting framework, offer details on various tractable subproblems into which we decomposed our overall forecasting task, and provide an example of our forecasting routine applied to publicly available Turkish Electricity data.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Genomics like it&#39;s 1960: Inferring human history</title>
-      <link>https://mcgillstat.github.io/post/2017fall/2017-09-08/</link>
+      <link>http://localhost:4321/post/2017fall/2017-09-08/</link>
       <pubDate>Fri, 08 Sep 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://mcgillstat.github.io/post/2017fall/2017-09-08/</guid>
-      <description>Date: 2017-09-08 Time: 15:30-16:30 Location: BURN 1205 Abstract: A central goal of population genetics is the inference of the biological, evolutionary and demographic forces that shaped human diversity. Large-scale sequencing experiments provide fantastic opportunities to learn about human history and biology if we can overcome computational and statistical challenges. I will discuss how simple mid-century statistical approaches, such as the jackknife and Kolmogorov equations, can be combined in unexpected ways to solve partial differential equations, optimize genomic study design, and learn about the spread of modern humans since our common African origins.</description>
+      <guid>http://localhost:4321/post/2017fall/2017-09-08/</guid>
+      <description>&lt;h4 id=&#34;date-2017-09-08&#34;&gt;Date: 2017-09-08&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630&#34;&gt;Time: 15:30-16:30&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-burn-1205&#34;&gt;Location: BURN 1205&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;A central goal of population genetics is the inference of the biological, evolutionary and demographic forces that shaped human diversity. Large-scale sequencing experiments provide fantastic opportunities to learn about human history and biology if we can overcome computational and statistical challenges. I will discuss how simple mid-century statistical approaches, such as the jackknife and Kolmogorov equations, can be combined in unexpected ways to solve partial differential equations, optimize genomic study design, and learn about the spread of modern humans since our common African origins.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

@@ -2,145 +2,116 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2016 Fall on McGill Statistics Seminars</title>
-    <link>https://mcgillstat.github.io/tags/2016-fall/</link>
+    <link>http://localhost:4321/tags/2016-fall/</link>
     <description>Recent content in 2016 Fall on McGill Statistics Seminars</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 02 Dec 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://mcgillstat.github.io/tags/2016-fall/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 02 Dec 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:4321/tags/2016-fall/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Modeling dependence in bivariate multi-state processes: A frailty approach</title>
-      <link>https://mcgillstat.github.io/post/2016fall/2016-12-02/</link>
+      <link>http://localhost:4321/post/2016fall/2016-12-02/</link>
       <pubDate>Fri, 02 Dec 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://mcgillstat.github.io/post/2016fall/2016-12-02/</guid>
-      <description>Date: 2016-12-02 Time: 15:30-16:30 Location: BURN 1205 Abstract: The aim of this talk is to present a statistical framework for the analysis of dependent bivariate multistate processes, allowing one to study the dependence both across subjects in a pair and among individual-specific events. As for the latter, copula- based models are employed, whereas dependence between multi-state models can be accomplished by means of frailties. The well known Marshall-Olkin Bivariate Exponential Distribution (MOBVE) is considered for the joint distribution of frailties.</description>
+      <guid>http://localhost:4321/post/2016fall/2016-12-02/</guid>
+      <description>&lt;h4 id=&#34;date-2016-12-02&#34;&gt;Date: 2016-12-02&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630&#34;&gt;Time: 15:30-16:30&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-burn-1205&#34;&gt;Location: BURN 1205&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;The aim of this talk is to present a statistical framework for the analysis of dependent bivariate multistate processes, allowing one to study the dependence both across subjects in a pair and among individual-specific events. As for the latter, copula- based models are employed, whereas dependence between multi-state models can be accomplished by means of frailties. The well known Marshall-Olkin Bivariate Exponential Distribution (MOBVE) is considered for the joint distribution of frailties. The reason is twofold: on the one hand, it allows one to model shocks that affect the two individual-specific frailties; on the other hand, the MOBVE is the only bivariate exponential distribution with exponential marginals, which allows for the modeling of each multi-state process as a shared frailty model. We first discuss a frailty bivariate survival model with some new results, and then move to the construction of the frailty bivariate multi-state model, with the corresponding observed data likelihood maximization estimating procedure in presence of right censoring. The last part of the talk will be dedicated to some open problems related to the modeling of multiple multi-state processes in presence of Marshall-Olkin type copulas.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>High-dimensional changepoint estimation via sparse projection</title>
-      <link>https://mcgillstat.github.io/post/2016fall/2016-12-01/</link>
+      <link>http://localhost:4321/post/2016fall/2016-12-01/</link>
       <pubDate>Thu, 01 Dec 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://mcgillstat.github.io/post/2016fall/2016-12-01/</guid>
-      <description>Date: 2016-12-01 Time: 15:30-16:30 Location: BURN 708 Abstract: Changepoints are a very common feature of Big Data that arrive in the form of a data stream. We study high-dimensional time series in which, at certain time points, the mean structure changes in a sparse subset of the coordinates. The challenge is to borrow strength across the coordinates in order to detect smaller changes than could be observed in any individual component series.</description>
+      <guid>http://localhost:4321/post/2016fall/2016-12-01/</guid>
+      <description>&lt;h4 id=&#34;date-2016-12-01&#34;&gt;Date: 2016-12-01&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630&#34;&gt;Time: 15:30-16:30&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-burn-708&#34;&gt;Location: BURN 708&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;Changepoints are a very common feature of Big Data that arrive in the form of a data stream. We study high-dimensional time series in which, at certain time points, the mean structure changes in a sparse subset of the coordinates. The challenge is to borrow strength across the coordinates in order to detect smaller changes than could be observed in any individual component series. We propose a two-stage procedure called &amp;lsquo;inspect&amp;rsquo; for estimation of the changepoints: first, we argue that a good projection direction can be obtained as the leading left singular vector of the matrix that solves a convex optimisation problem derived from the CUSUM transformation of the time series. We then apply an existing univariate changepoint detection algorithm to the projected series. Our theory provides strong guarantees on both the number of estimated changepoints and the rates of convergence of their locations, and our numerical studies validate its highly competitive empirical performance for a wide range of data generating mechanisms.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Spatio-temporal models for skewed processes</title>
-      <link>https://mcgillstat.github.io/post/2016fall/2016-11-25/</link>
+      <link>http://localhost:4321/post/2016fall/2016-11-25/</link>
       <pubDate>Fri, 25 Nov 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://mcgillstat.github.io/post/2016fall/2016-11-25/</guid>
-      <description>Date: 2016-11-25 Time: 15:30-16:30 Location: BURN 1205 Abstract: In the analysis of most spatio-temporal processes in environmental studies, observations present skewed distributions. Usually, a single transformation of the data is used to approximate normality, and stationary Gaussian processes are assumed to model the transformed data. The choice of transformation is key for spatial interpolation and temporal prediction. We propose a spatio-temporal model for skewed data that does not require the use of data transformation.</description>
+      <guid>http://localhost:4321/post/2016fall/2016-11-25/</guid>
+      <description>&lt;h4 id=&#34;date-2016-11-25&#34;&gt;Date: 2016-11-25&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630&#34;&gt;Time: 15:30-16:30&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-burn-1205&#34;&gt;Location: BURN 1205&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;In the analysis of most spatio-temporal processes in environmental studies, observations present skewed distributions. Usually, a single transformation of the data is used to approximate normality, and stationary Gaussian processes are assumed to model the transformed data. The choice of transformation is key for spatial interpolation and temporal prediction. We propose a spatio-temporal model for skewed data that does not require the use of data transformation. The process is decomposed as the sum of a purely temporal structure with two independent components that are considered to be partial realizations from independent spatial Gaussian processes, for each time t. The model has an asymmetry parameter that might vary with location and time, and if this is equal to zero, the usual Gaussian model results. The inference procedure is performed under the Bayesian paradigm, and uncertainty about parameters estimation is naturally accounted for. We fit our model to different synthetic data and to monthly average temperature observed between 2001 and 2011 at monitoring locations located in the south of Brazil. Different model comparison criteria, and analysis of the posterior distribution of some parameters, suggest that the proposed model outperforms standard ones used in the literature. This is joint work with Kelly Gonçalves (UFRJ, Brazil) and Patricia L. Velozo (UFF, Brazil)&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Progress in theoretical understanding of deep learning</title>
-      <link>https://mcgillstat.github.io/post/2016fall/2016-11-18/</link>
+      <link>http://localhost:4321/post/2016fall/2016-11-18/</link>
       <pubDate>Fri, 18 Nov 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://mcgillstat.github.io/post/2016fall/2016-11-18/</guid>
-      <description>Date: 2016-11-18 Time: 15:30-16:30 Location: BURN 1205 Abstract: Deep learning has arisen around 2006 as a renewal of neural networks research allowing such models to have more layers. Theoretical investigations have shown that functions obtained as deep compositions of simpler functions (which includes both deep and recurrent nets) can express highly varying functions (with many ups and downs and different input regions that can be distinguished) much more efficiently (with fewer parameters) than otherwise, under a prior which seems to work well for artificial intelligence tasks.</description>
+      <guid>http://localhost:4321/post/2016fall/2016-11-18/</guid>
+      <description>&lt;h4 id=&#34;date-2016-11-18&#34;&gt;Date: 2016-11-18&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630&#34;&gt;Time: 15:30-16:30&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-burn-1205&#34;&gt;Location: BURN 1205&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;Deep learning has arisen around 2006 as a renewal of neural networks research allowing such models to have more layers. Theoretical investigations have shown that functions obtained as deep compositions of simpler functions (which includes both deep and recurrent nets) can express highly varying functions (with many ups and downs and different input regions that can be distinguished) much more efficiently (with fewer parameters) than otherwise, under a prior which seems to work well for artificial intelligence tasks. Empirical work in a variety of applications has demonstrated that, when well trained, such deep architectures can be highly successful, remarkably breaking through previous state-of-the-art in many areas, including speech recognition, object recognition, language models, machine translation and transfer learning. Although neural networks have long been considered lacking in theory and much remains to be done, theoretical advances have been made and will be discussed, to support distributed representations, depth of representation, the non-convexity of the training objective, and the probabilistic interpretation of learning algorithms (especially of the auto-encoder type, which were lacking one). The talk will focus on the intuitions behind these theoretical results.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Tyler&#39;s M-estimator: Subspace recovery and high-dimensional regime</title>
-      <link>https://mcgillstat.github.io/post/2016fall/2016-11-11/</link>
+      <link>http://localhost:4321/post/2016fall/2016-11-11/</link>
       <pubDate>Fri, 11 Nov 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://mcgillstat.github.io/post/2016fall/2016-11-11/</guid>
-      <description>Date: 2016-11-11 Time: 15:30-16:30 Location: BURN 1205 Abstract: Given a data set, Tyler&amp;rsquo;s M-estimator is a widely used covariance matrix estimator with robustness to outliers or heavy-tailed distribution. We will discuss two recent results of this estimator. First, we show that when a certain percentage of the data points are sampled from a low-dimensional subspace, Tyler&amp;rsquo;s M-estimator can be used to recover the subspace exactly. Second, in the high-dimensional regime that the number of samples n and the dimension p both go to infinity, p/n converges to a constant y between 0 and 1, and when the data samples are identically and independently generated from the Gaussian distribution N(0,I), we showed that the difference between the sample covariance matrix and a scaled version of Tyler&amp;rsquo;s M-estimator tends to zero in spectral norm, and the empirical spectral densities of both estimators converge to the Marcenko-Pastur distribution.</description>
+      <guid>http://localhost:4321/post/2016fall/2016-11-11/</guid>
+      <description>&lt;h4 id=&#34;date-2016-11-11&#34;&gt;Date: 2016-11-11&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630&#34;&gt;Time: 15:30-16:30&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-burn-1205&#34;&gt;Location: BURN 1205&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;Given a data set, Tyler&amp;rsquo;s M-estimator is a widely used covariance matrix estimator with robustness to outliers or heavy-tailed distribution. We will discuss two recent results of this estimator. First, we show that when a certain percentage of the data points are sampled from a low-dimensional subspace, Tyler&amp;rsquo;s M-estimator can be used to recover the subspace exactly. Second, in the high-dimensional regime that the number of samples n and the dimension p both go to infinity, p/n converges to a constant y between 0 and 1, and when the data samples are identically and independently generated from the Gaussian distribution N(0,I), we showed that the difference between the sample covariance matrix and a scaled version of Tyler&amp;rsquo;s M-estimator tends to zero in spectral norm, and the empirical spectral densities of both estimators converge to the Marcenko-Pastur distribution. We also prove that when the data samples are generated from an elliptical distribution, the limiting distribution of Tyler&amp;rsquo;s M-estimator converges to a Marcenko-Pastur-Type distribution. The second part is joint work with Xiuyuan Cheng and Amit Singer.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Lawlor: Time-varying mixtures of Markov chains: An application to traffic modeling Piché: Bayesian nonparametric modeling of heterogeneous groups of censored data</title>
-      <link>https://mcgillstat.github.io/post/2016fall/2016-11-04/</link>
+      <link>http://localhost:4321/post/2016fall/2016-11-04/</link>
       <pubDate>Fri, 04 Nov 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://mcgillstat.github.io/post/2016fall/2016-11-04/</guid>
-      <description>Date: 2016-11-04 Time: 15:30-16:30 Location: BURN 1205 Abstract: Piché: Analysis of survival data arising from different groups, whereby the data in each group is scarce, but abundant overall, is a common issue in applied statistics. Bayesian nonparametrics are tools of choice to handle such datasets given their ability to share information across groups. In this presentation, we will compare three popular Bayesian nonparametric methods on the modeling of survival functions coming from related heterogeneous groups.</description>
+      <guid>http://localhost:4321/post/2016fall/2016-11-04/</guid>
+      <description>&lt;h4 id=&#34;date-2016-11-04&#34;&gt;Date: 2016-11-04&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630&#34;&gt;Time: 15:30-16:30&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-burn-1205&#34;&gt;Location: BURN 1205&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;&lt;em&gt;Piché&lt;/em&gt;: Analysis of survival data arising from different groups, whereby the data in each group is scarce, but abundant overall, is a common issue in applied statistics. Bayesian nonparametrics are tools of choice to handle such datasets given their ability to share information across groups. In this presentation, we will compare three popular Bayesian nonparametric methods on the modeling of survival functions coming from related heterogeneous groups. Specifically, we will first compare the modeling accuracy of the Dirichlet process, the hierarchical Dirichlet process, and the nested Dirichlet process on simulated datasets of different sizes, where groups differ in shape or in expectation, and finally we will compare the models on real world injury datasets.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>First talk: Bootstrap in practice | Second talk: Statistics and Big Data at Google</title>
-      <link>https://mcgillstat.github.io/post/2016fall/2016-11-02/</link>
+      <link>http://localhost:4321/post/2016fall/2016-11-02/</link>
       <pubDate>Wed, 02 Nov 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://mcgillstat.github.io/post/2016fall/2016-11-02/</guid>
-      <description>Date: 2016-11-02 Time: 15:00-16:00 17:35-18:25 Location: 1st: BURN 306 2nd: ADAMS AUD Abstract: First talk: This talk focuses on three practical aspects of resampling: communication, accuracy, and software. I&amp;rsquo;ll introduce the bootstrap and permutation tests, and discussed how they may be used to help clients understand statistical results. I&amp;rsquo;ll talk about accuracy &amp;ndash; there are dramatic differences in how accurate different bootstrap methods are. Surprisingly, the most common bootstrap methods are less accurate than classical methods for small samples, and more accurate for larger samples.</description>
+      <guid>http://localhost:4321/post/2016fall/2016-11-02/</guid>
+      <description>&lt;h4 id=&#34;date-2016-11-02&#34;&gt;Date: 2016-11-02&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1500-1600-1735-1825&#34;&gt;Time: 15:00-16:00 17:35-18:25&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-1st-burn-306-2nd-adams-aud&#34;&gt;Location: 1st: BURN 306 2nd: ADAMS AUD&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;&lt;em&gt;First talk&lt;/em&gt;: This talk focuses on three practical aspects of resampling: communication, accuracy, and software. I&amp;rsquo;ll introduce the bootstrap and permutation tests, and discussed how they may be used to help clients understand statistical results. I&amp;rsquo;ll talk about accuracy &amp;ndash; there are dramatic differences in how accurate different bootstrap methods are. Surprisingly, the most common bootstrap methods are less accurate than classical methods for small samples, and more accurate for larger samples. There are simple variations that dramatically improve the accuracy. Finally, I&amp;rsquo;ll compare two R packages, the the easy-to-use &amp;ldquo;resample&amp;rdquo; package, and the more-powerful &amp;ldquo;boot&amp;rdquo; package.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Efficient tests of covariate effects in two-phase failure time studies</title>
-      <link>https://mcgillstat.github.io/post/2016fall/2016-10-28/</link>
+      <link>http://localhost:4321/post/2016fall/2016-10-28/</link>
       <pubDate>Fri, 28 Oct 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://mcgillstat.github.io/post/2016fall/2016-10-28/</guid>
-      <description>Date: 2016-10-28 Time: 15:30-16:30 Location: BURN 1205 Abstract: Two-phase studies are frequently used when observations on certain variables are expensive or difficult to obtain. One such situation is when a cohort exists for which certain variables have been measured (phase 1 data); then, a sub-sample of individuals is selected, and additional data are collected on them (phase 2). Efficiency for tests and estimators can be increased by basing the selection of phase 2 individuals on data collected at phase 1.</description>
+      <guid>http://localhost:4321/post/2016fall/2016-10-28/</guid>
+      <description>&lt;h4 id=&#34;date-2016-10-28&#34;&gt;Date: 2016-10-28&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630&#34;&gt;Time: 15:30-16:30&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-burn-1205&#34;&gt;Location: BURN 1205&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;Two-phase studies are frequently used when observations on certain variables are expensive or difficult to obtain. One such situation is when a cohort exists for which certain variables have been measured (phase 1 data); then, a sub-sample of individuals is selected, and additional data are collected on them (phase 2). Efficiency for tests and estimators can be increased by basing the selection of phase 2 individuals on data collected at phase 1. For example, in large cohorts, expensive genomic measurements are often collected at phase 2, with oversampling of persons with “extreme” phenotypic responses. A second example is case-cohort or nested case-control studies involving times to rare events, where phase 2 oversamples persons who have experienced the event by a certain time. In this talk I will describe two-phase studies on failure times, present efficient methods for testing covariate effects. Some extensions to more complex outcomes and areas needing further development will be discussed.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Statistical analysis of two-level hierarchical clustered data</title>
-      <link>https://mcgillstat.github.io/post/2016fall/2016-10-21/</link>
+      <link>http://localhost:4321/post/2016fall/2016-10-21/</link>
       <pubDate>Fri, 21 Oct 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://mcgillstat.github.io/post/2016fall/2016-10-21/</guid>
-      <description>Date: 2016-10-21 Time: 15:30-16:30 Location: BURN 1205 Abstract: Multi-level hierarchical clustered data are commonly seen in financial and biostatistics applications. In this talk, we introduce several modeling strategies for describing the dependent relationships for members within a cluster or between different clusters (in the same or different levels). In particular we will apply the hierarchical Kendall copula, first proposed by Brechmann (2014), to model two-level hierarchical clustered survival data. This approach provides a clever way of dimension reduction in modeling complicated multivariate data.</description>
+      <guid>http://localhost:4321/post/2016fall/2016-10-21/</guid>
+      <description>&lt;h4 id=&#34;date-2016-10-21&#34;&gt;Date: 2016-10-21&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630&#34;&gt;Time: 15:30-16:30&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-burn-1205&#34;&gt;Location: BURN 1205&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;Multi-level hierarchical clustered data are commonly seen in financial and biostatistics applications. In this talk, we introduce several modeling strategies for describing the dependent relationships for members within a cluster or between different clusters (in the same or different levels). In particular we will apply the hierarchical Kendall copula, first proposed by Brechmann (2014), to model two-level hierarchical clustered survival data. This approach provides a clever way of dimension reduction in modeling complicated multivariate data. Based on the model assumptions, we propose statistical inference methods, including parameter estimation and a goodness-of-fit test, suitable for handling censored data. Simulation and data analysis results are also presented.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>A Bayesian finite mixture of bivariate regressions model for causal mediation analyses</title>
-      <link>https://mcgillstat.github.io/post/2016fall/2016-10-14/</link>
+      <link>http://localhost:4321/post/2016fall/2016-10-14/</link>
       <pubDate>Fri, 14 Oct 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://mcgillstat.github.io/post/2016fall/2016-10-14/</guid>
-      <description>Date: 2016-10-14 Time: 15:30-16:30 Location: BURN 1205 Abstract: Building on the work of Schwartz, Gelfand and Miranda (Statistics in Medicine (2010); 29(16), 1710-23), we propose a Bayesian finite mixture of bivariate regressions model for causal mediation analyses. Using an identifiability condition within each component of the mixture, we express the natural direct and indirect effects of the exposure on the outcome as functions of the component-specific regression coefficients. On the basis of simulated data, we examine the behaviour of the model for estimating these effects in situations where the associations between exposure, mediator and outcome are confounded, or not.</description>
+      <guid>http://localhost:4321/post/2016fall/2016-10-14/</guid>
+      <description>&lt;h4 id=&#34;date-2016-10-14&#34;&gt;Date: 2016-10-14&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630&#34;&gt;Time: 15:30-16:30&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-burn-1205&#34;&gt;Location: BURN 1205&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;Building on the work of Schwartz, Gelfand and Miranda (Statistics in Medicine (2010); 29(16), 1710-23), we propose a Bayesian finite mixture of bivariate regressions model for causal mediation analyses. Using an identifiability condition within each component of the mixture, we express the natural direct and indirect effects of the exposure on the outcome as functions of the component-specific regression coefficients. On the basis of simulated data, we examine the behaviour of the model for estimating these effects in situations where the associations between exposure, mediator and outcome are confounded, or not. Additionally, we demonstrate that this mixture model can be used to account for heterogeneity arising through unmeasured binary mediator-outcome confounders. Finally, we apply our mediation mixture model to estimate the natural direct and indirect effects of exposure to inhaled corticosteroids during pregnancy on birthweight using a cohort of asthmatic women from the province of Québec.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Cellular tree classifiers</title>
-      <link>https://mcgillstat.github.io/post/2016fall/2016-10-07/</link>
+      <link>http://localhost:4321/post/2016fall/2016-10-07/</link>
       <pubDate>Fri, 07 Oct 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://mcgillstat.github.io/post/2016fall/2016-10-07/</guid>
-      <description>Date: 2016-10-07 Time: 15:30-16:30 Location: BURN 1205 Abstract: Suppose that binary classification is done by a tree method in which the leaves of a tree correspond to a partition of d-space. Within a partition, a majority vote is used. Suppose furthermore that this tree must be constructed recursively by implementing just two functions, so that the construction can be carried out in parallel by using &amp;ldquo;cells&amp;rdquo;: first of all, given input data, a cell must decide whether it will become a leaf or internal node in the tree.</description>
+      <guid>http://localhost:4321/post/2016fall/2016-10-07/</guid>
+      <description>&lt;h4 id=&#34;date-2016-10-07&#34;&gt;Date: 2016-10-07&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630&#34;&gt;Time: 15:30-16:30&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-burn-1205&#34;&gt;Location: BURN 1205&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;Suppose that binary classification is done by a tree method in which the leaves of a tree correspond to a partition of d-space. Within a partition, a majority vote is used. Suppose furthermore that this tree must be constructed recursively by implementing just two functions, so that the construction can be carried out in parallel by using &amp;ldquo;cells&amp;rdquo;: first of all, given input data, a cell must decide whether it will become a leaf or internal node in the tree. Secondly, if it decides on an internal node, it must decide how to partition the space linearly. Data are then split into two parts and sent downstream to two new independent cells. We discuss the design and properties of such classifiers.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>CoCoLasso for high-dimensional error-in-variables regression</title>
-      <link>https://mcgillstat.github.io/post/2016fall/2016-09-30/</link>
+      <link>http://localhost:4321/post/2016fall/2016-09-30/</link>
       <pubDate>Fri, 30 Sep 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://mcgillstat.github.io/post/2016fall/2016-09-30/</guid>
-      <description>Date: 2016-09-30 Time: 15:30-16:30 Location: BURN 1205 Abstract: Much theoretical and applied work has been devoted to high-dimensional regression with clean data. However, we often face corrupted data in many applications where missing data and measurement errors cannot be ignored. Loh and Wainwright (2012) proposed a non-convex modification of the Lasso for doing high-dimensional regression with noisy and missing data. It is generally agreed that the virtues of convexity contribute fundamentally the success and popularity of the Lasso.</description>
+      <guid>http://localhost:4321/post/2016fall/2016-09-30/</guid>
+      <description>&lt;h4 id=&#34;date-2016-09-30&#34;&gt;Date: 2016-09-30&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630&#34;&gt;Time: 15:30-16:30&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-burn-1205&#34;&gt;Location: BURN 1205&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;Much theoretical and applied work has been devoted to high-dimensional regression with clean data. However, we often face corrupted data in many applications where missing data and measurement errors cannot be ignored. Loh and Wainwright (2012) proposed a non-convex modification of the Lasso for doing high-dimensional regression with noisy and missing data. It is generally agreed that the virtues of convexity contribute fundamentally the success and popularity of the Lasso. In light of this, we propose a new method named CoCoLasso that is convex and can handle a general class of corrupted datasets including the cases of additive measurement error and random missing data. We establish the estimation error bounds of CoCoLasso and its asymptotic sign-consistent selection property. We further elucidate how the standard cross validation techniques can be misleading in presence of measurement error and develop a novel corrected cross-validation technique by using the basic idea in CoCoLasso. The corrected cross-validation has its own importance. We demonstrate the superior performance of our method over the non-convex approach by simulation studies.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Stein estimation of the intensity parameter of a stationary spatial Poisson point process</title>
-      <link>https://mcgillstat.github.io/post/2016fall/2016-09-23/</link>
+      <link>http://localhost:4321/post/2016fall/2016-09-23/</link>
       <pubDate>Fri, 23 Sep 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://mcgillstat.github.io/post/2016fall/2016-09-23/</guid>
-      <description>Date: 2016-09-23 Time: 15:30-16:30 Location: BURN 1205 Abstract: We revisit the problem of estimating the intensity parameter of a homogeneous Poisson point process observed in a bounded window of $R^d$ making use of a (now) old idea going back to James and Stein. For this, we prove an integration by parts formula for functionals defined on the Poisson space. This formula extends the one obtained by Privault and Réveillac (Statistical inference for Stochastic Processes, 2009) in the one-dimensional case and is well-suited to a notion of derivative of Poisson functionals which satisfy the chain rule.</description>
+      <guid>http://localhost:4321/post/2016fall/2016-09-23/</guid>
+      <description>&lt;h4 id=&#34;date-2016-09-23&#34;&gt;Date: 2016-09-23&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630&#34;&gt;Time: 15:30-16:30&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-burn-1205&#34;&gt;Location: BURN 1205&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;We revisit the problem of estimating the intensity parameter of a homogeneous Poisson point process observed in a bounded window of $R^d$ making use of a (now) old idea going back to James and Stein. For this, we prove an integration by parts formula for functionals defined on the Poisson space. This formula extends the one obtained by Privault and Réveillac (Statistical inference for Stochastic Processes, 2009) in the one-dimensional case and is well-suited to a notion of derivative of Poisson functionals which satisfy the chain rule. The new estimators can be viewed as biased versions of the MLE with a tailored-made bias designed to reduce the variance of the MLE. We study a large class of examples and show that with a controlled probability the corresponding estimator outperforms the MLE. We illustrate in a simulation study that for very reasonable practical cases (like an intensity of 10 or 20 of a Poisson point process observed in the d-dimensional euclidean ball of with d = 1, &amp;hellip;, 5), we can obtain a relative (mean squared error) gain above 20% for the Stein estimator with respect to the maximum likelihood. This is a joint work with M. Clausel and J. Lelong (Univ. Grenoble Alpes, France).&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Statistical inference for fractional diffusion processes</title>
-      <link>https://mcgillstat.github.io/post/2016fall/2016-09-16/</link>
+      <link>http://localhost:4321/post/2016fall/2016-09-16/</link>
       <pubDate>Fri, 16 Sep 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://mcgillstat.github.io/post/2016fall/2016-09-16/</guid>
-      <description>Date: 2016-09-16 Time: 16:00-17:00 Location: LB-921.04, Library Building, Concordia Univ. Abstract: There are some time series which exhibit long-range dependence as noticed by Hurst in his investigations of river water levels along Nile river. Long-range dependence is connected with the concept of self-similarity in that increments of a self-similar process with stationary increments exhibit long-range dependence under some conditions. Fractional Brownian motion is an example of such a process. We discuss statistical inference for stochastic processes modeled by stochastic differential equations driven by a fractional Brownian motion.</description>
+      <guid>http://localhost:4321/post/2016fall/2016-09-16/</guid>
+      <description>&lt;h4 id=&#34;date-2016-09-16&#34;&gt;Date: 2016-09-16&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1600-1700&#34;&gt;Time: 16:00-17:00&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-lb-92104-library-building-concordia-univ&#34;&gt;Location: LB-921.04, Library Building, Concordia Univ.&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;There are some time series which exhibit long-range dependence as noticed by Hurst in his investigations of river water levels along Nile river. Long-range dependence is connected with the concept of self-similarity in that increments of a self-similar process with stationary increments exhibit long-range dependence under some conditions. Fractional Brownian motion is an example of such a process. We discuss statistical inference for stochastic processes modeled by stochastic differential equations driven by a fractional Brownian motion. These processes are termed as fractional diffusion processes. Since fractional Brownian motion is not a semimartingale, it is not possible to extend the notion of a stochastic integral with respect to a fractional Brownian motion following the ideas of Ito integration. There are other methods of extending integration with respect to a fractional Brownian motion. Suppose a complete path of a fractional diffusion process is observed over a finite time interval. We will present some results on inference problems for such processes.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Two-set canonical variate model in multiple populations with invariant loadings</title>
-      <link>https://mcgillstat.github.io/post/2016fall/2016-09-09/</link>
+      <link>http://localhost:4321/post/2016fall/2016-09-09/</link>
       <pubDate>Fri, 09 Sep 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://mcgillstat.github.io/post/2016fall/2016-09-09/</guid>
-      <description>Date: 2016-09-09 Time: 15:30-16:30 Location: BURN 1205 Abstract: Goria and Flury (Definition 2.1, 1996) proposed the two-set canonical variate model (referred to as the CV-2 model hereafter) and its extension in multiple populations with invariant weight coefficients (Definition 2.2). The equality constraints imposed on the weight coefficients are in line with the approach to interpreting the canonical variates (i.e., the linear combinations of original variables) advocated by Harris (1975, 1989), Rencher (1988, 1992), and Rencher and Christensen (2003).</description>
+      <guid>http://localhost:4321/post/2016fall/2016-09-09/</guid>
+      <description>&lt;h4 id=&#34;date-2016-09-09&#34;&gt;Date: 2016-09-09&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630&#34;&gt;Time: 15:30-16:30&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-burn-1205&#34;&gt;Location: BURN 1205&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;Goria and Flury (Definition 2.1, 1996) proposed the two-set canonical variate model (referred to as the CV-2 model hereafter) and its extension in multiple populations with invariant weight coefficients (Definition 2.2). The equality constraints imposed on the weight coefficients are in line with the approach to interpreting the canonical variates (i.e., the linear combinations of original variables) advocated by Harris (1975, 1989), Rencher (1988, 1992), and Rencher and Christensen (2003). However, the literature in psychology and education shows that the standard approach adopted by most researchers, including Anderson (2003), is to use the canonical loadings (i.e., the correlations between the canonical variates and the original variables in the same set) to interpret the canonical variates. In case of multicollinearity (giving rise to the so-called suppression effects) among the original variables, it is not uncommon to obtain different interpretations from the two approaches. Therefore, following the standard approach in practice, an alternative (probably more realistic) extension of Goria and Flury’s CV-2 model in multiple populations is to impose the equality constraints on the canonical loadings. The utility of this multiple-population extension are illustrated with two numeric examples.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

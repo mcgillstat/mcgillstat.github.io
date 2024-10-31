@@ -2,37 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on McGill Statistics Seminars</title>
-    <link>https://mcgillstat.github.io/categories/</link>
+    <link>http://localhost:4321/categories/</link>
     <description>Recent content in Categories on McGill Statistics Seminars</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 01 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://mcgillstat.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 08 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:4321/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>McGill Statistics Seminar</title>
-      <link>https://mcgillstat.github.io/categories/mcgill-statistics-seminar/</link>
-      <pubDate>Fri, 01 Nov 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://mcgillstat.github.io/categories/mcgill-statistics-seminar/</guid>
+      <link>http://localhost:4321/categories/mcgill-statistics-seminar/</link>
+      <pubDate>Fri, 25 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/categories/mcgill-statistics-seminar/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>CRM-SSC Prize Address</title>
-      <link>https://mcgillstat.github.io/categories/crm-ssc-prize-address/</link>
+      <link>http://localhost:4321/categories/crm-ssc-prize-address/</link>
       <pubDate>Fri, 30 Sep 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://mcgillstat.github.io/categories/crm-ssc-prize-address/</guid>
+      <guid>http://localhost:4321/categories/crm-ssc-prize-address/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>CRM-Colloquium</title>
-      <link>https://mcgillstat.github.io/categories/crm-colloquium/</link>
+      <link>http://localhost:4321/categories/crm-colloquium/</link>
       <pubDate>Fri, 18 Feb 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://mcgillstat.github.io/categories/crm-colloquium/</guid>
+      <guid>http://localhost:4321/categories/crm-colloquium/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>
