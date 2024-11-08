@@ -2,108 +2,108 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2019 Winter on McGill Statistics Seminars</title>
-    <link>https://mcgillstat.github.io/tags/2019-winter/</link>
+    <link>http://localhost:4321/tags/2019-winter/</link>
     <description>Recent content in 2019 Winter on McGill Statistics Seminars</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 26 Apr 2019 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://mcgillstat.github.io/tags/2019-winter/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:4321/tags/2019-winter/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Graph Representation Learning and Applications</title>
-      <link>https://mcgillstat.github.io/post/2019winter/2019-04-26/</link>
+      <link>http://localhost:4321/post/2019winter/2019-04-26/</link>
       <pubDate>Fri, 26 Apr 2019 00:00:00 +0000</pubDate>
-      <guid>https://mcgillstat.github.io/post/2019winter/2019-04-26/</guid>
+      <guid>http://localhost:4321/post/2019winter/2019-04-26/</guid>
       <description>&lt;h4 id=&#34;date-2019-04-26&#34;&gt;Date: 2019-04-26&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630&#34;&gt;Time: 15:30-16:30&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-burnside-1205&#34;&gt;Location: BURNSIDE 1205&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;Graphs, a general type of data structures for capturing interconnected objects, are ubiquitous in a variety of disciplines and domains ranging from computational social science, recommender systems, medicine, bioinformatics to chemistry. Representative examples of real-world graphs include social networks, user-item networks, protein-protein interaction networks, and molecular structures, which are represented as graphs. In this talk, I will introduce our work on learning effective representations of graphs such as learning low-dimensional node representations of large graphs (e.g., social networks, protein-protein interaction graphs, and knowledge graphs) and learning representations of entire graphs (e.g., molecule structures).&lt;/p&gt;</description>
     </item>
     <item>
       <title>Estimating Time-Varying Causal Excursion Effect in Mobile Health with Binary Outcomes</title>
-      <link>https://mcgillstat.github.io/post/2019winter/2019-04-12/</link>
+      <link>http://localhost:4321/post/2019winter/2019-04-12/</link>
       <pubDate>Fri, 12 Apr 2019 00:00:00 +0000</pubDate>
-      <guid>https://mcgillstat.github.io/post/2019winter/2019-04-12/</guid>
+      <guid>http://localhost:4321/post/2019winter/2019-04-12/</guid>
       <description>&lt;h4 id=&#34;date-2019-04-12&#34;&gt;Date: 2019-04-12&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630&#34;&gt;Time: 15:30-16:30&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-burnside-1205&#34;&gt;Location: BURNSIDE 1205&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;Advances in wearables and digital technology now make it possible to deliver behavioral, mobile health, interventions to individuals in their every-day life.  The micro-randomized trial (MRT) is increasingly used to provide data to inform the construction of these  interventions. This work is motivated by multiple MRTs that have been conducted or are currently in the field in which the primary outcome is a longitudinal binary outcome. The first, often called the primary, analysis in these trials is a marginal analysis that seeks to answer whether the data indicates that  a particular intervention component has an effect on the longitudinal binary outcome.  Under rather restrictive assumptions one can, based on existing literature, derive a semi-parametric, locally efficient estimator of the causal effect. In this talk, starting from this estimator, we develop multiple estimators that can be used as the basis of a primary analysis under more plausible assumptions. Simulation studies are conducted to compare the estimators.  We illustrate the developed methods using data from the MRT,  BariFit.  In BariFit, the goal is to support weight maintenance for individuals who received bariatric surgery.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Bayesian Estimation of Individualized Treatment-Response Curves in Populations with Heterogeneous Treatment Effects</title>
-      <link>https://mcgillstat.github.io/post/2019winter/2019-04-05/</link>
+      <link>http://localhost:4321/post/2019winter/2019-04-05/</link>
       <pubDate>Fri, 05 Apr 2019 00:00:00 +0000</pubDate>
-      <guid>https://mcgillstat.github.io/post/2019winter/2019-04-05/</guid>
+      <guid>http://localhost:4321/post/2019winter/2019-04-05/</guid>
       <description>&lt;h4 id=&#34;date-2019-04-05&#34;&gt;Date: 2019-04-05&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630&#34;&gt;Time: 15:30-16:30&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-burnside-1104&#34;&gt;Location: BURNSIDE 1104&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;Estimating individual treatment effects is crucial for individualized or precision medicine. In reality, however, there is no way to obtain both the treated and untreated outcomes from the same person at the same time. An approximation can be obtained from randomized controlled trials (RCTs). Despite the limitations that randomizations are usually expensive, impractical or unethical, pre-specified variables may still not fully incorporate all the relevant characteristics capturing individual heterogeneity in treatment response. In this work, we use non-experimental data; we model heterogenous treatment effects in the studied population and provide a Bayesian estimator of the individual treatment response. More specifically, we develop a novel Bayesian nonparametric (BNP) method that leverages the G-computation formula to adjust for time-varying confounding in observational data, and it flexibly models sequential data to provide posterior inference over the treatment response at both group level and individual level. On a challenging dataset containing time series from patients admitted to intensive care unit (ICU), our approach reveals that these patients have heterogenous responses to the treatments used in managing kidney function. We also show that on held out data the resulting predicted outcome in response to treatment (or no treatment) is more accurate than alternative approaches.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Introduction to Statistical Network Analysis</title>
-      <link>https://mcgillstat.github.io/post/2019winter/2019-03-29/</link>
+      <link>http://localhost:4321/post/2019winter/2019-03-29/</link>
       <pubDate>Fri, 29 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://mcgillstat.github.io/post/2019winter/2019-03-29/</guid>
+      <guid>http://localhost:4321/post/2019winter/2019-03-29/</guid>
       <description>&lt;h4 id=&#34;date-2019-03-29&#34;&gt;Date: 2019-03-29&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1300-1630&#34;&gt;Time: 13:00-16:30&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-mcintyre----room-521&#34;&gt;Location: McIntyre &amp;ndash; Room 521&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;Classical statistics often makes assumptions about conditional independence in&#xA;order to fit models but in the modern world connectivity is key. Nowadays we need&#xA;to account for many dependencies and sometimes the associations and&#xA;dependencies themselves are the key items of interest e.g. how do we predict&#xA;conflict between countries, how can we use friendships between school children to&#xA;choose the best groups for study tips/help, how does the pattern of needle-sharing&#xA;among partners correlate to HIV transmission and where interventions can best be&#xA;made. Basically any type of study where we are interested in connections or&#xA;associations between pairs of actors, be they people, companies, countries or&#xA;anything else, we are looking at a network analysis. The methods falling under this&#xA;area are collectively known as &amp;ldquo;Statistical Network Analysis&amp;rdquo; or sometimes &amp;ldquo;Social&#xA;Network Analysis&amp;rdquo; (which can be a bit misleading as we are not only talking about&#xA;Facebook and the like). This workshop will give a general introduction to networks,&#xA;their visualisation, summary measures and statistical models that can be used to&#xA;analyse them. The practical component will be in R and attendees will get the&#xA;most benefit if they are able to bring a laptop along to work through examples.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Challenges in Bayesian Computing</title>
-      <link>https://mcgillstat.github.io/post/2019winter/2019-03-22/</link>
+      <link>http://localhost:4321/post/2019winter/2019-03-22/</link>
       <pubDate>Fri, 22 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://mcgillstat.github.io/post/2019winter/2019-03-22/</guid>
+      <guid>http://localhost:4321/post/2019winter/2019-03-22/</guid>
       <description>&lt;h4 id=&#34;date-2019-03-22&#34;&gt;Date: 2019-03-22&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630&#34;&gt;Time: 15:30-16:30&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-burn-1104&#34;&gt;Location: BURN 1104&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;Computing is both the most mathematical and most applied aspect of statistics.  We shall talk about various urgent computing-related topics in statistical (in particular, Bayesian) workflow, including exploratory data analysis and model checking, Hamiltonian Monte Carlo, monitoring convergence of iterative simulations, scalable computing, evaluation of approximate algorithms, predictive model evaluation, and simulation-based calibration.  This work is inspired by applications including survey research, drug development, and environmental decision making.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Hierarchical Bayesian Modelling for Wireless Cellular Networks</title>
-      <link>https://mcgillstat.github.io/post/2019winter/2019-03-15/</link>
+      <link>http://localhost:4321/post/2019winter/2019-03-15/</link>
       <pubDate>Fri, 15 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://mcgillstat.github.io/post/2019winter/2019-03-15/</guid>
+      <guid>http://localhost:4321/post/2019winter/2019-03-15/</guid>
       <description>&lt;h4 id=&#34;date-2019-03-15&#34;&gt;Date: 2019-03-15&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630&#34;&gt;Time: 15:30-16:30&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-burn-1205&#34;&gt;Location: BURN 1205&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;With the recent advances in wireless technologies, base stations are becoming more sophisticated. The network operators are also able to collect more data to improve network performance and user experience. In this paper we concentrate on modeling performance of wireless cells using hierarchical Bayesian modeling framework. This framework provides a principled way to navigate the space between the option of creating one model to represent all cells in a network and the option of creating separate models at each cell. The former option ignores the variations between cells (complete pooling) whereas the latter is overly noisy and ignores the common patterns in cells (no pooling). The hierarchical Bayesian model strikes a trade-off between these two extreme cases and enables us to do partial pooling of the data from all cells. This is done by estimating a parametric population distribution and assuming that each cell is a sample from this distribution. Because this model is fully Bayesian, it provides uncertainty intervals around each estimated parameter which can be used by network operators making network management decisions. We examine the performance of this method on a synthetic dataset and a real dataset collected from a cellular network.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Statistical Inference for partially observed branching processes, with application to hematopoietic lineage tracking</title>
-      <link>https://mcgillstat.github.io/post/2019winter/2019-03-01/</link>
+      <link>http://localhost:4321/post/2019winter/2019-03-01/</link>
       <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://mcgillstat.github.io/post/2019winter/2019-03-01/</guid>
+      <guid>http://localhost:4321/post/2019winter/2019-03-01/</guid>
       <description>&lt;h4 id=&#34;date-2019-03-01&#34;&gt;Date: 2019-03-01&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630&#34;&gt;Time: 15:30-16:30&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-burn-1104&#34;&gt;Location: BURN 1104&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;The likelihood function is central to many statistical procedures, but poses challenges in classical and modern data settings. Motivated by cell lineage tracking experiments to study hematopoiesis (the process of blood cell production), we present recent methodology enabling likelihood-based inference for partially observed data arising from continuous-time branching processes. These computational advances allow principled procedures such as maximum likelihood estimation, posterior inference, and expectation-maximization (EM) algorithms in previously intractable data settings. We then discuss limitations and alternatives when data are very large or generated from a hidden process, and potential ways forward using ideas from sparse optimization.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Uniform, nonparametric, non-asymptotic confidence sequences</title>
-      <link>https://mcgillstat.github.io/post/2019winter/2019-02-22/</link>
+      <link>http://localhost:4321/post/2019winter/2019-02-22/</link>
       <pubDate>Fri, 22 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>https://mcgillstat.github.io/post/2019winter/2019-02-22/</guid>
+      <guid>http://localhost:4321/post/2019winter/2019-02-22/</guid>
       <description>&lt;h4 id=&#34;date-2019-02-22&#34;&gt;Date: 2019-02-22&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630&#34;&gt;Time: 15:30-16:30&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-burn-1205&#34;&gt;Location: BURN 1205&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;A confidence sequence is a sequence of confidence intervals that is uniformly valid over an unbounded time horizon. In this paper, we develop non-asymptotic confidence sequences under nonparametric conditions that achieve arbitrary precision. Our technique draws a connection between the classical Cramer-Chernoff method, the law of the iterated logarithm (LIL), and the sequential probability ratio test (SPRT)—our confidence sequences extend the first to produce time-uniform concentration bounds, provide tight non-asymptotic characterizations of the second, and generalize the third to nonparametric settings, including sub-Gaussian and Bernstein conditions, self-normalized processes, and matrix martingales. We strengthen and generalize existing constructions of finite-time iterated logarithm (“finite LIL”) bounds. We illustrate the generality of our proof techniques by deriving an empirical-Bernstein finite LIL bound as well as a novel upper LIL bound for the maximum eigenvalue of a sum of random matrices. Finally, we demonstrate the utility of our approach with applications to covariance matrix estimation and to estimation of sample average treatment effect under the Neyman-Rubin potential outcomes model, for which we give a non-asymptotic, sequential estimation strategy which handles adaptive treatment mechanisms such as Efron’s biased coin design.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Causal Inference with Unmeasured Confounding: an Instrumental Variable Approach</title>
-      <link>https://mcgillstat.github.io/post/2019winter/2019-02-15/</link>
+      <link>http://localhost:4321/post/2019winter/2019-02-15/</link>
       <pubDate>Fri, 15 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>https://mcgillstat.github.io/post/2019winter/2019-02-15/</guid>
+      <guid>http://localhost:4321/post/2019winter/2019-02-15/</guid>
       <description>&lt;h4 id=&#34;date-2019-02-15&#34;&gt;Date: 2019-02-15&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630&#34;&gt;Time: 15:30-16:30&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-burn-1205&#34;&gt;Location: BURN 1205&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;Causal inference is a challenging problem because causation cannot be established from observational data alone. Researchers typically rely on additional sources of information to infer causation from association. Such information may come from powerful designs such as randomization, or background knowledge such as information on all confounders. However, perfect designs or background knowledge required for establishing causality may not always be available in practice. In this talk, I use novel causal identification results to show that the instrumental variable approach can be used to combine the power of design and background knowledge to draw causal conclusions. I also introduce novel estimation tools to construct estimators that are robust, efficient and enjoy good finite sample properties. These methods will be discussed in the context of a randomized encouragement design for a flu vaccine.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Patient-Specific Finite Element Analysis of Human Heart: Mathematical and Statistical Opportunities and Challenges</title>
-      <link>https://mcgillstat.github.io/post/2019winter/2019-02-08/</link>
+      <link>http://localhost:4321/post/2019winter/2019-02-08/</link>
       <pubDate>Fri, 08 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>https://mcgillstat.github.io/post/2019winter/2019-02-08/</guid>
+      <guid>http://localhost:4321/post/2019winter/2019-02-08/</guid>
       <description>&lt;h4 id=&#34;date-2019-02-08&#34;&gt;Date: 2019-02-08&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630&#34;&gt;Time: 15:30-16:30&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-burn-1104&#34;&gt;Location: BURN 1104&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;Cardiovascular diseases (CVD) are the leading cause of death globally and ranks second in&#xA;Canada, costing the Canadian economy over $20 billion every year. Despite the recent progress in CVD through prevention, lifestyle changes, and the use of biomedical treatments to improve survival rates and quality of life, there has been a lack in the integration of computer-aided engineering (CAE) in this field. Clinically, proposing cut-off values while taking into consideration patient-specific risk is of paramount importance for increased rate ofsurvival and improved quality of life. Computational modeling has proved to be used in determining parameters that cannot be assessed experimentally. The latest developments in computational modelling of human heart are presented and the constitutive equations, the key ingredient of these in-silico modellings of human heart, are discussed. Finite Element analysis of cardiac diseases provide a framework to generate synthetic data for developing statistical models when collecting the real data require invasive procedure. The idea of virtual personalized cardiology will be discussed.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Network models, sampling, and symmetry properties</title>
-      <link>https://mcgillstat.github.io/post/2019winter/2019-02-01/</link>
+      <link>http://localhost:4321/post/2019winter/2019-02-01/</link>
       <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>https://mcgillstat.github.io/post/2019winter/2019-02-01/</guid>
+      <guid>http://localhost:4321/post/2019winter/2019-02-01/</guid>
       <description>&lt;h4 id=&#34;date-2019-02-01&#34;&gt;Date: 2019-02-01&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630&#34;&gt;Time: 15:30-16:30&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-burn-1205&#34;&gt;Location: BURN 1205&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;A recent body of work, by myself and many others, aims to develop a statistical theory of network data for problems a single network is observed. Of the models studied in this area, graphon models are probably most widely known in statistics. I will explain the relationship between three aspects of this work: (1) Specific models, such as graphon models, graphex models, and edge-exchangeable graphs. (2) Sampling theory for networks, specifically in the case statisticians might refer to as an infinite-population limit. (3) Invariance properties, especially various forms of exchangeability. I will also present recent results that show how statistically relevant results (such as central limit theorems) can be derived from such invariance properties.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Modern Non-Problems in Optimization: Applications to Statistics and Machine Learning</title>
-      <link>https://mcgillstat.github.io/post/2019winter/2019-01-25/</link>
+      <link>http://localhost:4321/post/2019winter/2019-01-25/</link>
       <pubDate>Fri, 25 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://mcgillstat.github.io/post/2019winter/2019-01-25/</guid>
+      <guid>http://localhost:4321/post/2019winter/2019-01-25/</guid>
       <description>&lt;h4 id=&#34;date-2019-01-25&#34;&gt;Date: 2019-01-25&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1600-1700&#34;&gt;Time: 16:00-17:00&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-burn-920&#34;&gt;Location: BURN 920&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;We have witnessed a lot of exciting development of data science in recent years. From the perspective of optimization, many modern data-science problems involve some basic ``non’’-properties that lack systematic treatment by the current approaches for the sake of the computation convenience. These non-properties include the coupling of the non-convexity, non-differentiability and non-determinism. In this talk, we present rigorous computational methods for solving two typical non-problems: the piecewise linear regression and the feed-forward deep neural network. The algorithmic framework is an integration of the first order non-convex majorization-minimization method and the second order non-smooth Newton methods. Numerical experiments demonstrate the effectiveness of our proposed approach. Contrary to existing methods for solving non-problems which provide at best very weak guarantees on the computed solutions obtained in practical implementation, our rigorous mathematical treatment aims to understand properties of these computed solutions with reference to both the empirical and the population risk minimizations.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Singularities of the information matrix and longitudinal data with change points</title>
-      <link>https://mcgillstat.github.io/post/2019winter/2019-01-18/</link>
+      <link>http://localhost:4321/post/2019winter/2019-01-18/</link>
       <pubDate>Fri, 18 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://mcgillstat.github.io/post/2019winter/2019-01-18/</guid>
+      <guid>http://localhost:4321/post/2019winter/2019-01-18/</guid>
       <description>&lt;h4 id=&#34;date-2019-01-18&#34;&gt;Date: 2019-01-18&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630&#34;&gt;Time: 15:30-16:30&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-burn-1205&#34;&gt;Location: BURN 1205&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;Non-singularity of the information matrix plays a key role in model identification and the asymptotic theory of statistics. For many statistical models, however, this condition seems virtually impossible to verify. An example of such models is a class of mixture models associated with multi-path change-point problems (MCP) which can model longitudinal data with change points. The MCP models are similar in nature to mixture-of-experts models in machine learning. The question then arises as to how often the non-singularity assumption of the information matrix fails to hold. We show that&lt;/p&gt;</description>
     </item>
     <item>
       <title>Magic Cross-Validation Theory for Large-Margin Classification</title>
-      <link>https://mcgillstat.github.io/post/2019winter/2019-01-11/</link>
+      <link>http://localhost:4321/post/2019winter/2019-01-11/</link>
       <pubDate>Fri, 11 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://mcgillstat.github.io/post/2019winter/2019-01-11/</guid>
+      <guid>http://localhost:4321/post/2019winter/2019-01-11/</guid>
       <description>&lt;h4 id=&#34;date-2019-01-11&#34;&gt;Date: 2019-01-11&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630&#34;&gt;Time: 15:30-16:30&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-burn-1205&#34;&gt;Location: BURN 1205&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;Cross-validation (CV) is perhaps the most widely used tool for tuning supervised machine learning algorithms in order to achieve better generalization error rate. In this paper, we focus on leave-one-out cross-validation (LOOCV) for the support vector machine (SVM) and related algorithms. We first address two wide-spreading misconceptions on LOOCV. We show that LOOCV, ten-fold, and five-fold CV are actually well-matched in estimating the generalization error, and the computation speed of LOOCV is not necessarily slower than that of ten-fold and five-fold CV. We further present a magic CV theory with a surprisingly simple recipe which allows users to very efficiently tune the SVM. We then apply the magic CV theory to demonstrate a straightforward way to prove the Bayes risk consistency of the SVM. We have implemented our algorithms in a publicly available R package magicsvm, which is much faster than the state-of-the-art SVM solvers. We demonstrate our methods on extensive simulations and benchmark examples.&lt;/p&gt;</description>
     </item>
   </channel>

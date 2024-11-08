@@ -2,101 +2,101 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2019 Fall on McGill Statistics Seminars</title>
-    <link>https://mcgillstat.github.io/tags/2019-fall/</link>
+    <link>http://localhost:4321/tags/2019-fall/</link>
     <description>Recent content in 2019 Fall on McGill Statistics Seminars</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 29 Nov 2019 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://mcgillstat.github.io/tags/2019-fall/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:4321/tags/2019-fall/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Convergence rates for diffusions-based sampling and optimization methods</title>
-      <link>https://mcgillstat.github.io/post/2019fall/2019-11-29/</link>
+      <link>http://localhost:4321/post/2019fall/2019-11-29/</link>
       <pubDate>Fri, 29 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>https://mcgillstat.github.io/post/2019fall/2019-11-29/</guid>
+      <guid>http://localhost:4321/post/2019fall/2019-11-29/</guid>
       <description>&lt;h4 id=&#34;date-2019-11-29&#34;&gt;Date: 2019-11-29&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630&#34;&gt;Time: 15:30-16:30&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-burn-1205&#34;&gt;Location: BURN 1205&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;An Euler discretization of the Langevin diffusion is known to converge to the global minimizers of certain convex and non-convex optimization problems. We show that this property holds for any suitably smooth diffusion and that different diffusions are suitable for optimizing different classes of convex and non-convex functions. This allows us to design diffusions suitable for globally optimizing convex and non-convex functions not covered by the existing Langevin theory. Our non-asymptotic analysis delivers computable optimization and integration error bounds based on easily accessed properties of the objective and chosen diffusion. Central to our approach are new explicit Stein factor bounds on the solutions of Poisson equations. We complement these results with improved optimization guarantees for targets other than the standard Gibbs measure.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Formulation and solution of stochastic inverse problems for science and engineering models</title>
-      <link>https://mcgillstat.github.io/post/2019fall/2019-11-22/</link>
+      <link>http://localhost:4321/post/2019fall/2019-11-22/</link>
       <pubDate>Fri, 22 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>https://mcgillstat.github.io/post/2019fall/2019-11-22/</guid>
+      <guid>http://localhost:4321/post/2019fall/2019-11-22/</guid>
       <description>&lt;h4 id=&#34;date-2019-11-22&#34;&gt;Date: 2019-11-22&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1600-1700&#34;&gt;Time: 16:00-17:00&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-pavillon-kennedy-pk-5115-uqam&#34;&gt;Location: Pavillon Kennedy, PK-5115, UQAM&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;The stochastic inverse problem of determining probability&#xA;structures on input parameters for a physics model corresponding to a&#xA;given probability structure on the output of the model forms the core of&#xA;scientific inference and engineering design. We describe a formulation&#xA;and solution method for stochastic inverse problems that is based on&#xA;functional analysis, differential geometry, and probability/measure&#xA;theory. This approach yields a computationally tractable problem while&#xA;avoiding alterations of the model like regularization and ad hoc&#xA;assumptions about the probability structures. We present several&#xA;examples, including a high-dimensional application to determination of&#xA;parameter fields in storm surge models. We also describe work aimed at&#xA;defining a notion of condition for stochastic inverse problems and&#xA;tackling the related problem of designing sets of optimal observable&#xA;quantities.&lt;/p&gt;</description>
     </item>
     <item>
       <title> Logarithmic divergence: from finance to optimal transport and information geometry</title>
-      <link>https://mcgillstat.github.io/post/2019fall/2019-11-15/</link>
+      <link>http://localhost:4321/post/2019fall/2019-11-15/</link>
       <pubDate>Fri, 15 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>https://mcgillstat.github.io/post/2019fall/2019-11-15/</guid>
+      <guid>http://localhost:4321/post/2019fall/2019-11-15/</guid>
       <description>&lt;h4 id=&#34;date-2019-11-15&#34;&gt;Date: 2019-11-15&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630&#34;&gt;Time: 15:30-16:30&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-burn-1205&#34;&gt;Location: BURN 1205&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;Divergences, such as the Kullback-Leibler divergence, are distance-like quantities which arise in many applications in probability, statistics and data science. We introduce a family of logarithmic divergences which is a non-linear extension of the celebrated Bregman divergence. It is defined for any exponentially concave function (a function whose exponential is concave). We motivate this divergence by mathematical finance and large deviations of Dirichlet process. It also arises naturally from the solution to an optimal transport problem. The logarithmic divergence enjoys remarkable mathematical properties including a generalized Pythagorean theorem in the sense of information geometry, and induces a generalized exponential family of probability densities. In the last part of the talk we present a new differential geometric framework which connects optimal transport and information geometry. Joint works with Soumik Pal and Jiaowen Yang.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Joint Robust Multiple Inference on Large Scale Multivariate Regression</title>
-      <link>https://mcgillstat.github.io/post/2019fall/2019-11-08/</link>
+      <link>http://localhost:4321/post/2019fall/2019-11-08/</link>
       <pubDate>Fri, 08 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>https://mcgillstat.github.io/post/2019fall/2019-11-08/</guid>
+      <guid>http://localhost:4321/post/2019fall/2019-11-08/</guid>
       <description>&lt;h4 id=&#34;date-2019-11-08&#34;&gt;Date: 2019-11-08&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630&#34;&gt;Time: 15:30-16:30&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-burn-1205&#34;&gt;Location: BURN 1205&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;Large scale multivariate regression with many heavy-tailed responses arises in a wide range of areas from genomics, financial asset pricing, banking regulation, to psychology and social studies. Simultaneously testing a large number of general linear hypotheses, such as multiple contrasts, based on the large scale multivariate regression reveals a variety of associations between responses and regression or experimental factors. Traditional multiple testing methods often ignore the effect of heavy-tailedness in the data and impose joint normality assumption that is arguably stringent in applications. This results in unreliable conclusions due to the lose of control on the false discovery proportion/rate (FDP/FDR) and severe compromise of power in practice. In this paper, we employ data-adaptive Huber regression to propose a framework of joint robust inference of the general linear hypotheses for large scale multivariate regression. With mild conditions, we show that the proposed method produces consistent estimate of the FDP and FDR at a prespecified level. Particularly, we employ a bias-correction robust covariance estimator and study its exponential-type deviation inequality to provide theoretical guarantee of our proposed multiple testing framework. Extensive numerical experiments demonstrate the gain in power of the proposed method compared to OLS and other procedures.&lt;/p&gt;</description>
     </item>
     <item>
       <title>General Bayesian Modeling</title>
-      <link>https://mcgillstat.github.io/post/2019fall/2019-11-01/</link>
+      <link>http://localhost:4321/post/2019fall/2019-11-01/</link>
       <pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>https://mcgillstat.github.io/post/2019fall/2019-11-01/</guid>
+      <guid>http://localhost:4321/post/2019fall/2019-11-01/</guid>
       <description>&lt;h4 id=&#34;date-2019-11-01&#34;&gt;Date: 2019-11-01&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1600-1700&#34;&gt;Time: 16:00-17:00&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-burn-1104&#34;&gt;Location: BURN 1104&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;The work is motivated by the inflexibility of Bayesian modeling; in that only parameters of&#xA;probability models are required to be connected with data. The idea is to generalize this by&#xA;allowing arbitrary unknowns to be connected with data via loss functions. An updating process&#xA;is then detailed which can be viewed as arising in at least a couple of ways - one being purely&#xA;axiomatically driven.&#xA;The further exploration of replacing probability model based approaches to inference with loss&#xA;functions is ongoing. Joint work with Chris Holmes, Pier Giovanni Bissiri and Simon Lyddon.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Learning Connectivity Networks from High-Dimensional Point Processes</title>
-      <link>https://mcgillstat.github.io/post/2019fall/2019-10-25/</link>
+      <link>http://localhost:4321/post/2019fall/2019-10-25/</link>
       <pubDate>Fri, 25 Oct 2019 00:00:00 +0000</pubDate>
-      <guid>https://mcgillstat.github.io/post/2019fall/2019-10-25/</guid>
+      <guid>http://localhost:4321/post/2019fall/2019-10-25/</guid>
       <description>&lt;h4 id=&#34;date-2019-10-25&#34;&gt;Date: 2019-10-25&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630&#34;&gt;Time: 15:30-16:30&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-burn-1205&#34;&gt;Location: BURN 1205&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;High-dimensional point processes have become ubiquitous in many scientific fields. For instance, neuroscientists use calcium florescent imaging to monitor the firing of thousands of neurons in live animals. In this talk, I will discuss new methodological, computational and theoretical developments for learning neuronal connectivity networks from high-dimensional point processes. Time permitting, I will also discuss a new approach for handling non-stationarity in high-dimensional time series.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Univariate and multivariate extremes of extendible random vectors</title>
-      <link>https://mcgillstat.github.io/post/2019fall/2019-10-18/</link>
+      <link>http://localhost:4321/post/2019fall/2019-10-18/</link>
       <pubDate>Fri, 18 Oct 2019 00:00:00 +0000</pubDate>
-      <guid>https://mcgillstat.github.io/post/2019fall/2019-10-18/</guid>
+      <guid>http://localhost:4321/post/2019fall/2019-10-18/</guid>
       <description>&lt;h4 id=&#34;date-2019-10-18&#34;&gt;Date: 2019-10-18&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630&#34;&gt;Time: 15:30-16:30&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-burn-1205&#34;&gt;Location: BURN 1205&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;In its most common form extreme value theory is concerned with the limiting distribution of location-scale transformed block-maxima $M_n = \max(X_1,\dots,X_n)$ of a sequence of identically distributed random variables $(X_i)$, $i\geq 1$.&#xA;In case the members of the sequence $(X_i)$ are independent, the weak&#xA;limiting behaviour of $M_n$ is adequately described by the classical Fisher-Tippett-Gnedenko theorem.&#xA;In this presentation we are interested in the case of dependent random variables $(X_i)$ while retaining a common marginal distribution function $F$ for all&#xA;$X_i$, $i\in\mathbb{N}$.&#xA;Complementary to the well established extreme value theory in a time series setting we consider a framework in which the dependence between (extreme) events does not decay over time.&#xA;This approach is facilitated by highlighting the connection between block-maxima and copula diagonals in an asymptotic context.&#xA;The main goal of this presentation is to discuss a generalization of the Fisher&amp;ndash;Tippett&amp;ndash;Gnedenko theorem in this setting, leading to limiting distributions that are not in the class of generalized extreme value distributions.&#xA;This result is exemplified for popular dependence structures related to extreme value, Archimedean and Archimax copulas.&#xA;Focusing on the class of hierarchical Archimedean copulas the results can further be extended to the multivariate setting.&#xA;Finally, we illustrate the resulting limit laws and discuss their properties.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Repulsiveness for integration (not my social program)</title>
-      <link>https://mcgillstat.github.io/post/2019fall/2019-10-11/</link>
+      <link>http://localhost:4321/post/2019fall/2019-10-11/</link>
       <pubDate>Fri, 11 Oct 2019 00:00:00 +0000</pubDate>
-      <guid>https://mcgillstat.github.io/post/2019fall/2019-10-11/</guid>
+      <guid>http://localhost:4321/post/2019fall/2019-10-11/</guid>
       <description>&lt;h4 id=&#34;date-2019-10-11&#34;&gt;Date: 2019-10-11&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630&#34;&gt;Time: 15:30-16:30&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-burn-1205&#34;&gt;Location: BURN 1205&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;Integral estimation in any dimension is an extensive topic, largely treated in the literature, with a broad range of applications. Monte-Carlo type methods arise naturally when one looks forward to quantifying/controlling the error. Many methods have already been developped: MCMC, Poisson disk sampling, QMC (and randomized versions), Bayesian quadrature, etc. In this talk, I&amp;rsquo;ll consider a different approach which consists in defining the quadrature nodes as the realization of a spatial point process. In particular I&amp;rsquo;ll show that a very specific class of determinantal point processes, a class of repulsive point patterns, has excellent properties and is able to estimate efficiently integrals for non-differentiable functions with an explicit and faster rate of convergence than current methods.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Tales of tails, tiles and ties in dependence modeling</title>
-      <link>https://mcgillstat.github.io/post/2019fall/2019-10-04/</link>
+      <link>http://localhost:4321/post/2019fall/2019-10-04/</link>
       <pubDate>Fri, 04 Oct 2019 00:00:00 +0000</pubDate>
-      <guid>https://mcgillstat.github.io/post/2019fall/2019-10-04/</guid>
+      <guid>http://localhost:4321/post/2019fall/2019-10-04/</guid>
       <description>&lt;h4 id=&#34;date-2019-10-04&#34;&gt;Date: 2019-10-04&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1600-1700&#34;&gt;Time: 16:00-17:00&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-crm-udem-pav-andré-aisenstadt-2920-ch-de-la-tour-salle-1355&#34;&gt;Location: CRM, UdeM, Pav. André-Aisenstadt, 2920, ch. de la Tour, salle 1355&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;Modeling dependence between random variables is omnipresent in statistics. When rare events with high impact are involved, such as severe storms, floods or heat waves, the issue is both of great importance for risk management and theoretically challenging. Combining extreme-value theory with copula modeling and rank-based inference yields a particularly flexible and promising approach to this problem. I will present three recent advances in this area. One will tackle the question of how to account for dependence between rare events in the medium regime, in which asymptotic extreme-value models are not suitable. The other will explore what can be done when a large number of variables is involved and how a hierarchical model structure can be learned from large-scale rank correlation matrices. Finally, I won’t resist giving you a glimpse of the notoriously intricate world of rank-based inference for discrete or mixed data.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Regression Models for Spatial Images</title>
-      <link>https://mcgillstat.github.io/post/2019fall/2019-09-27/</link>
+      <link>http://localhost:4321/post/2019fall/2019-09-27/</link>
       <pubDate>Fri, 27 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>https://mcgillstat.github.io/post/2019fall/2019-09-27/</guid>
+      <guid>http://localhost:4321/post/2019fall/2019-09-27/</guid>
       <description>&lt;h4 id=&#34;date-2019-09-27&#34;&gt;Date: 2019-09-27&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630&#34;&gt;Time: 15:30-16:30&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-mcintyre-medical-building-room-521&#34;&gt;Location: McIntyre Medical Building, Room 521&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;This work is motivated by a problem in describing forest nitrogen&#xA;cycling, and a consequent goal of constructing regression models for&#xA;spatial images. Specifically, I present a functional concurrent linear&#xA;model (FLCM) with varying coefficients for two-dimensional spatial&#xA;images. To address overparameterization issues, the parameter surfaces&#xA;in this model are transformed into the wavelet domain and then sparse&#xA;representations are found using two different methods: LASSO and&#xA;Bayesian variable selection. I will briefly discuss extensions to&#xA;address missing data problems for colocated spatial images and the&#xA;modeling of tree species in landscape ecology. In addition I will&#xA;discuss the use of the sextant in marine navigation.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Deep Representation Learning using Discrete Domain Symmetries</title>
-      <link>https://mcgillstat.github.io/post/2019fall/2019-09-20/</link>
+      <link>http://localhost:4321/post/2019fall/2019-09-20/</link>
       <pubDate>Fri, 20 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>https://mcgillstat.github.io/post/2019fall/2019-09-20/</guid>
+      <guid>http://localhost:4321/post/2019fall/2019-09-20/</guid>
       <description>&lt;h4 id=&#34;date-2019-09-20&#34;&gt;Date: 2019-09-20&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630&#34;&gt;Time: 15:30-16:30&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-burn-1205&#34;&gt;Location: BURN 1205&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;Symmetry has played a significant role in modern physics, in part by constraining the physical laws. I will discuss how it could play a fundamental role in AI by constraining the deep model design. In particular, I focus on discrete domain symmetries and through examples show how we can use this inductive bias as a principled means for constraining a feedforward layer and significantly improving its sample efficiency.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Integrative computational approach in genomics and healthcare</title>
-      <link>https://mcgillstat.github.io/post/2019fall/2019-09-13/</link>
+      <link>http://localhost:4321/post/2019fall/2019-09-13/</link>
       <pubDate>Fri, 13 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>https://mcgillstat.github.io/post/2019fall/2019-09-13/</guid>
+      <guid>http://localhost:4321/post/2019fall/2019-09-13/</guid>
       <description>&lt;h4 id=&#34;date-2019-09-13&#34;&gt;Date: 2019-09-13&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630&#34;&gt;Time: 15:30-16:30&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-burn-1205&#34;&gt;Location: BURN 1205&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;In the current era of multi-omics and digital healthcare, we are facing unprecedented amount of data with tremendous opportunities to link molecular phenotypes with complex diseases. However, the lack of integrative statistical method hinders system-level interrogation of relevant disease-related pathways and the genetic implication in various healthcare outcome.&lt;/p&gt;&#xA;&lt;p&gt;In this talk, I will present our current progress in mining genomics and healthcare data. In particular, I will cover two main topics: (1) a statistical approach to assess gene set enrichments using genetic and transcriptomic data; (2) multimodal latent topic model for mining electronic healthcare and whole genome sequencing data from small patient cohort.&lt;/p&gt;</description>
     </item>
     <item>
       <title>MAPLE; Semiparametric Estimation and Variable Selection for Length-biased Data with Heavy Censoring</title>
-      <link>https://mcgillstat.github.io/post/2019fall/2019-09-06/</link>
+      <link>http://localhost:4321/post/2019fall/2019-09-06/</link>
       <pubDate>Fri, 06 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>https://mcgillstat.github.io/post/2019fall/2019-09-06/</guid>
+      <guid>http://localhost:4321/post/2019fall/2019-09-06/</guid>
       <description>&lt;h4 id=&#34;date-2019-09-06&#34;&gt;Date: 2019-09-06&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630&#34;&gt;Time: 15:30-16:30&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-burn-1205&#34;&gt;Location: BURN 1205&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;In this talk, we discuss two problems of semiparametric estimation and variable selection for&#xA;length-biased data with heavy censoring.&#xA;The common feature of the proposed estimation procedures in the literature is that they only&#xA;put probability mass on failure times.&#xA;Under length-biased sampling, however, censoring is informative and failing to incorporate&#xA;censored observations into estimation can lead to&#xA;a substantial loss of efficiency. We propose two estimation procedures by computing the&#xA;likelihood contribution of both uncensored and censored observations.&#xA;For variable selection problem, we introduce a unified penalized estimating function and use an&#xA;optimization algorithm to solve it. We discuss&#xA;the asymptotic properties of the resulting penalized estimators. The work is motivated by the&#xA;International stroke Trial dataset collected in&#xA;Argentina in which the survival times of about 88% of the 545 cases are censored.&lt;/p&gt;</description>
     </item>
   </channel>

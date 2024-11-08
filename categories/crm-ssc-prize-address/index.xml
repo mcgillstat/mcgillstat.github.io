@@ -2,66 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>CRM-SSC Prize Address on McGill Statistics Seminars</title>
-    <link>https://mcgillstat.github.io/categories/crm-ssc-prize-address/</link>
+    <link>http://localhost:4321/categories/crm-ssc-prize-address/</link>
     <description>Recent content in CRM-SSC Prize Address on McGill Statistics Seminars</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 30 Sep 2022 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://mcgillstat.github.io/categories/crm-ssc-prize-address/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:4321/categories/crm-ssc-prize-address/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Full likelihood inference for abundance from capture-recapture data: semiparametric efficiency and EM-algorithm</title>
-      <link>https://mcgillstat.github.io/post/2022fall/2022-09-30/</link>
+      <link>http://localhost:4321/post/2022fall/2022-09-30/</link>
       <pubDate>Fri, 30 Sep 2022 00:00:00 +0000</pubDate>
-      <guid>https://mcgillstat.github.io/post/2022fall/2022-09-30/</guid>
+      <guid>http://localhost:4321/post/2022fall/2022-09-30/</guid>
       <description>&lt;h4 id=&#34;date-2022-09-30&#34;&gt;Date: 2022-09-30&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630-montreal-time&#34;&gt;Time: 15:30-16:30 (Montreal time)&lt;/h4&gt;&#xA;&lt;h4 id=&#34;httpsus06webzoomusj84226701306pwduez5nvpzaulldw5qnu8vzzivbejxqt09httpsus06webzoomusj84226701306pwduez5nvpzaulldw5qnu8vzzivbejxqt09&#34;&gt;&lt;a href=&#34;HTTPS://US06WEB.ZOOM.US/J/84226701306?PWD=UEZ5NVPZAULLDW5QNU8VZZIVBEJXQT09&#34;&gt;HTTPS://US06WEB.ZOOM.US/J/84226701306?PWD=UEZ5NVPZAULLDW5QNU8VZZIVBEJXQT09&lt;/a&gt;&lt;/h4&gt;&#xA;&lt;h4 id=&#34;meeting-id-842-2670-1306&#34;&gt;MEETING ID: 842 2670 1306&lt;/h4&gt;&#xA;&lt;h4 id=&#34;passcode-692788&#34;&gt;PASSCODE: 692788&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;Capture-recapture experiments are widely used to collect data needed to estimate the abundance of a closed population.  To account for heterogeneity in the capture probabilities, Huggins (1989) and Alho (1990) proposed a semiparametric model in which the capture probabilities are modelled parametrically and the distribution of individual characteristics is left unspecified.  A conditional likelihood method was then proposed to obtain point estimates and Wald-type confidence intervals for the abundance.  Empirical studies show that the small-sample distribution of the maximum conditional likelihood estimator is strongly skewed to the right, which may produce Wald-type confidence intervals with lower limits that are less than the number of captured individuals or even negative.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Tales of tails, tiles and ties in dependence modeling</title>
-      <link>https://mcgillstat.github.io/post/2019fall/2019-10-04/</link>
+      <link>http://localhost:4321/post/2019fall/2019-10-04/</link>
       <pubDate>Fri, 04 Oct 2019 00:00:00 +0000</pubDate>
-      <guid>https://mcgillstat.github.io/post/2019fall/2019-10-04/</guid>
+      <guid>http://localhost:4321/post/2019fall/2019-10-04/</guid>
       <description>&lt;h4 id=&#34;date-2019-10-04&#34;&gt;Date: 2019-10-04&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1600-1700&#34;&gt;Time: 16:00-17:00&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-crm-udem-pav-andré-aisenstadt-2920-ch-de-la-tour-salle-1355&#34;&gt;Location: CRM, UdeM, Pav. André-Aisenstadt, 2920, ch. de la Tour, salle 1355&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;Modeling dependence between random variables is omnipresent in statistics. When rare events with high impact are involved, such as severe storms, floods or heat waves, the issue is both of great importance for risk management and theoretically challenging. Combining extreme-value theory with copula modeling and rank-based inference yields a particularly flexible and promising approach to this problem. I will present three recent advances in this area. One will tackle the question of how to account for dependence between rare events in the medium regime, in which asymptotic extreme-value models are not suitable. The other will explore what can be done when a large number of variables is involved and how a hierarchical model structure can be learned from large-scale rank correlation matrices. Finally, I won’t resist giving you a glimpse of the notoriously intricate world of rank-based inference for discrete or mixed data.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Robust estimation in the presence of influential units for skewed finite and infinite populations</title>
-      <link>https://mcgillstat.github.io/post/2018fall/2018-10-12/</link>
+      <link>http://localhost:4321/post/2018fall/2018-10-12/</link>
       <pubDate>Fri, 12 Oct 2018 00:00:00 +0000</pubDate>
-      <guid>https://mcgillstat.github.io/post/2018fall/2018-10-12/</guid>
+      <guid>http://localhost:4321/post/2018fall/2018-10-12/</guid>
       <description>&lt;h4 id=&#34;date-2018-10-12&#34;&gt;Date: 2018-10-12&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1600-&#34;&gt;Time: 16:00-&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-crm-université-de-montréal-pavillon-andré-aisenstadt-salle-6254&#34;&gt;Location: CRM, Université de Montréal, Pavillon André-Aisenstadt, salle 6254&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;Many variables encountered in practice (e.g., economic variables) have skewed distributions. The latter provide a conducive ground for the presence of influential observations, which are those that have a drastic impact on the estimates if they were to be excluded from the sample. We examine the problem of influential observations in a classical statistic setting as well as in a finite population setting that includes two main frameworks: the design-based framework and the model-based framework. Within each setting, classical estimators may be highly unstable in the presence of influential units. We propose a robust estimator of the population mean based on the concept of conditional bias of a unit, which is a measure of influence. The idea is to reduce the impact of the sample units that have a large conditional bias. The proposed estimator depends on a cut-off value. We suggest selecting the cut-off value that minimizes the maximum absolute estimated conditional bias with respect to the robust estimator. The properties of the proposed estimator will be discussed. Finally, the results of a simulation study comparing the performance of several estimators in terms of bias and mean square error will be presented.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Back to the future: why I think REGRESSION is the new black in genetic association studies</title>
-      <link>https://mcgillstat.github.io/post/2018winter/2018-01-26/</link>
+      <link>http://localhost:4321/post/2018winter/2018-01-26/</link>
       <pubDate>Fri, 26 Jan 2018 00:00:00 +0000</pubDate>
-      <guid>https://mcgillstat.github.io/post/2018winter/2018-01-26/</guid>
+      <guid>http://localhost:4321/post/2018winter/2018-01-26/</guid>
       <description>&lt;h4 id=&#34;date-2018-01-26&#34;&gt;Date: 2018-01-26&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630&#34;&gt;Time: 15:30-16:30&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-room-6254-pavillon-andre-aisenstadt-2920-udem&#34;&gt;Location: ROOM 6254 Pavillon Andre-Aisenstadt 2920, UdeM&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;Linear regression remains an important framework in the era of big and complex data. In this talk I present some recent examples where we resort to the classical simple linear regression model and its celebrated extensions in novel settings. The Eureka moment came while reading Wu and Guan&amp;rsquo;s (2015) comments on our generalized Kruskal-Wallis (GKW) test (Elif Acar and Sun 2013, Biometrics). Wu and Guan presented an alternative “rank linear regression model and derived the proposed GKW statistic as a score test statistic&amp;quot;, and astutely pointed out that “the linear model approach makes the derivation more straightforward and transparent, and leads to a simplified and unified approach to the general rank based multi-group comparison problem.&amp;quot; More recently, we turned our attention to extending Levene&amp;rsquo;s variance test for data with group uncertainty and sample correlation. While a direct modification of the original statistic is indeed challenging, I will demonstrate that a two-stage regression framework makes the ensuing development quite straightforward, eventually leading to a generalized joint location-scale test (David Soave and Sun 2017, Biometrics). Finally, I will discuss on-going work, with graduate student Lin Zhang, on developing an allele-based association test that is robust to the assumption of Hardy-Weinberg equilibrium and is generalizable to complex data structure. The crux of this work is, again, reformulating the problem as a regression!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Bayesian inference for conditional copula models</title>
-      <link>https://mcgillstat.github.io/post/2017winter/2017-01-27/</link>
+      <link>http://localhost:4321/post/2017winter/2017-01-27/</link>
       <pubDate>Fri, 27 Jan 2017 00:00:00 +0000</pubDate>
-      <guid>https://mcgillstat.github.io/post/2017winter/2017-01-27/</guid>
+      <guid>http://localhost:4321/post/2017winter/2017-01-27/</guid>
       <description>&lt;h4 id=&#34;date-2017-01-27&#34;&gt;Date: 2017-01-27&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630&#34;&gt;Time: 15:30-16:30&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-room-6254-pavillon-andre-aisenstadt-2920-udem&#34;&gt;Location: ROOM 6254 Pavillon Andre-Aisenstadt 2920, UdeM&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;Conditional copula models describe dynamic changes in dependence and are useful in establishing high dimensional dependence structures or in joint modelling of response vectors in regression settings. We describe some of the methods developed for estimating the calibration function when multiple predictors are needed and for resolving some of the model choice questions concerning the selection of copula families and the shape of the calibration function. This is joint work with Evgeny Levi, Avideh Sabeti and Mian Wei.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Outlier detection for functional data using principal components</title>
-      <link>https://mcgillstat.github.io/post/2016winter/2016-02-11/</link>
+      <link>http://localhost:4321/post/2016winter/2016-02-11/</link>
       <pubDate>Thu, 11 Feb 2016 00:00:00 +0000</pubDate>
-      <guid>https://mcgillstat.github.io/post/2016winter/2016-02-11/</guid>
+      <guid>http://localhost:4321/post/2016winter/2016-02-11/</guid>
       <description>&lt;h4 id=&#34;date-2016-02-11&#34;&gt;Date: 2016-02-11&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1600-1700&#34;&gt;Time: 16:00-17:00&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-crm-6254-u-de-montréal&#34;&gt;Location: CRM 6254 (U. de Montréal)&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;Principal components analysis is a widely used technique that provides an optimal lower-dimensional approximation to multivariate observations. In the functional case, a new characterization of elliptical distributions on separable Hilbert spaces allows us to obtain an equivalent stochastic optimality property for the principal component subspaces of random elements on separable Hilbert spaces. This property holds even when second moments do not exist. These lower-dimensional approximations can be very useful in identifying potential outliers among high-dimensional or functional observations. In this talk we propose a new class of robust estimators for principal components, which is consistent for elliptical random vectors, and Fisher-consistent for elliptically distributed random elements on arbitrary Hilbert spaces. We illustrate our method on two real functional data sets, where the robust estimator is able to discover atypical observations in the data that would have been missed otherwise. This talk is the result of recent collaborations with Graciela Boente (Buenos Aires, Argentina) and David Tyler (Rutgers, USA).&lt;/p&gt;</description>
     </item>
     <item>
       <title>Functional data analysis and related topics</title>
-      <link>https://mcgillstat.github.io/post/2015winter/2015-01-15/</link>
+      <link>http://localhost:4321/post/2015winter/2015-01-15/</link>
       <pubDate>Thu, 15 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>https://mcgillstat.github.io/post/2015winter/2015-01-15/</guid>
+      <guid>http://localhost:4321/post/2015winter/2015-01-15/</guid>
       <description>&lt;h4 id=&#34;date-2015-01-15&#34;&gt;Date: 2015-01-15&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1600-1700&#34;&gt;Time: 16:00-17:00&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-crm-1360-u-de-montréal&#34;&gt;Location: CRM 1360 (U. de Montréal)&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;Functional data analysis (FDA) has received substantial attention, with applications arising from various disciplines, such as engineering, public health, finance etc. In general, the FDA approaches focus on nonparametric underlying models that assume the data are observed from realizations of stochastic processes satisfying some regularity conditions, e.g., smoothness constraints. The estimation and inference procedures usually do not depend on merely a finite number of parameters, which contrasts with parametric models, and exploit techniques, such as smoothing methods and dimension reduction, that allow data to speak for themselves. In this talk, I will give an overview of FDA methods and related topics developed in recent years.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Changbao Wu: Analysis of complex survey data with missing observations</title>
-      <link>https://mcgillstat.github.io/post/2013winter/2013-02-22/</link>
+      <link>http://localhost:4321/post/2013winter/2013-02-22/</link>
       <pubDate>Fri, 22 Feb 2013 00:00:00 +0000</pubDate>
-      <guid>https://mcgillstat.github.io/post/2013winter/2013-02-22/</guid>
+      <guid>http://localhost:4321/post/2013winter/2013-02-22/</guid>
       <description>&lt;h4 id=&#34;date-2013-02-22&#34;&gt;Date: 2013-02-22&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1430-1530&#34;&gt;Time: 14:30-15:30&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-crm-université-de-montréal-pav-andré-ainsenstadt-salle-1360&#34;&gt;Location: CRM, Université de Montréal, Pav. André-Ainsenstadt, salle 1360&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;In this talk, we first provide an overview of issues arising from and methods dealing with complex survey data in the presence of missing observations, with a major focus on the estimating equation approach for analysis and imputation methods for missing data. We then propose a semiparametric fractional imputation method for handling item nonresponses, assuming certain baseline auxiliary variables can be observed for all units in the sample. The proposed strategy combines the strengths of conventional single imputation and multiple imputation methods, and is easy to implement even with a large number of auxiliary variables available, which is typically the case for large scale complex surveys. Simulation results and some general discussion on related issues will also be presented.&lt;/p&gt;</description>
     </item>
   </channel>

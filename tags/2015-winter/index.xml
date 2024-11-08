@@ -2,108 +2,108 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2015 Winter on McGill Statistics Seminars</title>
-    <link>https://mcgillstat.github.io/tags/2015-winter/</link>
+    <link>http://localhost:4321/tags/2015-winter/</link>
     <description>Recent content in 2015 Winter on McGill Statistics Seminars</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 14 May 2015 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://mcgillstat.github.io/tags/2015-winter/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:4321/tags/2015-winter/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Some new classes of bivariate distributions based on conditional specification</title>
-      <link>https://mcgillstat.github.io/post/2015winter/2015-05-14/</link>
+      <link>http://localhost:4321/post/2015winter/2015-05-14/</link>
       <pubDate>Thu, 14 May 2015 00:00:00 +0000</pubDate>
-      <guid>https://mcgillstat.github.io/post/2015winter/2015-05-14/</guid>
+      <guid>http://localhost:4321/post/2015winter/2015-05-14/</guid>
       <description>&lt;h4 id=&#34;date-2015-05-14&#34;&gt;Date: 2015-05-14&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630&#34;&gt;Time: 15:30-16:30&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-burn-1205&#34;&gt;Location: BURN 1205&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;A bivariate distribution can sometimes be characterized completely by properties of its conditional distributions. In this talk, we will discuss models of bivariate distributions whose conditionals are members of prescribed parametric families of distributions. Some relevant models with specified conditionals will be discussed, including the normal and lognormal cases, the skew-normal and other families of distributions. Finally, some conditionally specified densities will be shown to provide convenient flexible conjugate prior families in certain multiparameter Bayesian settings.&lt;/p&gt;</description>
     </item>
     <item>
       <title>A statistical view of some recent climate controversies</title>
-      <link>https://mcgillstat.github.io/post/2015winter/2015-05-07/</link>
+      <link>http://localhost:4321/post/2015winter/2015-05-07/</link>
       <pubDate>Thu, 07 May 2015 00:00:00 +0000</pubDate>
-      <guid>https://mcgillstat.github.io/post/2015winter/2015-05-07/</guid>
+      <guid>http://localhost:4321/post/2015winter/2015-05-07/</guid>
       <description>&lt;h4 id=&#34;date-2015-05-07&#34;&gt;Date: 2015-05-07&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630&#34;&gt;Time: 15:30-16:30&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-université-de-sherbrooke&#34;&gt;Location: Université de Sherbrooke&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;This talk looks at some recent climate controversies from a statistical standpoint. The issues are motivated via changepoints and their detection. Changepoints are ubiquitous features in climatic time series, occurring whenever stations relocate or gauges are changed. Ignoring changepoints can produce spurious trend conclusions. Changepoint tests involving cumulative sums, likelihood ratio, and maximums of F-statistics are introduced; the asymptotic distributions of these statistics are quantified under the changepoint-free null hypothesis. The case of multiple changepoints is considered. The methods are used to study several controversies, including extreme temperature trends in the United States and Atlantic Basin tropical cyclone counts and strengths.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Testing for network community structure</title>
-      <link>https://mcgillstat.github.io/post/2015winter/2015-03-20/</link>
+      <link>http://localhost:4321/post/2015winter/2015-03-20/</link>
       <pubDate>Fri, 20 Mar 2015 00:00:00 +0000</pubDate>
-      <guid>https://mcgillstat.github.io/post/2015winter/2015-03-20/</guid>
+      <guid>http://localhost:4321/post/2015winter/2015-03-20/</guid>
       <description>&lt;h4 id=&#34;date-2015-03-20&#34;&gt;Date: 2015-03-20&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630&#34;&gt;Time: 15:30-16:30&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-burn-1205&#34;&gt;Location: BURN 1205&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;Networks provide a useful means to summarize sparse yet structured massive datasets, and so are an important aspect of the theory of big data. A key question in this setting is to test for the significance of community structure or what in social networks is termed homophily, the tendency of nodes to be connected based on similar characteristics. Network models where a single parameter per node governs the propensity of connection are popular in practice, because they are simple to understand and analyze. They frequently arise as null models to indicate a lack of community structure, since they cannot readily describe the division of a network into groups of nodes whose aggregate links behave in a block-like manner. Here we discuss asymptotic regimes under families of such models, and show their potential for enabling hypothesis tests in this setting. As an important special case, we treat network modularity, which summarizes the difference between observed and expected within-community edges under such null models, and which has seen much success in practical applications of large-scale network analysis. Our focus here is on statistical rather than algorithmic properties, however, in order to yield new insights into the canonical problem of testing for network community structure.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Bayesian approaches to causal inference: A lack-of-success story</title>
-      <link>https://mcgillstat.github.io/post/2015winter/2015-03-13/</link>
+      <link>http://localhost:4321/post/2015winter/2015-03-13/</link>
       <pubDate>Fri, 13 Mar 2015 00:00:00 +0000</pubDate>
-      <guid>https://mcgillstat.github.io/post/2015winter/2015-03-13/</guid>
+      <guid>http://localhost:4321/post/2015winter/2015-03-13/</guid>
       <description>&lt;h4 id=&#34;date-2015-03-13&#34;&gt;Date: 2015-03-13&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630&#34;&gt;Time: 15:30-16:30&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-burn-1205&#34;&gt;Location: BURN 1205&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;Despite almost universal acceptance across most fields of statistics, Bayesian inferential methods have yet to breakthrough to widespread use in causal inference, despite Bayesian arguments being a core component of early developments in the field. Some quasi-Bayesian procedures have been proposed, but often these approaches rely on heuristic, sometimes flawed, arguments. In this talk I will discuss some formulations of classical causal inference problems from the perspective of standard Bayesian representations, and propose some inferential solutions. This is joint work with Olli Saarela, Dalla Lana School of Public Health, University of Toronto, Erica Moodie, Department of Epidemiology, Biostatistics and Occupational Health, McGill University, and Marina Klein, Division of Infectious Diseases, Faculty of Medicine, McGill University.&lt;/p&gt;</description>
     </item>
     <item>
       <title>A novel statistical framework to characterize antigen-specific T-cell functional diversity in single-cell expression data</title>
-      <link>https://mcgillstat.github.io/post/2015winter/2015-02-27/</link>
+      <link>http://localhost:4321/post/2015winter/2015-02-27/</link>
       <pubDate>Fri, 27 Feb 2015 00:00:00 +0000</pubDate>
-      <guid>https://mcgillstat.github.io/post/2015winter/2015-02-27/</guid>
+      <guid>http://localhost:4321/post/2015winter/2015-02-27/</guid>
       <description>&lt;h4 id=&#34;date-2015-02-27&#34;&gt;Date: 2015-02-27&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630&#34;&gt;Time: 15:30-16:30&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-burn-1205&#34;&gt;Location: BURN 1205&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;I will talk about COMPASS, a new Bayesian hierarchical framework for characterizing functional differences in antigen-specific T cells by leveraging high-throughput, single-cell flow cytometry data. In particular, I will illustrate, using a variety of data sets, how COMPASS can reveal subtle and complex changes in antigen-specific T-cell activation profiles that correlate with biological endpoints. Applying COMPASS to data from the RV144 (“the Thai trial”) HIV clinical trial, it identified novel T-cell subsets that were inverse correlates of HIV infection risk. I also developed intuitive metrics for summarizing multivariate antigen-specific T-cell activation profiles for endpoints analysis. In addition, COMPASS identified correlates of latent infection in an immune study of Tuberculosis among South African adolescents. COMPASS is available as an R package and is sufficiently general that it can be adapted to new high-throughput data types, such as Mass Cytometry (CyTOF) and single-cell gene expressions, enabling interdisciplinary collaboration, which I will also highlight in my talk.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Comparison and assessment of particle diffusion models in biological fluids</title>
-      <link>https://mcgillstat.github.io/post/2015winter/2015-02-20/</link>
+      <link>http://localhost:4321/post/2015winter/2015-02-20/</link>
       <pubDate>Fri, 20 Feb 2015 00:00:00 +0000</pubDate>
-      <guid>https://mcgillstat.github.io/post/2015winter/2015-02-20/</guid>
+      <guid>http://localhost:4321/post/2015winter/2015-02-20/</guid>
       <description>&lt;h4 id=&#34;date-2015-02-20&#34;&gt;Date: 2015-02-20&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630&#34;&gt;Time: 15:30-16:30&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-burn-1205&#34;&gt;Location: BURN 1205&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;Rapidly progressing particle tracking techniques have revealed that foreign particles in biological fluids exhibit rich and at times unexpected behavior, with important consequences for disease diagnosis and drug delivery. Yet, there remains a frustrating lack of coherence in the description of these particles&amp;rsquo; motion. Largely this is due to a reliance on functional statistics (e.g., mean-squared displacement) to perform model selection and assess goodness-of-fit. However, not only are such functional characteristics typically estimated with substantial variability, but also they may fail to distinguish between a number of stochastic processes &amp;mdash; each making fundamentally different predictions for relevant quantities of scientific interest. In this talk, I will describe a detailed Bayesian analysis of leading candidate models for subdiffusive particle trajectories in human pulmonary mucus. Efficient and scalable computational strategies will be proposed. Model selection will be achieved by way of intrinsic Bayes factors, which avoid both non-informative priors and &amp;ldquo;using the data twice&amp;rdquo;. Goodness-of-fit will be evaluated via second-order criteria along with exact model residuals. Our findings suggest that a simple model of fractional Brownian motion describes the data just as well as a first-principles physical model of visco-elastic subdiffusion.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Tuning parameters in high-dimensional statistics</title>
-      <link>https://mcgillstat.github.io/post/2015winter/2015-02-13/</link>
+      <link>http://localhost:4321/post/2015winter/2015-02-13/</link>
       <pubDate>Fri, 13 Feb 2015 00:00:00 +0000</pubDate>
-      <guid>https://mcgillstat.github.io/post/2015winter/2015-02-13/</guid>
+      <guid>http://localhost:4321/post/2015winter/2015-02-13/</guid>
       <description>&lt;h4 id=&#34;date-2015-02-13&#34;&gt;Date: 2015-02-13&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630&#34;&gt;Time: 15:30-16:30&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-burn-1205&#34;&gt;Location: BURN 1205&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;High-dimensional statistics is the basis for analyzing large and complex data sets that are generated by cutting-edge technologies in genetics, neuroscience, astronomy, and many other fields. However, Lasso, Ridge Regression, Graphical Lasso, and other standard methods in high-dimensional statistics depend on tuning parameters that are difficult to calibrate in practice. In this talk, I present two novel approaches to overcome this difficulty. My first approach is based on a novel testing scheme that is inspired by Lepski’s idea for bandwidth selection in non-parametric statistics. This approach provides tuning parameter calibration for estimation and prediction with the Lasso and other standard methods and is to date the only way to ensure high performance, fast computations, and optimal finite sample guarantees. My second approach is based on the minimization of an objective function that avoids tuning parameters altogether. This approach provides accurate variable selection in regression settings and, additionally, opens up new possibilities for the estimation of gene regulation networks, microbial ecosystems, and many other network structures.&lt;/p&gt;</description>
     </item>
     <item>
       <title>A fast unified algorithm for solving group Lasso penalized learning problems</title>
-      <link>https://mcgillstat.github.io/post/2015winter/2015-02-05/</link>
+      <link>http://localhost:4321/post/2015winter/2015-02-05/</link>
       <pubDate>Thu, 05 Feb 2015 00:00:00 +0000</pubDate>
-      <guid>https://mcgillstat.github.io/post/2015winter/2015-02-05/</guid>
+      <guid>http://localhost:4321/post/2015winter/2015-02-05/</guid>
       <description>&lt;h4 id=&#34;date-2015-02-05&#34;&gt;Date: 2015-02-05&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630&#34;&gt;Time: 15:30-16:30&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-burn-1b39&#34;&gt;Location: BURN 1B39&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;We consider a class of group-lasso learning problems where the objective function is the sum of an empirical loss and the group-lasso penalty. For a class of loss function satisfying a quadratic majorization condition, we derive a unified algorithm called groupwise-majorization-descent (GMD) for efficiently computing the solution paths of the corresponding group-lasso penalized learning problem. GMD allows for general design matrices, without requiring the predictors to be group-wise orthonormal. As illustration examples, we develop concrete algorithms for solving the group-lasso penalized least squares and several group-lasso penalized large margin classifiers. These group-lasso models have been implemented in an R package gglasso publicly available from the Comprehensive R Archive Network (CRAN) at &lt;a href=&#34;http://cran.r-project.org/web/packages/gglasso&#34;&gt;http://cran.r-project.org/web/packages/gglasso&lt;/a&gt;. On simulated and real data, gglasso consistently outperforms the existing software for computing the group-lasso that implements either the classical groupwise descent algorithm or Nesterov&amp;rsquo;s method. An application in risk segmentation of insurance business is illustrated by analysis of an auto insurance claim dataset.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Joint analysis of multiple multi-state processes via copulas</title>
-      <link>https://mcgillstat.github.io/post/2015winter/2015-02-02/</link>
+      <link>http://localhost:4321/post/2015winter/2015-02-02/</link>
       <pubDate>Mon, 02 Feb 2015 00:00:00 +0000</pubDate>
-      <guid>https://mcgillstat.github.io/post/2015winter/2015-02-02/</guid>
+      <guid>http://localhost:4321/post/2015winter/2015-02-02/</guid>
       <description>&lt;h4 id=&#34;date-2015-02-02&#34;&gt;Date: 2015-02-02&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630&#34;&gt;Time: 15:30-16:30&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-burn-1214&#34;&gt;Location: BURN 1214&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;A copula-based model is described which enables joint analysis of multiple progressive multi-state processes. Unlike intensity-based or frailty-based approaches to joint modeling, the copula formulation proposed herein ensures that a wide range of marginal multi-state processes can be specified and the joint model will retain these marginal features. The copula formulation also facilitates a variety of approaches to estimation and inference including composite likelihood and two-stage estimation procedures. We consider processes with Markov margins in detail, which are often suitable when chronic diseases are progressive in nature. We give special attention to the setting in which individuals are examined intermittently and transition times are consequently interval-censored. Simulation studies give empirical insight into the different methods of analysis and an application involving progression in joint damage in psoriatic arthritis provides further illustration.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Distributed estimation and inference for sparse regression</title>
-      <link>https://mcgillstat.github.io/post/2015winter/2015-01-30/</link>
+      <link>http://localhost:4321/post/2015winter/2015-01-30/</link>
       <pubDate>Fri, 30 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>https://mcgillstat.github.io/post/2015winter/2015-01-30/</guid>
+      <guid>http://localhost:4321/post/2015winter/2015-01-30/</guid>
       <description>&lt;h4 id=&#34;date-2015-01-30&#34;&gt;Date: 2015-01-30&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630&#34;&gt;Time: 15:30-16:30&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-burn-1205&#34;&gt;Location: BURN 1205&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;We address two outstanding challenges in sparse regression: (i) computationally efficient estimation in distributed settings; (ii) valid inference for the selected coefficients. The main computational challenge in a distributed setting is harnessing the computational capabilities of all the machines while keeping communication costs low. We devise an approach that requires only a single round of communication among the machines. We show the approach recovers the convergence rate of the (centralized) lasso as long as each machine has access to an adequate number of samples. Turning to the second challenge, we devise an approach to post-selection inference by conditioning on the selected model. In a nutshell, our approach gives inferences with the same frequency interpretation as those given by data/sample splitting, but it is more broadly applicable and more powerful. The validity of our approach also does not depend on the correctness of the selected model, i.e., it gives valid inferences even when the selected model is incorrect.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Simultaneous white noise models and shrinkage recovery of functional data</title>
-      <link>https://mcgillstat.github.io/post/2015winter/2015-01-16/</link>
+      <link>http://localhost:4321/post/2015winter/2015-01-16/</link>
       <pubDate>Fri, 16 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>https://mcgillstat.github.io/post/2015winter/2015-01-16/</guid>
+      <guid>http://localhost:4321/post/2015winter/2015-01-16/</guid>
       <description>&lt;h4 id=&#34;date-2015-01-16&#34;&gt;Date: 2015-01-16&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630&#34;&gt;Time: 15:30-16:30&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-burn-1205&#34;&gt;Location: BURN 1205&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;We consider the white noise representation of functional data taken as i.i.d. realizations of a Gaussian process. The main idea is to establish an asymptotic equivalence in Le Cam’s sense between an experiment which simultaneously describes these realizations and a collection of white noise models. In this context, we project onto an arbitrary basis and apply a novel variant of Stein-type estimation for optimal recovery of the realized trajectories. A key inequality is derived showing that the corresponding risks, conditioned on the underlying curves, are minimax optimal and can be made arbitrarily close to those that an oracle with knowledge of the process would attain. Empirical performance is illustrated through simulated and real data examples.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Functional data analysis and related topics</title>
-      <link>https://mcgillstat.github.io/post/2015winter/2015-01-15/</link>
+      <link>http://localhost:4321/post/2015winter/2015-01-15/</link>
       <pubDate>Thu, 15 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>https://mcgillstat.github.io/post/2015winter/2015-01-15/</guid>
+      <guid>http://localhost:4321/post/2015winter/2015-01-15/</guid>
       <description>&lt;h4 id=&#34;date-2015-01-15&#34;&gt;Date: 2015-01-15&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1600-1700&#34;&gt;Time: 16:00-17:00&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-crm-1360-u-de-montréal&#34;&gt;Location: CRM 1360 (U. de Montréal)&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;Functional data analysis (FDA) has received substantial attention, with applications arising from various disciplines, such as engineering, public health, finance etc. In general, the FDA approaches focus on nonparametric underlying models that assume the data are observed from realizations of stochastic processes satisfying some regularity conditions, e.g., smoothness constraints. The estimation and inference procedures usually do not depend on merely a finite number of parameters, which contrasts with parametric models, and exploit techniques, such as smoothing methods and dimension reduction, that allow data to speak for themselves. In this talk, I will give an overview of FDA methods and related topics developed in recent years.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Mixtures of coalesced generalized hyperbolic distributions</title>
-      <link>https://mcgillstat.github.io/post/2015winter/2015-01-13/</link>
+      <link>http://localhost:4321/post/2015winter/2015-01-13/</link>
       <pubDate>Tue, 13 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>https://mcgillstat.github.io/post/2015winter/2015-01-13/</guid>
+      <guid>http://localhost:4321/post/2015winter/2015-01-13/</guid>
       <description>&lt;h4 id=&#34;date-2015-01-13&#34;&gt;Date: 2015-01-13&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630&#34;&gt;Time: 15:30-16:30&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-burn-1205&#34;&gt;Location: BURN 1205&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;A mixture of coalesced generalized hyperbolic distributions is developed by joining a finite mixture of generalized hyperbolic distributions with a mixture of multiple scaled generalized hyperbolic distributions. The result is a mixture of mixtures with shared model parameters and common mode. We begin by discussing the generalized hyperbolic distribution, which has the t, Gaussian and others as special cases. The generalized hyperbolic distribution can represented as a normal-variance mixture using a generalized inverse Gaussian distribution. This representation makes it a suitable candidate for the expectation-maximization algorithm. Secondly, we discuss the multiple scale generalized hyperbolic distribution which arises via implementation of a multi-dimensional weight function. A parameter estimation scheme is developed using the ever-expanding class of MM algorithms and the Bayesian information criterion is used for model selection. Special consideration is given to the contour shape. We use the coalesced distribution for clustering and compare them to finite mixtures of skew-t distributions using simulated and real data sets. Finally, the role of generalized hyperbolic mixtures within the wider model-based clustering, classification, and density estimation literature is discussed.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Space-time data analysis: Out of the Hilbert box</title>
-      <link>https://mcgillstat.github.io/post/2015winter/2015-01-9/</link>
+      <link>http://localhost:4321/post/2015winter/2015-01-9/</link>
       <pubDate>Fri, 09 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>https://mcgillstat.github.io/post/2015winter/2015-01-9/</guid>
+      <guid>http://localhost:4321/post/2015winter/2015-01-9/</guid>
       <description>&lt;h4 id=&#34;date-2015-01-09&#34;&gt;Date: 2015-01-09&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630&#34;&gt;Time: 15:30-16:30&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-burn-1205&#34;&gt;Location: BURN 1205&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;Given the discouraging state of current efforts to curb global warming, we can imagine that we will soon turn our attention to mitigation. On a global scale, distressed populations will turn to national and international organizations for solutions to dramatic problems caused by climate change. These institutions in turn will mandate the collection of data on a scale and resolution that will present extraordinary statistical and computational challenges to those of us viewed as having the appropriate expertise. A review of the current state of our space-time data analysis machinery suggests that we have much to do. Most of current spatial modelling methodology is based on concepts translated from time series analysis, is heavily dependent on various kinds of stationarity assumptions, uses the Gaussian distribution to model data and depends on a priori coordinate systems that do not exist in nature. A way forward from this restrictive framework is proposed by modelling data over textured domains using layered coordinate systems.&lt;/p&gt;</description>
     </item>
   </channel>
