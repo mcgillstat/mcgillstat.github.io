@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2023 Summer on McGill Statistics Seminars</title>
-    <link>http://localhost:4321/tags/2023-summer/</link>
+    <link>https://mcgillstat.github.io/tags/2023-summer/</link>
     <description>Recent content in 2023 Summer on McGill Statistics Seminars</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 17 Aug 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:4321/tags/2023-summer/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://mcgillstat.github.io/tags/2023-summer/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Empirical Bayes Control of the False Discovery Exceedance</title>
-      <link>http://localhost:4321/post/2023winter/2023-08-17/</link>
+      <link>https://mcgillstat.github.io/post/2023winter/2023-08-17/</link>
       <pubDate>Thu, 17 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/post/2023winter/2023-08-17/</guid>
+      <guid>https://mcgillstat.github.io/post/2023winter/2023-08-17/</guid>
       <description>&lt;h4 id=&#34;date-2023-08-17&#34;&gt;Date: 2023-08-17&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630-montreal-time&#34;&gt;Time: 15:30-16:30 (Montreal time)&lt;/h4&gt;&#xA;&lt;h4 id=&#34;hybrid-in-person--zoom&#34;&gt;Hybrid: In person / Zoom&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-burnside-hall-1104&#34;&gt;Location: Burnside Hall 1104&lt;/h4&gt;&#xA;&lt;h4 id=&#34;httpsmcgillzoomusj89623344755pwds1e0qwvjsm8wrhdiyu5izzllsxnjut09httpsmcgillzoomusj89623344755pwds1e0qwvjsm8wrhdiyu5izzllsxnjut09&#34;&gt;&lt;a href=&#34;https://mcgill.zoom.us/j/89623344755?pwd=S1E0QWVjSm8wRHdIYU5IZzllSXNjUT09&#34;&gt;https://mcgill.zoom.us/j/89623344755?pwd=S1E0QWVjSm8wRHdIYU5IZzllSXNjUT09&lt;/a&gt;&lt;/h4&gt;&#xA;&lt;h4 id=&#34;meeting-id-896-2334-4755&#34;&gt;Meeting ID: 896 2334 4755&lt;/h4&gt;&#xA;&lt;h4 id=&#34;passcode-287381&#34;&gt;Passcode: 287381&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;In sparse large-scale testing problems where the false discovery proportion (FDP) is highly&#xA;variable, the false discovery exceedance (FDX) provides a valuable alternative to the&#xA;widely used false discovery rate (FDR). We develop an empirical Bayes approach to&#xA;controlling the FDX. We show that for independent hypotheses from a two-group model&#xA;and dependent hypotheses from a Gaussian model fulfilling the exchangeability condition,&#xA;an oracle decision rule based on ranking and thresholding the local false discovery rate&#xA;(lfdr) is optimal in the sense that the power is maximized subject to FDX constraint. We&#xA;propose a data-driven FDX procedure that emulates the oracle via carefully designed&#xA;computational shortcuts. We investigate the empirical performance of the proposed&#xA;method using simulations and illustrate the merits of FDX control through an application&#xA;for identifying abnormal stock trading strategies.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Residual-based estimation of parametric copulas under regression</title>
-      <link>http://localhost:4321/post/2023winter/2023-08-14/</link>
+      <link>https://mcgillstat.github.io/post/2023winter/2023-08-14/</link>
       <pubDate>Mon, 14 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/post/2023winter/2023-08-14/</guid>
+      <guid>https://mcgillstat.github.io/post/2023winter/2023-08-14/</guid>
       <description>&lt;h4 id=&#34;date-2023-08-14&#34;&gt;Date: 2023-08-14&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630-montreal-time&#34;&gt;Time: 15:30-16:30 (Montreal time)&lt;/h4&gt;&#xA;&lt;h4 id=&#34;hybrid-in-person--zoom&#34;&gt;Hybrid: In person / Zoom&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-burnside-hall-1104&#34;&gt;Location: Burnside Hall 1104&lt;/h4&gt;&#xA;&lt;h4 id=&#34;httpsmcgillzoomusj83436686293pwdb0rmwmlxrxe3owr6nlnicwf5d0djqt09httpsmcgillzoomusj83436686293pwdb0rmwmlxrxe3owr6nlnicwf5d0djqt09&#34;&gt;&lt;a href=&#34;https://mcgill.zoom.us/j/83436686293?pwd=b0RmWmlXRXE3OWR6NlNIcWF5d0dJQT09&#34;&gt;https://mcgill.zoom.us/j/83436686293?pwd=b0RmWmlXRXE3OWR6NlNIcWF5d0dJQT09&lt;/a&gt;&lt;/h4&gt;&#xA;&lt;h4 id=&#34;meeting-id-834-3668-6293&#34;&gt;Meeting ID: 834 3668 6293&lt;/h4&gt;&#xA;&lt;h4 id=&#34;passcode-12345&#34;&gt;Passcode: 12345&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;We study a multivariate response regression model where each coordinate is described by a location-scale regression, and where the dependence structure of the &amp;ldquo;noise&amp;rdquo; terms in the regression is described by a parametric copula.  Our goal is to estimate the associated Euclidean copula parameter given a sample of the response and the covariate.  In the absence of the copula sample, the oracle ranks in the usual pseudo-likelihood estimation procedure are no longer computable.  Instead, we base our estimation on the residual ranks calculated from some preliminary estimators of the regression functions.  We show that the residual-based estimators are asymptotically equivalent to their oracle counterparts, even when the dimension of the covariate in the regression is moderately diverging.  Partially to serve this objective, we also study the weighted convergence of the residual empirical processes.&lt;/p&gt;</description>
     </item>
   </channel>
