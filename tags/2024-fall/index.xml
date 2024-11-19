@@ -6,12 +6,12 @@
     <description>Recent content in 2024 Fall on McGill Statistics Seminars</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 15 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 22 Nov 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://mcgillstat.github.io/tags/2024-fall/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Asymptotic behavior of data driven empirical measures for testing multivariate regular variation</title>
       <link>https://mcgillstat.github.io/post/2024fall/2024-11-22/</link>
-      <pubDate>Fri, 15 Nov 2024 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 22 Nov 2024 00:00:00 +0000</pubDate>
       <guid>https://mcgillstat.github.io/post/2024fall/2024-11-22/</guid>
       <description>&lt;h4 id=&#34;date-2024-11-22&#34;&gt;Date: 2024-11-22&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630-montreal-time&#34;&gt;Time: 15:30-16:30 (Montreal time)&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-in-person-burnside-1104&#34;&gt;Location: In person, Burnside 1104&lt;/h4&gt;&#xA;&lt;h4 id=&#34;httpsmcgillzoomusj82125361063httpsmcgillzoomusj82125361063&#34;&gt;&lt;a href=&#34;https://mcgill.zoom.us/j/82125361063&#34;&gt;https://mcgill.zoom.us/j/82125361063&lt;/a&gt;&lt;/h4&gt;&#xA;&lt;h4 id=&#34;meeting-id-821-2536-1063&#34;&gt;Meeting ID: 821 2536 1063&lt;/h4&gt;&#xA;&lt;h4 id=&#34;passcode-none&#34;&gt;Passcode: None&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;Nowadays, empirical processes are well known objects. A reason that push forward theirs studies is that, in many models, we can write the estimators as images of empirical measures. In this work, the interest is touched upon the case of local empirical measures built over a sub-sample of data conditioned to be in a certain area, itself depending on the data. In the present work we present a general framework which allows to derive asymptotic results for these empirical measures. This approach is specified for the framework of extreme values theory. As an application, an asymptotic result allowing to derive a test procedure for Multivariate Regular Variation is detailed.&lt;/p&gt;</description>
     </item>
