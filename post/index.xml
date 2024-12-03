@@ -6,15 +6,8 @@
     <description>Recent content in Past Seminar Series on McGill Statistics Seminars</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 06 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 15 Nov 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://mcgillstat.github.io/post/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Conditional nonparametric variable screening via neural network factor regression</title>
-      <link>https://mcgillstat.github.io/post/2024fall/2024-12-06/</link>
-      <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://mcgillstat.github.io/post/2024fall/2024-12-06/</guid>
-      <description>&lt;h4 id=&#34;date-2024-12-06&#34;&gt;Date: 2024-12-06&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630-montreal-time&#34;&gt;Time: 15:30-16:30 (Montreal time)&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-in-person-burnside-1104&#34;&gt;Location: In person, Burnside 1104&lt;/h4&gt;&#xA;&lt;h4 id=&#34;httpsmcgillzoomusj83785721810httpsmcgillzoomusj83785721810&#34;&gt;&lt;a href=&#34;https://mcgill.zoom.us/j/83785721810&#34;&gt;https://mcgill.zoom.us/j/83785721810&lt;/a&gt;&lt;/h4&gt;&#xA;&lt;h4 id=&#34;meeting-id-837-8572-1810&#34;&gt;Meeting ID: 837 8572 1810&lt;/h4&gt;&#xA;&lt;h4 id=&#34;passcode-none&#34;&gt;Passcode: None&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;High-dimensional covariates often admit linear factor structure. To effectively screen correlated covariates in high-dimension, we propose a conditional variable screening test based on non-parametric regression using neural networks due to their representation power. We ask the question whether individual covariates have additional contributions given the latent factors. Our test statistics are based on the estimated partial derivative of the regression function of the candidate variable for screening and an observable proxy for the latent factors. Hence, our test reveals how much predictors contribute additionally to the non-parametric regression after accounting for the latent factors. Our derivative estimator is the convolution of a deep neural network regression estimator and a smoothing kernel. We demonstrate that when the neural network size diverges with the sample size, unlike estimating the regression function itself, it is necessary to smooth the partial derivative of the neural network estimator&#xA;to recover the desired convergence rate for the derivative. Moreover, our screening test achieves asymptotic normality under the null after finely centering our test statistics that makes the biases negligible, as well as consistency for local alternatives under mild conditions. We demonstrate the performance of our test in a simulation study and a real world application.&lt;/p&gt;</description>
-    </item>
     <item>
       <title>Asymptotic behavior of data driven empirical measures for testing multivariate regular variation</title>
       <link>https://mcgillstat.github.io/post/2024fall/2024-11-22/</link>
