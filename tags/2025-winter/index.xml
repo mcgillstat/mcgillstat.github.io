@@ -6,8 +6,15 @@
     <description>Recent content in 2025 Winter on McGill Statistics Seminars</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 31 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 07 Feb 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://mcgillstat.github.io/tags/2025-winter/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The empirical copula process on classes of non-rectangular sets</title>
+      <link>https://mcgillstat.github.io/post/2025winter/2025-02-07/</link>
+      <pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://mcgillstat.github.io/post/2025winter/2025-02-07/</guid>
+      <description>&lt;h4 id=&#34;date-2025-02-07&#34;&gt;Date: 2025-02-07&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630-montreal-time&#34;&gt;Time: 15:30-16:30 (Montreal time)&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-in-person-burnside-1104&#34;&gt;Location: In person, Burnside 1104&lt;/h4&gt;&#xA;&lt;h4 id=&#34;httpsmcgillzoomusj81032144286httpsmcgillzoomusj81032144286&#34;&gt;&lt;a href=&#34;https://mcgill.zoom.us/j/81032144286&#34;&gt;https://mcgill.zoom.us/j/81032144286&lt;/a&gt;&lt;/h4&gt;&#xA;&lt;h4 id=&#34;meeting-id-810-3214-4286&#34;&gt;Meeting ID: 810 3214 4286&lt;/h4&gt;&#xA;&lt;h4 id=&#34;passcode-none&#34;&gt;Passcode: None&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;The copula of a random vector with unknown marginals can be estimated non-parametrically by the empirical copula, akin to the empirical distribution. However, the asymptotic analysis of the empirical copula is made considerably more involved than that of the empirical distribution by the use of pseudo-observations, involving the marginal empirical distribution functions. In particular, it is still unknown whether the empirical copula evaluated at a non-rectangular set is asymptotically normally distributed. In this work, sufficient conditions under which this is the case are identified. The result is extended to a Donsker theorem for the empirical copula indexed by an infinite collection of non-rectangular sets. Some aspects of the proof involving geometric measure theory will be discussed. Based on ongoing joint work with Axel Bücher, Johan Segers and Stanislav Volgushev.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Multivariate Extremes Generator by Statistical Learning</title>
       <link>https://mcgillstat.github.io/post/2025winter/2025-01-31/</link>
