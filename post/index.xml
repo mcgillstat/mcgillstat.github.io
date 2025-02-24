@@ -6,8 +6,15 @@
     <description>Recent content in Past Seminar Series on McGill Statistics Seminars</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 07 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 28 Feb 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://mcgillstat.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How can mathematics contribute to AI?</title>
+      <link>https://mcgillstat.github.io/post/2025winter/2025-02-28/</link>
+      <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://mcgillstat.github.io/post/2025winter/2025-02-28/</guid>
+      <description>&lt;h4 id=&#34;date-2025-02-28&#34;&gt;Date: 2025-02-28&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630-montreal-time&#34;&gt;Time: 15:30-16:30 (Montreal time)&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-online-retransmitted-in-burnside-1104&#34;&gt;Location: Online, retransmitted in Burnside 1104&lt;/h4&gt;&#xA;&lt;h4 id=&#34;httpsmcgillzoomusj89838224036httpsmcgillzoomusj89838224036&#34;&gt;&lt;a href=&#34;https://mcgill.zoom.us/j/89838224036&#34;&gt;https://mcgill.zoom.us/j/89838224036&lt;/a&gt;&lt;/h4&gt;&#xA;&lt;h4 id=&#34;meeting-id-898-3822-4036&#34;&gt;Meeting ID: 898 3822 4036&lt;/h4&gt;&#xA;&lt;h4 id=&#34;passcode-none&#34;&gt;Passcode: None&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;Artificial intelligence is arguably the hottest topic in science. Computer science and engineering currently set the agenda in this field, sidelining mathematics to a large extent. This talk, however, will highlight that mathematics has a lot to offer. We will introduce mathematical guarantees that provide deep insights into the inner workings of AI, and we will show how statistical principles can make AI more efficient. More generally, we will discuss the role of mathematics, especially statistics, in AI and data science.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>The empirical copula process on classes of non-rectangular sets</title>
       <link>https://mcgillstat.github.io/post/2025winter/2025-02-07/</link>
