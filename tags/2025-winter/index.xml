@@ -6,8 +6,15 @@
     <description>Recent content in 2025 Winter on McGill Statistics Seminars</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 28 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 14 Mar 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://mcgillstat.github.io/tags/2025-winter/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A computational framework for linear inverse problems via the maximum entropy on the mean method</title>
+      <link>https://mcgillstat.github.io/post/2025winter/2025-03-14/</link>
+      <pubDate>Fri, 14 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://mcgillstat.github.io/post/2025winter/2025-03-14/</guid>
+      <description>&lt;h4 id=&#34;date-2025-03-14&#34;&gt;Date: 2025-03-14&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630-montreal-time&#34;&gt;Time: 15:30-16:30 (Montreal time)&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-in-person-burnside-1104&#34;&gt;Location: In person, Burnside 1104&lt;/h4&gt;&#xA;&lt;h4 id=&#34;httpsmcgillzoomusj88555780651httpsmcgillzoomusj88555780651&#34;&gt;&lt;a href=&#34;https://mcgill.zoom.us/j/88555780651&#34;&gt;https://mcgill.zoom.us/j/88555780651&lt;/a&gt;&lt;/h4&gt;&#xA;&lt;h4 id=&#34;meeting-id-885-5578-0651&#34;&gt;Meeting ID: 885 5578 0651&lt;/h4&gt;&#xA;&lt;h4 id=&#34;passcode-none&#34;&gt;Passcode: None&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;We present a framework for solving linear inverse problems that is computationally tractable and has mathematical certificates. To this end, we interpret the ground truth of a linear inverse problem as a random vector with unknown distribution. We solve for a distribution which is close to a prior P (guessed or data-driven) measured in the KL-divergence while also having an expectation that yields high fidelity with the given data that defines the problem. After reformulation this yields a strictly convex, finite dimensional optimization problem whose regularizer, the MEM functional, is paired in duality with the log-moment generating function of the prior P. We exploit this computationally via Fenchel-Rockafellar duality. When no obvious guess for P is available, we use data to generate an empirical prior. Using techniques from variational analysis and stochastic optimization, we show that, and at what rate, the solution of the empirical problems converge (as the sample size grows) to the solution of the problem with known prior.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>How can mathematics contribute to AI?</title>
       <link>https://mcgillstat.github.io/post/2025winter/2025-02-28/</link>
