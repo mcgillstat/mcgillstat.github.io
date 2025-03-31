@@ -6,8 +6,15 @@
     <description>Recent content in Current Seminar Series on McGill Statistics Seminars</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 28 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 04 Apr 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://mcgillstat.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Normalization effects on deep neural networks and deep learning for scientific problems</title>
+      <link>https://mcgillstat.github.io/post/2025winter/2025-04-04/</link>
+      <pubDate>Fri, 04 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://mcgillstat.github.io/post/2025winter/2025-04-04/</guid>
+      <description>&lt;h4 id=&#34;date-2025-04-04&#34;&gt;Date: 2025-04-04&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630-montreal-time&#34;&gt;Time: 15:30-16:30 (Montreal time)&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-in-person-burnside-1104&#34;&gt;Location: In person, Burnside 1104&lt;/h4&gt;&#xA;&lt;h4 id=&#34;httpsmcgillzoomusj81100654212httpsmcgillzoomusj81100654212&#34;&gt;&lt;a href=&#34;https://mcgill.zoom.us/j/81100654212&#34;&gt;https://mcgill.zoom.us/j/81100654212&lt;/a&gt;&lt;/h4&gt;&#xA;&lt;h4 id=&#34;meeting-id-811-0065-4212&#34;&gt;Meeting ID: 811 0065 4212&lt;/h4&gt;&#xA;&lt;h4 id=&#34;passcode-none&#34;&gt;Passcode: None&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;We study the effect of normalization on the layers of deep neural networks. A given layer $i$ with $N_{i}$ hidden units is normalized by $1/N_{i}^{\gamma_{i}}$ with $\gamma_{i}\in[1/2,1]$. We study the effect of the choice of the $\gamma_{i}$ on the statistical behavior of the neural network’s output (such as variance) as well as on the test accuracy and generalization properties of the architecture.  We find that in terms of variance of the neural network’s output and test accuracy the best choice is to choose the $\gamma_{i}$’s to be equal to one, which is the mean-field scaling. We also find that this is particularly true for the outer layer, in that the neural network’s behavior is more sensitive in the scaling of the outer layer as opposed to the scaling of the inner layers. The mechanism for the mathematical analysis is an asymptotic expansion for the neural network’s output. An important practical consequence of the analysis is that it provides a systematic and mathematically informed way to choose the learning rate hyperparameters. Such a choice guarantees that the neural network behaves in a statistically robust way as the number of hidden units $N_i$ grow.  Time permitting, I will discuss applications of these ideas to design of deep learning algorithms for scientific problems including solving high dimensional partial differential equations (PDEs), closure of PDE models and reinforcement learning with applications to financial engineering, turbulence and more.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>From the distribution of string counts in Bernoulli sequences to multivariate discrete models</title>
       <link>https://mcgillstat.github.io/post/2025winter/2025-03-28/</link>
