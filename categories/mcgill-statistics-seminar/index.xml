@@ -6,8 +6,15 @@
     <description>Recent content in McGill Statistics Seminar on McGill Statistics Seminars</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 04 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 23 May 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://mcgillstat.github.io/categories/mcgill-statistics-seminar/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GARCH copulas, v-transforms and D-vines</title>
+      <link>https://mcgillstat.github.io/post/2025winter/2025-05-23/</link>
+      <pubDate>Fri, 23 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://mcgillstat.github.io/post/2025winter/2025-05-23/</guid>
+      <description>&lt;h4 id=&#34;date-2025-05-23&#34;&gt;Date: 2025-05-23&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630-montreal-time&#34;&gt;Time: 15:30-16:30 (Montreal time)&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-in-person-burnside-1104&#34;&gt;Location: In person, Burnside 1104&lt;/h4&gt;&#xA;&lt;h4 id=&#34;httpsmcgillzoomusj89626299031httpsmcgillzoomusj89626299031&#34;&gt;&lt;a href=&#34;https://mcgill.zoom.us/j/89626299031&#34;&gt;https://mcgill.zoom.us/j/89626299031&lt;/a&gt;&lt;/h4&gt;&#xA;&lt;h4 id=&#34;meeting-id-896-2629-9031&#34;&gt;Meeting ID: 896 2629 9031&lt;/h4&gt;&#xA;&lt;h4 id=&#34;passcode-none&#34;&gt;Passcode: None&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;Stationary models from the GARCH class have proved to be extremely useful for forecasting volatility and measuring risk in financial time series. However, the nature of their implied copulas is opaque.&lt;/p&gt;&#xA;&lt;p&gt;We analyse the serial dependence structure of first-order GARCH-type models in terms of the implied bivariate copulas that describe the dependence and partial dependence of pairs of variables at different lags. Our aim is to understand whether such dependence structures could be approximated with appropriately chosen bivariate copulas arranged in D-vines.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Normalization effects on deep neural networks and deep learning for scientific problems</title>
       <link>https://mcgillstat.github.io/post/2025winter/2025-04-04/</link>
