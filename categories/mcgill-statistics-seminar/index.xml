@@ -6,8 +6,15 @@
     <description>Recent content in McGill Statistics Seminar on McGill Statistics Seminars</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 23 May 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 12 Sep 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://mcgillstat.github.io/categories/mcgill-statistics-seminar/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Proper Correlation Coefficients for Nominal Random Variables</title>
+      <link>https://mcgillstat.github.io/post/2025fall/2025-09-12/</link>
+      <pubDate>Fri, 12 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://mcgillstat.github.io/post/2025fall/2025-09-12/</guid>
+      <description>&lt;h4 id=&#34;date-2025-09-12&#34;&gt;Date: 2025-09-12&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630-montreal-time&#34;&gt;Time: 15:30-16:30 (Montreal time)&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-in-person-burnside-1104&#34;&gt;Location: In person, Burnside 1104&lt;/h4&gt;&#xA;&lt;h4 id=&#34;httpsmcgillzoomusj88021402798httpsmcgillzoomusj88021402798&#34;&gt;&lt;a href=&#34;https://mcgill.zoom.us/j/88021402798&#34;&gt;https://mcgill.zoom.us/j/88021402798&lt;/a&gt;&lt;/h4&gt;&#xA;&lt;h4 id=&#34;meeting-id-880-2140-2798&#34;&gt;Meeting ID: 880 2140 2798&lt;/h4&gt;&#xA;&lt;h4 id=&#34;passcode-none&#34;&gt;Passcode: None&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;This work develops an intuitive concept of perfect dependence between two variables of which at least one has a nominal scale that is attainable for all marginal distributions and proposes a set of dependence measures that are 1 if and only if this perfect dependence is satisfied. The advantages of these dependence measures relative to classical dependence measures like contingency coefficients, Goodman-Kruskal&amp;rsquo;s lambda and tau and the so-called uncertainty coefficient are twofold. Firstly, they are defined if one of the variables is real-valued and exhibits continuities. Secondly, they satisfy the property of attainability. That is, they can take all values in the interval [0,1] irrespective of the marginals involved. Both properties are not shared by the classical dependence measures which need two discrete marginal distributions and can in some situations yield values close to 0 even though the dependence is strong or even perfect.&#xA;Additionally, this work provide a consistent estimator for one of the new dependence measures together with its asymptotic distribution under independence as well as in the general case. This allows to construct confidence intervals and an independence test, whose finite sample performance is subsequently examine in a simulation study. Finally, we illustrate the use of the new dependence measure in two applications on the dependence between the variables country and income or country and religion, respectively.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>GARCH copulas, v-transforms and D-vines</title>
       <link>https://mcgillstat.github.io/post/2025winter/2025-05-23/</link>

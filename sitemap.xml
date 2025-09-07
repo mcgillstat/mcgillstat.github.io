@@ -2,19 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://mcgillstat.github.io/tags/2025-fall/</loc>
+    <lastmod>2025-09-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://mcgillstat.github.io/categories/</loc>
+    <lastmod>2025-09-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://mcgillstat.github.io/categories/mcgill-statistics-seminar/</loc>
+    <lastmod>2025-09-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://mcgillstat.github.io/post/2025fall/2025-09-12/</loc>
+    <lastmod>2025-09-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://mcgillstat.github.io/tags/</loc>
+    <lastmod>2025-09-12T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://mcgillstat.github.io/tags/2025-winter/</loc>
     <lastmod>2025-05-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://mcgillstat.github.io/categories/</loc>
-    <lastmod>2025-05-23T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://mcgillstat.github.io/post/2025winter/2025-05-23/</loc>
-    <lastmod>2025-05-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://mcgillstat.github.io/categories/mcgill-statistics-seminar/</loc>
-    <lastmod>2025-05-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://mcgillstat.github.io/tags/</loc>
     <lastmod>2025-05-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://mcgillstat.github.io/post/2025winter/2025-04-04/</loc>
@@ -976,9 +982,6 @@
   </url><url>
     <loc>https://mcgillstat.github.io/post/2012fall/2012-10-05/</loc>
     <lastmod>2012-10-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://mcgillstat.github.io/2024fall_index/</loc>
-    <lastmod>2012-09-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://mcgillstat.github.io/</loc>
     <lastmod>2012-09-28T00:00:00+00:00</lastmod>
