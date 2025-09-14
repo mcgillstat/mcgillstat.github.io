@@ -6,8 +6,15 @@
     <description>Recent content in Past Seminar Series on McGill Statistics Seminars</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 12 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 19 Sep 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://mcgillstat.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Proper Correlation Coefficients for Nominal Random Variables</title>
+      <link>https://mcgillstat.github.io/post/2025fall/2025-09-19/</link>
+      <pubDate>Fri, 19 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://mcgillstat.github.io/post/2025fall/2025-09-19/</guid>
+      <description>&lt;h4 id=&#34;date-2025-09-19&#34;&gt;Date: 2025-09-19&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630-montreal-time&#34;&gt;Time: 15:30-16:30 (Montreal time)&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-in-person-burnside-1104&#34;&gt;Location: In person, Burnside 1104&lt;/h4&gt;&#xA;&lt;h4 id=&#34;httpsmcgillzoomusj83914219181httpsmcgillzoomusj83914219181&#34;&gt;&lt;a href=&#34;https://mcgill.zoom.us/j/83914219181&#34;&gt;https://mcgill.zoom.us/j/83914219181&lt;/a&gt;&lt;/h4&gt;&#xA;&lt;h4 id=&#34;meeting-id-839-1421-9181&#34;&gt;Meeting ID: 839 1421 9181&lt;/h4&gt;&#xA;&lt;h4 id=&#34;passcode-none&#34;&gt;Passcode: None&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;Vintage factor analysis is one important type of factor analysis that aims to first find a low-dimensional representation of the original data, and then to seek a rotation such that the rotated low-dimensional representation is scientifically meaningful. The most widely used vintage factor analysis is the Principal Component Analysis (PCA) followed by the varimax rotation. Despite its popularity, little theoretical guarantee can be provided to date mainly because varimax rotation requires to solve a non-convex optimization over the set of orthogonal matrices.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Proper Correlation Coefficients for Nominal Random Variables</title>
       <link>https://mcgillstat.github.io/post/2025fall/2025-09-12/</link>
