@@ -6,8 +6,15 @@
     <description>Recent content in McGill Statistics Seminar on McGill Statistics Seminars</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 19 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 26 Sep 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://mcgillstat.github.io/categories/mcgill-statistics-seminar/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sparse Causal Learning: Challenges and Opportunities</title>
+      <link>https://mcgillstat.github.io/post/2025fall/2025-09-26/</link>
+      <pubDate>Fri, 26 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://mcgillstat.github.io/post/2025fall/2025-09-26/</guid>
+      <description>&lt;h4 id=&#34;date-2025-09-26&#34;&gt;Date: 2025-09-26&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630-montreal-time&#34;&gt;Time: 15:30-16:30 (Montreal time)&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-in-person-burnside-1104&#34;&gt;Location: In person, Burnside 1104&lt;/h4&gt;&#xA;&lt;h4 id=&#34;httpsmcgillzoomusj81200178578httpsmcgillzoomusj81200178578&#34;&gt;&lt;a href=&#34;https://mcgill.zoom.us/j/81200178578&#34;&gt;https://mcgill.zoom.us/j/81200178578&lt;/a&gt;&lt;/h4&gt;&#xA;&lt;h4 id=&#34;meeting-id-812-0017-8578&#34;&gt;Meeting ID: 812 0017 8578&lt;/h4&gt;&#xA;&lt;h4 id=&#34;passcode-none&#34;&gt;Passcode: None&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;In many observational studies, researchers are often interested in studying the effects of multiple exposures on a single outcome. Standard approaches for high-dimensional data such as the lasso assume the associations between the exposures and the outcome are sparse. These methods, however, do not estimate the causal effects in the presence of unmeasured confounding. In this paper, we consider an alternative approach that assumes the causal effects in view are sparse. We show that with sparse causation, the causal effects are identifiable even with unmeasured confounding. At the core of our proposal is a novel device, called the synthetic instrument, that in contrast to standard instrumental variables, can be constructed using the observed exposures directly. We show that under linear structural equation models, the problem of causal effect estimation can be formulated as an l0-penalization problem and hence can be solved efficiently using off-the-shelf software. Simulations show that our approach outperforms state-of-art methods in both low-dimensional and high-dimensional settings. We further illustrate our method using a mouse obesity dataset.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Optimal vintage factor analysis with deflation varimax</title>
       <link>https://mcgillstat.github.io/post/2025fall/2025-09-19/</link>
