@@ -6,8 +6,15 @@
     <description>Recent content in Past Seminar Series on McGill Statistics Seminars</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 26 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 03 Oct 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://mcgillstat.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Convergence Guarantees for Adversarially Robust Classifiers</title>
+      <link>https://mcgillstat.github.io/post/2025fall/2025-10-03/</link>
+      <pubDate>Fri, 03 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://mcgillstat.github.io/post/2025fall/2025-10-03/</guid>
+      <description>&lt;h4 id=&#34;date-2025-10-03&#34;&gt;Date: 2025-10-03&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630-montreal-time&#34;&gt;Time: 15:30-16:30 (Montreal time)&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-in-person-burnside-1104&#34;&gt;Location: In person, Burnside 1104&lt;/h4&gt;&#xA;&lt;h4 id=&#34;httpsmcgillzoomusj82469112499httpsmcgillzoomusj82469112499&#34;&gt;&lt;a href=&#34;https://mcgill.zoom.us/j/82469112499&#34;&gt;https://mcgill.zoom.us/j/82469112499&lt;/a&gt;&lt;/h4&gt;&#xA;&lt;h4 id=&#34;meeting-id-824-6911-2499&#34;&gt;Meeting ID: 824 6911 2499&lt;/h4&gt;&#xA;&lt;h4 id=&#34;passcode-none&#34;&gt;Passcode: None&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;Neural networks can be trained to classify images and achieve high levels of accuracy. However, researchers have discovered that well-targeted perturbations of an image can completely fool a trained classifier, even in cases where the modified image is visually indistinguishable from the original. This has sparked many new approaches to classification which include an adversary in the training process: such an adversary can improve robustness and generalization properties at the cost of decreased accuracy and increased training time. In this presentation, I will explore the connection between a certain class of adversarial training problems and the Bayes classification problem for binary classification. In particular, robustness can be encouraged by adding a regularizing nonlocal perimeter term, providing a strong connection to classical studies of perimeter. Borrowing tools from geometric measure theory, I will show the Hausdorff convergence of adversarially robust classifiers to Bayes classifiers as the strength of adversary decreases to 0. In this way, the theoretical results discussed in the presentation provide a rigorous comparison with the standard Bayes classification problem.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Sparse Causal Learning: Challenges and Opportunities</title>
       <link>https://mcgillstat.github.io/post/2025fall/2025-09-26/</link>
