@@ -6,8 +6,15 @@
     <description>Recent content in 2025 Fall on McGill Statistics Seminars</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 03 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 10 Oct 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://mcgillstat.github.io/tags/2025-fall/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>K-contact Distance for Noisy Nonhomogeneous Spatial Point Data and Application to Repeating Fast Radio Burst Sources</title>
+      <link>https://mcgillstat.github.io/post/2025fall/2025-10-10/</link>
+      <pubDate>Fri, 10 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://mcgillstat.github.io/post/2025fall/2025-10-10/</guid>
+      <description>&lt;h4 id=&#34;date-2025-10-10&#34;&gt;Date: 2025-10-10&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630-montreal-time&#34;&gt;Time: 15:30-16:30 (Montreal time)&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-in-person-burnside-1104&#34;&gt;Location: In person, Burnside 1104&lt;/h4&gt;&#xA;&lt;h4 id=&#34;httpsmcgillzoomusj81986712072httpsmcgillzoomusj81986712072&#34;&gt;&lt;a href=&#34;https://mcgill.zoom.us/j/81986712072&#34;&gt;https://mcgill.zoom.us/j/81986712072&lt;/a&gt;&lt;/h4&gt;&#xA;&lt;h4 id=&#34;meeting-id-819-8671-2072&#34;&gt;Meeting ID: 819 8671 2072&lt;/h4&gt;&#xA;&lt;h4 id=&#34;passcode-none&#34;&gt;Passcode: None&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;In this talk, I’ll introduce an approach to analyze nonhomogeneous Poisson processes (NHPP) observed with noise which focuses on previously unstudied second-order characteristics of the noisy process. Utilizing a hierarchical Bayesian model with noisy data, we first estimate hyperparameters governing a physically motivated NHPP intensity. Leveraging the posterior distribution, we then infer the probability of detecting a certain number of events within a given radius, the $k$-contact distance. This methodology is demonstrated by its motivating application: observations of fast radio bursts (FRBs) detected by the Canadian Hydrogen Intensity Mapping Experiment&amp;rsquo;s FRB Project (CHIME/FRB). The approach allows us to identify repeating FRB sources by computing the probability of observing $k$ physically independent sources within some radius in the detection domain, or the probability of coincidence ($P_C$). Applied, the new methodology improves the repeater detection $P_C$, in 86% of cases when applied to the largest sample of previously classified observations, with a median improvement factor (existing metric over $P_C$ from our methodology) of ~ 3000. Throughout the talk, I will provide the necessary astrophysical context to motivate the application and highlight some of the other active statistical problems in FRB science.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Convergence Guarantees for Adversarially Robust Classifiers</title>
       <link>https://mcgillstat.github.io/post/2025fall/2025-10-03/</link>
