@@ -6,8 +6,15 @@
     <description>Recent content in 2025 Fall on McGill Statistics Seminars</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 10 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 24 Oct 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://mcgillstat.github.io/tags/2025-fall/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Regularized Fine-Tuning for Representation Multi-Task Learning: Adaptivity, Minimaxity, and Robustness</title>
+      <link>https://mcgillstat.github.io/post/2025fall/2025-10-24/</link>
+      <pubDate>Fri, 24 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://mcgillstat.github.io/post/2025fall/2025-10-24/</guid>
+      <description>&lt;h4 id=&#34;date-2025-10-24&#34;&gt;Date: 2025-10-24&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630-montreal-time&#34;&gt;Time: 15:30-16:30 (Montreal time)&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-in-person-burnside-1104&#34;&gt;Location: In person, Burnside 1104&lt;/h4&gt;&#xA;&lt;h4 id=&#34;httpsmcgillzoomusj81872329544httpsmcgillzoomusj81872329544&#34;&gt;&lt;a href=&#34;https://mcgill.zoom.us/j/81872329544&#34;&gt;https://mcgill.zoom.us/j/81872329544&lt;/a&gt;&lt;/h4&gt;&#xA;&lt;h4 id=&#34;meeting-id-818-7232-9544&#34;&gt;Meeting ID: 818 7232 9544&lt;/h4&gt;&#xA;&lt;h4 id=&#34;passcode-none&#34;&gt;Passcode: None&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;We study multi-task linear regression for a collection of tasks that share a latent, low-dimensional structure. Each task’s regression vector belongs to a subspace whose dimension, denoted intrinsic dimension, is much smaller than the ambient dimension. Unlike classical analyses that assume an identical subspace for every task, we allow each task’s subspace to drift from a single reference subspace by a controllable similarity radius, and we permit an unknown fraction of tasks to be outliers that violate the shared-structure assumption altogether. Our contributions are threefold. First, adaptivity: we design a penalized empirical-risk algorithm and a spectral method.  Both algorithms automatically adjust to the unknown similarity radius and to the proportion of outliers. Second, minimaxity: we prove information-theoretic lower bounds on the best achievable prediction risk over this problem class and show that both algorithms attain these bounds up to constant factors; when no outliers are present, the spectral method is exactly minimax-optimal. Third, robustness: for every choice of similarity radius and outlier proportion, the proposed estimators never incur larger expected prediction error than independent single-task regression, while delivering strict improvements whenever tasks are even moderately similar and outliers are sparse. Additionally, we introduce a thresholding algorithm to adapt to an unknown intrinsic dimension. We conduct extensive numerical experiments to validate our theoretical findings.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>K-contact Distance for Noisy Nonhomogeneous Spatial Point Data and Application to Repeating Fast Radio Burst Sources</title>
       <link>https://mcgillstat.github.io/post/2025fall/2025-10-10/</link>
