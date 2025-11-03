@@ -6,8 +6,15 @@
     <description>Recent content in Current Seminar Series on McGill Statistics Seminars</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 24 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 07 Nov 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://mcgillstat.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Towards Efficient and Reliable Generative and Sampling Models</title>
+      <link>https://mcgillstat.github.io/post/2025fall/2025-11-07/</link>
+      <pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://mcgillstat.github.io/post/2025fall/2025-11-07/</guid>
+      <description>&lt;h4 id=&#34;date-2025-11-07&#34;&gt;Date: 2025-11-07&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630-montreal-time&#34;&gt;Time: 15:30-16:30 (Montreal time)&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-in-person-burnside-1104&#34;&gt;Location: In person, Burnside 1104&lt;/h4&gt;&#xA;&lt;h4 id=&#34;httpsmcgillzoomusj87181846336httpsmcgillzoomusj87181846336&#34;&gt;&lt;a href=&#34;https://mcgill.zoom.us/j/87181846336&#34;&gt;https://mcgill.zoom.us/j/87181846336&lt;/a&gt;&lt;/h4&gt;&#xA;&lt;h4 id=&#34;meeting-id-871-8184-6336&#34;&gt;Meeting ID: 871 8184 6336&lt;/h4&gt;&#xA;&lt;h4 id=&#34;passcode-none&#34;&gt;Passcode: None&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;This talk presents a unified framework for enhancing the reliability and geometric fidelity of generative models. We first develop a diffusion mechanism defined intrinsically on the SE(3) manifold, enabling the efficient sampling. To address the critical issue of mode collapse in energy-based samplers, we introduce a novel Importance Weighted Score Matching method that provably improves coverage of complex, multi-modal distributions. Finally, we extend these principles to infer underlying dynamical systems directly from incomplete and scattered training data. Collectively, this work bridges geometric consistency, statistical reliability, and learning from partial observations to advance the frontiers of generative and sampling models.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Regularized Fine-Tuning for Representation Multi-Task Learning: Adaptivity, Minimaxity, and Robustness</title>
       <link>https://mcgillstat.github.io/post/2025fall/2025-10-24/</link>
