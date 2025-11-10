@@ -6,8 +6,15 @@
     <description>Recent content in Current Seminar Series on McGill Statistics Seminars</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 07 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 14 Nov 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://mcgillstat.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Can uncertainty be quantified? On confident hallucinations in deep learning-based methods for inverse problems</title>
+      <link>https://mcgillstat.github.io/post/2025fall/2025-11-14/</link>
+      <pubDate>Fri, 14 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://mcgillstat.github.io/post/2025fall/2025-11-14/</guid>
+      <description>&lt;h4 id=&#34;date-2025-11-14&#34;&gt;Date: 2025-11-14&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630-montreal-time&#34;&gt;Time: 15:30-16:30 (Montreal time)&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-in-person-burnside-1104&#34;&gt;Location: In person, Burnside 1104&lt;/h4&gt;&#xA;&lt;h4 id=&#34;httpsmcgillzoomusj82687773039httpsmcgillzoomusj82687773039&#34;&gt;&lt;a href=&#34;https://mcgill.zoom.us/j/82687773039&#34;&gt;https://mcgill.zoom.us/j/82687773039&lt;/a&gt;&lt;/h4&gt;&#xA;&lt;h4 id=&#34;meeting-id-826-8777-3039&#34;&gt;Meeting ID: 826 8777 3039&lt;/h4&gt;&#xA;&lt;h4 id=&#34;passcode-none&#34;&gt;Passcode: None&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;Deep learning is currently transforming how inverse problems arising in imaging reconstruction are solved. However, it is increasingly well-known that such deep learning-based methods are susceptible to hallucinations. In this talk, I will present a series of theoretical explanations for why hallucinations occur, in both deterministic and statistical estimators. I will conclude by observing that hallucinations can only be avoided by careful design of the forwards operator in tandem with the recovery algorithm, and then provide a theoretical framework for how this can be achieved when solving inverse problems using generative models.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Towards Efficient and Reliable Generative and Sampling Models</title>
       <link>https://mcgillstat.github.io/post/2025fall/2025-11-07/</link>
