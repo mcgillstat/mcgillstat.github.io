@@ -6,8 +6,15 @@
     <description>Recent content in McGill Statistics Seminar on McGill Statistics Seminars</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 14 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 28 Nov 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://mcgillstat.github.io/categories/mcgill-statistics-seminar/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Deep P-Spline: Theory, Fast Tuning, and Application</title>
+      <link>https://mcgillstat.github.io/post/2025fall/2025-11-28/</link>
+      <pubDate>Fri, 28 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://mcgillstat.github.io/post/2025fall/2025-11-28/</guid>
+      <description>&lt;h4 id=&#34;date-2025-11-28&#34;&gt;Date: 2025-11-28&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630-montreal-time&#34;&gt;Time: 15:30-16:30 (Montreal time)&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-in-person-burnside-1104&#34;&gt;Location: In person, Burnside 1104&lt;/h4&gt;&#xA;&lt;h4 id=&#34;httpsmcgillzoomusj86339405056httpsmcgillzoomusj86339405056&#34;&gt;&lt;a href=&#34;https://mcgill.zoom.us/j/86339405056&#34;&gt;https://mcgill.zoom.us/j/86339405056&lt;/a&gt;&lt;/h4&gt;&#xA;&lt;h4 id=&#34;meeting-id-863-3940-5056&#34;&gt;Meeting ID: 863 3940 5056&lt;/h4&gt;&#xA;&lt;h4 id=&#34;passcode-none&#34;&gt;Passcode: None&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;Deep neural networks (DNNs) have become a standard tool for tackling complex regression problems, yet identifying an optimal network architecture remains a fundamental challenge. In this work, we connect neuron selection in DNNs with knot placement in basis expansion methods. Building on this connection, we propose a difference-penalty approach that automates knot selection and, in turn, simplifies the process of choosing neurons. We call this method Deep P-Spline (DPS). This approach extends the class of models considered in conventional DNN modeling and forms the basis for a latent-variable modeling framework using the Expectation–Conditional Maximization (ECM) algorithm for efficient network structure tuning with theoretical guarantees. From the perspective of nonparametric regression, DPS alleviates the curse of dimensionality, allowing effective analysis of high-dimensional data where conventional methods often fail. These properties make DPS particularly well suited for applications such as computer experiments and image data analysis, where regression tasks routinely involve a large number of inputs. Numerical studies demonstrate the strong performance of DPS, underscoring its potential as a powerful tool for advanced nonlinear regression problems.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Can uncertainty be quantified? On confident hallucinations in deep learning-based methods for inverse problems</title>
       <link>https://mcgillstat.github.io/post/2025fall/2025-11-14/</link>

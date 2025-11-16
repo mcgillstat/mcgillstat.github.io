@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+<meta name="pinterest" content="nopin">
+<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+<meta name="generator" content="Hugo 0.139.4">
+
+
+
+<link rel="canonical" href="https://mcgillstat.github.io/post/2025fall/2025-11-28/">
+
+
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/solarized_dark.min.css">
+    <title>Deep P-Spline: Theory, Fast Tuning, and Application - McGill Statistics Seminars</title>
+    
+<meta name="description" content="&lt;h4 id=&#34;date-2025-11-28&#34;&gt;Date: 2025-11-28&lt;/h4&gt;&lt;h4 id=&#34;time-1530-1630-montreal-time&#34;&gt;Time: 15:30-16:30 (Montreal time)&lt;/h4&gt;&lt;h4 id=&#34;location-in-person-burnside-1104&#34;&gt;Location: In person, Burnside 1104&lt;/h4&gt;&lt;h4 id=&#34;httpsmcgillzoomusj86339405056httpsmcgillzoomusj86339405056&#34;&gt;&lt;a href=&#34;https://mcgill.zoom.us/j/86339405056&#34;&gt;https://mcgill.zoom.us/j/86339405056&lt;/a&gt;&lt;/h4&gt;&lt;h4 id=&#34;meeting-id-863-3940-5056&#34;&gt;Meeting ID: 863 3940 5056&lt;/h4&gt;&lt;h4 id=&#34;passcode-none&#34;&gt;Passcode: None&lt;/h4&gt;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&lt;p&gt;Deep neural networks (DNNs) have become a standard tool for tackling complex regression problems, yet identifying an optimal network architecture remains a fundamental challenge. In this work, we connect neuron selection in DNNs with knot placement in basis expansion methods. Building on this connection, we propose a difference-penalty approach that automates knot selection and, in turn, simplifies the process of choosing neurons. We call this method Deep P-Spline (DPS). This approach extends the class of models considered in conventional DNN modeling and forms the basis for a latent-variable modeling framework using the Expectation–Conditional Maximization (ECM) algorithm for efficient network structure tuning with theoretical guarantees. From the perspective of nonparametric regression, DPS alleviates the curse of dimensionality, allowing effective analysis of high-dimensional data where conventional methods often fail. These properties make DPS particularly well suited for applications such as computer experiments and image data analysis, where regression tasks routinely involve a large number of inputs. Numerical studies demonstrate the strong performance of DPS, underscoring its potential as a powerful tool for advanced nonlinear regression problems.&lt;/p&gt;">
+
+<meta property="og:title" content="Deep P-Spline: Theory, Fast Tuning, and Application - McGill Statistics Seminars">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://mcgillstat.github.io/post/2025fall/2025-11-28/">
+<meta property="og:image" content="https://mcgillstat.github.io/images/default.png">
+<meta property="og:site_name" content="McGill Statistics Seminars">
+<meta property="og:description" content="&lt;h4 id=&#34;date-2025-11-28&#34;&gt;Date: 2025-11-28&lt;/h4&gt;&lt;h4 id=&#34;time-1530-1630-montreal-time&#34;&gt;Time: 15:30-16:30 (Montreal time)&lt;/h4&gt;&lt;h4 id=&#34;location-in-person-burnside-1104&#34;&gt;Location: In person, Burnside 1104&lt;/h4&gt;&lt;h4 id=&#34;httpsmcgillzoomusj86339405056httpsmcgillzoomusj86339405056&#34;&gt;&lt;a href=&#34;https://mcgill.zoom.us/j/86339405056&#34;&gt;https://mcgill.zoom.us/j/86339405056&lt;/a&gt;&lt;/h4&gt;&lt;h4 id=&#34;meeting-id-863-3940-5056&#34;&gt;Meeting ID: 863 3940 5056&lt;/h4&gt;&lt;h4 id=&#34;passcode-none&#34;&gt;Passcode: None&lt;/h4&gt;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&lt;p&gt;Deep neural networks (DNNs) have become a standard tool for tackling complex regression problems, yet identifying an optimal network architecture remains a fundamental challenge. In this work, we connect neuron selection in DNNs with knot placement in basis expansion methods. Building on this connection, we propose a difference-penalty approach that automates knot selection and, in turn, simplifies the process of choosing neurons. We call this method Deep P-Spline (DPS). This approach extends the class of models considered in conventional DNN modeling and forms the basis for a latent-variable modeling framework using the Expectation–Conditional Maximization (ECM) algorithm for efficient network structure tuning with theoretical guarantees. From the perspective of nonparametric regression, DPS alleviates the curse of dimensionality, allowing effective analysis of high-dimensional data where conventional methods often fail. These properties make DPS particularly well suited for applications such as computer experiments and image data analysis, where regression tasks routinely involve a large number of inputs. Numerical studies demonstrate the strong performance of DPS, underscoring its potential as a powerful tool for advanced nonlinear regression problems.&lt;/p&gt;">
+<meta property="og:locale" content="ja_JP">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="McGill Statistics Seminars">
+<meta name="twitter:url" content="https://mcgillstat.github.io/post/2025fall/2025-11-28/">
+<meta name="twitter:title" content="Deep P-Spline: Theory, Fast Tuning, and Application - McGill Statistics Seminars">
+<meta name="twitter:description" content="&lt;h4 id=&#34;date-2025-11-28&#34;&gt;Date: 2025-11-28&lt;/h4&gt;&lt;h4 id=&#34;time-1530-1630-montreal-time&#34;&gt;Time: 15:30-16:30 (Montreal time)&lt;/h4&gt;&lt;h4 id=&#34;location-in-person-burnside-1104&#34;&gt;Location: In person, Burnside 1104&lt;/h4&gt;&lt;h4 id=&#34;httpsmcgillzoomusj86339405056httpsmcgillzoomusj86339405056&#34;&gt;&lt;a href=&#34;https://mcgill.zoom.us/j/86339405056&#34;&gt;https://mcgill.zoom.us/j/86339405056&lt;/a&gt;&lt;/h4&gt;&lt;h4 id=&#34;meeting-id-863-3940-5056&#34;&gt;Meeting ID: 863 3940 5056&lt;/h4&gt;&lt;h4 id=&#34;passcode-none&#34;&gt;Passcode: None&lt;/h4&gt;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&lt;p&gt;Deep neural networks (DNNs) have become a standard tool for tackling complex regression problems, yet identifying an optimal network architecture remains a fundamental challenge. In this work, we connect neuron selection in DNNs with knot placement in basis expansion methods. Building on this connection, we propose a difference-penalty approach that automates knot selection and, in turn, simplifies the process of choosing neurons. We call this method Deep P-Spline (DPS). This approach extends the class of models considered in conventional DNN modeling and forms the basis for a latent-variable modeling framework using the Expectation–Conditional Maximization (ECM) algorithm for efficient network structure tuning with theoretical guarantees. From the perspective of nonparametric regression, DPS alleviates the curse of dimensionality, allowing effective analysis of high-dimensional data where conventional methods often fail. These properties make DPS particularly well suited for applications such as computer experiments and image data analysis, where regression tasks routinely involve a large number of inputs. Numerical studies demonstrate the strong performance of DPS, underscoring its potential as a powerful tool for advanced nonlinear regression problems.&lt;/p&gt;">
+<meta name="twitter:image" content="https://mcgillstat.github.io/images/default.png">
+
+
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "NewsArticle",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id":"https:\/\/mcgillstat.github.io\/"
+    },
+    "headline": "Deep P-Spline: Theory, Fast Tuning, and Application - McGill Statistics Seminars",
+    "image": {
+      "@type": "ImageObject",
+      "url": "https:\/\/mcgillstat.github.io\/images\/default.png",
+      "height": 800,
+      "width": 800
+    },
+    "datePublished": "2025-11-28T00:00:00JST",
+    "dateModified": "2025-11-28T00:00:00JST",
+    "author": {
+      "@type": "Person",
+      "name": "McGill Statistics Seminars"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "McGill Statistics Seminars",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https:\/\/mcgillstat.github.io\/images/logo.png",
+        "width": 600,
+        "height": 60
+      }
+    },
+    "description": "\u003ch4 id=\u0022date-2025-11-28\u0022\u003eDate: 2025-11-28\u003c\/h4\u003e\n\u003ch4 id=\u0022time-1530-1630-montreal-time\u0022\u003eTime: 15:30-16:30 (Montreal time)\u003c\/h4\u003e\n\u003ch4 id=\u0022location-in-person-burnside-1104\u0022\u003eLocation: In person, Burnside 1104\u003c\/h4\u003e\n\u003ch4 id=\u0022httpsmcgillzoomusj86339405056httpsmcgillzoomusj86339405056\u0022\u003e\u003ca href=\u0022https:\/\/mcgill.zoom.us\/j\/86339405056\u0022\u003ehttps:\/\/mcgill.zoom.us\/j\/86339405056\u003c\/a\u003e\u003c\/h4\u003e\n\u003ch4 id=\u0022meeting-id-863-3940-5056\u0022\u003eMeeting ID: 863 3940 5056\u003c\/h4\u003e\n\u003ch4 id=\u0022passcode-none\u0022\u003ePasscode: None\u003c\/h4\u003e\n\u003ch2 id=\u0022abstract\u0022\u003eAbstract:\u003c\/h2\u003e\n\u003cp\u003eDeep neural networks (DNNs) have become a standard tool for tackling complex regression problems, yet identifying an optimal network architecture remains a fundamental challenge. In this work, we connect neuron selection in DNNs with knot placement in basis expansion methods. Building on this connection, we propose a difference-penalty approach that automates knot selection and, in turn, simplifies the process of choosing neurons. We call this method Deep P-Spline (DPS). This approach extends the class of models considered in conventional DNN modeling and forms the basis for a latent-variable modeling framework using the Expectation–Conditional Maximization (ECM) algorithm for efficient network structure tuning with theoretical guarantees. From the perspective of nonparametric regression, DPS alleviates the curse of dimensionality, allowing effective analysis of high-dimensional data where conventional methods often fail. These properties make DPS particularly well suited for applications such as computer experiments and image data analysis, where regression tasks routinely involve a large number of inputs. Numerical studies demonstrate the strong performance of DPS, underscoring its potential as a powerful tool for advanced nonlinear regression problems.\u003c\/p\u003e"
+  }
+</script>
+
+
+    <link href="https://mcgillstat.github.io/css/styles.css" rel="stylesheet">
+    
+
+  </head>
+
+  <body>
+    
+    
+    
+
+    <header class="l-header">
+      <nav class="navbar navbar-default">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="https://mcgillstat.github.io/">McGill Statistics Seminars</a>
+          </div>
+
+          
+          <div id="navbar" class="collapse navbar-collapse">
+            
+            <ul class="nav navbar-nav navbar-right">
+              
+              
+              <li><a href="/">Current Seminar Series</a></li>
+              
+              
+              
+              <li><a href="/post/">Past Seminar Series</a></li>
+              
+              
+            </ul>
+            
+          </div>
+          
+
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="container">
+        
+<div class="row">
+  <div class="col-md-8">
+
+    <nav class="p-crumb">
+      <ol class="breadcrumb">
+        <li><a href="https://mcgillstat.github.io/"><i class="fa fa-home" aria-hidden="true"></i></a></li>
+        
+        <li itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="https://mcgillstat.github.io/post/" itemprop="url"><span itemprop="title">post</span></a></li>
+        
+        <li class="active">Li-Hsiang Lin</li>
+      </ol>
+    </nav>
+
+    <article class="single">
+  <header>
+    <ul class="p-facts">
+      <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2025-11-28T00:00:00JST">Nov 28, 2025</time></li>
+      <li><i class="fa fa-bookmark" aria-hidden="true"></i><a href="https://mcgillstat.github.io/post/">post</a></li>
+      
+    </ul>
+
+    <h2 class="title">Deep P-Spline: Theory, Fast Tuning, and Application</h1>
+    <h3 class="post-meta">Li-Hsiang Lin </h3>
+    
+  </header>
+
+  
+
+  <div class="article-body"><h4 id="date-2025-11-28">Date: 2025-11-28</h4>
+<h4 id="time-1530-1630-montreal-time">Time: 15:30-16:30 (Montreal time)</h4>
+<h4 id="location-in-person-burnside-1104">Location: In person, Burnside 1104</h4>
+<h4 id="httpsmcgillzoomusj86339405056httpsmcgillzoomusj86339405056"><a href="https://mcgill.zoom.us/j/86339405056">https://mcgill.zoom.us/j/86339405056</a></h4>
+<h4 id="meeting-id-863-3940-5056">Meeting ID: 863 3940 5056</h4>
+<h4 id="passcode-none">Passcode: None</h4>
+<h2 id="abstract">Abstract:</h2>
+<p>Deep neural networks (DNNs) have become a standard tool for tackling complex regression problems, yet identifying an optimal network architecture remains a fundamental challenge. In this work, we connect neuron selection in DNNs with knot placement in basis expansion methods. Building on this connection, we propose a difference-penalty approach that automates knot selection and, in turn, simplifies the process of choosing neurons. We call this method Deep P-Spline (DPS). This approach extends the class of models considered in conventional DNN modeling and forms the basis for a latent-variable modeling framework using the Expectation–Conditional Maximization (ECM) algorithm for efficient network structure tuning with theoretical guarantees. From the perspective of nonparametric regression, DPS alleviates the curse of dimensionality, allowing effective analysis of high-dimensional data where conventional methods often fail. These properties make DPS particularly well suited for applications such as computer experiments and image data analysis, where regression tasks routinely involve a large number of inputs. Numerical studies demonstrate the strong performance of DPS, underscoring its potential as a powerful tool for advanced nonlinear regression problems.</p>
+<h2 id="speaker">Speaker</h2>
+<p>Li-Hsiang Lin is an Assistant Professor in the Department of Mathematics and Statistics at Georgia State University. He received his Ph.D. in Industrial Engineering, with a major in Statistics and a minor in Machine Learning, from the Georgia Institute of Technology in 2020. He then served as a Postdoctoral Fellow at the Georgia Institute of Technology and joined Louisiana State University as an Assistant Professor in 2021. He joined Georgia State University in 2023, where he currently holds the position of Assistant Professor. Professor Lin also serves on the editorial boards of Systems and Soft Computing, the Journal of Statistical Computation and Simulation, and Data Science in Science.</p>
+</div>
+
+  <footer class="article-footer">
+    
+    
+    
+    <section class="bordered">
+      <header>
+        <div class="panel-title">CATEGORIES</div>
+      </header>
+      <div>
+        <ul class="p-terms">
+          
+          <li><a href="https://mcgillstat.github.io/categories/mcgill-statistics-seminar/">McGill Statistics Seminar</a></li>
+          
+        </ul>
+      </div>
+    </section>
+    
+    
+    
+    <section class="bordered">
+      <header>
+        <div class="panel-title">TAGS</div>
+      </header>
+      <div>
+        <ul class="p-terms">
+          
+          <li><a href="https://mcgillstat.github.io/tags/2025-fall/">2025 Fall</a></li>
+          
+        </ul>
+      </div>
+    </section>
+    
+    
+  </footer>
+
+</article>
+
+
+    
+  </div>
+
+  <div class="col-md-4">
+    
+<aside class="l-sidebar">
+
+  <section class="panel panel-default">
+    <div class="panel-heading">
+      <div class="panel-title">Recent Talks</div>
+    </div>
+    <div class="list-group">
+      
+      <a href="https://mcgillstat.github.io/tags/2025-fall/" class="list-group-item"> · Nov 28, 2025</a>
+      
+      <a href="https://mcgillstat.github.io/categories/" class="list-group-item"> · Nov 28, 2025</a>
+      
+      <a href="https://mcgillstat.github.io/post/2025fall/2025-11-28/" class="list-group-item">Li-Hsiang Lin · Nov 28, 2025</a>
+      
+      <a href="https://mcgillstat.github.io/categories/mcgill-statistics-seminar/" class="list-group-item"> · Nov 28, 2025</a>
+      
+      <a href="https://mcgillstat.github.io/tags/" class="list-group-item"> · Nov 28, 2025</a>
+      
+    </div>
+  </section>
+
+  
+  <section class="panel panel-default">
+    <div class="panel-heading">
+      <div class="panel-title">CATEGORY</div>
+    </div>
+    <div class="list-group">
+      
+      <a href="https://mcgillstat.github.io/categories/mcgill-statistics-seminar" class="list-group-item">mcgill statistics seminar</a>
+      
+      <a href="https://mcgillstat.github.io/categories/crm-ssc-prize-address" class="list-group-item">crm-ssc prize address</a>
+      
+      <a href="https://mcgillstat.github.io/categories/crm-colloquium" class="list-group-item">crm-colloquium</a>
+      
+    </div>
+  </section>
+  
+  <section class="panel panel-default">
+    <div class="panel-heading">
+      <div class="panel-title">TAG</div>
+    </div>
+    <div class="list-group">
+      
+      <a href="https://mcgillstat.github.io/tags/2025-winter" class="list-group-item">2025 winter</a>
+      
+      <a href="https://mcgillstat.github.io/tags/2025-fall" class="list-group-item">2025 fall</a>
+      
+      <a href="https://mcgillstat.github.io/tags/2024-winter" class="list-group-item">2024 winter</a>
+      
+      <a href="https://mcgillstat.github.io/tags/2024-fall" class="list-group-item">2024 fall</a>
+      
+      <a href="https://mcgillstat.github.io/tags/2023-winter" class="list-group-item">2023 winter</a>
+      
+      <a href="https://mcgillstat.github.io/tags/2023-summer" class="list-group-item">2023 summer</a>
+      
+      <a href="https://mcgillstat.github.io/tags/2023-fall" class="list-group-item">2023 fall</a>
+      
+      <a href="https://mcgillstat.github.io/tags/2022-winter" class="list-group-item">2022 winter</a>
+      
+      <a href="https://mcgillstat.github.io/tags/2022-fall" class="list-group-item">2022 fall</a>
+      
+      <a href="https://mcgillstat.github.io/tags/2021-winter" class="list-group-item">2021 winter</a>
+      
+      <a href="https://mcgillstat.github.io/tags/2021-fall" class="list-group-item">2021 fall</a>
+      
+      <a href="https://mcgillstat.github.io/tags/2020-winter" class="list-group-item">2020 winter</a>
+      
+      <a href="https://mcgillstat.github.io/tags/2020-fall" class="list-group-item">2020 fall</a>
+      
+      <a href="https://mcgillstat.github.io/tags/2019-winter" class="list-group-item">2019 winter</a>
+      
+      <a href="https://mcgillstat.github.io/tags/2019-fall" class="list-group-item">2019 fall</a>
+      
+      <a href="https://mcgillstat.github.io/tags/2018-winter" class="list-group-item">2018 winter</a>
+      
+      <a href="https://mcgillstat.github.io/tags/2018-fall" class="list-group-item">2018 fall</a>
+      
+      <a href="https://mcgillstat.github.io/tags/2017-winter" class="list-group-item">2017 winter</a>
+      
+      <a href="https://mcgillstat.github.io/tags/2017-fall" class="list-group-item">2017 fall</a>
+      
+      <a href="https://mcgillstat.github.io/tags/2016-winter" class="list-group-item">2016 winter</a>
+      
+      <a href="https://mcgillstat.github.io/tags/2016-fall" class="list-group-item">2016 fall</a>
+      
+      <a href="https://mcgillstat.github.io/tags/2015-winter" class="list-group-item">2015 winter</a>
+      
+      <a href="https://mcgillstat.github.io/tags/2015-fall" class="list-group-item">2015 fall</a>
+      
+      <a href="https://mcgillstat.github.io/tags/2014-winter" class="list-group-item">2014 winter</a>
+      
+      <a href="https://mcgillstat.github.io/tags/2014-fall" class="list-group-item">2014 fall</a>
+      
+      <a href="https://mcgillstat.github.io/tags/2013-winter" class="list-group-item">2013 winter</a>
+      
+      <a href="https://mcgillstat.github.io/tags/2013-fall" class="list-group-item">2013 fall</a>
+      
+      <a href="https://mcgillstat.github.io/tags/2012-winter" class="list-group-item">2012 winter</a>
+      
+      <a href="https://mcgillstat.github.io/tags/2012-fall" class="list-group-item">2012 fall</a>
+      
+      <a href="https://mcgillstat.github.io/tags/2011-fall" class="list-group-item">2011 fall</a>
+      
+    </div>
+  </section>
+  
+
+</aside>
+
+
+
+    <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
+    
+    <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+            displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+            processEscapes: true,
+            processEnvironments: true
+        },
+        // Center justify equations in code and markdown cells. Elsewhere
+        // we use CSS to left justify single line equations in code cells.
+        displayAlign: 'center',
+        "HTML-CSS": {
+            styles: {'.MathJax_Display': {"margin": 0}},
+            linebreaks: { automatic: true }
+        }
+    });
+    </script>
+    
+  </div>
+</div>
+
+      </div>
+    </main>
+
+    <footer class="l-footer">
+      <div class="container">
+        <p><span class="h-logo">&copy; McGill Statistics Seminars</span></p>
+        <aside>
+          <p><a href="http://www.mcgill.ca/mathstat/">Department of Mathematics and Statistics</a>.</p>
+          <p><a href="https://www.mcgill.ca/">McGill University</a></p>
+        </aside>
+      </div>
+    </footer>
+
+    <script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+  </body>
+</html>
+
