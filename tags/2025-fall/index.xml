@@ -6,8 +6,15 @@
     <description>Recent content in 2025 Fall on McGill Statistics Seminars</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 28 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 05 Dec 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://mcgillstat.github.io/tags/2025-fall/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Unfolding Generalized Shannon’s Entropy</title>
+      <link>https://mcgillstat.github.io/post/2025fall/2025-12-05/</link>
+      <pubDate>Fri, 05 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://mcgillstat.github.io/post/2025fall/2025-12-05/</guid>
+      <description>&lt;h4 id=&#34;date-2025-12-05&#34;&gt;Date: 2025-12-05&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630-montreal-time&#34;&gt;Time: 15:30-16:30 (Montreal time)&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-in-person-burnside-1104&#34;&gt;Location: In person, Burnside 1104&lt;/h4&gt;&#xA;&lt;h4 id=&#34;httpsmcgillzoomusj83026954715httpsmcgillzoomusj83026954715&#34;&gt;&lt;a href=&#34;https://mcgill.zoom.us/j/83026954715&#34;&gt;https://mcgill.zoom.us/j/83026954715&lt;/a&gt;&lt;/h4&gt;&#xA;&lt;h4 id=&#34;meeting-id-830-2695-4715&#34;&gt;Meeting ID: 830 2695 4715&lt;/h4&gt;&#xA;&lt;h4 id=&#34;passcode-none&#34;&gt;Passcode: None&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;Shannon’s entropy is a cornerstone of information theory, quantifying uncertainty within a probability distribution. However, the classical definition may fail for distributions with heavy tails or infinite alphabets, leaving gaps in its theoretical foundation. This talk introduces a framework called Generalized Shannon’s Entropy (GSE), which extends the original concept to ensure well-definedness and robustness under broader conditions.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Deep P-Spline: Theory, Fast Tuning, and Application</title>
       <link>https://mcgillstat.github.io/post/2025fall/2025-11-28/</link>
