@@ -6,8 +6,15 @@
     <description>Recent content in McGill Statistics Seminar on McGill Statistics Seminars</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 05 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 09 Jan 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://mcgillstat.github.io/categories/mcgill-statistics-seminar/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Survival analysis of extreme events with missing observations</title>
+      <link>https://mcgillstat.github.io/post/2026winter/2026-01-09/</link>
+      <pubDate>Fri, 09 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://mcgillstat.github.io/post/2026winter/2026-01-09/</guid>
+      <description>&lt;h4 id=&#34;date-2026-01-09&#34;&gt;Date: 2026-01-09&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630-montreal-time&#34;&gt;Time: 15:30-16:30 (Montreal time)&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-in-person-burnside-1104&#34;&gt;Location: In person, Burnside 1104&lt;/h4&gt;&#xA;&lt;h4 id=&#34;httpsmcgillzoomusj82195728045httpsmcgillzoomusj82195728045&#34;&gt;&lt;a href=&#34;https://mcgill.zoom.us/j/82195728045&#34;&gt;https://mcgill.zoom.us/j/82195728045&lt;/a&gt;&lt;/h4&gt;&#xA;&lt;h4 id=&#34;meeting-id-821-9572-8045&#34;&gt;Meeting ID: 821 9572 8045&lt;/h4&gt;&#xA;&lt;h4 id=&#34;passcode-none&#34;&gt;Passcode: None&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;The analysis of extreme wave surge heights in Atlantic Canada is key in determining areas that are subject to flooding or at risk of severe damage from intense storms. One method for modelling extreme events is through the block maxima approach which divides a series of observations into equal-sized blocks to extract the maxima after which inference is conducted on the generalized extreme value (GEV) distribution. When observations at the series level are missing, the observed block maxima may not correspond to the true block maxima. In this presentation, we introduce this missing data problem in the context of an extreme value analysis and explain how concepts from survival analysis can be used to improve inferences on the GEV distribution using the observed block maxima.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Unfolding Generalized Shannon’s Entropy</title>
       <link>https://mcgillstat.github.io/post/2025fall/2025-12-05/</link>
