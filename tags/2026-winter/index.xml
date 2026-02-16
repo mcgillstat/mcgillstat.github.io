@@ -6,8 +6,15 @@
     <description>Recent content in 2026 Winter on McGill Statistics Seminars</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 13 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Feb 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://mcgillstat.github.io/tags/2026-winter/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hierarchical Clustering With Confidence</title>
+      <link>https://mcgillstat.github.io/post/2026winter/2026-02-20/</link>
+      <pubDate>Fri, 20 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://mcgillstat.github.io/post/2026winter/2026-02-20/</guid>
+      <description>&lt;h4 id=&#34;date-2026-02-20&#34;&gt;Date: 2026-02-20&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630-montreal-time&#34;&gt;Time: 15:30-16:30 (Montreal time)&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-in-person-burnside-1104&#34;&gt;Location: In person, Burnside 1104&lt;/h4&gt;&#xA;&lt;h4 id=&#34;httpsmcgillzoomusj82441217734httpsmcgillzoomusj82441217734&#34;&gt;&lt;a href=&#34;https://mcgill.zoom.us/j/82441217734&#34;&gt;https://mcgill.zoom.us/j/82441217734&lt;/a&gt;&lt;/h4&gt;&#xA;&lt;h4 id=&#34;meeting-id-824-4121-7734&#34;&gt;Meeting ID: 824 4121 7734&lt;/h4&gt;&#xA;&lt;h4 id=&#34;passcode-none&#34;&gt;Passcode: None&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;Hierarchical clustering is one of the most widely used approaches for exploring data. However, its greedy nature makes it highly sensitive to small perturbations, blurring the lines between genuine structure and spurious patterns.  In this work, we show how randomizing hierarchical clustering can be useful not just for assessing clustering stability but also for designing valid hypothesis testing procedures based on clustering results.  In particular, we propose a method for constructing a valid p-value at each node of the hierarchical clustering dendrogram that quantifies evidence against performing the greedy merge.  Furthermore, we show how our p-values can be used to estimate the number of clusters, with a probabilistic guarantee on overestimation of the number of clusters.  This is joint work with Di Wu and Snigdha Panigrahi.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Asymptotic Behavior, Risk Measures, and Simulation of Distorted Copulas</title>
       <link>https://mcgillstat.github.io/post/2026winter/2026-02-13/</link>
