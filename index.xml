@@ -6,8 +6,15 @@
     <description>Recent content in Current Seminar Series on McGill Statistics Seminars</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 10 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 17 Apr 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://mcgillstat.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Analytical and experimental design frameworks for single-cell CRISPR screens</title>
+      <link>https://mcgillstat.github.io/post/2026winter/2026-04-17/</link>
+      <pubDate>Fri, 17 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://mcgillstat.github.io/post/2026winter/2026-04-17/</guid>
+      <description>&lt;h4 id=&#34;date-2026-04-17&#34;&gt;Date: 2026-04-17&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630-montreal-time&#34;&gt;Time: 15:30-16:30 (Montreal time)&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-in-person-burnside-1104&#34;&gt;Location: In person, Burnside 1104&lt;/h4&gt;&#xA;&lt;h4 id=&#34;httpsmcgillzoomusj86146204241httpsmcgillzoomusj86146204241&#34;&gt;&lt;a href=&#34;https://mcgill.zoom.us/j/86146204241&#34;&gt;https://mcgill.zoom.us/j/86146204241&lt;/a&gt;&lt;/h4&gt;&#xA;&lt;h4 id=&#34;meeting-id-861-4620-4241&#34;&gt;Meeting ID: 861 4620 4241&lt;/h4&gt;&#xA;&lt;h4 id=&#34;passcode-none&#34;&gt;Passcode: None&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;This talk presents two complementary methodological frameworks for improving single-cell CRISPR screens, from both the analysis and study-design perspectives. The first, spaCRT, addresses a key inferential challenge in single-cell data: gene expression measurements are often sparse and noisy, so standard asymptotic tests can miscalibrate significance while resampling methods, though more reliable, are often too slow at scale. spaCRT overcomes this by using saddlepoint approximations to provide a closed-form approximation to the resampling p-value, yielding accurate error control, competitive power, and substantial computational savings. The second, PerturbPlan, addresses the design side of these experiments: because CRISPR screens are expensive, experimental choices with similar budgets can differ greatly in statistical power. PerturbPlan uses an analytic power formula, validated through simulations and real datasets, to provide near-instant power estimates and generate cost-aware, power-optimized designs across a broad range of common study settings. Together, these frameworks aim to make single-cell CRISPR studies both more statistically reliable and more efficiently designed.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Tales from the Tails: Extreme Value Inference for Systemic Risk</title>
       <link>https://mcgillstat.github.io/post/2026winter/2026-04-10/</link>
