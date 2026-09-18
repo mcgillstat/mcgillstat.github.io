@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+<meta name="pinterest" content="nopin">
+<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+<meta name="generator" content="Hugo 0.139.4">
+
+
+
+<link rel="canonical" href="https://mcgillstat.github.io/post/2026fall/2026-09-25/">
+
+
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/solarized_dark.min.css">
+    <title>Avoiding double dipping through data thinning and data fission - McGill Statistics Seminars</title>
+    
+<meta name="description" content="&lt;h4 id=&#34;date-2026-09-25&#34;&gt;Date: 2026-09-25&lt;/h4&gt;&lt;h4 id=&#34;time-1530-1630-montreal-time&#34;&gt;Time: 15:30-16:30 (Montreal time)&lt;/h4&gt;&lt;h4 id=&#34;location-in-person-burnside-1104&#34;&gt;Location: In person, Burnside 1104&lt;/h4&gt;&lt;h4 id=&#34;httpsmcgillzoomusj89492447923httpsmcgillzoomusj89492447923&#34;&gt;&lt;a href=&#34;https://mcgill.zoom.us/j/89492447923&#34;&gt;https://mcgill.zoom.us/j/89492447923&lt;/a&gt;&lt;/h4&gt;&lt;h4 id=&#34;meeting-id-894-9244-7923&#34;&gt;Meeting ID: 894 9244 7923&lt;/h4&gt;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&lt;p&gt;While classical statistical methods are designed for testing hypotheses about pre-specified models, the reality of modern science is that analysts often explore their data before coming up with models and hypotheses of interest. We refer to the practice of using the same data to generate and then test a hypothesis as double dipping. Classical statistical hypothesis tests will fail to control the Type 1 error rate in settings that involve double dipping. Often, we avoid double dipping by splitting our observations into a training set and a test set. While this &lt;em&gt;sample splitting&lt;/em&gt; approach is straightforward and easy to understand, it is generally inapplicable in unsupervised settings. Motivated by unsupervised problems that arise in the analysis of single-cell RNA sequencing data, we first propose &lt;em&gt;data thinning&lt;/em&gt;, an alternative to sample splitting that splits each observation in a dataset into two independent pieces. We show that this method provides an elegant solution to our motivating problems under distributional assumptions. We then show how the &lt;em&gt;data fission&lt;/em&gt; framework of Leiner et al. (2025) can be fruitfully applied to circumvent the distributional assumptions of data thinning. We conclude by discussing the promise and the challenges of data fission in the context of inference after clustering and inference after variable selection in logistic regression.&lt;/p&gt;">
+
+<meta property="og:title" content="Avoiding double dipping through data thinning and data fission - McGill Statistics Seminars">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://mcgillstat.github.io/post/2026fall/2026-09-25/">
+<meta property="og:image" content="https://mcgillstat.github.io/images/default.png">
+<meta property="og:site_name" content="McGill Statistics Seminars">
+<meta property="og:description" content="&lt;h4 id=&#34;date-2026-09-25&#34;&gt;Date: 2026-09-25&lt;/h4&gt;&lt;h4 id=&#34;time-1530-1630-montreal-time&#34;&gt;Time: 15:30-16:30 (Montreal time)&lt;/h4&gt;&lt;h4 id=&#34;location-in-person-burnside-1104&#34;&gt;Location: In person, Burnside 1104&lt;/h4&gt;&lt;h4 id=&#34;httpsmcgillzoomusj89492447923httpsmcgillzoomusj89492447923&#34;&gt;&lt;a href=&#34;https://mcgill.zoom.us/j/89492447923&#34;&gt;https://mcgill.zoom.us/j/89492447923&lt;/a&gt;&lt;/h4&gt;&lt;h4 id=&#34;meeting-id-894-9244-7923&#34;&gt;Meeting ID: 894 9244 7923&lt;/h4&gt;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&lt;p&gt;While classical statistical methods are designed for testing hypotheses about pre-specified models, the reality of modern science is that analysts often explore their data before coming up with models and hypotheses of interest. We refer to the practice of using the same data to generate and then test a hypothesis as double dipping. Classical statistical hypothesis tests will fail to control the Type 1 error rate in settings that involve double dipping. Often, we avoid double dipping by splitting our observations into a training set and a test set. While this &lt;em&gt;sample splitting&lt;/em&gt; approach is straightforward and easy to understand, it is generally inapplicable in unsupervised settings. Motivated by unsupervised problems that arise in the analysis of single-cell RNA sequencing data, we first propose &lt;em&gt;data thinning&lt;/em&gt;, an alternative to sample splitting that splits each observation in a dataset into two independent pieces. We show that this method provides an elegant solution to our motivating problems under distributional assumptions. We then show how the &lt;em&gt;data fission&lt;/em&gt; framework of Leiner et al. (2025) can be fruitfully applied to circumvent the distributional assumptions of data thinning. We conclude by discussing the promise and the challenges of data fission in the context of inference after clustering and inference after variable selection in logistic regression.&lt;/p&gt;">
+<meta property="og:locale" content="ja_JP">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="McGill Statistics Seminars">
+<meta name="twitter:url" content="https://mcgillstat.github.io/post/2026fall/2026-09-25/">
+<meta name="twitter:title" content="Avoiding double dipping through data thinning and data fission - McGill Statistics Seminars">
+<meta name="twitter:description" content="&lt;h4 id=&#34;date-2026-09-25&#34;&gt;Date: 2026-09-25&lt;/h4&gt;&lt;h4 id=&#34;time-1530-1630-montreal-time&#34;&gt;Time: 15:30-16:30 (Montreal time)&lt;/h4&gt;&lt;h4 id=&#34;location-in-person-burnside-1104&#34;&gt;Location: In person, Burnside 1104&lt;/h4&gt;&lt;h4 id=&#34;httpsmcgillzoomusj89492447923httpsmcgillzoomusj89492447923&#34;&gt;&lt;a href=&#34;https://mcgill.zoom.us/j/89492447923&#34;&gt;https://mcgill.zoom.us/j/89492447923&lt;/a&gt;&lt;/h4&gt;&lt;h4 id=&#34;meeting-id-894-9244-7923&#34;&gt;Meeting ID: 894 9244 7923&lt;/h4&gt;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&lt;p&gt;While classical statistical methods are designed for testing hypotheses about pre-specified models, the reality of modern science is that analysts often explore their data before coming up with models and hypotheses of interest. We refer to the practice of using the same data to generate and then test a hypothesis as double dipping. Classical statistical hypothesis tests will fail to control the Type 1 error rate in settings that involve double dipping. Often, we avoid double dipping by splitting our observations into a training set and a test set. While this &lt;em&gt;sample splitting&lt;/em&gt; approach is straightforward and easy to understand, it is generally inapplicable in unsupervised settings. Motivated by unsupervised problems that arise in the analysis of single-cell RNA sequencing data, we first propose &lt;em&gt;data thinning&lt;/em&gt;, an alternative to sample splitting that splits each observation in a dataset into two independent pieces. We show that this method provides an elegant solution to our motivating problems under distributional assumptions. We then show how the &lt;em&gt;data fission&lt;/em&gt; framework of Leiner et al. (2025) can be fruitfully applied to circumvent the distributional assumptions of data thinning. We conclude by discussing the promise and the challenges of data fission in the context of inference after clustering and inference after variable selection in logistic regression.&lt;/p&gt;">
+<meta name="twitter:image" content="https://mcgillstat.github.io/images/default.png">
+
+
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "NewsArticle",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id":"https:\/\/mcgillstat.github.io\/"
+    },
+    "headline": "Avoiding double dipping through data thinning and data fission - McGill Statistics Seminars",
+    "image": {
+      "@type": "ImageObject",
+      "url": "https:\/\/mcgillstat.github.io\/images\/default.png",
+      "height": 800,
+      "width": 800
+    },
+    "datePublished": "2026-09-25T00:00:00JST",
+    "dateModified": "2026-09-25T00:00:00JST",
+    "author": {
+      "@type": "Person",
+      "name": "McGill Statistics Seminars"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "McGill Statistics Seminars",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https:\/\/mcgillstat.github.io\/images/logo.png",
+        "width": 600,
+        "height": 60
+      }
+    },
+    "description": "\u003ch4 id=\u0022date-2026-09-25\u0022\u003eDate: 2026-09-25\u003c\/h4\u003e\n\u003ch4 id=\u0022time-1530-1630-montreal-time\u0022\u003eTime: 15:30-16:30 (Montreal time)\u003c\/h4\u003e\n\u003ch4 id=\u0022location-in-person-burnside-1104\u0022\u003eLocation: In person, Burnside 1104\u003c\/h4\u003e\n\u003ch4 id=\u0022httpsmcgillzoomusj89492447923httpsmcgillzoomusj89492447923\u0022\u003e\u003ca href=\u0022https:\/\/mcgill.zoom.us\/j\/89492447923\u0022\u003ehttps:\/\/mcgill.zoom.us\/j\/89492447923\u003c\/a\u003e\u003c\/h4\u003e\n\u003ch4 id=\u0022meeting-id-894-9244-7923\u0022\u003eMeeting ID: 894 9244 7923\u003c\/h4\u003e\n\u003ch2 id=\u0022abstract\u0022\u003eAbstract:\u003c\/h2\u003e\n\u003cp\u003eWhile classical statistical methods are designed for testing hypotheses about pre-specified models, the reality of modern science is that analysts often explore their data before coming up with models and hypotheses of interest. We refer to the practice of using the same data to generate and then test a hypothesis as double dipping. Classical statistical hypothesis tests will fail to control the Type 1 error rate in settings that involve double dipping. Often, we avoid double dipping by splitting our observations into a training set and a test set. While this \u003cem\u003esample splitting\u003c\/em\u003e approach is straightforward and easy to understand, it is generally inapplicable in unsupervised settings. Motivated by unsupervised problems that arise in the analysis of single-cell RNA sequencing data, we first propose \u003cem\u003edata thinning\u003c\/em\u003e, an alternative to sample splitting that splits each observation in a dataset into two independent pieces. We show that this method provides an elegant solution to our motivating problems under distributional assumptions. We then show how the \u003cem\u003edata fission\u003c\/em\u003e framework of Leiner et al. (2025) can be fruitfully applied to circumvent the distributional assumptions of data thinning. We conclude by discussing the promise and the challenges of data fission in the context of inference after clustering and inference after variable selection in logistic regression.\u003c\/p\u003e"
+  }
+</script>
+
+
+    <link href="https://mcgillstat.github.io/css/styles.css" rel="stylesheet">
+    
+
+  </head>
+
+  <body>
+    
+    
+    
+
+    <header class="l-header">
+      <nav class="navbar navbar-default">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="https://mcgillstat.github.io/">McGill Statistics Seminars</a>
+          </div>
+
+          
+          <div id="navbar" class="collapse navbar-collapse">
+            
+            <ul class="nav navbar-nav navbar-right">
+              
+              
+              <li><a href="/">Current Seminar Series</a></li>
+              
+              
+              
+              <li><a href="/post/">Past Seminar Series</a></li>
+              
+              
+            </ul>
+            
+          </div>
+          
+
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="container">
+        
+<div class="row">
+  <div class="col-md-8">
+
+    <nav class="p-crumb">
+      <ol class="breadcrumb">
+        <li><a href="https://mcgillstat.github.io/"><i class="fa fa-home" aria-hidden="true"></i></a></li>
+        
+        <li itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="https://mcgillstat.github.io/post/" itemprop="url"><span itemprop="title">post</span></a></li>
+        
+        <li class="active">Anna Neufeld</li>
+      </ol>
+    </nav>
+
+    <article class="single">
+  <header>
+    <ul class="p-facts">
+      <li><i class="fa fa-calendar" aria-hidden="true"></i><time datetime="2026-09-25T00:00:00JST">Sep 25, 2026</time></li>
+      <li><i class="fa fa-bookmark" aria-hidden="true"></i><a href="https://mcgillstat.github.io/post/">post</a></li>
+      
+    </ul>
+
+    <h2 class="title">Avoiding double dipping through data thinning and data fission</h1>
+    <h3 class="post-meta">Anna Neufeld </h3>
+    
+  </header>
+
+  
+
+  <div class="article-body"><h4 id="date-2026-09-25">Date: 2026-09-25</h4>
+<h4 id="time-1530-1630-montreal-time">Time: 15:30-16:30 (Montreal time)</h4>
+<h4 id="location-in-person-burnside-1104">Location: In person, Burnside 1104</h4>
+<h4 id="httpsmcgillzoomusj89492447923httpsmcgillzoomusj89492447923"><a href="https://mcgill.zoom.us/j/89492447923">https://mcgill.zoom.us/j/89492447923</a></h4>
+<h4 id="meeting-id-894-9244-7923">Meeting ID: 894 9244 7923</h4>
+<h2 id="abstract">Abstract:</h2>
+<p>While classical statistical methods are designed for testing hypotheses about pre-specified models, the reality of modern science is that analysts often explore their data before coming up with models and hypotheses of interest. We refer to the practice of using the same data to generate and then test a hypothesis as double dipping. Classical statistical hypothesis tests will fail to control the Type 1 error rate in settings that involve double dipping. Often, we avoid double dipping by splitting our observations into a training set and a test set. While this <em>sample splitting</em> approach is straightforward and easy to understand, it is generally inapplicable in unsupervised settings. Motivated by unsupervised problems that arise in the analysis of single-cell RNA sequencing data, we first propose <em>data thinning</em>, an alternative to sample splitting that splits each observation in a dataset into two independent pieces. We show that this method provides an elegant solution to our motivating problems under distributional assumptions. We then show how the <em>data fission</em> framework of Leiner et al. (2025) can be fruitfully applied to circumvent the distributional assumptions of data thinning. We conclude by discussing the promise and the challenges of data fission in the context of inference after clustering and inference after variable selection in logistic regression.</p>
+<h2 id="speaker">Speaker</h2>
+<p>Anna Neufeld is an Assistant Professor of Statistics at Williams College, where her research focuses on selective inference and the analysis of genomic data. She received her PhD in Statistics from the University of Washington in 2023 and subsequently completed postdoctoral training at the Fred Hutchinson Cancer Center before joining the faculty at Williams in 2024.</p>
+</div>
+
+  <footer class="article-footer">
+    
+    
+    
+    <section class="bordered">
+      <header>
+        <div class="panel-title">CATEGORIES</div>
+      </header>
+      <div>
+        <ul class="p-terms">
+          
+          <li><a href="https://mcgillstat.github.io/categories/mcgill-statistics-seminar/">McGill Statistics Seminar</a></li>
+          
+        </ul>
+      </div>
+    </section>
+    
+    
+    
+    <section class="bordered">
+      <header>
+        <div class="panel-title">TAGS</div>
+      </header>
+      <div>
+        <ul class="p-terms">
+          
+          <li><a href="https://mcgillstat.github.io/tags/2026-fall/">2026 Fall</a></li>
+          
+        </ul>
+      </div>
+    </section>
+    
+    
+  </footer>
+
+</article>
+
+
+    
+  </div>
+
+  <div class="col-md-4">
+    
+<aside class="l-sidebar">
+
+  <section class="panel panel-default">
+    <div class="panel-heading">
+      <div class="panel-title">Recent Talks</div>
+    </div>
+    <div class="list-group">
+      
+      <a href="https://mcgillstat.github.io/tags/2026-fall/" class="list-group-item"> · Sep 25, 2026</a>
+      
+      <a href="https://mcgillstat.github.io/post/2026fall/2026-09-25/" class="list-group-item">Anna Neufeld · Sep 25, 2026</a>
+      
+      <a href="https://mcgillstat.github.io/categories/" class="list-group-item"> · Sep 25, 2026</a>
+      
+      <a href="https://mcgillstat.github.io/categories/mcgill-statistics-seminar/" class="list-group-item"> · Sep 25, 2026</a>
+      
+      <a href="https://mcgillstat.github.io/tags/" class="list-group-item"> · Sep 25, 2026</a>
+      
+    </div>
+  </section>
+
+  
+  <section class="panel panel-default">
+    <div class="panel-heading">
+      <div class="panel-title">CATEGORY</div>
+    </div>
+    <div class="list-group">
+      
+      <a href="https://mcgillstat.github.io/categories/mcgill-statistics-seminar" class="list-group-item">mcgill statistics seminar</a>
+      
+      <a href="https://mcgillstat.github.io/categories/crm-ssc-prize-address" class="list-group-item">crm-ssc prize address</a>
+      
+      <a href="https://mcgillstat.github.io/categories/crm-colloquium" class="list-group-item">crm-colloquium</a>
+      
+    </div>
+  </section>
+  
+  <section class="panel panel-default">
+    <div class="panel-heading">
+      <div class="panel-title">TAG</div>
+    </div>
+    <div class="list-group">
+      
+      <a href="https://mcgillstat.github.io/tags/2026-winter" class="list-group-item">2026 winter</a>
+      
+      <a href="https://mcgillstat.github.io/tags/2026-fall" class="list-group-item">2026 fall</a>
+      
+      <a href="https://mcgillstat.github.io/tags/2025-winter" class="list-group-item">2025 winter</a>
+      
+      <a href="https://mcgillstat.github.io/tags/2025-fall" class="list-group-item">2025 fall</a>
+      
+      <a href="https://mcgillstat.github.io/tags/2024-winter" class="list-group-item">2024 winter</a>
+      
+      <a href="https://mcgillstat.github.io/tags/2024-fall" class="list-group-item">2024 fall</a>
+      
+      <a href="https://mcgillstat.github.io/tags/2023-winter" class="list-group-item">2023 winter</a>
+      
+      <a href="https://mcgillstat.github.io/tags/2023-summer" class="list-group-item">2023 summer</a>
+      
+      <a href="https://mcgillstat.github.io/tags/2023-fall" class="list-group-item">2023 fall</a>
+      
+      <a href="https://mcgillstat.github.io/tags/2022-winter" class="list-group-item">2022 winter</a>
+      
+      <a href="https://mcgillstat.github.io/tags/2022-fall" class="list-group-item">2022 fall</a>
+      
+      <a href="https://mcgillstat.github.io/tags/2021-winter" class="list-group-item">2021 winter</a>
+      
+      <a href="https://mcgillstat.github.io/tags/2021-fall" class="list-group-item">2021 fall</a>
+      
+      <a href="https://mcgillstat.github.io/tags/2020-winter" class="list-group-item">2020 winter</a>
+      
+      <a href="https://mcgillstat.github.io/tags/2020-fall" class="list-group-item">2020 fall</a>
+      
+      <a href="https://mcgillstat.github.io/tags/2019-winter" class="list-group-item">2019 winter</a>
+      
+      <a href="https://mcgillstat.github.io/tags/2019-fall" class="list-group-item">2019 fall</a>
+      
+      <a href="https://mcgillstat.github.io/tags/2018-winter" class="list-group-item">2018 winter</a>
+      
+      <a href="https://mcgillstat.github.io/tags/2018-fall" class="list-group-item">2018 fall</a>
+      
+      <a href="https://mcgillstat.github.io/tags/2017-winter" class="list-group-item">2017 winter</a>
+      
+      <a href="https://mcgillstat.github.io/tags/2017-fall" class="list-group-item">2017 fall</a>
+      
+      <a href="https://mcgillstat.github.io/tags/2016-winter" class="list-group-item">2016 winter</a>
+      
+      <a href="https://mcgillstat.github.io/tags/2016-fall" class="list-group-item">2016 fall</a>
+      
+      <a href="https://mcgillstat.github.io/tags/2015-winter" class="list-group-item">2015 winter</a>
+      
+      <a href="https://mcgillstat.github.io/tags/2015-fall" class="list-group-item">2015 fall</a>
+      
+      <a href="https://mcgillstat.github.io/tags/2014-winter" class="list-group-item">2014 winter</a>
+      
+      <a href="https://mcgillstat.github.io/tags/2014-fall" class="list-group-item">2014 fall</a>
+      
+      <a href="https://mcgillstat.github.io/tags/2013-winter" class="list-group-item">2013 winter</a>
+      
+      <a href="https://mcgillstat.github.io/tags/2013-fall" class="list-group-item">2013 fall</a>
+      
+      <a href="https://mcgillstat.github.io/tags/2012-winter" class="list-group-item">2012 winter</a>
+      
+      <a href="https://mcgillstat.github.io/tags/2012-fall" class="list-group-item">2012 fall</a>
+      
+      <a href="https://mcgillstat.github.io/tags/2011-fall" class="list-group-item">2011 fall</a>
+      
+    </div>
+  </section>
+  
+
+</aside>
+
+
+
+    <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
+    
+    <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+            displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+            processEscapes: true,
+            processEnvironments: true
+        },
+        // Center justify equations in code and markdown cells. Elsewhere
+        // we use CSS to left justify single line equations in code cells.
+        displayAlign: 'center',
+        "HTML-CSS": {
+            styles: {'.MathJax_Display': {"margin": 0}},
+            linebreaks: { automatic: true }
+        }
+    });
+    </script>
+    
+  </div>
+</div>
+
+      </div>
+    </main>
+
+    <footer class="l-footer">
+      <div class="container">
+        <p><span class="h-logo">&copy; McGill Statistics Seminars</span></p>
+        <aside>
+          <p><a href="http://www.mcgill.ca/mathstat/">Department of Mathematics and Statistics</a>.</p>
+          <p><a href="https://www.mcgill.ca/">McGill University</a></p>
+        </aside>
+      </div>
+    </footer>
+
+    <script src="//code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+  </body>
+</html>
+
