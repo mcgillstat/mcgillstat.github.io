@@ -10,9 +10,16 @@
 		
 		
 		
-			<lastBuildDate>Fri, 06 Nov 2026 00:00:00 +0000</lastBuildDate>
+			<lastBuildDate>Fri, 13 Nov 2026 00:00:00 +0000</lastBuildDate>
 		
 			<atom:link href="https://mcgillstat.github.io/tags/2026-fall/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Beyond Pixels: Functional Representations of Images for Statistical Analysis</title>
+				<link>https://mcgillstat.github.io/post/2026fall/2026-11-13/</link>
+				<pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
+				<guid>https://mcgillstat.github.io/post/2026fall/2026-11-13/</guid>
+				<description>&lt;h4 id=&#34;date-2026-11-13&#34;&gt;Date: 2026-11-13&lt;/h4&gt;&#xA;&lt;h4 id=&#34;time-1530-1630-montreal-time&#34;&gt;Time: 15:30-16:30 (Montreal time)&lt;/h4&gt;&#xA;&lt;h4 id=&#34;location-in-person-burnside-1104&#34;&gt;Location: In person, Burnside 1104&lt;/h4&gt;&#xA;&lt;h4 id=&#34;httpsmcgillzoomusj83129965084&#34;&gt;&lt;a href=&#34;https://mcgill.zoom.us/j/83129965084&#34;&gt;https://mcgill.zoom.us/j/83129965084&lt;/a&gt;&lt;/h4&gt;&#xA;&lt;h4 id=&#34;meeting-id-831-2996-5084&#34;&gt;Meeting ID: 831 2996 5084&lt;/h4&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract:&lt;/h2&gt;&#xA;&lt;p&gt;Images are an increasingly important source of information across scientific disciplines, yet their statistical analysis remains challenging due to the high dimensionality and complex spatial structure of pixel-based representations. In this talk, we explore a functional perspective on image analysis, where images and the objects they contain are represented as continuous functions rather than discrete collections of pixels. We first introduce a framework for representing and aligning object contours, enabling statistical shape analysis and classification. We then extend this approach to multiple interacting contours, preserving their relative geometric relationships. Finally, we discuss the representation of image colors through smooth surfaces, modeled as multidimensional functions. Together, these approaches illustrate how images can be analyzed as collections of objects defined by their shapes, textures, and colors.&lt;/p&gt;</description>
+			</item>
 			<item>
 				<title>Causal Inference in Clinical Trials with Intercurrent Events: From Treatment Noncompliance to Additional Medication Use</title>
 				<link>https://mcgillstat.github.io/post/2026fall/2026-11-06/</link>
